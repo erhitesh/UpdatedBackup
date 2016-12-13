@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite testing" duration-ms="10079" started-at="2016-12-12T11:04:27Z" finished-at="2016-12-12T11:04:38Z">
+    <groups>
+    </groups>
+    <test name="perform suite running" duration-ms="10079" started-at="2016-12-12T11:04:27Z" finished-at="2016-12-12T11:04:38Z">
+      <class name="testing.Test3">
+        <test-method status="PASS" signature="test1()[pri:1, instance:testing.Test3@75412c2f]" name="test1" duration-ms="5001" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testing.Test3@75412c2f]" name="aftertest" is-config="true" duration-ms="0" started-at="2016-12-12T16:34:38Z" finished-at="2016-12-12T16:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="test2()[pri:11, instance:testing.Test3@75412c2f]" name="test2" duration-ms="1" started-at="2016-12-12T16:34:38Z" finished-at="2016-12-12T16:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testing.Test3@75412c2f]" name="aftertest" is-config="true" duration-ms="0" started-at="2016-12-12T16:34:38Z" finished-at="2016-12-12T16:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="test3()[pri:111, instance:testing.Test3@75412c2f]" name="test3" duration-ms="0" started-at="2016-12-12T16:34:38Z" finished-at="2016-12-12T16:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testing.Test3@75412c2f]" name="aftertest" is-config="true" duration-ms="0" started-at="2016-12-12T16:34:38Z" finished-at="2016-12-12T16:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="test4()[pri:1111, instance:testing.Test3@75412c2f]" name="test4" duration-ms="1" started-at="2016-12-12T16:34:38Z" finished-at="2016-12-12T16:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testing.Test3@75412c2f]" name="aftertest" is-config="true" duration-ms="0" started-at="2016-12-12T16:34:38Z" finished-at="2016-12-12T16:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:testing.Test3@75412c2f]" name="afterclass" is-config="true" duration-ms="1" started-at="2016-12-12T16:34:38Z" finished-at="2016-12-12T16:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- testing.Test3 -->
+      <class name="testing.Test2">
+        <test-method status="PASS" signature="test1()[pri:1, instance:testing.Test2@50cbc42f]" name="test1" duration-ms="1" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testing.Test2@50cbc42f]" name="aftertest" is-config="true" duration-ms="1" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="test2()[pri:11, instance:testing.Test2@50cbc42f]" name="test2" duration-ms="1" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testing.Test2@50cbc42f]" name="aftertest" is-config="true" duration-ms="1" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="test3()[pri:111, instance:testing.Test2@50cbc42f]" name="test3" duration-ms="1" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testing.Test2@50cbc42f]" name="aftertest" is-config="true" duration-ms="0" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="test4()[pri:1111, instance:testing.Test2@50cbc42f]" name="test4" duration-ms="1" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testing.Test2@50cbc42f]" name="aftertest" is-config="true" duration-ms="0" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:testing.Test2@50cbc42f]" name="afterclass" is-config="true" duration-ms="0" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- testing.Test2 -->
+      <class name="testing.Test1">
+        <test-method status="PASS" signature="test1()[pri:1, instance:testing.Test1@1c53fd30]" name="test1" duration-ms="5015" started-at="2016-12-12T16:34:27Z" finished-at="2016-12-12T16:34:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testing.Test1@1c53fd30]" name="aftertest" is-config="true" duration-ms="2" started-at="2016-12-12T16:34:32Z" finished-at="2016-12-12T16:34:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="test2()[pri:11, instance:testing.Test1@1c53fd30]" name="test2" duration-ms="2" started-at="2016-12-12T16:34:32Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testing.Test1@1c53fd30]" name="aftertest" is-config="true" duration-ms="0" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="test3()[pri:111, instance:testing.Test1@1c53fd30]" name="test3" duration-ms="1" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testing.Test1@1c53fd30]" name="aftertest" is-config="true" duration-ms="1" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="test4()[pri:1111, instance:testing.Test1@1c53fd30]" name="test4" duration-ms="1" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:testing.Test1@1c53fd30]" name="afterclass" is-config="true" duration-ms="0" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testing.Test1@1c53fd30]" name="aftertest" is-config="true" duration-ms="0" started-at="2016-12-12T16:34:33Z" finished-at="2016-12-12T16:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testing.Test1 -->
+    </test> <!-- perform suite running -->
+  </suite> <!-- Suite testing -->
+</testng-results>

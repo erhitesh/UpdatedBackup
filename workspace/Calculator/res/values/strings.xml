@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <string name="app_name">calcapplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="calculatorTitle">Calculator</string>
+    <string name="txtNo1">Enter Number 1</string>
+    <string name="txtNo2">Enter Number 2</string>
+    <string name="edtNo1">0</string>
+    <string name="edtNo2">0</string>
+    <string name="txtResult">0</string>
+    
+    
+    <string name="rdGroup">rdGroup</string>
+    <string name="rdAdd">add</string>
+    <string name="rdSub">sub</string>
+    <string name="rdMul">mul</string>
+    
+    <string name="chrInfo">App Alive Status</string>
+    <string name="chrText">0:0</string>
+ 
+</resources>
