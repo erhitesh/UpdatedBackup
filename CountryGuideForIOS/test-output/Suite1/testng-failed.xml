@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="Test_Suite1">
+    <classes>
+      <class name="com.eduven.testcase.ContributePageTestCases"/>
+    </classes>
+  </test> <!-- Test_Suite1 -->
+  <test name="Test_Suite1(failed)">
+    <classes>
+      <class name="com.eduven.testcase.ContributePageTestCases">
+        <methods>
+          <include name="contribute_page_verify_profile_pic_adder_test"/>
+          <include name="afterMethod"/>
+          <include name="contribute_page_add_contribute_without_title_test"/>
+          <include name="contribute_page_navigate_to_contribute_test"/>
+          <include name="contribute_page_test"/>
+          <include name="contribute_page_add_contribute_with_title_test"/>
+          <include name="contribute_page_more_apps_test"/>
+          <include name="contribute_page_settings_information_and_support_disclaimer_test"/>
+          <include name="contribute_page_settings_information_and_support_faqs_test"/>
+          <include name="contribute_page_settings_feedback_share_app_test"/>
+          <include name="contribute_page_add_contribute_with_space_title_test"/>
+          <include name="contribute_page_settings_information_and_support_privacy_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ContributePageTestCases -->
+    </classes>
+  </test> <!-- Test_Suite1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,2177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test_suite]" parallel="none">
+  <test name="HistoricalHangoutsPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="historical_hangout_page_free_entity_test"/>
+          <include name="historical_hangouts_page_test"/>
+          <include name="historical_hangout_page_header_test"/>
+          <include name="historical_hangout_page_entity_test"/>
+          <include name="historical_hangout_page_paid_entity_test"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- HistoricalHangoutsPageTestCases(failed) -->
+  <test name="HomePageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="home_page_ev_menu_test"/>
+          <include name="home_page_splash_screen_test"/>
+          <include name="tearDown"/>
+          <include name="home_page_header_txt_test"/>
+          <include name="home_page_categories_test"/>
+          <include name="home_page_cities_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- HomePageTestCases(failed) -->
+  <test name="SportsPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="sports_page_free_entity_test"/>
+          <include name="sports_page_entity_test"/>
+          <include name="sports_page_premium_entity_test"/>
+          <include name="sports_page_test"/>
+          <include name="sports_page_header_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- SportsPageTestCases(failed) -->
+  <test name="WildlifePageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="wildlife_page_test"/>
+          <include name="wildlif_page_free_entity_test"/>
+          <include name="afterMethod"/>
+          <include name="wildlife_page_header_test"/>
+          <include name="wildlif_page_premium_entity_test"/>
+          <include name="wildlife_page_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- WildlifePageTestCases(failed) -->
+  <test name="CitiesPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="cities_page_click_random_cities_test"/>
+          <include name="cities_page_splash_screen_test"/>
+          <include name="cities_page_entity_test"/>
+          <include name="cities_page_icon_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- CitiesPageTestCases(failed) -->
+  <test name="WildlifeWanderingsPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="home_page_test"/>
+          <include name="wildlife_wanderings_page_header_test"/>
+          <include name="afterMethod"/>
+          <include name="wildlife_wanderings_page_premium_entity_test"/>
+          <include name="wildlife_wanderings_page_free_entity_test"/>
+          <include name="willife_wanderings_page_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- WildlifeWanderingsPageTestCases(failed) -->
+  <test name="CategoriesPageTestcases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="category_page_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- CategoriesPageTestcases(failed) -->
+  <test name="CarnivalsFestivalsPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="carnivals_festivals_page_premium_entity_test"/>
+          <include name="carnivals_festivals_page_test"/>
+          <include name="afterMethod"/>
+          <include name="carnivals_festivals_page_free_entity_test"/>
+          <include name="carnivals_festivals_page_header_test"/>
+          <include name="carnivals_festivals_page_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- CarnivalsFestivalsPageTestCases(failed) -->
+  <test name="ArtAficionadosPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="art_aficionados_page_test"/>
+          <include name="afterMethod"/>
+          <include name="art_aficionados_page_free_entity_test"/>
+          <include name="art_aficionados_page_entity_test"/>
+          <include name="art_aficionados_page_header_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- ArtAficionadosPageTestCases(failed) -->
+  <test name="RoutesPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="routes_page_test"/>
+          <include name="afterMethod"/>
+          <include name="routes_page_entity_test"/>
+          <include name="routes_page_free_entity_test"/>
+          <include name="routes_page_header_test"/>
+          <include name="routes_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- RoutesPageTestCases(failed) -->
+  <test name="BusinessBoulevardsPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="business_boulevards_page_test"/>
+          <include name="business_boulevards_page_entity_test"/>
+          <include name="business_boulevards_page_premium_entity_test"/>
+          <include name="business_boulevards_page_free_entity_test"/>
+          <include name="business_boulevards_page_header_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- BusinessBoulevardsPageTestCases(failed) -->
+  <test name="TransportationPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="transportation_page_header_test"/>
+          <include name="transportation_page_entity_test"/>
+          <include name="transportation_page_test"/>
+          <include name="transportation_page_free_entity_test"/>
+          <include name="afterMethod"/>
+          <include name="transportation_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- TransportationPageTestCases(failed) -->
+  <test name="NatureNomadsPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="nature_nomads_page_entity_test"/>
+          <include name="nature_nomads_page_header_test"/>
+          <include name="nature_nomads_page_test"/>
+          <include name="nature_nomads_page_free_entity_test"/>
+          <include name="afterMethod"/>
+          <include name="nature_nomads_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- NatureNomadsPageTestCases(failed) -->
+  <test name="CelebritiesCellsPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="celebrities_cells_page_header_test"/>
+          <include name="celebrities_cells_page_test"/>
+          <include name="celebrities_cells_page_free_entity_test"/>
+          <include name="celebrities_cells_page_entity_test"/>
+          <include name="celebrities_cells_page_premium_entity_test"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- CelebritiesCellsPageTestCases(failed) -->
+  <test name="EduBankPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="navigate_to_edubank_test"/>
+          <include name="eduBank_page_check_favourite_and_alert_test"/>
+          <include name="eduBank_page_add_favourite_to_eduBank_test"/>
+          <include name="afterMethod"/>
+          <include name="remove_entity_from_eduBank"/>
+          <include name="eduBank_page_splash_screen_test"/>
+          <include name="verify_eduBank_add_entity_test"/>
+          <include name="eduBank_page_navigate_to_entity_detail_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- EduBankPageTestCases(failed) -->
+  <test name="HistoricalEventsPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="historical_events_page_header_test"/>
+          <include name="historical_events_page_test"/>
+          <include name="afterMethod"/>
+          <include name="historical_events_page_select_month_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- HistoricalEventsPageTestCases(failed) -->
+  <test name="SpiritualSanctuariesPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="spiritual_sanctuaries_page_free_entity_test"/>
+          <include name="spiritual_sanctuaries_page_test"/>
+          <include name="spiritual_sanctuaries_page_header_test"/>
+          <include name="afterMethod"/>
+          <include name="spiritual_sanctuaries_page_entity_test"/>
+          <include name="spiritual_sanctuaries_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- SpiritualSanctuariesPageTestCases(failed) -->
+  <test name="LanguagePhrasesPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="language_phrases_page_entity_test"/>
+          <include name="afterMethod"/>
+          <include name="language_phrases_page_verify_lock_unlock_btn_test"/>
+          <include name="language_phrases_page_header_test"/>
+          <include name="language_phrases_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- LanguagePhrasesPageTestCases(failed) -->
+  <test name="CuisinePageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="cuisine_page_header_test"/>
+          <include name="cuisine_page_entity_detail_test"/>
+          <include name="cuisine_page_test"/>
+          <include name="cuisine_page_premium_entity_test"/>
+          <include name="afterMethod"/>
+          <include name="cuisine_page_free_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- CuisinePageTestCases(failed) -->
+  <test name="MoviesPageTestCases(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="movies_page_entity_test"/>
+          <include name="movies_page_test"/>
+          <include name="movies_page_header_test"/>
+          <include name="movies_page_free_entity_test"/>
+          <include name="afterMethod"/>
+          <include name="movies_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- MoviesPageTestCases(failed) -->
+</suite> <!-- Failed suite [Test_suite] -->

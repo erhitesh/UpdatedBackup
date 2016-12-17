@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases"/>
+      <class name="com.eduven.testcase.NearByPageTestCases"/>
+      <class name="com.eduven.testcase.ContributePageTestCases"/>
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases"/>
+      <class name="com.eduven.testcase.RoutesPageTestCases"/>
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases"/>
+      <class name="com.eduven.testcase.CategoriesPageTestcases"/>
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases"/>
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases"/>
+      <class name="com.eduven.testcase.HomePageTestCases"/>
+      <class name="com.eduven.testcase.WildlifePageTestCases"/>
+      <class name="com.eduven.testcase.CitiesPageTestCases"/>
+      <class name="com.eduven.testcase.SportsPageTestCases"/>
+      <class name="com.eduven.testcase.TransportationPageTestCases"/>
+      <class name="com.eduven.testcase.NetworkRelatedPageTestCases"/>
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases"/>
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases"/>
+      <class name="com.eduven.testcase.EduBankPageTestCases"/>
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases"/>
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases"/>
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases"/>
+      <class name="com.eduven.testcase.MoviesPageTestCases"/>
+      <class name="com.eduven.testcase.CuisinePageTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

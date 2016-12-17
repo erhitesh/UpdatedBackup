@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Suite For Ios Testing]">
+  <test name="Regression Testing(failed)">
+    <classes>
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="transportation_page_free_entity_test"/>
+          <include name="afterMethod"/>
+          <include name="transportation_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="sports_page_free_entity_test"/>
+          <include name="close_app"/>
+          <include name="sports_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="language_phrase_page_select_random_category_test"/>
+          <include name="language_phrase_page_open_first_lock_word"/>
+          <include name="language_phrases_page_entity_test"/>
+          <include name="afterMethod"/>
+          <include name="language_phrases_page_verify_lock_unlock_btn_test"/>
+          <include name="language_phrases_page_header_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="close_app"/>
+          <include name="business_boulevards_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="historical_hangout_page_paid_entity_test"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="spiritual_sanctuaries_page_free_entity_test"/>
+          <include name="spiritual_sanctuaries_page_header_test"/>
+          <include name="afterMethod"/>
+          <include name="spiritual_sanctuaries_page_verify_contribute_entity_test"/>
+          <include name="spiritual_sanctuaries_page_entity_test"/>
+          <include name="spiritual_sanctuaries_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.RoutesPageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="afterMethod"/>
+          <include name="route_page_entity_detail_verify_coordinates_test"/>
+          <include name="routes_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RoutesPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="celebrities_cells_page_entity_test"/>
+          <include name="celebrities_cells_page_premium_entity_test"/>
+          <include name="afterMethod"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="navigate_to_edubank_test"/>
+          <include name="eduBank_page_add_favourite_to_eduBank_test"/>
+          <include name="afterMethod"/>
+          <include name="remove_entity_from_eduBank"/>
+          <include name="verify_eduBank_add_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="movies_page_verify_contribute_entity_test"/>
+          <include name="movies_page_entity_test"/>
+          <include name="movies_page_header_test"/>
+          <include name="movies_page_free_entity_test"/>
+          <include name="afterMethod"/>
+          <include name="movies_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="close_app"/>
+          <include name="wildlif_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="carnivals_festivals_page_premium_entity_test"/>
+          <include name="afterMethod"/>
+          <include name="carnivals_festivals_page_verify_contribute_entity_test"/>
+          <include name="carnivals_festivals_page_free_entity_test"/>
+          <include name="carnivals_festivals_page_buy_subscription"/>
+          <include name="carnivals_festivals_page_header_test"/>
+          <include name="carnivals_festivals_page_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="cuisine_page_header_test"/>
+          <include name="cuisine_page_entity_test"/>
+          <include name="cuisine_page_verify_ingredients_and_directions_button_test"/>
+          <include name="cuisine_page_navigate_to_entity_detail_test"/>
+          <include name="cuisine_page_premium_entity_test"/>
+          <include name="cuisine_page_verify_cooking_servings_test"/>
+          <include name="afterMethod"/>
+          <include name="cuisine_page_free_entity_test"/>
+          <include name="cuisine_page_verify_contibute_entity"/>
+          <include name="cuisine_page_verify_ingredients_and_directions_button_action_test"/>
+          <include name="cuisine_page_verify_nutrition_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+    </classes>
+  </test> <!-- Regression Testing(failed) -->
+</suite> <!-- Failed suite [Suite For Ios Testing] -->

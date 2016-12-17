@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Sequentail Execution]" parallel="tests">
+  <test name="Home page testing(failed)" parallel="tests">
+    <classes>
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="home_page_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+    </classes>
+  </test> <!-- Home page testing(failed) -->
+</suite> <!-- Failed suite [Sequentail Execution] -->

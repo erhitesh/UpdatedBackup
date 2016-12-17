@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="4" name="Failed suite [Test-Suite]">
+  <test name="HomePageTest(failed)">
+    <classes>
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="close_app"/>
+          <include name="business_boulevards_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [Test-Suite] -->

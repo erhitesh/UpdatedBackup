@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [Suite For Android Testing]">
+  <test name="Regression Testing">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases"/>
+      <class name="com.eduven.testcase.ContributePageTestCases"/>
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases"/>
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases"/>
+      <class name="com.eduven.testcase.MoviesPageTestCases"/>
+      <class name="com.eduven.testcase.CategoriesPageTestcases"/>
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases"/>
+      <class name="com.eduven.testcase.NearBySearchPageTestCases"/>
+      <class name="com.eduven.testcase.HomePageTestCases"/>
+      <class name="com.eduven.testcase.SportsPageTestCases"/>
+      <class name="com.eduven.testcase.WildlifePageTestCases"/>
+      <class name="com.eduven.testcase.CitiesPageTestCases"/>
+      <class name="com.eduven.testcase.TransportationPageTestCases"/>
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases"/>
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases"/>
+      <class name="com.eduven.testcase.EduBankPageTestCases"/>
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases"/>
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases"/>
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases"/>
+      <class name="com.eduven.testcase.CuisinePageTestCases"/>
+      <class name="com.eduven.testcase.NetworkRelatedPageTestCases"/>
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases"/>
+    </classes>
+  </test> <!-- Regression Testing -->
+  <test name="Regression Testing(failed)">
+    <classes>
+      <class name="com.eduven.testcase.CuisinePageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CuisinePageTestCases -->
+      <class name="com.eduven.testcase.CitiesPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CitiesPageTestCases -->
+      <class name="com.eduven.testcase.WildlifePageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifePageTestCases -->
+      <class name="com.eduven.testcase.LanguagePhrasesPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.LanguagePhrasesPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+      <class name="com.eduven.testcase.ContributePageTestCases">
+        <methods>
+          <include name="contribute_page_select_audience_test"/>
+          <include name="close_app"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ContributePageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.NearBySearchPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NearBySearchPageTestCases -->
+      <class name="com.eduven.testcase.TransportationPageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="tearDown"/>
+          <include name="verify_city_name_and_header_text_inside_term_test"/>
+          <include name="transportation_page_premium_entity_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TransportationPageTestCases -->
+      <class name="com.eduven.testcase.NatureNomadsPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NatureNomadsPageTestCases -->
+      <class name="com.eduven.testcase.NetworkRelatedPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NetworkRelatedPageTestCases -->
+      <class name="com.eduven.testcase.CelebritiesCellsPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CelebritiesCellsPageTestCases -->
+      <class name="com.eduven.testcase.MoviesPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.MoviesPageTestCases -->
+      <class name="com.eduven.testcase.SpiritualSanctuariesPageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SpiritualSanctuariesPageTestCases -->
+      <class name="com.eduven.testcase.CarnivalsFestivalsPageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="tearDown"/>
+          <include name="carnivals_festivals_page_check_paid_term_as_free_term_test"/>
+          <include name="verify_city_name_and_header_text_inside_term_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CarnivalsFestivalsPageTestCases -->
+      <class name="com.eduven.testcase.WildlifeWanderingsPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WildlifeWanderingsPageTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestcases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+      <class name="com.eduven.testcase.ArtAficionadosPageTestCases">
+        <methods>
+          <include name="search_with_special_character_and_others_test"/>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ArtAficionadosPageTestCases -->
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.SportsPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SportsPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+    </classes>
+  </test> <!-- Regression Testing(failed) -->
+</suite> <!-- Failed suite [Suite For Android Testing] -->

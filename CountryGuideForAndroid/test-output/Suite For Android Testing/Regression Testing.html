@@ -1,0 +1,1346 @@
+<html>
+<head>
+<title>TestNG:  Regression Testing</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Testing</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>151/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 08 18:20:02 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>10311 seconds (10311193 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.CarnivalsFestivalsPageTestCases.carnivals_festivals_page_check_paid_term_as_free_term_test()'><b>carnivals_festivals_page_check_paid_term_as_free_term_test</b><br>Test class: com.eduven.testcase.CarnivalsFestivalsPageTestCases</td>
+<td><div><pre>org.openqa.selenium.UnsupportedCommandException: Missing parameters: [&quot;selector&quot;]
+Command duration or timeout: 9 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/CountryGuideAndroid/app-africa-debug.apk, appPackage=com.eduven.cg.africa, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=014E0F500200D002, platform=LINUX, appActivity=com.eduven.cg.activity.CheckSDCard, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/CountryGuideAndroid/app-africa-debug.apk, appPackage=com.eduven.cg.africa, appActivity=com.eduven.cg.activity.CheckSDCard, platformVersion=4.4, appiumVersion=1.4.13, automationName=Appium, platformName=Android, deviceName=014E0F500200D002}, platformVersion=4.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 18fd19f5-b11c-4e69-95a7-d1fd1123f471
+*** Element info: {Using=name, value=}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.eduven.utils.Reusables.clickCommand(Reusables.java:255)
+	at com.eduven.modules.CarnivalsFestivals.checkPremiumTermAsFreeTerm(CarnivalsFestivals.java:111)
+	at com.eduven.testcase.CarnivalsFestivalsPageTestCases.carnivals_festivals_page_check_paid_term_as_free_term_test(CarnivalsFestivalsPageTestCases.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div><a href='#' onClick='toggleBox("stack-trace814377348", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace814377348'><pre>org.openqa.selenium.UnsupportedCommandException: Missing parameters: [&quot;selector&quot;]
+Command duration or timeout: 9 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/CountryGuideAndroid/app-africa-debug.apk, appPackage=com.eduven.cg.africa, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=014E0F500200D002, platform=LINUX, appActivity=com.eduven.cg.activity.CheckSDCard, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/CountryGuideAndroid/app-africa-debug.apk, appPackage=com.eduven.cg.africa, appActivity=com.eduven.cg.activity.CheckSDCard, platformVersion=4.4, appiumVersion=1.4.13, automationName=Appium, platformName=Android, deviceName=014E0F500200D002}, platformVersion=4.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 18fd19f5-b11c-4e69-95a7-d1fd1123f471
+*** Element info: {Using=name, value=}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.eduven.utils.Reusables.clickCommand(Reusables.java:255)
+	at com.eduven.modules.CarnivalsFestivals.checkPremiumTermAsFreeTerm(CarnivalsFestivals.java:111)
+	at com.eduven.testcase.CarnivalsFestivalsPageTestCases.carnivals_festivals_page_check_paid_term_as_free_term_test(CarnivalsFestivalsPageTestCases.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div></td>
+<td>16</td>
+<td>com.eduven.testcase.CarnivalsFestivalsPageTestCases@6f27a732</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_select_audience_test()'><b>contribute_page_select_audience_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.eduven.modules.Contribute.selectAudience(Contribute.java:634)
+	at com.eduven.testcase.ContributePageTestCases.contribute_page_select_audience_test(ContributePageTestCases.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1141500277", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1141500277'><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.eduven.modules.Contribute.selectAudience(Contribute.java:634)
+	at com.eduven.testcase.ContributePageTestCases.contribute_page_select_audience_test(ContributePageTestCases.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div></td>
+<td>61</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ArtAficionadosPageTestCases.search_with_special_character_and_others_test()'><b>search_with_special_character_and_others_test</b><br>Test class: com.eduven.testcase.ArtAficionadosPageTestCases</td>
+<td><div><pre>java.lang.AssertionError: Error Message!!Search Term not matched with search one. expected [national film and television institute] but found [add]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at com.eduven.utils.Reusables.verifyEqualMessage(Reusables.java:875)
+	at com.eduven.modules.Search.verifySearchWord(Search.java:43)
+	at com.eduven.testcase.ArtAficionadosPageTestCases.search_with_special_character_and_others_test(ArtAficionadosPageTestCases.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div><a href='#' onClick='toggleBox("stack-trace66724371", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace66724371'><pre>java.lang.AssertionError: Error Message!!Search Term not matched with search one. expected [national film and television institute] but found [add]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at com.eduven.utils.Reusables.verifyEqualMessage(Reusables.java:875)
+	at com.eduven.modules.Search.verifySearchWord(Search.java:43)
+	at com.eduven.testcase.ArtAficionadosPageTestCases.search_with_special_character_and_others_test(ArtAficionadosPageTestCases.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div></td>
+<td>15</td>
+<td>com.eduven.testcase.ArtAficionadosPageTestCases@3c947bc5</td></tr>
+<tr>
+<td title='com.eduven.testcase.TransportationPageTestCases.transportation_page_premium_entity_test()'><b>transportation_page_premium_entity_test</b><br>Test class: com.eduven.testcase.TransportationPageTestCases</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 136.85 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/CountryGuideAndroid/app-africa-debug.apk, appPackage=com.eduven.cg.africa, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=014E0F500200D002, platform=LINUX, appActivity=com.eduven.cg.activity.CheckSDCard, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/CountryGuideAndroid/app-africa-debug.apk, appPackage=com.eduven.cg.africa, appActivity=com.eduven.cg.activity.CheckSDCard, platformVersion=4.4, appiumVersion=1.4.13, automationName=Appium, platformName=Android, deviceName=014E0F500200D002}, platformVersion=4.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 18fd19f5-b11c-4e69-95a7-d1fd1123f471
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description(&quot;Touat Cheikh Sidi Mohamed Belkebir Airport&quot;).instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(&quot;Touat Cheikh Sidi Mohamed Belkebir Airport&quot;).instance(0));}
+	at sun.reflect.GeneratedConstructorAccessor51.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.android.AndroidDriver.findElementByAndroidUIAutomator(AndroidDriver.java:324)
+	at io.appium.java_client.android.AndroidDriver.scrollToExact(AndroidDriver.java:128)
+	at com.eduven.utils.Reusables.clickUsingScrollToExactTxt(Reusables.java:628)
+	at com.eduven.utils.Reusables.checkPremiumEntity(Reusables.java:491)
+	at com.eduven.testcase.TransportationPageTestCases.transportation_page_premium_entity_test(TransportationPageTestCases.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div><a href='#' onClick='toggleBox("stack-trace265348534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace265348534'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 136.85 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/CountryGuideAndroid/app-africa-debug.apk, appPackage=com.eduven.cg.africa, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=014E0F500200D002, platform=LINUX, appActivity=com.eduven.cg.activity.CheckSDCard, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/CountryGuideAndroid/app-africa-debug.apk, appPackage=com.eduven.cg.africa, appActivity=com.eduven.cg.activity.CheckSDCard, platformVersion=4.4, appiumVersion=1.4.13, automationName=Appium, platformName=Android, deviceName=014E0F500200D002}, platformVersion=4.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 18fd19f5-b11c-4e69-95a7-d1fd1123f471
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description(&quot;Touat Cheikh Sidi Mohamed Belkebir Airport&quot;).instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(&quot;Touat Cheikh Sidi Mohamed Belkebir Airport&quot;).instance(0));}
+	at sun.reflect.GeneratedConstructorAccessor51.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.android.AndroidDriver.findElementByAndroidUIAutomator(AndroidDriver.java:324)
+	at io.appium.java_client.android.AndroidDriver.scrollToExact(AndroidDriver.java:128)
+	at com.eduven.utils.Reusables.clickUsingScrollToExactTxt(Reusables.java:628)
+	at com.eduven.utils.Reusables.checkPremiumEntity(Reusables.java:491)
+	at com.eduven.testcase.TransportationPageTestCases.transportation_page_premium_entity_test(TransportationPageTestCases.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div></td>
+<td>175</td>
+<td>com.eduven.testcase.TransportationPageTestCases@46fa7c39</td></tr>
+<tr>
+<td title='com.eduven.testcase.TransportationPageTestCases.verify_city_name_and_header_text_inside_term_test()'><b>verify_city_name_and_header_text_inside_term_test</b><br>Test class: com.eduven.testcase.TransportationPageTestCases</td>
+<td><div><pre>java.lang.AssertionError: Error Message!! Actual and Expected text not matched. expected [dakar] but found [sea port]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at com.eduven.utils.Reusables.verifyEqualMessage(Reusables.java:875)
+	at com.eduven.utils.Reusables.verifyCityHeaderName(Reusables.java:801)
+	at com.eduven.testcase.TransportationPageTestCases.verify_city_name_and_header_text_inside_term_test(TransportationPageTestCases.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1434015813", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1434015813'><pre>java.lang.AssertionError: Error Message!! Actual and Expected text not matched. expected [dakar] but found [sea port]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at com.eduven.utils.Reusables.verifyEqualMessage(Reusables.java:875)
+	at com.eduven.utils.Reusables.verifyCityHeaderName(Reusables.java:801)
+	at com.eduven.testcase.TransportationPageTestCases.verify_city_name_and_header_text_inside_term_test(TransportationPageTestCases.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div></td>
+<td>67</td>
+<td>com.eduven.testcase.TransportationPageTestCases@46fa7c39</td></tr>
+<tr>
+<td title='com.eduven.testcase.CarnivalsFestivalsPageTestCases.verify_city_name_and_header_text_inside_term_test()'><b>verify_city_name_and_header_text_inside_term_test</b><br>Test class: com.eduven.testcase.CarnivalsFestivalsPageTestCases</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 46.73 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/CountryGuideAndroid/app-africa-debug.apk, appPackage=com.eduven.cg.africa, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=014E0F500200D002, platform=LINUX, appActivity=com.eduven.cg.activity.CheckSDCard, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/CountryGuideAndroid/app-africa-debug.apk, appPackage=com.eduven.cg.africa, appActivity=com.eduven.cg.activity.CheckSDCard, platformVersion=4.4, appiumVersion=1.4.13, automationName=Appium, platformName=Android, deviceName=014E0F500200D002}, platformVersion=4.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 18fd19f5-b11c-4e69-95a7-d1fd1123f471
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description(&quot;&quot;).instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(&quot;&quot;).instance(0));}
+	at sun.reflect.GeneratedConstructorAccessor51.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.android.AndroidDriver.findElementByAndroidUIAutomator(AndroidDriver.java:324)
+	at io.appium.java_client.android.AndroidDriver.scrollToExact(AndroidDriver.java:128)
+	at com.eduven.utils.Reusables.clickUsingScrollToExactTxt(Reusables.java:628)
+	at com.eduven.utils.Reusables.navigateToFreeEntityDetailPage(Reusables.java:542)
+	at com.eduven.testcase.CarnivalsFestivalsPageTestCases.verify_city_name_and_header_text_inside_term_test(CarnivalsFestivalsPageTestCases.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1060935276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1060935276'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 46.73 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/CountryGuideAndroid/app-africa-debug.apk, appPackage=com.eduven.cg.africa, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=014E0F500200D002, platform=LINUX, appActivity=com.eduven.cg.activity.CheckSDCard, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/CountryGuideAndroid/app-africa-debug.apk, appPackage=com.eduven.cg.africa, appActivity=com.eduven.cg.activity.CheckSDCard, platformVersion=4.4, appiumVersion=1.4.13, automationName=Appium, platformName=Android, deviceName=014E0F500200D002}, platformVersion=4.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 18fd19f5-b11c-4e69-95a7-d1fd1123f471
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description(&quot;&quot;).instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(&quot;&quot;).instance(0));}
+	at sun.reflect.GeneratedConstructorAccessor51.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.android.AndroidDriver.findElementByAndroidUIAutomator(AndroidDriver.java:324)
+	at io.appium.java_client.android.AndroidDriver.scrollToExact(AndroidDriver.java:128)
+	at com.eduven.utils.Reusables.clickUsingScrollToExactTxt(Reusables.java:628)
+	at com.eduven.utils.Reusables.navigateToFreeEntityDetailPage(Reusables.java:542)
+	at com.eduven.testcase.CarnivalsFestivalsPageTestCases.verify_city_name_and_header_text_inside_term_test(CarnivalsFestivalsPageTestCases.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div></td>
+<td>59</td>
+<td>com.eduven.testcase.CarnivalsFestivalsPageTestCases@6f27a732</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.ArtAficionadosPageTestCases.art_aficionados_page_free_entity_test()'><b>art_aficionados_page_free_entity_test</b><br>Test class: com.eduven.testcase.ArtAficionadosPageTestCases</td>
+<td></td>
+<td>35</td>
+<td>com.eduven.testcase.ArtAficionadosPageTestCases@3c947bc5</td></tr>
+<tr>
+<td title='com.eduven.testcase.ArtAficionadosPageTestCases.art_aficionados_page_premium_entity_test()'><b>art_aficionados_page_premium_entity_test</b><br>Test class: com.eduven.testcase.ArtAficionadosPageTestCases</td>
+<td></td>
+<td>44</td>
+<td>com.eduven.testcase.ArtAficionadosPageTestCases@3c947bc5</td></tr>
+<tr>
+<td title='com.eduven.testcase.ArtAficionadosPageTestCases.art_aficionados_page_verify_contribute_entity()'><b>art_aficionados_page_verify_contribute_entity</b><br>Test class: com.eduven.testcase.ArtAficionadosPageTestCases</td>
+<td></td>
+<td>14</td>
+<td>com.eduven.testcase.ArtAficionadosPageTestCases@3c947bc5</td></tr>
+<tr>
+<td title='com.eduven.testcase.BusinessBoulevardsPageTestCases.business_boulevards_page_entity_test()'><b>business_boulevards_page_entity_test</b><br>Test class: com.eduven.testcase.BusinessBoulevardsPageTestCases</td>
+<td></td>
+<td>5</td>
+<td>com.eduven.testcase.BusinessBoulevardsPageTestCases@5552768b</td></tr>
+<tr>
+<td title='com.eduven.testcase.BusinessBoulevardsPageTestCases.business_boulevards_page_free_entity_test()'><b>business_boulevards_page_free_entity_test</b><br>Test class: com.eduven.testcase.BusinessBoulevardsPageTestCases</td>
+<td></td>
+<td>95</td>
+<td>com.eduven.testcase.BusinessBoulevardsPageTestCases@5552768b</td></tr>
+<tr>
+<td title='com.eduven.testcase.BusinessBoulevardsPageTestCases.business_boulevards_page_premium_entity_test()'><b>business_boulevards_page_premium_entity_test</b><br>Test class: com.eduven.testcase.BusinessBoulevardsPageTestCases</td>
+<td></td>
+<td>43</td>
+<td>com.eduven.testcase.BusinessBoulevardsPageTestCases@5552768b</td></tr>
+<tr>
+<td title='com.eduven.testcase.BusinessBoulevardsPageTestCases.business_boulevards_page_verify_contribute_entity()'><b>business_boulevards_page_verify_contribute_entity</b><br>Test class: com.eduven.testcase.BusinessBoulevardsPageTestCases</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.BusinessBoulevardsPageTestCases@5552768b</td></tr>
+<tr>
+<td title='com.eduven.testcase.CarnivalsFestivalsPageTestCases.carnivals_festivals_page_buy_subscription()'><b>carnivals_festivals_page_buy_subscription</b><br>Test class: com.eduven.testcase.CarnivalsFestivalsPageTestCases</td>
+<td></td>
+<td>103</td>
+<td>com.eduven.testcase.CarnivalsFestivalsPageTestCases@6f27a732</td></tr>
+<tr>
+<td title='com.eduven.testcase.CarnivalsFestivalsPageTestCases.carnivals_festivals_page_entity_test()'><b>carnivals_festivals_page_entity_test</b><br>Test class: com.eduven.testcase.CarnivalsFestivalsPageTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.eduven.testcase.CarnivalsFestivalsPageTestCases@6f27a732</td></tr>
+<tr>
+<td title='com.eduven.testcase.CarnivalsFestivalsPageTestCases.carnivals_festivals_page_free_entity_test()'><b>carnivals_festivals_page_free_entity_test</b><br>Test class: com.eduven.testcase.CarnivalsFestivalsPageTestCases</td>
+<td></td>
+<td>42</td>
+<td>com.eduven.testcase.CarnivalsFestivalsPageTestCases@6f27a732</td></tr>
+<tr>
+<td title='com.eduven.testcase.CarnivalsFestivalsPageTestCases.carnivals_festivals_page_premium_entity_test()'><b>carnivals_festivals_page_premium_entity_test</b><br>Test class: com.eduven.testcase.CarnivalsFestivalsPageTestCases</td>
+<td></td>
+<td>55</td>
+<td>com.eduven.testcase.CarnivalsFestivalsPageTestCases@6f27a732</td></tr>
+<tr>
+<td title='com.eduven.testcase.CarnivalsFestivalsPageTestCases.carnivals_festivals_page_verify_contribute_entity_test()'><b>carnivals_festivals_page_verify_contribute_entity_test</b><br>Test class: com.eduven.testcase.CarnivalsFestivalsPageTestCases</td>
+<td></td>
+<td>9</td>
+<td>com.eduven.testcase.CarnivalsFestivalsPageTestCases@6f27a732</td></tr>
+<tr>
+<td title='com.eduven.testcase.CelebritiesCellsPageTestCases.celebrities_cells_page_entity_test()'><b>celebrities_cells_page_entity_test</b><br>Test class: com.eduven.testcase.CelebritiesCellsPageTestCases</td>
+<td></td>
+<td>11</td>
+<td>com.eduven.testcase.CelebritiesCellsPageTestCases@4f67eb2a</td></tr>
+<tr>
+<td title='com.eduven.testcase.CelebritiesCellsPageTestCases.celebrities_cells_page_free_entity_test()'><b>celebrities_cells_page_free_entity_test</b><br>Test class: com.eduven.testcase.CelebritiesCellsPageTestCases</td>
+<td></td>
+<td>40</td>
+<td>com.eduven.testcase.CelebritiesCellsPageTestCases@4f67eb2a</td></tr>
+<tr>
+<td title='com.eduven.testcase.CelebritiesCellsPageTestCases.celebrities_cells_page_premium_entity_test()'><b>celebrities_cells_page_premium_entity_test</b><br>Test class: com.eduven.testcase.CelebritiesCellsPageTestCases</td>
+<td></td>
+<td>176</td>
+<td>com.eduven.testcase.CelebritiesCellsPageTestCases@4f67eb2a</td></tr>
+<tr>
+<td title='com.eduven.testcase.CelebritiesCellsPageTestCases.celebrities_cells_page_verify_contribute_entity()'><b>celebrities_cells_page_verify_contribute_entity</b><br>Test class: com.eduven.testcase.CelebritiesCellsPageTestCases</td>
+<td></td>
+<td>54</td>
+<td>com.eduven.testcase.CelebritiesCellsPageTestCases@4f67eb2a</td></tr>
+<tr>
+<td title='com.eduven.testcase.NetworkRelatedPageTestCases.check_evMenu_for_network_connection_test()'><b>check_evMenu_for_network_connection_test</b><br>Test class: com.eduven.testcase.NetworkRelatedPageTestCases</td>
+<td></td>
+<td>57</td>
+<td>com.eduven.testcase.NetworkRelatedPageTestCases@68e965f5</td></tr>
+<tr>
+<td title='com.eduven.testcase.NetworkRelatedPageTestCases.check_paid_term_after_network_off_for_airplane_mode_test()'><b>check_paid_term_after_network_off_for_airplane_mode_test</b><br>Test class: com.eduven.testcase.NetworkRelatedPageTestCases</td>
+<td></td>
+<td>75</td>
+<td>com.eduven.testcase.NetworkRelatedPageTestCases@68e965f5</td></tr>
+<tr>
+<td title='com.eduven.testcase.CitiesPageTestCases.cities_page_icon_test()'><b>cities_page_icon_test</b><br>Test class: com.eduven.testcase.CitiesPageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.CitiesPageTestCases@53aad5d5</td></tr>
+<tr>
+<td title='com.eduven.testcase.CitiesPageTestCases.cities_page_verify_contribute_entity_test()'><b>cities_page_verify_contribute_entity_test</b><br>Test class: com.eduven.testcase.CitiesPageTestCases</td>
+<td></td>
+<td>14</td>
+<td>com.eduven.testcase.CitiesPageTestCases@53aad5d5</td></tr>
+<tr>
+<td title='com.eduven.testcase.CitiesPageTestCases.click_on_random_city_test()'><b>click_on_random_city_test</b><br>Test class: com.eduven.testcase.CitiesPageTestCases</td>
+<td></td>
+<td>56</td>
+<td>com.eduven.testcase.CitiesPageTestCases@53aad5d5</td></tr>
+<tr>
+<td title='com.eduven.testcase.HistoricalHangoutsPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.HistoricalHangoutsPageTestCases</td>
+<td></td>
+<td>125</td>
+<td>com.eduven.testcase.HistoricalHangoutsPageTestCases@87a85e1</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>87</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.BusinessBoulevardsPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.BusinessBoulevardsPageTestCases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.BusinessBoulevardsPageTestCases@5552768b</td></tr>
+<tr>
+<td title='com.eduven.testcase.ArtAficionadosPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.ArtAficionadosPageTestCases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.ArtAficionadosPageTestCases@3c947bc5</td></tr>
+<tr>
+<td title='com.eduven.testcase.MoviesPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.MoviesPageTestCases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.MoviesPageTestCases@609db43b</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoriesPageTestcases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.CategoriesPageTestcases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.CategoriesPageTestcases@55f616cf</td></tr>
+<tr>
+<td title='com.eduven.testcase.WildlifeWanderingsPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.WildlifeWanderingsPageTestCases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.WildlifeWanderingsPageTestCases@1356d4d4</td></tr>
+<tr>
+<td title='com.eduven.testcase.NearBySearchPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.NearBySearchPageTestCases</td>
+<td></td>
+<td>86</td>
+<td>com.eduven.testcase.NearBySearchPageTestCases@c03cf28</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>87</td>
+<td>com.eduven.testcase.HomePageTestCases@1329eff</td></tr>
+<tr>
+<td title='com.eduven.testcase.SportsPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.SportsPageTestCases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.SportsPageTestCases@6497b078</td></tr>
+<tr>
+<td title='com.eduven.testcase.WildlifePageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.WildlifePageTestCases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.WildlifePageTestCases@41c2284a</td></tr>
+<tr>
+<td title='com.eduven.testcase.TransportationPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.TransportationPageTestCases</td>
+<td></td>
+<td>87</td>
+<td>com.eduven.testcase.TransportationPageTestCases@46fa7c39</td></tr>
+<tr>
+<td title='com.eduven.testcase.NatureNomadsPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.NatureNomadsPageTestCases</td>
+<td></td>
+<td>84</td>
+<td>com.eduven.testcase.NatureNomadsPageTestCases@1fb700ee</td></tr>
+<tr>
+<td title='com.eduven.testcase.CelebritiesCellsPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.CelebritiesCellsPageTestCases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.CelebritiesCellsPageTestCases@4f67eb2a</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.EduBankPageTestCases@4a668b6e</td></tr>
+<tr>
+<td title='com.eduven.testcase.HistoricalEventsPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.HistoricalEventsPageTestCases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.HistoricalEventsPageTestCases@5f683daf</td></tr>
+<tr>
+<td title='com.eduven.testcase.SpiritualSanctuariesPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.SpiritualSanctuariesPageTestCases</td>
+<td></td>
+<td>86</td>
+<td>com.eduven.testcase.SpiritualSanctuariesPageTestCases@78ffe6dc</td></tr>
+<tr>
+<td title='com.eduven.testcase.LanguagePhrasesPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.LanguagePhrasesPageTestCases</td>
+<td></td>
+<td>86</td>
+<td>com.eduven.testcase.LanguagePhrasesPageTestCases@8317c52</td></tr>
+<tr>
+<td title='com.eduven.testcase.CuisinePageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.CuisinePageTestCases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.CuisinePageTestCases@76f2bbc1</td></tr>
+<tr>
+<td title='com.eduven.testcase.NetworkRelatedPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.NetworkRelatedPageTestCases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.NetworkRelatedPageTestCases@68e965f5</td></tr>
+<tr>
+<td title='com.eduven.testcase.CarnivalsFestivalsPageTestCases.close_flyer_popup_test()'><b>close_flyer_popup_test</b><br>Test class: com.eduven.testcase.CarnivalsFestivalsPageTestCases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.CarnivalsFestivalsPageTestCases@6f27a732</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_add_contribute_with_space_title_test()'><b>contribute_page_add_contribute_with_space_title_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>13</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_add_contribute_with_title_test()'><b>contribute_page_add_contribute_with_title_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>27</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_add_contribute_without_title_test()'><b>contribute_page_add_contribute_without_title_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>13</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_facebook_login_test()'><b>contribute_page_facebook_login_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>113</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_facebook_message_sharing_test()'><b>contribute_page_facebook_message_sharing_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>62</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_more_apps_test()'><b>contribute_page_more_apps_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>13</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_navigate_to_app_sharing_page_test()'><b>contribute_page_navigate_to_app_sharing_page_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>93</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_navigate_to_contribute_test()'><b>contribute_page_navigate_to_contribute_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>8</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_navigate_to_settings_page_test()'><b>contribute_page_navigate_to_settings_page_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>7</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_settings_information_and_support_disclaimer_test()'><b>contribute_page_settings_information_and_support_disclaimer_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>35</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_settings_information_and_support_faqs_test()'><b>contribute_page_settings_information_and_support_faqs_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>65</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_settings_information_and_support_for_terms_and_conditions_test()'><b>contribute_page_settings_information_and_support_for_terms_and_conditions_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>65</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_settings_information_and_support_privacy_policy_test()'><b>contribute_page_settings_information_and_support_privacy_policy_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>65</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.contribute_page_verify_profile_pic_adder_test()'><b>contribute_page_verify_profile_pic_adder_test</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>1</td>
+<td>com.eduven.testcase.ContributePageTestCases@671a5887</td></tr>
+<tr>
+<td title='com.eduven.testcase.CuisinePageTestCases.cuisine_page_entity_test()'><b>cuisine_page_entity_test</b><br>Test class: com.eduven.testcase.CuisinePageTestCases</td>
+<td></td>
+<td>18</td>
+<td>com.eduven.testcase.CuisinePageTestCases@76f2bbc1</td></tr>
+<tr>
+<td title='com.eduven.testcase.CuisinePageTestCases.cuisine_page_free_entity_test()'><b>cuisine_page_free_entity_test</b><br>Test class: com.eduven.testcase.CuisinePageTestCases</td>
+<td></td>
+<td>50</td>
+<td>com.eduven.testcase.CuisinePageTestCases@76f2bbc1</td></tr>
+<tr>
+<td title='com.eduven.testcase.CuisinePageTestCases.cuisine_page_navigate_to_entity_detail_test()'><b>cuisine_page_navigate_to_entity_detail_test</b><br>Test class: com.eduven.testcase.CuisinePageTestCases</td>
+<td></td>
+<td>18</td>
+<td>com.eduven.testcase.CuisinePageTestCases@76f2bbc1</td></tr>
+<tr>
+<td title='com.eduven.testcase.CuisinePageTestCases.cuisine_page_premium_entity_test()'><b>cuisine_page_premium_entity_test</b><br>Test class: com.eduven.testcase.CuisinePageTestCases</td>
+<td></td>
+<td>37</td>
+<td>com.eduven.testcase.CuisinePageTestCases@76f2bbc1</td></tr>
+<tr>
+<td title='com.eduven.testcase.CuisinePageTestCases.cuisine_page_verify_contibute_entity()'><b>cuisine_page_verify_contibute_entity</b><br>Test class: com.eduven.testcase.CuisinePageTestCases</td>
+<td></td>
+<td>12</td>
+<td>com.eduven.testcase.CuisinePageTestCases@76f2bbc1</td></tr>
+<tr>
+<td title='com.eduven.testcase.CuisinePageTestCases.cuisine_page_verify_cooking_servings_test()'><b>cuisine_page_verify_cooking_servings_test</b><br>Test class: com.eduven.testcase.CuisinePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.CuisinePageTestCases@76f2bbc1</td></tr>
+<tr>
+<td title='com.eduven.testcase.CuisinePageTestCases.cuisine_page_verify_ingredients_and_directions_button_action_test()'><b>cuisine_page_verify_ingredients_and_directions_button_action_test</b><br>Test class: com.eduven.testcase.CuisinePageTestCases</td>
+<td></td>
+<td>9</td>
+<td>com.eduven.testcase.CuisinePageTestCases@76f2bbc1</td></tr>
+<tr>
+<td title='com.eduven.testcase.CuisinePageTestCases.cuisine_page_verify_ingredients_and_directions_button_test()'><b>cuisine_page_verify_ingredients_and_directions_button_test</b><br>Test class: com.eduven.testcase.CuisinePageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.CuisinePageTestCases@76f2bbc1</td></tr>
+<tr>
+<td title='com.eduven.testcase.CuisinePageTestCases.cuisine_page_verify_nutrition_test()'><b>cuisine_page_verify_nutrition_test</b><br>Test class: com.eduven.testcase.CuisinePageTestCases</td>
+<td></td>
+<td>6</td>
+<td>com.eduven.testcase.CuisinePageTestCases@76f2bbc1</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.eduBank_page_add_favourite_to_eduBank_test()'><b>eduBank_page_add_favourite_to_eduBank_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>5</td>
+<td>com.eduven.testcase.EduBankPageTestCases@4a668b6e</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.eduBank_page_check_entity_in_eduBank_test()'><b>eduBank_page_check_entity_in_eduBank_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>8</td>
+<td>com.eduven.testcase.EduBankPageTestCases@4a668b6e</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.eduBank_page_navigate_to_entity_detail_test()'><b>eduBank_page_navigate_to_entity_detail_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>44</td>
+<td>com.eduven.testcase.EduBankPageTestCases@4a668b6e</td></tr>
+<tr>
+<td title='com.eduven.testcase.CitiesPageTestCases.handling_splash_screen_test()'><b>handling_splash_screen_test</b><br>Test class: com.eduven.testcase.CitiesPageTestCases</td>
+<td></td>
+<td>88</td>
+<td>com.eduven.testcase.CitiesPageTestCases@53aad5d5</td></tr>
+<tr>
+<td title='com.eduven.testcase.HistoricalEventsPageTestCases.historical_events_page_get_event_message_text_test()'><b>historical_events_page_get_event_message_text_test</b><br>Test class: com.eduven.testcase.HistoricalEventsPageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.HistoricalEventsPageTestCases@5f683daf</td></tr>
+<tr>
+<td title='com.eduven.testcase.HistoricalHangoutsPageTestCases.historical_hangout_page_entity_test()'><b>historical_hangout_page_entity_test</b><br>Test class: com.eduven.testcase.HistoricalHangoutsPageTestCases</td>
+<td></td>
+<td>16</td>
+<td>com.eduven.testcase.HistoricalHangoutsPageTestCases@87a85e1</td></tr>
+<tr>
+<td title='com.eduven.testcase.HistoricalHangoutsPageTestCases.historical_hangout_page_free_entity_test()'><b>historical_hangout_page_free_entity_test</b><br>Test class: com.eduven.testcase.HistoricalHangoutsPageTestCases</td>
+<td></td>
+<td>37</td>
+<td>com.eduven.testcase.HistoricalHangoutsPageTestCases@87a85e1</td></tr>
+<tr>
+<td title='com.eduven.testcase.HistoricalHangoutsPageTestCases.historical_hangout_page_paid_entity_test()'><b>historical_hangout_page_paid_entity_test</b><br>Test class: com.eduven.testcase.HistoricalHangoutsPageTestCases</td>
+<td></td>
+<td>36</td>
+<td>com.eduven.testcase.HistoricalHangoutsPageTestCases@87a85e1</td></tr>
+<tr>
+<td title='com.eduven.testcase.HistoricalHangoutsPageTestCases.historical_hangout_page_verify_contribute_entity()'><b>historical_hangout_page_verify_contribute_entity</b><br>Test class: com.eduven.testcase.HistoricalHangoutsPageTestCases</td>
+<td></td>
+<td>13</td>
+<td>com.eduven.testcase.HistoricalHangoutsPageTestCases@87a85e1</td></tr>
+<tr>
+<td title='com.eduven.testcase.HistoricalEventsPageTestCases.historical_page_enter_date_test()'><b>historical_page_enter_date_test</b><br>Test class: com.eduven.testcase.HistoricalEventsPageTestCases</td>
+<td></td>
+<td>71</td>
+<td>com.eduven.testcase.HistoricalEventsPageTestCases@5f683daf</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.home_page_categories_test()'><b>home_page_categories_test</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.HomePageTestCases@1329eff</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.home_page_cities_test()'><b>home_page_cities_test</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>3</td>
+<td>com.eduven.testcase.HomePageTestCases@1329eff</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.home_page_evMenu_test()'><b>home_page_evMenu_test</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.HomePageTestCases@1329eff</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.home_page_ev_menu_test()'><b>home_page_ev_menu_test</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.HomePageTestCases@1329eff</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.home_page_header_txt_test()'><b>home_page_header_txt_test</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.HomePageTestCases@1329eff</td></tr>
+<tr>
+<td title='com.eduven.testcase.LanguagePhrasesPageTestCases.language_phrase_page_open_first_lock_word()'><b>language_phrase_page_open_first_lock_word</b><br>Test class: com.eduven.testcase.LanguagePhrasesPageTestCases</td>
+<td></td>
+<td>6</td>
+<td>com.eduven.testcase.LanguagePhrasesPageTestCases@8317c52</td></tr>
+<tr>
+<td title='com.eduven.testcase.LanguagePhrasesPageTestCases.language_phrase_page_select_language_from_language_menu_test()'><b>language_phrase_page_select_language_from_language_menu_test</b><br>Test class: com.eduven.testcase.LanguagePhrasesPageTestCases</td>
+<td></td>
+<td>31</td>
+<td>com.eduven.testcase.LanguagePhrasesPageTestCases@8317c52</td></tr>
+<tr>
+<td title='com.eduven.testcase.LanguagePhrasesPageTestCases.language_phrase_page_select_random_category_test()'><b>language_phrase_page_select_random_category_test</b><br>Test class: com.eduven.testcase.LanguagePhrasesPageTestCases</td>
+<td></td>
+<td>73</td>
+<td>com.eduven.testcase.LanguagePhrasesPageTestCases@8317c52</td></tr>
+<tr>
+<td title='com.eduven.testcase.LanguagePhrasesPageTestCases.language_phrases_page_entity_test()'><b>language_phrases_page_entity_test</b><br>Test class: com.eduven.testcase.LanguagePhrasesPageTestCases</td>
+<td></td>
+<td>136</td>
+<td>com.eduven.testcase.LanguagePhrasesPageTestCases@8317c52</td></tr>
+<tr>
+<td title='com.eduven.testcase.LanguagePhrasesPageTestCases.language_phrases_page_verify_lock_unlock_btn_test()'><b>language_phrases_page_verify_lock_unlock_btn_test</b><br>Test class: com.eduven.testcase.LanguagePhrasesPageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.LanguagePhrasesPageTestCases@8317c52</td></tr>
+<tr>
+<td title='com.eduven.testcase.MoviesPageTestCases.movies_page_entity_test()'><b>movies_page_entity_test</b><br>Test class: com.eduven.testcase.MoviesPageTestCases</td>
+<td></td>
+<td>9</td>
+<td>com.eduven.testcase.MoviesPageTestCases@609db43b</td></tr>
+<tr>
+<td title='com.eduven.testcase.MoviesPageTestCases.movies_page_free_entity_test()'><b>movies_page_free_entity_test</b><br>Test class: com.eduven.testcase.MoviesPageTestCases</td>
+<td></td>
+<td>29</td>
+<td>com.eduven.testcase.MoviesPageTestCases@609db43b</td></tr>
+<tr>
+<td title='com.eduven.testcase.MoviesPageTestCases.movies_page_premium_entity_test()'><b>movies_page_premium_entity_test</b><br>Test class: com.eduven.testcase.MoviesPageTestCases</td>
+<td></td>
+<td>37</td>
+<td>com.eduven.testcase.MoviesPageTestCases@609db43b</td></tr>
+<tr>
+<td title='com.eduven.testcase.MoviesPageTestCases.movies_page_verify_contribute_entity_test()'><b>movies_page_verify_contribute_entity_test</b><br>Test class: com.eduven.testcase.MoviesPageTestCases</td>
+<td></td>
+<td>14</td>
+<td>com.eduven.testcase.MoviesPageTestCases@609db43b</td></tr>
+<tr>
+<td title='com.eduven.testcase.NatureNomadsPageTestCases.nature_nomads_page_entity_test()'><b>nature_nomads_page_entity_test</b><br>Test class: com.eduven.testcase.NatureNomadsPageTestCases</td>
+<td></td>
+<td>12</td>
+<td>com.eduven.testcase.NatureNomadsPageTestCases@1fb700ee</td></tr>
+<tr>
+<td title='com.eduven.testcase.NatureNomadsPageTestCases.nature_nomads_page_free_entity_test()'><b>nature_nomads_page_free_entity_test</b><br>Test class: com.eduven.testcase.NatureNomadsPageTestCases</td>
+<td></td>
+<td>76</td>
+<td>com.eduven.testcase.NatureNomadsPageTestCases@1fb700ee</td></tr>
+<tr>
+<td title='com.eduven.testcase.NatureNomadsPageTestCases.nature_nomads_page_premium_entity_test()'><b>nature_nomads_page_premium_entity_test</b><br>Test class: com.eduven.testcase.NatureNomadsPageTestCases</td>
+<td></td>
+<td>40</td>
+<td>com.eduven.testcase.NatureNomadsPageTestCases@1fb700ee</td></tr>
+<tr>
+<td title='com.eduven.testcase.NatureNomadsPageTestCases.nature_nomads_page_verify_contribute_entity_test()'><b>nature_nomads_page_verify_contribute_entity_test</b><br>Test class: com.eduven.testcase.NatureNomadsPageTestCases</td>
+<td></td>
+<td>11</td>
+<td>com.eduven.testcase.NatureNomadsPageTestCases@1fb700ee</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigate_to_edubank_test()'><b>navigate_to_edubank_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>3</td>
+<td>com.eduven.testcase.EduBankPageTestCases@4a668b6e</td></tr>
+<tr>
+<td title='com.eduven.testcase.NearBySearchPageTestCases.navigate_to_nearBy_page_test()'><b>navigate_to_nearBy_page_test</b><br>Test class: com.eduven.testcase.NearBySearchPageTestCases</td>
+<td></td>
+<td>4</td>
+<td>com.eduven.testcase.NearBySearchPageTestCases@c03cf28</td></tr>
+<tr>
+<td title='com.eduven.testcase.NetworkRelatedPageTestCases.navigate_to_sub_category_page_test()'><b>navigate_to_sub_category_page_test</b><br>Test class: com.eduven.testcase.NetworkRelatedPageTestCases</td>
+<td></td>
+<td>15</td>
+<td>com.eduven.testcase.NetworkRelatedPageTestCases@68e965f5</td></tr>
+<tr>
+<td title='com.eduven.testcase.NearBySearchPageTestCases.nearby_page_verify_button_instances_test()'><b>nearby_page_verify_button_instances_test</b><br>Test class: com.eduven.testcase.NearBySearchPageTestCases</td>
+<td></td>
+<td>4</td>
+<td>com.eduven.testcase.NearBySearchPageTestCases@c03cf28</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.remove_entity_from_eduBank()'><b>remove_entity_from_eduBank</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>14</td>
+<td>com.eduven.testcase.EduBankPageTestCases@4a668b6e</td></tr>
+<tr>
+<td title='com.eduven.testcase.CitiesPageTestCases.remove_random_category_from_filter_layout_test()'><b>remove_random_category_from_filter_layout_test</b><br>Test class: com.eduven.testcase.CitiesPageTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.eduven.testcase.CitiesPageTestCases@53aad5d5</td></tr>
+<tr>
+<td title='com.eduven.testcase.SpiritualSanctuariesPageTestCases.spiritual_sanctuaries_page_entity_test()'><b>spiritual_sanctuaries_page_entity_test</b><br>Test class: com.eduven.testcase.SpiritualSanctuariesPageTestCases</td>
+<td></td>
+<td>7</td>
+<td>com.eduven.testcase.SpiritualSanctuariesPageTestCases@78ffe6dc</td></tr>
+<tr>
+<td title='com.eduven.testcase.SpiritualSanctuariesPageTestCases.spiritual_sanctuaries_page_free_entity_test()'><b>spiritual_sanctuaries_page_free_entity_test</b><br>Test class: com.eduven.testcase.SpiritualSanctuariesPageTestCases</td>
+<td></td>
+<td>33</td>
+<td>com.eduven.testcase.SpiritualSanctuariesPageTestCases@78ffe6dc</td></tr>
+<tr>
+<td title='com.eduven.testcase.SpiritualSanctuariesPageTestCases.spiritual_sanctuaries_page_premium_entity_test()'><b>spiritual_sanctuaries_page_premium_entity_test</b><br>Test class: com.eduven.testcase.SpiritualSanctuariesPageTestCases</td>
+<td></td>
+<td>39</td>
+<td>com.eduven.testcase.SpiritualSanctuariesPageTestCases@78ffe6dc</td></tr>
+<tr>
+<td title='com.eduven.testcase.SpiritualSanctuariesPageTestCases.spiritual_sanctuaries_page_verify_contribute_entity_test()'><b>spiritual_sanctuaries_page_verify_contribute_entity_test</b><br>Test class: com.eduven.testcase.SpiritualSanctuariesPageTestCases</td>
+<td></td>
+<td>20</td>
+<td>com.eduven.testcase.SpiritualSanctuariesPageTestCases@78ffe6dc</td></tr>
+<tr>
+<td title='com.eduven.testcase.SportsPageTestCases.sports_page_entity_test()'><b>sports_page_entity_test</b><br>Test class: com.eduven.testcase.SportsPageTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.eduven.testcase.SportsPageTestCases@6497b078</td></tr>
+<tr>
+<td title='com.eduven.testcase.SportsPageTestCases.sports_page_free_entity_test()'><b>sports_page_free_entity_test</b><br>Test class: com.eduven.testcase.SportsPageTestCases</td>
+<td></td>
+<td>31</td>
+<td>com.eduven.testcase.SportsPageTestCases@6497b078</td></tr>
+<tr>
+<td title='com.eduven.testcase.SportsPageTestCases.sports_page_premium_entity_test()'><b>sports_page_premium_entity_test</b><br>Test class: com.eduven.testcase.SportsPageTestCases</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.SportsPageTestCases@6497b078</td></tr>
+<tr>
+<td title='com.eduven.testcase.SportsPageTestCases.sports_page_verify_contribute_entity_test()'><b>sports_page_verify_contribute_entity_test</b><br>Test class: com.eduven.testcase.SportsPageTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.eduven.testcase.SportsPageTestCases@6497b078</td></tr>
+<tr>
+<td title='com.eduven.testcase.NetworkRelatedPageTestCases.test_network_turnoff_network_connection_test()'><b>test_network_turnoff_network_connection_test</b><br>Test class: com.eduven.testcase.NetworkRelatedPageTestCases</td>
+<td></td>
+<td>30</td>
+<td>com.eduven.testcase.NetworkRelatedPageTestCases@68e965f5</td></tr>
+<tr>
+<td title='com.eduven.testcase.NetworkRelatedPageTestCases.test_network_turnon_network_connection_test()'><b>test_network_turnon_network_connection_test</b><br>Test class: com.eduven.testcase.NetworkRelatedPageTestCases</td>
+<td></td>
+<td>43</td>
+<td>com.eduven.testcase.NetworkRelatedPageTestCases@68e965f5</td></tr>
+<tr>
+<td title='com.eduven.testcase.TransportationPageTestCases.transportation_page_entity_test()'><b>transportation_page_entity_test</b><br>Test class: com.eduven.testcase.TransportationPageTestCases</td>
+<td></td>
+<td>5</td>
+<td>com.eduven.testcase.TransportationPageTestCases@46fa7c39</td></tr>
+<tr>
+<td title='com.eduven.testcase.TransportationPageTestCases.transportation_page_free_entity_test()'><b>transportation_page_free_entity_test</b><br>Test class: com.eduven.testcase.TransportationPageTestCases</td>
+<td></td>
+<td>73</td>
+<td>com.eduven.testcase.TransportationPageTestCases@46fa7c39</td></tr>
+<tr>
+<td title='com.eduven.testcase.TransportationPageTestCases.transportation_page_verify_contribute_entity_test()'><b>transportation_page_verify_contribute_entity_test</b><br>Test class: com.eduven.testcase.TransportationPageTestCases</td>
+<td></td>
+<td>40</td>
+<td>com.eduven.testcase.TransportationPageTestCases@46fa7c39</td></tr>
+<tr>
+<td title='com.eduven.testcase.ArtAficionadosPageTestCases.verify_art_aficionados_page_header_test()'><b>verify_art_aficionados_page_header_test</b><br>Test class: com.eduven.testcase.ArtAficionadosPageTestCases</td>
+<td></td>
+<td>14</td>
+<td>com.eduven.testcase.ArtAficionadosPageTestCases@3c947bc5</td></tr>
+<tr>
+<td title='com.eduven.testcase.BusinessBoulevardsPageTestCases.verify_business_boulevards_page_header_test()'><b>verify_business_boulevards_page_header_test</b><br>Test class: com.eduven.testcase.BusinessBoulevardsPageTestCases</td>
+<td></td>
+<td>55</td>
+<td>com.eduven.testcase.BusinessBoulevardsPageTestCases@5552768b</td></tr>
+<tr>
+<td title='com.eduven.testcase.CarnivalsFestivalsPageTestCases.verify_carnivals_festivals_page_header_test()'><b>verify_carnivals_festivals_page_header_test</b><br>Test class: com.eduven.testcase.CarnivalsFestivalsPageTestCases</td>
+<td></td>
+<td>14</td>
+<td>com.eduven.testcase.CarnivalsFestivalsPageTestCases@6f27a732</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoriesPageTestcases.verify_category_list_test()'><b>verify_category_list_test</b><br>Test class: com.eduven.testcase.CategoriesPageTestcases</td>
+<td></td>
+<td>16</td>
+<td>com.eduven.testcase.CategoriesPageTestcases@55f616cf</td></tr>
+<tr>
+<td title='com.eduven.testcase.CelebritiesCellsPageTestCases.verify_celebrities_cells_page_header_test()'><b>verify_celebrities_cells_page_header_test</b><br>Test class: com.eduven.testcase.CelebritiesCellsPageTestCases</td>
+<td></td>
+<td>45</td>
+<td>com.eduven.testcase.CelebritiesCellsPageTestCases@4f67eb2a</td></tr>
+<tr>
+<td title='com.eduven.testcase.CitiesPageTestCases.verify_cities_page_cities_list_test()'><b>verify_cities_page_cities_list_test</b><br>Test class: com.eduven.testcase.CitiesPageTestCases</td>
+<td></td>
+<td>27</td>
+<td>com.eduven.testcase.CitiesPageTestCases@53aad5d5</td></tr>
+<tr>
+<td title='com.eduven.testcase.HistoricalHangoutsPageTestCases.verify_city_name_and_header_text_inside_term_test()'><b>verify_city_name_and_header_text_inside_term_test</b><br>Test class: com.eduven.testcase.HistoricalHangoutsPageTestCases</td>
+<td></td>
+<td>216</td>
+<td>com.eduven.testcase.HistoricalHangoutsPageTestCases@87a85e1</td></tr>
+<tr>
+<td title='com.eduven.testcase.BusinessBoulevardsPageTestCases.verify_city_name_and_header_text_inside_term_test()'><b>verify_city_name_and_header_text_inside_term_test</b><br>Test class: com.eduven.testcase.BusinessBoulevardsPageTestCases</td>
+<td></td>
+<td>223</td>
+<td>com.eduven.testcase.BusinessBoulevardsPageTestCases@5552768b</td></tr>
+<tr>
+<td title='com.eduven.testcase.ArtAficionadosPageTestCases.verify_city_name_and_header_text_inside_term_test()'><b>verify_city_name_and_header_text_inside_term_test</b><br>Test class: com.eduven.testcase.ArtAficionadosPageTestCases</td>
+<td></td>
+<td>205</td>
+<td>com.eduven.testcase.ArtAficionadosPageTestCases@3c947bc5</td></tr>
+<tr>
+<td title='com.eduven.testcase.WildlifeWanderingsPageTestCases.verify_city_name_and_header_text_inside_term_test()'><b>verify_city_name_and_header_text_inside_term_test</b><br>Test class: com.eduven.testcase.WildlifeWanderingsPageTestCases</td>
+<td></td>
+<td>175</td>
+<td>com.eduven.testcase.WildlifeWanderingsPageTestCases@1356d4d4</td></tr>
+<tr>
+<td title='com.eduven.testcase.SportsPageTestCases.verify_city_name_and_header_text_inside_term_test()'><b>verify_city_name_and_header_text_inside_term_test</b><br>Test class: com.eduven.testcase.SportsPageTestCases</td>
+<td></td>
+<td>207</td>
+<td>com.eduven.testcase.SportsPageTestCases@6497b078</td></tr>
+<tr>
+<td title='com.eduven.testcase.NatureNomadsPageTestCases.verify_city_name_and_header_text_inside_term_test()'><b>verify_city_name_and_header_text_inside_term_test</b><br>Test class: com.eduven.testcase.NatureNomadsPageTestCases</td>
+<td></td>
+<td>138</td>
+<td>com.eduven.testcase.NatureNomadsPageTestCases@1fb700ee</td></tr>
+<tr>
+<td title='com.eduven.testcase.SpiritualSanctuariesPageTestCases.verify_city_name_and_header_text_inside_term_test()'><b>verify_city_name_and_header_text_inside_term_test</b><br>Test class: com.eduven.testcase.SpiritualSanctuariesPageTestCases</td>
+<td></td>
+<td>176</td>
+<td>com.eduven.testcase.SpiritualSanctuariesPageTestCases@78ffe6dc</td></tr>
+<tr>
+<td title='com.eduven.testcase.CitiesPageTestCases.verify_city_name_correspond_to_country_name_test()'><b>verify_city_name_correspond_to_country_name_test</b><br>Test class: com.eduven.testcase.CitiesPageTestCases</td>
+<td></td>
+<td>607</td>
+<td>com.eduven.testcase.CitiesPageTestCases@53aad5d5</td></tr>
+<tr>
+<td title='com.eduven.testcase.CuisinePageTestCases.verify_cuisine_page_header_test()'><b>verify_cuisine_page_header_test</b><br>Test class: com.eduven.testcase.CuisinePageTestCases</td>
+<td></td>
+<td>80</td>
+<td>com.eduven.testcase.CuisinePageTestCases@76f2bbc1</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.verify_eduBank_add_entity_test()'><b>verify_eduBank_add_entity_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>9</td>
+<td>com.eduven.testcase.EduBankPageTestCases@4a668b6e</td></tr>
+<tr>
+<td title='com.eduven.testcase.HistoricalEventsPageTestCases.verify_event_description_text_test()'><b>verify_event_description_text_test</b><br>Test class: com.eduven.testcase.HistoricalEventsPageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.HistoricalEventsPageTestCases@5f683daf</td></tr>
+<tr>
+<td title='com.eduven.testcase.HistoricalEventsPageTestCases.verify_event_message_text_for_specific_date_test()'><b>verify_event_message_text_for_specific_date_test</b><br>Test class: com.eduven.testcase.HistoricalEventsPageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.HistoricalEventsPageTestCases@5f683daf</td></tr>
+<tr>
+<td title='com.eduven.testcase.HistoricalEventsPageTestCases.verify_historical_events_page_header_test()'><b>verify_historical_events_page_header_test</b><br>Test class: com.eduven.testcase.HistoricalEventsPageTestCases</td>
+<td></td>
+<td>87</td>
+<td>com.eduven.testcase.HistoricalEventsPageTestCases@5f683daf</td></tr>
+<tr>
+<td title='com.eduven.testcase.HistoricalHangoutsPageTestCases.verify_historical_hangout_page_header_test()'><b>verify_historical_hangout_page_header_test</b><br>Test class: com.eduven.testcase.HistoricalHangoutsPageTestCases</td>
+<td></td>
+<td>13</td>
+<td>com.eduven.testcase.HistoricalHangoutsPageTestCases@87a85e1</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.verify_home_page_app_header_txt_test()'><b>verify_home_page_app_header_txt_test</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>1</td>
+<td>com.eduven.testcase.HomePageTestCases@1329eff</td></tr>
+<tr>
+<td title='com.eduven.testcase.LanguagePhrasesPageTestCases.verify_language_phrases_page_header_test()'><b>verify_language_phrases_page_header_test</b><br>Test class: com.eduven.testcase.LanguagePhrasesPageTestCases</td>
+<td></td>
+<td>147</td>
+<td>com.eduven.testcase.LanguagePhrasesPageTestCases@8317c52</td></tr>
+<tr>
+<td title='com.eduven.testcase.MoviesPageTestCases.verify_movies_page_header_test()'><b>verify_movies_page_header_test</b><br>Test class: com.eduven.testcase.MoviesPageTestCases</td>
+<td></td>
+<td>109</td>
+<td>com.eduven.testcase.MoviesPageTestCases@609db43b</td></tr>
+<tr>
+<td title='com.eduven.testcase.NatureNomadsPageTestCases.verify_nature_nomads_page_header_test()'><b>verify_nature_nomads_page_header_test</b><br>Test class: com.eduven.testcase.NatureNomadsPageTestCases</td>
+<td></td>
+<td>26</td>
+<td>com.eduven.testcase.NatureNomadsPageTestCases@1fb700ee</td></tr>
+<tr>
+<td title='com.eduven.testcase.CitiesPageTestCases.verify_random_city_header_txt_and_sub_category_header_test()'><b>verify_random_city_header_txt_and_sub_category_header_test</b><br>Test class: com.eduven.testcase.CitiesPageTestCases</td>
+<td></td>
+<td>4</td>
+<td>com.eduven.testcase.CitiesPageTestCases@53aad5d5</td></tr>
+<tr>
+<td title='com.eduven.testcase.SpiritualSanctuariesPageTestCases.verify_spiritual_sanctuaries_page_header_test()'><b>verify_spiritual_sanctuaries_page_header_test</b><br>Test class: com.eduven.testcase.SpiritualSanctuariesPageTestCases</td>
+<td></td>
+<td>45</td>
+<td>com.eduven.testcase.SpiritualSanctuariesPageTestCases@78ffe6dc</td></tr>
+<tr>
+<td title='com.eduven.testcase.SportsPageTestCases.verify_sports_page_header_test()'><b>verify_sports_page_header_test</b><br>Test class: com.eduven.testcase.SportsPageTestCases</td>
+<td></td>
+<td>143</td>
+<td>com.eduven.testcase.SportsPageTestCases@6497b078</td></tr>
+<tr>
+<td title='com.eduven.testcase.ArtAficionadosPageTestCases.verify_sub_category_list_test()'><b>verify_sub_category_list_test</b><br>Test class: com.eduven.testcase.ArtAficionadosPageTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.eduven.testcase.ArtAficionadosPageTestCases@3c947bc5</td></tr>
+<tr>
+<td title='com.eduven.testcase.TransportationPageTestCases.verify_transportation_page_header_test()'><b>verify_transportation_page_header_test</b><br>Test class: com.eduven.testcase.TransportationPageTestCases</td>
+<td></td>
+<td>78</td>
+<td>com.eduven.testcase.TransportationPageTestCases@46fa7c39</td></tr>
+<tr>
+<td title='com.eduven.testcase.WildlifePageTestCases.verify_wildlife_page_header_test()'><b>verify_wildlife_page_header_test</b><br>Test class: com.eduven.testcase.WildlifePageTestCases</td>
+<td></td>
+<td>122</td>
+<td>com.eduven.testcase.WildlifePageTestCases@41c2284a</td></tr>
+<tr>
+<td title='com.eduven.testcase.WildlifeWanderingsPageTestCases.verify_wildlife_wanderings_page_header_test()'><b>verify_wildlife_wanderings_page_header_test</b><br>Test class: com.eduven.testcase.WildlifeWanderingsPageTestCases</td>
+<td></td>
+<td>46</td>
+<td>com.eduven.testcase.WildlifeWanderingsPageTestCases@1356d4d4</td></tr>
+<tr>
+<td title='com.eduven.testcase.WildlifePageTestCases.wildlif_page_free_entity_test()'><b>wildlif_page_free_entity_test</b><br>Test class: com.eduven.testcase.WildlifePageTestCases</td>
+<td></td>
+<td>542</td>
+<td>com.eduven.testcase.WildlifePageTestCases@41c2284a</td></tr>
+<tr>
+<td title='com.eduven.testcase.WildlifePageTestCases.wildlif_page_premium_entity_test()'><b>wildlif_page_premium_entity_test</b><br>Test class: com.eduven.testcase.WildlifePageTestCases</td>
+<td></td>
+<td>142</td>
+<td>com.eduven.testcase.WildlifePageTestCases@41c2284a</td></tr>
+<tr>
+<td title='com.eduven.testcase.WildlifePageTestCases.wildlife_page_entity_test()'><b>wildlife_page_entity_test</b><br>Test class: com.eduven.testcase.WildlifePageTestCases</td>
+<td></td>
+<td>15</td>
+<td>com.eduven.testcase.WildlifePageTestCases@41c2284a</td></tr>
+<tr>
+<td title='com.eduven.testcase.WildlifePageTestCases.wildlife_page_verify_contribute_entity_test()'><b>wildlife_page_verify_contribute_entity_test</b><br>Test class: com.eduven.testcase.WildlifePageTestCases</td>
+<td></td>
+<td>244</td>
+<td>com.eduven.testcase.WildlifePageTestCases@41c2284a</td></tr>
+<tr>
+<td title='com.eduven.testcase.WildlifeWanderingsPageTestCases.wildlife_wanderings_page_free_entity_test()'><b>wildlife_wanderings_page_free_entity_test</b><br>Test class: com.eduven.testcase.WildlifeWanderingsPageTestCases</td>
+<td></td>
+<td>41</td>
+<td>com.eduven.testcase.WildlifeWanderingsPageTestCases@1356d4d4</td></tr>
+<tr>
+<td title='com.eduven.testcase.WildlifeWanderingsPageTestCases.wildlife_wanderings_page_premium_entity_test()'><b>wildlife_wanderings_page_premium_entity_test</b><br>Test class: com.eduven.testcase.WildlifeWanderingsPageTestCases</td>
+<td></td>
+<td>31</td>
+<td>com.eduven.testcase.WildlifeWanderingsPageTestCases@1356d4d4</td></tr>
+<tr>
+<td title='com.eduven.testcase.WildlifeWanderingsPageTestCases.wildlife_wanderings_page_verfiy_contribute_entity_test()'><b>wildlife_wanderings_page_verfiy_contribute_entity_test</b><br>Test class: com.eduven.testcase.WildlifeWanderingsPageTestCases</td>
+<td></td>
+<td>9</td>
+<td>com.eduven.testcase.WildlifeWanderingsPageTestCases@1356d4d4</td></tr>
+<tr>
+<td title='com.eduven.testcase.WildlifeWanderingsPageTestCases.willife_wanderings_page_entity_test()'><b>willife_wanderings_page_entity_test</b><br>Test class: com.eduven.testcase.WildlifeWanderingsPageTestCases</td>
+<td></td>
+<td>8</td>
+<td>com.eduven.testcase.WildlifeWanderingsPageTestCases@1356d4d4</td></tr>
+</table><p>
+</body>
+</html>

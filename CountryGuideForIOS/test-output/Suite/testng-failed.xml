@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Historical-Hangout-Test1">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases"/>
+    </classes>
+  </test> <!-- Historical-Hangout-Test1 -->
+  <test name="Historical-Hangout-Test2">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases"/>
+    </classes>
+  </test> <!-- Historical-Hangout-Test2 -->
+  <test name="Historical-Hangout-Test3">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases"/>
+    </classes>
+  </test> <!-- Historical-Hangout-Test3 -->
+  <test name="Historical-Hangout-Test4">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases"/>
+    </classes>
+  </test> <!-- Historical-Hangout-Test4 -->
+</suite> <!-- Failed suite [Suite] -->

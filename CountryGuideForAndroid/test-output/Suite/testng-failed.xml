@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Historical-Hangout-Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="historical_hangout_page_free_entity_test"/>
+          <include name="historical_hangout_page_header_test"/>
+          <include name="historical_hangout_page_verify_contibute_element"/>
+          <include name="historical_hangout_page_entity_test"/>
+          <include name="historical_hangout_page_paid_entity_test"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- Historical-Hangout-Test(failed) -->
+  <test name="BusinessBoulevards-Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.eduven.testcase.BusinessBoulevardsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="business_boulevards_page_entity_test"/>
+          <include name="business_boulevards_page_premium_entity_test"/>
+          <include name="business_boulevards_page_free_entity_test"/>
+          <include name="business_boulevards_page_header_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.BusinessBoulevardsPageTestCases -->
+      <class name="com.eduven.testcase.HistoricalHangoutsPageTestCases">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalHangoutsPageTestCases -->
+    </classes>
+  </test> <!-- BusinessBoulevards-Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

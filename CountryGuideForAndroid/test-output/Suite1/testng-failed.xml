@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="Test_Suite1">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases"/>
+    </classes>
+  </test> <!-- Test_Suite1 -->
+  <test name="Test_Suite2">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases"/>
+    </classes>
+  </test> <!-- Test_Suite2 -->
+  <test name="Test_Suite3">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases"/>
+    </classes>
+  </test> <!-- Test_Suite3 -->
+  <test name="Test_Suite4">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases"/>
+    </classes>
+  </test> <!-- Test_Suite4 -->
+  <test name="Test_Suite1(failed)">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="historical_page_enter_date_test"/>
+          <include name="close_app"/>
+          <include name="verify_event_message_text_for_specific_date_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+    </classes>
+  </test> <!-- Test_Suite1(failed) -->
+  <test name="Test_Suite2(failed)">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="historical_events_page_get_event_message_text_test"/>
+          <include name="historical_page_enter_date_test"/>
+          <include name="close_app"/>
+          <include name="verify_event_message_text_for_specific_date_test"/>
+          <include name="close_flyer_popup_test"/>
+          <include name="verify_event_description_text_test"/>
+          <include name="verify_historical_events_page_header_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+    </classes>
+  </test> <!-- Test_Suite2(failed) -->
+  <test name="Test_Suite3(failed)">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="historical_events_page_get_event_message_text_test"/>
+          <include name="historical_page_enter_date_test"/>
+          <include name="close_app"/>
+          <include name="verify_event_message_text_for_specific_date_test"/>
+          <include name="close_flyer_popup_test"/>
+          <include name="verify_event_description_text_test"/>
+          <include name="verify_historical_events_page_header_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+    </classes>
+  </test> <!-- Test_Suite3(failed) -->
+  <test name="Test_Suite4(failed)">
+    <classes>
+      <class name="com.eduven.testcase.HistoricalEventsPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="historical_events_page_get_event_message_text_test"/>
+          <include name="historical_page_enter_date_test"/>
+          <include name="close_app"/>
+          <include name="verify_event_message_text_for_specific_date_test"/>
+          <include name="close_flyer_popup_test"/>
+          <include name="verify_event_description_text_test"/>
+          <include name="verify_historical_events_page_header_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HistoricalEventsPageTestCases -->
+    </classes>
+  </test> <!-- Test_Suite4(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
