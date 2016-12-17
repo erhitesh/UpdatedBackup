@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.eduven.testcase.TermListPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="navigateToEditTermPageTest"/>
+          <include name="verifyContributePageWithoutTextTest"/>
+          <include name="verifyContributePageWithWordTest"/>
+          <include name="verifyLockTermNameTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TermListPageTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

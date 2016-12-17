@@ -1,0 +1,798 @@
+<html>
+<head>
+<title>TestNG:  Regression Testing</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Testing</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>116/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 13 12:57:35 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>10547 seconds (10547972 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialBeforePurchase.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.CheckInterstetialBeforePurchase</td>
+<td><div><pre>java.lang.IllegalArgumentException: wrong number of arguments
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1023)
+	at org.testng.TestRunner.run(TestRunner.java:628)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div><a href='#' onClick='toggleBox("stack-trace48305285", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace48305285'><pre>java.lang.IllegalArgumentException: wrong number of arguments
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1023)
+	at org.testng.TestRunner.run(TestRunner.java:628)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialBeforePurchase.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.CheckInterstetialBeforePurchase</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.verifyAutoPlayWorksTest()'><b>verifyAutoPlayWorksTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td><div><pre>java.lang.AssertionError: Error Messsage!!Term Name still matched.
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotEquals(Assert.java:856)
+	at com.eduven.utils.Reusables.verifyNotEqualMessage(Reusables.java:767)
+	at com.eduven.modules.AutoPlay.verifyTermNameAfterAutoPlay(AutoPlay.java:202)
+	at com.eduven.testcase.AutoPlayPageTestCases.verifyAutoPlayWorksTest(AutoPlayPageTestCases.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1389509050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1389509050'><pre>java.lang.AssertionError: Error Messsage!!Term Name still matched.
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotEquals(Assert.java:856)
+	at com.eduven.utils.Reusables.verifyNotEqualMessage(Reusables.java:767)
+	at com.eduven.modules.AutoPlay.verifyTermNameAfterAutoPlay(AutoPlay.java:202)
+	at com.eduven.testcase.AutoPlayPageTestCases.verifyAutoPlayWorksTest(AutoPlayPageTestCases.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:63)
+</pre></div></td>
+<td>2</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@9d5509a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.addTermInEdubankForQuicklistTest()'><b>addTermInEdubankForQuicklistTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>9</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.addTermInEdubankTest()'><b>addTermInEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>7</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.categorySettingPageTest()'><b>categorySettingPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>596</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.checkAllCategoryInCategorySettingTest()'><b>checkAllCategoryInCategorySettingTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>219</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.ThirtyPercentageFeatureTestCase.checkFirstTermAsUnlockTermTest()'><b>checkFirstTermAsUnlockTermTest</b><br>Test class: com.eduven.testcase.ThirtyPercentageFeatureTestCase</td>
+<td></td>
+<td>3603</td>
+<td>com.eduven.testcase.ThirtyPercentageFeatureTestCase@3cd3e762</td></tr>
+<tr>
+<td title='com.eduven.testcase.ThirtyPercentageFeatureTestCase.check_thirty_percentage_feature_test()'><b>check_thirty_percentage_feature_test</b><br>Test class: com.eduven.testcase.ThirtyPercentageFeatureTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.ThirtyPercentageFeatureTestCase@3cd3e762</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.getFirstTermNameBeforeStartTest()'><b>getFirstTermNameBeforeStartTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@9d5509a</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.getInTouchPageTest()'><b>getInTouchPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>42</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.handlingRateAppPopupTest()'><b>handlingRateAppPopupTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@9d5509a</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialBeforePurchase.handlingRateAppPopupTest()'><b>handlingRateAppPopupTest</b><br>Test class: com.eduven.testcase.CheckInterstetialBeforePurchase</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.CheckInterstetialBeforePurchase@3b0090a4</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.increaseDelayTimeTest()'><b>increaseDelayTimeTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>20</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@9d5509a</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoryPageTestCases.installAppAndLanguageSelectionTest()'><b>installAppAndLanguageSelectionTest</b><br>Test class: com.eduven.testcase.CategoryPageTestCases</td>
+<td></td>
+<td>35</td>
+<td>com.eduven.testcase.CategoryPageTestCases@f5958c9</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.installAppAndLanguageSelectionTest()'><b>installAppAndLanguageSelectionTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.installAppAndLanguageSelectionTest()'><b>installAppAndLanguageSelectionTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>35</td>
+<td>com.eduven.testcase.GamesPageTestCases@5bda8e08</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.installAppAndLanguageSelectionTest()'><b>installAppAndLanguageSelectionTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermListPageTestCases.installAppAndLanguageSelectionTest()'><b>installAppAndLanguageSelectionTest</b><br>Test class: com.eduven.testcase.TermListPageTestCases</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.TermListPageTestCases@185a6e9</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.installAppAndLanguageSelectionTest()'><b>installAppAndLanguageSelectionTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@9d5509a</td></tr>
+<tr>
+<td title='com.eduven.testcase.NetworkRelatedTestCases.installAppAndLanguageSelectionTest()'><b>installAppAndLanguageSelectionTest</b><br>Test class: com.eduven.testcase.NetworkRelatedTestCases</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.NetworkRelatedTestCases@179ece50</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialBeforePurchase.installAppAndLanguageSelectionTest()'><b>installAppAndLanguageSelectionTest</b><br>Test class: com.eduven.testcase.CheckInterstetialBeforePurchase</td>
+<td></td>
+<td>35</td>
+<td>com.eduven.testcase.CheckInterstetialBeforePurchase@3b0090a4</td></tr>
+<tr>
+<td title='com.eduven.testcase.ThirtyPercentageFeatureTestCase.installAppAndLanguageSelectionTest()'><b>installAppAndLanguageSelectionTest</b><br>Test class: com.eduven.testcase.ThirtyPercentageFeatureTestCase</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.ThirtyPercentageFeatureTestCase@3cd3e762</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.installAppAndLanguageSelectionTest()'><b>installAppAndLanguageSelectionTest</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.PurchaseTestCases@1fa121e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.install_app_and_language_selection_test()'><b>install_app_and_language_selection_test</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>92</td>
+<td>com.eduven.testcase.HomePageTestCases@77c2494c</td></tr>
+<tr>
+<td title='com.eduven.testcase.SearchPageTestCases.install_app_and_language_selection_test()'><b>install_app_and_language_selection_test</b><br>Test class: com.eduven.testcase.SearchPageTestCases</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.SearchPageTestCases@3eb738bb</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.install_app_and_language_selection_test()'><b>install_app_and_language_selection_test</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.QuickListPageTestCases@6f03482</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.install_app_and_language_selection_test()'><b>install_app_and_language_selection_test</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@7eac9008</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.navigateContributePageTest()'><b>navigateContributePageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>5</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.navigateToAppListPageTest()'><b>navigateToAppListPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>3</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermListPageTestCases.navigateToEditTermPageTest()'><b>navigateToEditTermPageTest</b><br>Test class: com.eduven.testcase.TermListPageTestCases</td>
+<td></td>
+<td>135</td>
+<td>com.eduven.testcase.TermListPageTestCases@185a6e9</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigateToEdubankQuicklistTest()'><b>navigateToEdubankQuicklistTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>49</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigateToEdubankTest()'><b>navigateToEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>50</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigateToEquicklistPageTest()'><b>navigateToEquicklistPageTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>7</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.navigateToGaemPageTest()'><b>navigateToGaemPageTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>8</td>
+<td>com.eduven.testcase.GamesPageTestCases@5bda8e08</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.navigateToMoreAppsPageTest()'><b>navigateToMoreAppsPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>7</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigateToQuicklistTermPageTest()'><b>navigateToQuicklistTermPageTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>25</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigateToTermPageTest()'><b>navigateToTermPageTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>8</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.navigate_to_buy_test()'><b>navigate_to_buy_test</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>4</td>
+<td>com.eduven.testcase.PurchaseTestCases@1fa121e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.navigate_to_quick_list_term_test()'><b>navigate_to_quick_list_term_test</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>56</td>
+<td>com.eduven.testcase.QuickListPageTestCases@6f03482</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.navigate_to_quick_list_term_test()'><b>navigate_to_quick_list_term_test</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>25</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@7eac9008</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.navigate_to_quick_list_test()'><b>navigate_to_quick_list_test</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>5</td>
+<td>com.eduven.testcase.QuickListPageTestCases@6f03482</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.navigate_to_quick_list_test()'><b>navigate_to_quick_list_test</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>6</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@7eac9008</td></tr>
+<tr>
+<td title='com.eduven.testcase.SearchPageTestCases.navigate_to_search_page_test()'><b>navigate_to_search_page_test</b><br>Test class: com.eduven.testcase.SearchPageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.SearchPageTestCases@3eb738bb</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.navigate_to_switch_lingo_page_test()'><b>navigate_to_switch_lingo_page_test</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>12</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@7eac9008</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.premium_word_purchase_test()'><b>premium_word_purchase_test</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>47</td>
+<td>com.eduven.testcase.PurchaseTestCases@1fa121e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.purchase_native_langugae_test()'><b>purchase_native_langugae_test</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>20</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@7eac9008</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.questionCountTest()'><b>questionCountTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>1</td>
+<td>com.eduven.testcase.GamesPageTestCases@5bda8e08</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.removeAllTermsFromEdubankForQuicklistTest()'><b>removeAllTermsFromEdubankForQuicklistTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>1</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.removeAllTermsFromEdubankTest()'><b>removeAllTermsFromEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.removeTermsFromEdubankForQuicklistTest()'><b>removeTermsFromEdubankForQuicklistTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>4</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.remove_terms_from_Edubank_test()'><b>remove_terms_from_Edubank_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>4</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.SearchPageTestCases.search_page_audio_test()'><b>search_page_audio_test</b><br>Test class: com.eduven.testcase.SearchPageTestCases</td>
+<td></td>
+<td>7</td>
+<td>com.eduven.testcase.SearchPageTestCases@3eb738bb</td></tr>
+<tr>
+<td title='com.eduven.testcase.SearchPageTestCases.search_word_for_Unlock_term_test()'><b>search_word_for_Unlock_term_test</b><br>Test class: com.eduven.testcase.SearchPageTestCases</td>
+<td></td>
+<td>60</td>
+<td>com.eduven.testcase.SearchPageTestCases@3eb738bb</td></tr>
+<tr>
+<td title='com.eduven.testcase.SearchPageTestCases.search_word_test()'><b>search_word_test</b><br>Test class: com.eduven.testcase.SearchPageTestCases</td>
+<td></td>
+<td>35</td>
+<td>com.eduven.testcase.SearchPageTestCases@3eb738bb</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.selectGameFromGameListTest()'><b>selectGameFromGameListTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>4</td>
+<td>com.eduven.testcase.GamesPageTestCases@5bda8e08</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.selectRandomCategoryTest()'><b>selectRandomCategoryTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>8</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@9d5509a</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.selectRandomOptionForQuestionTest()'><b>selectRandomOptionForQuestionTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>11</td>
+<td>com.eduven.testcase.GamesPageTestCases@5bda8e08</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.startGameTest()'><b>startGameTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.GamesPageTestCases@5bda8e08</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.startTurboPlayTest()'><b>startTurboPlayTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>1</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@9d5509a</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.switch_lingo_change_base_language_test()'><b>switch_lingo_change_base_language_test</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>22</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@7eac9008</td></tr>
+<tr>
+<td title='com.eduven.testcase.NetworkRelatedTestCases.turnOnNetworkConnectionTest()'><b>turnOnNetworkConnectionTest</b><br>Test class: com.eduven.testcase.NetworkRelatedTestCases</td>
+<td></td>
+<td>33</td>
+<td>com.eduven.testcase.NetworkRelatedTestCases@179ece50</td></tr>
+<tr>
+<td title='com.eduven.testcase.NetworkRelatedTestCases.turnoffNetworkConnectionTest()'><b>turnoffNetworkConnectionTest</b><br>Test class: com.eduven.testcase.NetworkRelatedTestCases</td>
+<td></td>
+<td>23</td>
+<td>com.eduven.testcase.NetworkRelatedTestCases@179ece50</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.verifyAddedTermInEdubankAfterRemoveOneTermTest()'><b>verifyAddedTermInEdubankAfterRemoveOneTermTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>23</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.verifyAddedTermInEdubankForQuicklistAfterRemoveOnTermTest()'><b>verifyAddedTermInEdubankForQuicklistAfterRemoveOnTermTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>23</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.verifyAddedTermInEdubankForQuicklistTest()'><b>verifyAddedTermInEdubankForQuicklistTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>7</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.verifyAddedTermInEdubankTest()'><b>verifyAddedTermInEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>6</td>
+<td>com.eduven.testcase.EduBankPageTestCases@233795b6</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.verifyAttemptedQuestionOnScoreBoardTest()'><b>verifyAttemptedQuestionOnScoreBoardTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.GamesPageTestCases@5bda8e08</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.verifyButtonsRelatedAutPlayTest()'><b>verifyButtonsRelatedAutPlayTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>4</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@9d5509a</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.verifyCategoryHeaderTxt()'><b>verifyCategoryHeaderTxt</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>3</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@9d5509a</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoryPageTestCases.verifyCategoryHeaderTxtTest()'><b>verifyCategoryHeaderTxtTest</b><br>Test class: com.eduven.testcase.CategoryPageTestCases</td>
+<td></td>
+<td>3</td>
+<td>com.eduven.testcase.CategoryPageTestCases@f5958c9</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoryPageTestCases.verifyCategoryListTest()'><b>verifyCategoryListTest</b><br>Test class: com.eduven.testcase.CategoryPageTestCases</td>
+<td></td>
+<td>297</td>
+<td>com.eduven.testcase.CategoryPageTestCases@f5958c9</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoryPageTestCases.verifyCategoryTermCountTest()'><b>verifyCategoryTermCountTest</b><br>Test class: com.eduven.testcase.CategoryPageTestCases</td>
+<td></td>
+<td>484</td>
+<td>com.eduven.testcase.CategoryPageTestCases@f5958c9</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyContributePageWithCategoryTest()'><b>verifyContributePageWithCategoryTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>37</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyContributePageWithRequiredTextTest()'><b>verifyContributePageWithRequiredTextTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>83</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermListPageTestCases.verifyContributePageWithTest()'><b>verifyContributePageWithTest</b><br>Test class: com.eduven.testcase.TermListPageTestCases</td>
+<td></td>
+<td>80</td>
+<td>com.eduven.testcase.TermListPageTestCases@185a6e9</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyContributePageWithWordTest()'><b>verifyContributePageWithWordTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>43</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyContributePageWithoutTextTest()'><b>verifyContributePageWithoutTextTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>15</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermListPageTestCases.verifyContributePageWithoutTextTest()'><b>verifyContributePageWithoutTextTest</b><br>Test class: com.eduven.testcase.TermListPageTestCases</td>
+<td></td>
+<td>15</td>
+<td>com.eduven.testcase.TermListPageTestCases@185a6e9</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyDislcaimerTest()'><b>verifyDislcaimerTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>14</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.NetworkRelatedTestCases.verifyEVMenuForNetworkConnectionTest()'><b>verifyEVMenuForNetworkConnectionTest</b><br>Test class: com.eduven.testcase.NetworkRelatedTestCases</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.NetworkRelatedTestCases@179ece50</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.verifyElementAfterStartTurboPlayTest()'><b>verifyElementAfterStartTurboPlayTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>4</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@9d5509a</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.verifyElementOnGameHomeScreenTest()'><b>verifyElementOnGameHomeScreenTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.GamesPageTestCases@5bda8e08</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.verifyElementOnMainGamePageScreenTest()'><b>verifyElementOnMainGamePageScreenTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>9</td>
+<td>com.eduven.testcase.GamesPageTestCases@5bda8e08</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyFaqsTest()'><b>verifyFaqsTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>14</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.verifyGameListNavigationTest()'><b>verifyGameListNavigationTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>656</td>
+<td>com.eduven.testcase.GamesPageTestCases@5bda8e08</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyGooglePlayStorePageLoadedTest()'><b>verifyGooglePlayStorePageLoadedTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>7</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialBeforePurchase.verifyInterstetialForGamesTest()'><b>verifyInterstetialForGamesTest</b><br>Test class: com.eduven.testcase.CheckInterstetialBeforePurchase</td>
+<td></td>
+<td>90</td>
+<td>com.eduven.testcase.CheckInterstetialBeforePurchase@3b0090a4</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialBeforePurchase.verifyInterstetialForInAppTest()'><b>verifyInterstetialForInAppTest</b><br>Test class: com.eduven.testcase.CheckInterstetialBeforePurchase</td>
+<td></td>
+<td>32</td>
+<td>com.eduven.testcase.CheckInterstetialBeforePurchase@3b0090a4</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialBeforePurchase.verifyInterstetialForQuicklistTest()'><b>verifyInterstetialForQuicklistTest</b><br>Test class: com.eduven.testcase.CheckInterstetialBeforePurchase</td>
+<td></td>
+<td>31</td>
+<td>com.eduven.testcase.CheckInterstetialBeforePurchase@3b0090a4</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialBeforePurchase.verifyInterstetialForSearchTest()'><b>verifyInterstetialForSearchTest</b><br>Test class: com.eduven.testcase.CheckInterstetialBeforePurchase</td>
+<td></td>
+<td>93</td>
+<td>com.eduven.testcase.CheckInterstetialBeforePurchase@3b0090a4</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialBeforePurchase.verifyInterstetialForWordListTest()'><b>verifyInterstetialForWordListTest</b><br>Test class: com.eduven.testcase.CheckInterstetialBeforePurchase</td>
+<td></td>
+<td>255</td>
+<td>com.eduven.testcase.CheckInterstetialBeforePurchase@3b0090a4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyMoreAppsPageLoadedTest()'><b>verifyMoreAppsPageLoadedTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>15</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyPrivacyPolicyTest()'><b>verifyPrivacyPolicyTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>38</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.NetworkRelatedTestCases.verifyPurchaseAppRelatedNetworkConnectionTest()'><b>verifyPurchaseAppRelatedNetworkConnectionTest</b><br>Test class: com.eduven.testcase.NetworkRelatedTestCases</td>
+<td></td>
+<td>18</td>
+<td>com.eduven.testcase.NetworkRelatedTestCases@179ece50</td></tr>
+<tr>
+<td title='com.eduven.testcase.NetworkRelatedTestCases.verifySwicthLingoRelatedNetworkConnectionTest()'><b>verifySwicthLingoRelatedNetworkConnectionTest</b><br>Test class: com.eduven.testcase.NetworkRelatedTestCases</td>
+<td></td>
+<td>40</td>
+<td>com.eduven.testcase.NetworkRelatedTestCases@179ece50</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyTermAndConditionTest()'><b>verifyTermAndConditionTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>34</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.verifyWrongAttemptedQuestionOnScoreBoardTest()'><b>verifyWrongAttemptedQuestionOnScoreBoardTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>1</td>
+<td>com.eduven.testcase.GamesPageTestCases@5bda8e08</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.verify_category_list_after_base_language_change_test()'><b>verify_category_list_after_base_language_change_test</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>296</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@7eac9008</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.verify_element_on_homePage_test()'><b>verify_element_on_homePage_test</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>4</td>
+<td>com.eduven.testcase.HomePageTestCases@77c2494c</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.verify_footer_element_on_home_page_test()'><b>verify_footer_element_on_home_page_test</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.HomePageTestCases@77c2494c</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.verify_interstetial_for_games_test()'><b>verify_interstetial_for_games_test</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>107</td>
+<td>com.eduven.testcase.PurchaseTestCases@1fa121e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.verify_interstetial_for_quicklist_test()'><b>verify_interstetial_for_quicklist_test</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>50</td>
+<td>com.eduven.testcase.PurchaseTestCases@1fa121e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.verify_interstetial_for_search_test()'><b>verify_interstetial_for_search_test</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>111</td>
+<td>com.eduven.testcase.PurchaseTestCases@1fa121e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.verify_interstetial_for_word_list_test()'><b>verify_interstetial_for_word_list_test</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>545</td>
+<td>com.eduven.testcase.PurchaseTestCases@1fa121e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.verify_lock_term_appear_as_unlock_term_test()'><b>verify_lock_term_appear_as_unlock_term_test</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>120</td>
+<td>com.eduven.testcase.PurchaseTestCases@1fa121e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.verify_lock_term_before_purchase_test()'><b>verify_lock_term_before_purchase_test</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>119</td>
+<td>com.eduven.testcase.PurchaseTestCases@1fa121e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.verify_lock_term_name_on_term_list_page_test()'><b>verify_lock_term_name_on_term_list_page_test</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>97</td>
+<td>com.eduven.testcase.QuickListPageTestCases@6f03482</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.verify_more_app_btn_after_purchase()'><b>verify_more_app_btn_after_purchase</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>5</td>
+<td>com.eduven.testcase.PurchaseTestCases@1fa121e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.verify_quick_list_category_test()'><b>verify_quick_list_category_test</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>76</td>
+<td>com.eduven.testcase.QuickListPageTestCases@6f03482</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.verify_quick_list_category_test()'><b>verify_quick_list_category_test</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>79</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@7eac9008</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.verify_quick_list_headertxt_test()'><b>verify_quick_list_headertxt_test</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>1</td>
+<td>com.eduven.testcase.QuickListPageTestCases@6f03482</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.verify_quick_list_headertxt_test()'><b>verify_quick_list_headertxt_test</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>1</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@7eac9008</td></tr>
+<tr>
+<td title='com.eduven.testcase.SearchPageTestCases.verify_search_page_header_test()'><b>verify_search_page_header_test</b><br>Test class: com.eduven.testcase.SearchPageTestCases</td>
+<td></td>
+<td>1</td>
+<td>com.eduven.testcase.SearchPageTestCases@3eb738bb</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.verify_term_header_and_term_name_test()'><b>verify_term_header_and_term_name_test</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>101</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@7eac9008</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.verify_terms_name_on_termlist_page_test()'><b>verify_terms_name_on_termlist_page_test</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>38</td>
+<td>com.eduven.testcase.QuickListPageTestCases@6f03482</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.verify_terms_name_on_termlist_page_test()'><b>verify_terms_name_on_termlist_page_test</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>1</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@7eac9008</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.verify_unlock_term_name_on_term_list_page_test()'><b>verify_unlock_term_name_on_term_list_page_test</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>257</td>
+<td>com.eduven.testcase.QuickListPageTestCases@6f03482</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.wordOfDayTest()'><b>wordOfDayTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>20</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@1e800aaa</td></tr>
+</table><p>
+</body>
+</html>

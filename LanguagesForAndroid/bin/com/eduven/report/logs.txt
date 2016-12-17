@@ -1,0 +1,2093 @@
+2016-07-31 12:52:19 Logs.java ERROR Logs:55 - Facebook text not visible. org.openqa.selenium.NoSuchElementException
+2016-07-31 12:56:54 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-07-31 12:56:57 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-07-31 12:57:00 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-07-31 12:57:02 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-07-31 12:57:05 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-07-31 12:57:07 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-07-31 12:57:10 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-07-31 12:57:12 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-07-31 12:57:15 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-07-31 12:57:18 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-07-31 12:57:20 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-07-31 12:57:23 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-07-31 12:57:25 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-07-31 12:58:00 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-07-31 12:58:02 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-07-31 12:58:05 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-07-31 12:58:07 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-07-31 12:58:10 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-07-31 12:58:12 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-07-31 12:58:15 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-07-31 13:27:57 Logs.java ERROR Logs:55 - Added Term found in edubank. org.openqa.selenium.NoSuchElementException
+2016-07-31 13:29:36 Logs.java INFO  Logs:38 - *****************Enter the text message*************Waste
+2016-07-31 13:31:00 Logs.java INFO  Logs:38 - *****************Enter the text message*************T shirt
+2016-07-31 13:36:41 Logs.java INFO  Logs:38 - *****************Enter the text message*************Gold
+2016-07-31 13:37:09 Logs.java INFO  Logs:38 - *****************Enter the text message*************Gold
+2016-07-31 13:50:54 Logs.java ERROR Logs:55 - Facebook post not visible. org.openqa.selenium.NoSuchElementException
+2016-07-31 13:51:30 Logs.java ERROR Logs:55 - Facebook post not visible. org.openqa.selenium.NoSuchElementException
+2016-07-31 13:52:01 Logs.java ERROR Logs:55 - Facebook text not visible. org.openqa.selenium.NoSuchElementException
+2016-07-31 13:53:34 Logs.java ERROR Logs:55 - Select profile type not found. org.openqa.selenium.NoSuchElementException
+2016-07-31 13:56:17 Logs.java INFO  Logs:38 - Term Name..> Alone Found.
+2016-07-31 13:56:20 Logs.java INFO  Logs:38 - Term Name..> Angry Found.
+2016-07-31 13:56:23 Logs.java INFO  Logs:38 - Term Name..> Happy Found.
+2016-07-31 13:56:25 Logs.java INFO  Logs:38 - Term Name..> Broken Found.
+2016-07-31 13:57:00 Logs.java INFO  Logs:38 - Term Name..> Dangerous Found.
+2016-07-31 13:57:03 Logs.java INFO  Logs:38 - Term Name..> Famous Found.
+2016-07-31 13:57:05 Logs.java INFO  Logs:38 - Term Name..> Intelligent Found.
+2016-07-31 13:57:08 Logs.java INFO  Logs:38 - Term Name..> Ugly Found.
+2016-07-31 13:57:43 Logs.java INFO  Logs:38 - Term Name..> Beautiful Found.
+2016-07-31 13:57:46 Logs.java INFO  Logs:38 - Term Name..> Handsome Found.
+2016-07-31 13:57:48 Logs.java INFO  Logs:38 - Term Name..> Good Found.
+2016-07-31 13:57:50 Logs.java INFO  Logs:38 - Term Name..> Nice Found.
+2016-07-31 13:58:25 Logs.java INFO  Logs:38 - Term Name..> Pleasant Found.
+2016-07-31 13:58:27 Logs.java INFO  Logs:38 - Term Name..> Wonderful Found.
+2016-07-31 13:58:30 Logs.java INFO  Logs:38 - Term Name..> Cheap Found.
+2016-07-31 13:59:05 Logs.java INFO  Logs:38 - Term Name..> Each Found.
+2016-07-31 13:59:07 Logs.java INFO  Logs:38 - Term Name..> Same Found.
+2016-07-31 13:59:10 Logs.java INFO  Logs:38 - Term Name..> Common Found.
+2016-07-31 13:59:45 Logs.java INFO  Logs:38 - Term Name..> Plain Found.
+2016-07-31 13:59:48 Logs.java INFO  Logs:38 - Term Name..> Simple Found.
+2016-07-31 13:59:50 Logs.java INFO  Logs:38 - Term Name..> Enough Found.
+2016-07-31 13:59:53 Logs.java INFO  Logs:38 - Term Name..> Only Found.
+2016-07-31 14:00:28 Logs.java INFO  Logs:38 - Term Name..> Possible Found.
+2016-07-31 14:00:30 Logs.java INFO  Logs:38 - Term Name..> Silly Found.
+2016-07-31 14:00:33 Logs.java INFO  Logs:38 - Term Name..> Comfortable Found.
+2016-07-31 14:00:36 Logs.java INFO  Logs:38 - Term Name..> Boring Found.
+2016-07-31 14:01:11 Logs.java INFO  Logs:38 - Term Name..> Myself Found.
+2016-07-31 14:01:14 Logs.java INFO  Logs:38 - Term Name..> Fat Found.
+2016-07-31 14:01:16 Logs.java INFO  Logs:38 - Term Name..> Serious Found.
+2016-07-31 14:01:20 Logs.java INFO  Logs:38 - Term Name..> Real Found.
+2016-07-31 14:01:55 Logs.java INFO  Logs:38 - Term Name..> True Found.
+2016-07-31 14:01:58 Logs.java INFO  Logs:38 - Term Name..> Polite Found.
+2016-07-31 14:02:00 Logs.java INFO  Logs:38 - Term Name..> Very Found.
+2016-07-31 14:02:03 Logs.java INFO  Logs:38 - Term Name..> Very small Found.
+2016-07-31 14:02:37 Logs.java INFO  Logs:38 - Term Name..> Smaller Found.
+2016-07-31 14:02:40 Logs.java INFO  Logs:38 - Term Name..> Nervous Found.
+2016-07-31 14:02:42 Logs.java INFO  Logs:38 - Term Name..> Tired Found.
+2016-07-31 14:03:17 Logs.java INFO  Logs:38 - Term Name..> Sick Found.
+2016-07-31 14:03:19 Logs.java INFO  Logs:38 - Term Name..> Younger Found.
+2016-07-31 14:09:53 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-07-31 14:09:56 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-07-31 14:09:59 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-07-31 14:10:01 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-07-31 14:10:04 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-07-31 14:10:07 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-07-31 14:10:09 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-07-31 14:10:12 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-07-31 14:10:15 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-07-31 14:10:17 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-07-31 14:10:20 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-07-31 14:10:22 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-07-31 14:10:25 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-07-31 14:10:59 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-07-31 14:11:02 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-07-31 14:11:04 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-07-31 14:11:07 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-07-31 14:11:09 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-07-31 14:11:12 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-07-31 14:11:15 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-07-31 14:13:08 Logs.java INFO  Logs:38 - Term Name..> Black Found.
+2016-07-31 14:13:11 Logs.java INFO  Logs:38 - Term Name..> Breakfast Found.
+2016-07-31 14:13:14 Logs.java INFO  Logs:38 - Term Name..> Vegetables Found.
+2016-07-31 14:13:16 Logs.java INFO  Logs:38 - Term Name..> Date Found.
+2016-07-31 14:13:51 Logs.java INFO  Logs:38 - Term Name..> Atm Found.
+2016-07-31 14:13:53 Logs.java INFO  Logs:38 - Term Name..> Clothes Found.
+2016-07-31 14:13:56 Logs.java INFO  Logs:38 - Term Name..> Country Found.
+2016-07-31 14:13:58 Logs.java INFO  Logs:38 - Term Name..> Money Found.
+2016-07-31 14:14:34 Logs.java INFO  Logs:38 - Term Name..> Phone number Found.
+2016-07-31 14:14:36 Logs.java INFO  Logs:38 - Term Name..> Airport Found.
+2016-07-31 14:14:38 Logs.java INFO  Logs:38 - Term Name..> Building Found.
+2016-07-31 14:14:41 Logs.java INFO  Logs:38 - Term Name..> City Found.
+2016-07-31 14:15:16 Logs.java INFO  Logs:38 - Term Name..> House Found.
+2016-07-31 14:15:19 Logs.java INFO  Logs:38 - Term Name..> Colors Found.
+2016-07-31 14:15:22 Logs.java INFO  Logs:38 - Term Name..> Credit card Found.
+2016-07-31 14:15:24 Logs.java INFO  Logs:38 - Term Name..> Dangerous Found.
+2016-07-31 14:43:39 Logs.java INFO  Logs:38 - *****************Enter the text message*************One
+2016-07-31 15:06:04 Logs.java INFO  Logs:38 - *****************Enter the text message*************English
+2016-07-31 15:18:09 Logs.java INFO  Logs:38 - *****************Enter the text message*************Rain
+2016-07-31 15:19:34 Logs.java INFO  Logs:38 - *****************Enter the text message*************Smirk
+2016-07-31 15:23:52 Logs.java INFO  Logs:38 - *****************Enter the text message*************Far
+2016-07-31 15:29:41 Logs.java INFO  Logs:38 - *****************Enter the text message*************Left
+2016-07-31 16:03:53 Logs.java ERROR Logs:55 - Added Term found in edubank. org.openqa.selenium.NoSuchElementException
+2016-07-31 16:05:32 Logs.java INFO  Logs:38 - *****************Enter the text message*************To eat
+2016-07-31 16:07:04 Logs.java INFO  Logs:38 - *****************Enter the text message*************Budget
+2016-07-31 16:09:22 Logs.java ERROR Logs:55 - Skip Button not found. org.openqa.selenium.NoSuchElementException
+2016-07-31 16:13:06 Logs.java INFO  Logs:38 - *****************Enter the text message*************Gold
+2016-07-31 16:13:33 Logs.java INFO  Logs:38 - *****************Enter the text message*************Gold
+2016-07-31 16:36:59 Logs.java ERROR Logs:55 - Facebook post not visible. org.openqa.selenium.NoSuchElementException
+2016-07-31 16:37:35 Logs.java ERROR Logs:55 - Facebook post not visible. org.openqa.selenium.NoSuchElementException
+2016-07-31 16:38:07 Logs.java ERROR Logs:55 - Facebook text not visible. org.openqa.selenium.NoSuchElementException
+2016-07-31 16:39:40 Logs.java ERROR Logs:55 - Select profile type not found. org.openqa.selenium.NoSuchElementException
+2016-07-31 16:45:27 Logs.java INFO  Logs:38 - Term Name..> Books Found.
+2016-07-31 16:45:29 Logs.java INFO  Logs:38 - Term Name..> Carbon paper Found.
+2016-07-31 16:45:32 Logs.java INFO  Logs:38 - Term Name..> Cello tape Found.
+2016-07-31 16:45:34 Logs.java INFO  Logs:38 - Term Name..> Chart Found.
+2016-07-31 16:46:10 Logs.java INFO  Logs:38 - Term Name..> Clips and pins Found.
+2016-07-31 16:46:12 Logs.java INFO  Logs:38 - Term Name..> Correction fluid Found.
+2016-07-31 16:46:15 Logs.java INFO  Logs:38 - Term Name..> Crayon Found.
+2016-07-31 16:46:17 Logs.java INFO  Logs:38 - Term Name..> Envelope Found.
+2016-07-31 16:46:52 Logs.java INFO  Logs:38 - Term Name..> Eraser Found.
+2016-07-31 16:46:55 Logs.java INFO  Logs:38 - Term Name..> Files Found.
+2016-07-31 16:46:57 Logs.java INFO  Logs:38 - Term Name..> Glue stick Found.
+2016-07-31 16:47:00 Logs.java INFO  Logs:38 - Term Name..> Highlighter Found.
+2016-07-31 16:47:35 Logs.java INFO  Logs:38 - Term Name..> Paper Found.
+2016-07-31 16:47:38 Logs.java INFO  Logs:38 - Term Name..> Paper cutter Found.
+2016-07-31 16:47:40 Logs.java INFO  Logs:38 - Term Name..> Pen Found.
+2016-07-31 16:48:15 Logs.java INFO  Logs:38 - Term Name..> Pencil Found.
+2016-07-31 16:48:18 Logs.java INFO  Logs:38 - Term Name..> Permanent marker Found.
+2016-07-31 16:48:21 Logs.java INFO  Logs:38 - Term Name..> Register Found.
+2016-07-31 16:48:55 Logs.java INFO  Logs:38 - Term Name..> Ruler Found.
+2016-07-31 16:48:58 Logs.java INFO  Logs:38 - Term Name..> Scissors small Found.
+2016-07-31 16:49:00 Logs.java INFO  Logs:38 - Term Name..> Sharpener Found.
+2016-07-31 16:49:35 Logs.java INFO  Logs:38 - Term Name..> Stamp pad Found.
+2016-07-31 16:49:38 Logs.java INFO  Logs:38 - Term Name..> Stapler Found.
+2016-07-31 16:49:41 Logs.java INFO  Logs:38 - Term Name..> Worksheet Found.
+2016-07-31 17:07:00 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-07-31 17:07:03 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-07-31 17:07:06 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-07-31 17:07:08 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-07-31 17:07:11 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-07-31 17:07:13 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-07-31 17:07:16 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-07-31 17:07:18 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-07-31 17:07:21 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-07-31 17:07:23 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-07-31 17:07:26 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-07-31 17:07:28 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-07-31 17:07:31 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-07-31 17:08:05 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-07-31 17:08:08 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-07-31 17:08:11 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-07-31 17:08:13 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-07-31 17:08:15 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-07-31 17:08:18 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-07-31 17:08:20 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-07-31 17:09:41 Logs.java INFO  Logs:38 - Term Name..> Black Found.
+2016-07-31 17:09:43 Logs.java INFO  Logs:38 - Term Name..> Atm Found.
+2016-07-31 17:09:46 Logs.java INFO  Logs:38 - Term Name..> Clothes Found.
+2016-07-31 17:09:48 Logs.java INFO  Logs:38 - Term Name..> Blue Found.
+2016-07-31 17:10:23 Logs.java INFO  Logs:38 - Term Name..> Cotton Found.
+2016-07-31 17:10:26 Logs.java INFO  Logs:38 - Term Name..> Colors Found.
+2016-07-31 17:10:29 Logs.java INFO  Logs:38 - Term Name..> Credit card Found.
+2016-07-31 17:10:31 Logs.java INFO  Logs:38 - Term Name..> Debit card Found.
+2016-07-31 17:11:06 Logs.java INFO  Logs:38 - Term Name..> Shirt Found.
+2016-07-31 17:11:08 Logs.java INFO  Logs:38 - Term Name..> How much Found.
+2016-07-31 17:11:11 Logs.java INFO  Logs:38 - Term Name..> Green Found.
+2016-07-31 17:11:13 Logs.java INFO  Logs:38 - Term Name..> Pants Found.
+2016-07-31 17:11:16 Logs.java INFO  Logs:38 - Term Name..> Customer Found.
+2016-07-31 17:11:50 Logs.java INFO  Logs:38 - Term Name..> Bargain Found.
+2016-07-31 17:11:53 Logs.java INFO  Logs:38 - Term Name..> Jacket Found.
+2016-07-31 17:11:56 Logs.java INFO  Logs:38 - Term Name..> Ugly Found.
+2016-07-31 17:11:58 Logs.java INFO  Logs:38 - Term Name..> Beautiful Found.
+2016-07-31 17:12:33 Logs.java INFO  Logs:38 - Term Name..> Skirt Found.
+2016-07-31 17:12:36 Logs.java INFO  Logs:38 - Term Name..> Dress Found.
+2016-07-31 17:12:39 Logs.java INFO  Logs:38 - Term Name..> Discount Found.
+2016-07-31 17:13:14 Logs.java INFO  Logs:38 - Term Name..> Handbag Found.
+2016-07-31 17:13:16 Logs.java INFO  Logs:38 - Term Name..> Wallet Found.
+2016-07-31 17:13:19 Logs.java INFO  Logs:38 - Term Name..> Price Found.
+2016-07-31 17:13:21 Logs.java INFO  Logs:38 - Term Name..> Red Found.
+2016-07-31 17:13:57 Logs.java INFO  Logs:38 - Term Name..> Market Found.
+2016-07-31 17:13:59 Logs.java INFO  Logs:38 - Term Name..> Receipt Found.
+2016-07-31 17:14:02 Logs.java INFO  Logs:38 - Term Name..> White Found.
+2016-07-31 17:14:04 Logs.java INFO  Logs:38 - Term Name..> Purse Found.
+2016-07-31 17:14:40 Logs.java INFO  Logs:38 - Term Name..> Wristwatch Found.
+2016-07-31 17:14:43 Logs.java INFO  Logs:38 - Term Name..> Yellow Found.
+2016-07-31 17:14:45 Logs.java INFO  Logs:38 - Term Name..> Cheap Found.
+2016-07-31 17:14:48 Logs.java INFO  Logs:38 - Term Name..> Sales tax Found.
+2016-07-31 17:15:23 Logs.java INFO  Logs:38 - Term Name..> Shoe Found.
+2016-07-31 17:15:25 Logs.java INFO  Logs:38 - Term Name..> Expensive Found.
+2016-07-31 17:15:28 Logs.java INFO  Logs:38 - Term Name..> Currency Found.
+2016-07-31 17:15:31 Logs.java INFO  Logs:38 - Term Name..> Dollar Found.
+2016-07-31 17:16:06 Logs.java INFO  Logs:38 - Term Name..> Euro Found.
+2016-07-31 17:16:09 Logs.java INFO  Logs:38 - Term Name..> Pound Found.
+2016-07-31 17:16:11 Logs.java INFO  Logs:38 - Term Name..> Yen Found.
+2016-07-31 17:16:14 Logs.java INFO  Logs:38 - Term Name..> To buy Found.
+2016-07-31 17:16:49 Logs.java INFO  Logs:38 - Term Name..> To sell Found.
+2016-07-31 17:16:51 Logs.java INFO  Logs:38 - Term Name..> Cold drink Found.
+2016-07-31 17:16:54 Logs.java INFO  Logs:38 - Term Name..> No Found.
+2016-07-31 17:16:56 Logs.java INFO  Logs:38 - Term Name..> Cash Found.
+2016-07-31 17:17:32 Logs.java INFO  Logs:38 - Term Name..> Bargain Found.
+2016-07-31 17:17:34 Logs.java INFO  Logs:38 - Term Name..> False Found.
+2016-07-31 17:17:37 Logs.java INFO  Logs:38 - Term Name..> High Found.
+2016-07-31 17:17:40 Logs.java INFO  Logs:38 - Term Name..> Low Found.
+2016-07-31 17:18:14 Logs.java INFO  Logs:38 - Term Name..> Too low Found.
+2016-07-31 17:18:17 Logs.java INFO  Logs:38 - Term Name..> Too much Found.
+2016-07-31 17:18:19 Logs.java INFO  Logs:38 - Term Name..> Receipt Found.
+2016-07-31 17:18:22 Logs.java INFO  Logs:38 - Term Name..> Price Found.
+2016-07-31 17:18:56 Logs.java INFO  Logs:38 - Term Name..> Exchange Found.
+2016-07-31 17:18:59 Logs.java INFO  Logs:38 - Term Name..> Very Found.
+2016-07-31 17:19:01 Logs.java INFO  Logs:38 - Term Name..> To return Found.
+2016-07-31 17:40:53 Logs.java INFO  Logs:38 - *****************Enter the text message*************Club
+2016-07-31 18:05:32 Logs.java INFO  Logs:38 - *****************Enter the text message*************Patient
+2016-07-31 18:47:52 Logs.java ERROR Logs:55 - Added Term found in edubank. org.openqa.selenium.NoSuchElementException
+2016-07-31 18:49:30 Logs.java INFO  Logs:38 - *****************Enter the text message*************Helping
+2016-07-31 18:50:55 Logs.java INFO  Logs:38 - *****************Enter the text message*************Letter
+2016-07-31 18:56:43 Logs.java INFO  Logs:38 - *****************Enter the text message*************Gold
+2016-07-31 18:57:10 Logs.java INFO  Logs:38 - *****************Enter the text message*************Gold
+2016-07-31 18:57:46 Logs.java ERROR Logs:55 - Actual submission message not matched with expected one. org.openqa.selenium.NoSuchElementException
+2016-07-31 19:19:39 Logs.java ERROR Logs:55 - Facebook post not visible. org.openqa.selenium.NoSuchElementException
+2016-07-31 19:20:16 Logs.java ERROR Logs:55 - Facebook post not visible. org.openqa.selenium.NoSuchElementException
+2016-07-31 19:20:47 Logs.java ERROR Logs:55 - Facebook text not visible. org.openqa.selenium.NoSuchElementException
+2016-07-31 19:22:20 Logs.java ERROR Logs:55 - Select profile type not found. org.openqa.selenium.NoSuchElementException
+2016-07-31 19:25:08 Logs.java INFO  Logs:38 - Term Name..> Aisle Found.
+2016-07-31 19:25:10 Logs.java INFO  Logs:38 - Term Name..> Office Found.
+2016-07-31 19:25:13 Logs.java INFO  Logs:38 - Term Name..> Company Found.
+2016-07-31 19:25:15 Logs.java INFO  Logs:38 - Term Name..> Appointment Found.
+2016-07-31 19:25:50 Logs.java INFO  Logs:38 - Term Name..> Boss Found.
+2016-07-31 19:25:52 Logs.java INFO  Logs:38 - Term Name..> Businessman Found.
+2016-07-31 19:25:55 Logs.java INFO  Logs:38 - Term Name..> Owner Found.
+2016-07-31 19:25:58 Logs.java INFO  Logs:38 - Term Name..> Manager Found.
+2016-07-31 19:26:33 Logs.java INFO  Logs:38 - Term Name..> Colleague Found.
+2016-07-31 19:26:35 Logs.java INFO  Logs:38 - Term Name..> Employee Found.
+2016-07-31 19:26:38 Logs.java INFO  Logs:38 - Term Name..> Customer Found.
+2016-07-31 19:27:13 Logs.java INFO  Logs:38 - Term Name..> Field Found.
+2016-07-31 19:27:15 Logs.java INFO  Logs:38 - Term Name..> Corridor Found.
+2016-07-31 19:27:18 Logs.java INFO  Logs:38 - Term Name..> Elevator Found.
+2016-07-31 19:27:20 Logs.java INFO  Logs:38 - Term Name..> Stairs Found.
+2016-07-31 19:27:55 Logs.java INFO  Logs:38 - Term Name..> Entrance Found.
+2016-07-31 19:27:57 Logs.java INFO  Logs:38 - Term Name..> Exit Found.
+2016-07-31 19:28:00 Logs.java INFO  Logs:38 - Term Name..> Computer Found.
+2016-07-31 19:28:03 Logs.java INFO  Logs:38 - Term Name..> Pen Found.
+2016-07-31 19:28:38 Logs.java INFO  Logs:38 - Term Name..> Pencil Found.
+2016-07-31 19:28:40 Logs.java INFO  Logs:38 - Term Name..> Paper Found.
+2016-07-31 19:28:43 Logs.java INFO  Logs:38 - Term Name..> Project Found.
+2016-07-31 19:28:46 Logs.java INFO  Logs:38 - Term Name..> Proof Found.
+2016-07-31 19:29:21 Logs.java INFO  Logs:38 - Term Name..> Signature Found.
+2016-07-31 19:29:24 Logs.java INFO  Logs:38 - Term Name..> Work Found.
+2016-07-31 19:29:26 Logs.java INFO  Logs:38 - Term Name..> Task Found.
+2016-07-31 19:30:01 Logs.java INFO  Logs:38 - Term Name..> School Found.
+2016-07-31 19:30:04 Logs.java INFO  Logs:38 - Term Name..> Student Found.
+2016-07-31 19:30:06 Logs.java INFO  Logs:38 - Term Name..> Teacher Found.
+2016-07-31 19:30:08 Logs.java INFO  Logs:38 - Term Name..> Homework Found.
+2016-07-31 19:30:43 Logs.java INFO  Logs:38 - Term Name..> Exam Found.
+2016-07-31 19:30:46 Logs.java INFO  Logs:38 - Term Name..> Test Found.
+2016-07-31 19:30:48 Logs.java INFO  Logs:38 - Term Name..> Library Found.
+2016-07-31 19:30:51 Logs.java INFO  Logs:38 - Term Name..> Message Found.
+2016-07-31 19:31:25 Logs.java INFO  Logs:38 - Term Name..> Letter Found.
+2016-07-31 19:43:30 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-07-31 19:43:32 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-07-31 19:43:34 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-07-31 19:43:37 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-07-31 19:43:40 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-07-31 19:43:42 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-07-31 19:43:45 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-07-31 19:43:48 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-07-31 19:43:50 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-07-31 19:43:53 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-07-31 19:43:55 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-07-31 19:43:58 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-07-31 19:44:00 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-07-31 19:44:34 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-07-31 19:44:37 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-07-31 19:44:39 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-07-31 19:44:42 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-07-31 19:44:44 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-07-31 19:44:47 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-07-31 19:44:49 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-07-31 19:46:09 Logs.java INFO  Logs:38 - Term Name..> Black Found.
+2016-07-31 19:46:12 Logs.java INFO  Logs:38 - Term Name..> Atm Found.
+2016-07-31 19:46:14 Logs.java INFO  Logs:38 - Term Name..> Clothes Found.
+2016-07-31 19:46:16 Logs.java INFO  Logs:38 - Term Name..> Blue Found.
+2016-07-31 19:46:52 Logs.java INFO  Logs:38 - Term Name..> Cotton Found.
+2016-07-31 19:46:54 Logs.java INFO  Logs:38 - Term Name..> Colors Found.
+2016-07-31 19:46:57 Logs.java INFO  Logs:38 - Term Name..> Credit card Found.
+2016-07-31 19:47:00 Logs.java INFO  Logs:38 - Term Name..> Debit card Found.
+2016-07-31 19:47:35 Logs.java INFO  Logs:38 - Term Name..> Shirt Found.
+2016-07-31 19:47:37 Logs.java INFO  Logs:38 - Term Name..> How much Found.
+2016-07-31 19:47:39 Logs.java INFO  Logs:38 - Term Name..> Green Found.
+2016-07-31 19:47:42 Logs.java INFO  Logs:38 - Term Name..> Pants Found.
+2016-07-31 19:47:45 Logs.java INFO  Logs:38 - Term Name..> Customer Found.
+2016-07-31 19:48:19 Logs.java INFO  Logs:38 - Term Name..> Bargain Found.
+2016-07-31 19:48:22 Logs.java INFO  Logs:38 - Term Name..> Jacket Found.
+2016-07-31 19:48:24 Logs.java INFO  Logs:38 - Term Name..> Ugly Found.
+2016-07-31 19:48:27 Logs.java INFO  Logs:38 - Term Name..> Beautiful Found.
+2016-07-31 19:49:02 Logs.java INFO  Logs:38 - Term Name..> Skirt Found.
+2016-07-31 19:49:05 Logs.java INFO  Logs:38 - Term Name..> Dress Found.
+2016-07-31 19:49:07 Logs.java INFO  Logs:38 - Term Name..> Discount Found.
+2016-07-31 19:49:10 Logs.java INFO  Logs:38 - Term Name..> Handbag Found.
+2016-07-31 19:49:45 Logs.java INFO  Logs:38 - Term Name..> Wallet Found.
+2016-07-31 19:49:47 Logs.java INFO  Logs:38 - Term Name..> Price Found.
+2016-07-31 19:49:50 Logs.java INFO  Logs:38 - Term Name..> Red Found.
+2016-07-31 19:49:53 Logs.java INFO  Logs:38 - Term Name..> Market Found.
+2016-07-31 19:49:56 Logs.java INFO  Logs:38 - Term Name..> Receipt Found.
+2016-07-31 19:50:31 Logs.java INFO  Logs:38 - Term Name..> White Found.
+2016-07-31 19:50:33 Logs.java INFO  Logs:38 - Term Name..> Purse Found.
+2016-07-31 19:50:36 Logs.java INFO  Logs:38 - Term Name..> Wristwatch Found.
+2016-07-31 19:50:38 Logs.java INFO  Logs:38 - Term Name..> Yellow Found.
+2016-07-31 19:51:14 Logs.java INFO  Logs:38 - Term Name..> Cheap Found.
+2016-07-31 19:51:17 Logs.java INFO  Logs:38 - Term Name..> Sales tax Found.
+2016-07-31 19:51:19 Logs.java INFO  Logs:38 - Term Name..> Shoe Found.
+2016-07-31 19:51:22 Logs.java INFO  Logs:38 - Term Name..> Expensive Found.
+2016-07-31 19:51:57 Logs.java INFO  Logs:38 - Term Name..> Currency Found.
+2016-07-31 19:51:59 Logs.java INFO  Logs:38 - Term Name..> Dollar Found.
+2016-07-31 19:52:02 Logs.java INFO  Logs:38 - Term Name..> Euro Found.
+2016-07-31 19:52:04 Logs.java INFO  Logs:38 - Term Name..> Pound Found.
+2016-07-31 19:52:39 Logs.java INFO  Logs:38 - Term Name..> Yen Found.
+2016-07-31 19:52:41 Logs.java INFO  Logs:38 - Term Name..> To buy Found.
+2016-07-31 19:52:44 Logs.java INFO  Logs:38 - Term Name..> To sell Found.
+2016-07-31 19:52:46 Logs.java INFO  Logs:38 - Term Name..> Cold drink Found.
+2016-07-31 19:53:21 Logs.java INFO  Logs:38 - Term Name..> No Found.
+2016-07-31 19:53:24 Logs.java INFO  Logs:38 - Term Name..> Cash Found.
+2016-07-31 19:53:26 Logs.java INFO  Logs:38 - Term Name..> Bargain Found.
+2016-07-31 19:53:29 Logs.java INFO  Logs:38 - Term Name..> False Found.
+2016-07-31 19:54:03 Logs.java INFO  Logs:38 - Term Name..> High Found.
+2016-07-31 19:54:05 Logs.java INFO  Logs:38 - Term Name..> Low Found.
+2016-07-31 19:54:08 Logs.java INFO  Logs:38 - Term Name..> Too low Found.
+2016-07-31 19:54:11 Logs.java INFO  Logs:38 - Term Name..> Too much Found.
+2016-07-31 19:54:19 Logs.java INFO  Logs:38 - Term Name..> Receipt Found.
+2016-07-31 19:54:22 Logs.java INFO  Logs:38 - Term Name..> Price Found.
+2016-07-31 19:54:24 Logs.java INFO  Logs:38 - Term Name..> Exchange Found.
+2016-07-31 19:54:27 Logs.java INFO  Logs:38 - Term Name..> Very Found.
+2016-07-31 19:54:30 Logs.java INFO  Logs:38 - Term Name..> To return Found.
+2016-07-31 20:24:14 Logs.java INFO  Logs:38 - *****************Enter the text message*************Alive
+2016-07-31 20:50:40 Logs.java INFO  Logs:38 - *****************Enter the text message*************Books
+2016-08-01 11:14:01 Logs.java ERROR Logs:55 - Added Term found in edubank. org.openqa.selenium.NoSuchElementException
+2016-08-01 11:26:09 Logs.java ERROR Logs:55 - Added Term found in edubank. org.openqa.selenium.NoSuchElementException
+2016-08-01 11:37:34 Logs.java ERROR Logs:55 - Added Term found in edubank. org.openqa.selenium.NoSuchElementException
+2016-08-01 11:48:21 Logs.java ERROR Logs:55 - Added Term found in edubank. org.openqa.selenium.NoSuchElementException
+2016-08-01 11:55:15 Logs.java ERROR Logs:55 - Added Term found in edubank. org.openqa.selenium.NoSuchElementException
+2016-08-01 12:05:04 Logs.java ERROR Logs:55 - Added Term found in edubank. org.openqa.selenium.NoSuchElementException
+2016-08-03 15:55:32 Logs.java INFO  Logs:38 - Thirty Percentage unlock term feature correct.
+2016-08-03 16:26:01 Logs.java INFO  Logs:38 - Unlock term ratio according to feature ratio. 
+2016-08-03 16:27:48 Logs.java INFO  Logs:38 - Thirty Percentage unlock term feature correct.
+2016-08-03 16:49:17 Logs.java INFO  Logs:38 - Unlock term ratio according equal to of equal terms.
+2016-08-03 16:51:09 Logs.java INFO  Logs:38 - Thirty Percentage unlock term feature correct.
+2016-08-03 16:59:25 Logs.java INFO  Logs:38 - Unlock term ratio according equal to of equal terms.
+2016-08-03 17:01:16 Logs.java INFO  Logs:38 - Thirty Percentage unlock term feature correct.
+2016-08-03 17:02:03 Logs.java INFO  Logs:38 - Unlock term ratio according equal to of equal terms.
+2016-08-03 17:08:28 Logs.java INFO  Logs:38 - Unlock term ratio according equal to of equal terms.
+2016-08-03 17:10:22 Logs.java INFO  Logs:38 - Thirty Percentage unlock term feature correct.
+2016-08-03 17:10:26 Logs.java INFO  Logs:38 - Unlock term ratio according equal to of equal terms.
+2016-08-03 17:16:51 Logs.java INFO  Logs:38 - Unlock term ratio according equal to of equal terms.
+2016-08-03 17:18:43 Logs.java INFO  Logs:38 - Thirty Percentage unlock term feature correct.
+2016-08-03 17:18:45 Logs.java INFO  Logs:38 - Unlock term ratio according equal to of equal terms.
+2016-08-03 17:37:31 Logs.java INFO  Logs:38 - Unlock term ratio according equal to of equal terms.
+2016-08-03 17:44:15 Logs.java INFO  Logs:38 - Unlock term ratio according equal to of equal terms.
+2016-08-03 17:52:16 Logs.java INFO  Logs:38 - Unlock term ratio according equal to of equal terms.
+2016-08-03 17:54:17 Logs.java INFO  Logs:38 - Thirty Percentage unlock term feature correct.
+2016-08-03 17:54:21 Logs.java INFO  Logs:38 - Unlock term ratio according equal to of equal terms.
+2016-08-03 17:59:24 Logs.java INFO  Logs:38 - Unlock term ratio according equal to of equal terms.
+2016-08-05 17:11:29 Logs.java INFO  Logs:38 - Term Name..> Grand parents Found.
+2016-08-05 17:11:31 Logs.java INFO  Logs:38 - Term Name..> Grand mother Found.
+2016-08-05 17:11:34 Logs.java INFO  Logs:38 - Term Name..> Grand father Found.
+2016-08-05 17:11:36 Logs.java INFO  Logs:38 - Term Name..> Grand daughter Found.
+2016-08-05 17:12:41 Logs.java ERROR Logs:55 - Term Name Grand daughter not matched. org.openqa.selenium.NoSuchElementException
+2016-08-05 17:46:23 Logs.java ERROR Logs:55 - Skip Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 17:46:54 Logs.java ERROR Logs:55 - Spund Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 17:47:25 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 17:48:28 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 17:48:59 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 17:50:01 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 17:50:34 Logs.java ERROR Logs:55 - Wrong Attempted Question not shown in score page. org.openqa.selenium.NoSuchElementException
+2016-08-05 18:17:59 Logs.java INFO  Logs:38 - Term Name..> Week Found.
+2016-08-05 18:18:02 Logs.java INFO  Logs:38 - Term Name..> Sunday Found.
+2016-08-05 18:18:04 Logs.java INFO  Logs:38 - Term Name..> Monday Found.
+2016-08-05 18:18:39 Logs.java INFO  Logs:38 - Term Name..> Tuesday Found.
+2016-08-05 18:18:41 Logs.java INFO  Logs:38 - Term Name..> Wednesday Found.
+2016-08-05 18:19:15 Logs.java INFO  Logs:38 - Term Name..> Thursday Found.
+2016-08-05 18:19:17 Logs.java INFO  Logs:38 - Term Name..> Friday Found.
+2016-08-05 18:19:52 Logs.java INFO  Logs:38 - Term Name..> Saturday Found.
+2016-08-05 18:19:54 Logs.java INFO  Logs:38 - Term Name..> Weekend Found.
+2016-08-05 18:20:28 Logs.java INFO  Logs:38 - Term Name..> Month Found.
+2016-08-05 18:20:31 Logs.java INFO  Logs:38 - Term Name..> January Found.
+2016-08-05 18:21:05 Logs.java INFO  Logs:38 - Term Name..> February Found.
+2016-08-05 18:21:08 Logs.java INFO  Logs:38 - Term Name..> March Found.
+2016-08-05 18:21:42 Logs.java INFO  Logs:38 - Term Name..> April Found.
+2016-08-05 18:21:45 Logs.java INFO  Logs:38 - Term Name..> May Found.
+2016-08-05 18:22:19 Logs.java INFO  Logs:38 - Term Name..> June Found.
+2016-08-05 18:22:21 Logs.java INFO  Logs:38 - Term Name..> July Found.
+2016-08-05 18:22:55 Logs.java INFO  Logs:38 - Term Name..> August Found.
+2016-08-05 18:22:57 Logs.java INFO  Logs:38 - Term Name..> September Found.
+2016-08-05 18:23:32 Logs.java INFO  Logs:38 - Term Name..> October Found.
+2016-08-05 18:23:34 Logs.java INFO  Logs:38 - Term Name..> November Found.
+2016-08-05 18:24:08 Logs.java INFO  Logs:38 - Term Name..> December Found.
+2016-08-05 18:24:10 Logs.java INFO  Logs:38 - Term Name..> Year Found.
+2016-08-05 18:24:12 Logs.java INFO  Logs:38 - Term Name..> Morning Found.
+2016-08-05 18:24:47 Logs.java INFO  Logs:38 - Term Name..> Day Found.
+2016-08-05 18:24:49 Logs.java INFO  Logs:38 - Term Name..> Noon Found.
+2016-08-05 18:24:51 Logs.java INFO  Logs:38 - Term Name..> Afternoon Found.
+2016-08-05 18:25:25 Logs.java INFO  Logs:38 - Term Name..> Night Found.
+2016-08-05 18:25:28 Logs.java INFO  Logs:38 - Term Name..> Early Found.
+2016-08-05 18:25:30 Logs.java INFO  Logs:38 - Term Name..> After Found.
+2016-08-05 18:26:35 Logs.java ERROR Logs:55 - Term Name After not matched. org.openqa.selenium.NoSuchElementException
+2016-08-05 18:45:10 Logs.java ERROR Logs:55 - Category Header text not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 18:48:17 Logs.java ERROR Logs:55 - Value not enetred in the word text box. org.openqa.selenium.NoSuchElementException
+2016-08-05 18:53:59 Logs.java ERROR Logs:55 - Category Header text not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 18:56:08 Logs.java ERROR Logs:55 - Category Header text not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 19:04:51 Logs.java ERROR Logs:55 - Category Header text not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 19:24:13 Logs.java INFO  Logs:38 - Term Name..> mamarr Found.
+2016-08-05 19:24:15 Logs.java INFO  Logs:38 - Term Name..> makatib Found.
+2016-08-05 19:24:17 Logs.java INFO  Logs:38 - Term Name..> sharika Found.
+2016-08-05 19:24:53 Logs.java INFO  Logs:38 - Term Name..> maweid Found.
+2016-08-05 19:24:55 Logs.java INFO  Logs:38 - Term Name..> mudir Found.
+2016-08-05 19:25:29 Logs.java INFO  Logs:38 - Term Name..> malik Found.
+2016-08-05 19:26:34 Logs.java ERROR Logs:55 - Term Name malik not matched. org.openqa.selenium.NoSuchElementException
+2016-08-05 19:30:36 Logs.java ERROR Logs:55 - Category Header text not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 19:46:57 Logs.java INFO  Logs:38 - Term Name..> ma Found.
+2016-08-05 19:46:59 Logs.java INFO  Logs:38 - Term Name..> madha law Found.
+2016-08-05 19:47:01 Logs.java INFO  Logs:38 - Term Name..> limadha Found.
+2016-08-05 19:48:06 Logs.java ERROR Logs:55 - Term Name limadha not matched. org.openqa.selenium.NoSuchElementException
+2016-08-05 19:51:01 Logs.java ERROR Logs:55 - Category Header text not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 20:01:22 Logs.java INFO  Logs:38 - Term Name..> 'ajdad Found.
+2016-08-05 20:01:25 Logs.java INFO  Logs:38 - Term Name..> jidd Found.
+2016-08-05 20:01:27 Logs.java INFO  Logs:38 - Term Name..> jd Found.
+2016-08-05 20:01:29 Logs.java INFO  Logs:38 - Term Name..> hafida Found.
+2016-08-05 20:02:23 Logs.java INFO  Logs:38 - Term Name..> banat Found.
+2016-08-05 20:07:22 Logs.java INFO  Logs:38 - Term Name..> thaqf Found.
+2016-08-05 20:07:24 Logs.java INFO  Logs:38 - Term Name..> taelim Found.
+2016-08-05 20:07:26 Logs.java INFO  Logs:38 - Term Name..> fan Found.
+2016-08-05 20:08:02 Logs.java INFO  Logs:38 - Term Name..> al'ahya' Found.
+2016-08-05 20:08:04 Logs.java INFO  Logs:38 - Term Name..> alkimia' Found.
+2016-08-05 20:08:39 Logs.java INFO  Logs:38 - Term Name..> alfizia' Found.
+2016-08-05 20:08:42 Logs.java INFO  Logs:38 - Term Name..> eulim alnnabat Found.
+2016-08-05 20:09:17 Logs.java INFO  Logs:38 - Term Name..> eulim alnnafs Found.
+2016-08-05 20:09:53 Logs.java INFO  Logs:38 - Term Name..> aljughrafia Found.
+2016-08-05 20:12:54 Logs.java INFO  Logs:38 - Term Name..> taknulujia Found.
+2016-08-05 20:13:02 Logs.java INFO  Logs:38 - Term Name..> marab Found.
+2016-08-05 20:13:09 Logs.java INFO  Logs:38 - Term Name..> mdrrs Found.
+2016-08-05 20:13:20 Logs.java INFO  Logs:38 - Term Name..> aimtihan Found.
+2016-08-05 20:13:33 Logs.java INFO  Logs:38 - Term Name..> njh Found.
+2016-08-05 20:48:28 Logs.java ERROR Logs:55 - Skip Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 20:49:00 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 20:50:02 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 20:50:34 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 20:51:36 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 20:51:49 Logs.java ERROR Logs:55 - Not Perform right navigation. org.openqa.selenium.NoSuchElementException
+2016-08-05 20:52:53 Logs.java ERROR Logs:55 - Question count value not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 21:04:52 Logs.java ERROR Logs:55 - Skip Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 21:05:24 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 21:06:27 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 21:06:58 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 21:08:00 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-05 21:08:13 Logs.java ERROR Logs:55 - Not Perform right navigation. org.openqa.selenium.NoSuchElementException
+2016-08-05 21:09:17 Logs.java ERROR Logs:55 - Question count value not found. org.openqa.selenium.NoSuchElementException
+2016-08-11 16:37:19 Logs.java INFO  Logs:38 - *****************Enter the text message*************Clothes
+2016-08-11 16:38:44 Logs.java INFO  Logs:38 - *****************Enter the text message*************Orange
+2016-08-11 16:57:01 Logs.java INFO  Logs:38 - *****************Enter the text message*************Gold
+2016-08-11 16:57:29 Logs.java INFO  Logs:38 - *****************Enter the text message*************Gold
+2016-08-11 17:08:05 Logs.java ERROR Logs:55 - Click operation not perform on Term And Condition button. org.openqa.selenium.NoSuchElementException
+2016-08-11 17:08:50 Logs.java ERROR Logs:55 - Click operation not perform on Privacy Policy Button. org.openqa.selenium.NoSuchElementException
+2016-08-11 17:15:32 Logs.java ERROR Logs:55 - Facebook post not visible. org.openqa.selenium.NoSuchElementException
+2016-08-11 17:16:09 Logs.java ERROR Logs:55 - Facebook post not visible. org.openqa.selenium.NoSuchElementException
+2016-08-11 17:16:40 Logs.java ERROR Logs:55 - Facebook text not visible. org.openqa.selenium.NoSuchElementException
+2016-08-11 17:18:13 Logs.java ERROR Logs:55 - Select profile type not found. org.openqa.selenium.NoSuchElementException
+2016-08-11 17:20:59 Logs.java INFO  Logs:38 - Term Name..> Address Found.
+2016-08-11 17:21:01 Logs.java INFO  Logs:38 - Term Name..> Phone number Found.
+2016-08-11 17:21:04 Logs.java INFO  Logs:38 - Term Name..> Door Found.
+2016-08-11 17:21:07 Logs.java INFO  Logs:38 - Term Name..> House Found.
+2016-08-11 17:21:43 Logs.java INFO  Logs:38 - Term Name..> Room Found.
+2016-08-11 17:21:45 Logs.java INFO  Logs:38 - Term Name..> Bedroom Found.
+2016-08-11 17:21:48 Logs.java INFO  Logs:38 - Term Name..> Living room Found.
+2016-08-11 17:21:50 Logs.java INFO  Logs:38 - Term Name..> Dining room Found.
+2016-08-11 17:22:25 Logs.java INFO  Logs:38 - Term Name..> Corner of a room Found.
+2016-08-11 17:22:28 Logs.java INFO  Logs:38 - Term Name..> Furniture Found.
+2016-08-11 17:22:30 Logs.java INFO  Logs:38 - Term Name..> Bed Found.
+2016-08-11 17:22:33 Logs.java INFO  Logs:38 - Term Name..> Chair Found.
+2016-08-11 17:23:07 Logs.java INFO  Logs:38 - Term Name..> Closet Found.
+2016-08-11 17:23:10 Logs.java INFO  Logs:38 - Term Name..> Couch Found.
+2016-08-11 17:23:12 Logs.java INFO  Logs:38 - Term Name..> Table Found.
+2016-08-11 17:23:48 Logs.java INFO  Logs:38 - Term Name..> Curtain Found.
+2016-08-11 17:23:50 Logs.java INFO  Logs:38 - Term Name..> Carpet Found.
+2016-08-11 17:23:53 Logs.java INFO  Logs:38 - Term Name..> Rug Found.
+2016-08-11 17:24:29 Logs.java INFO  Logs:38 - Term Name..> Bathroom Found.
+2016-08-11 17:24:31 Logs.java INFO  Logs:38 - Term Name..> Bathtub Found.
+2016-08-11 17:24:34 Logs.java INFO  Logs:38 - Term Name..> Faucet Found.
+2016-08-11 17:24:36 Logs.java INFO  Logs:38 - Term Name..> Shower Found.
+2016-08-11 17:25:12 Logs.java INFO  Logs:38 - Term Name..> Soap Found.
+2016-08-11 17:25:14 Logs.java INFO  Logs:38 - Term Name..> Sink Found.
+2016-08-11 17:25:16 Logs.java INFO  Logs:38 - Term Name..> Toothbrush Found.
+2016-08-11 17:25:19 Logs.java INFO  Logs:38 - Term Name..> Toothpaste Found.
+2016-08-11 17:25:54 Logs.java INFO  Logs:38 - Term Name..> Window Found.
+2016-08-11 17:25:57 Logs.java INFO  Logs:38 - Term Name..> Wall Found.
+2016-08-11 17:25:59 Logs.java INFO  Logs:38 - Term Name..> Clock Found.
+2016-08-11 17:26:34 Logs.java INFO  Logs:38 - Term Name..> Painting Found.
+2016-08-11 17:26:36 Logs.java INFO  Logs:38 - Term Name..> Picture Found.
+2016-08-11 17:26:38 Logs.java INFO  Logs:38 - Term Name..> Telephone Found.
+2016-08-11 17:26:41 Logs.java INFO  Logs:38 - Term Name..> Television Found.
+2016-08-11 17:27:16 Logs.java INFO  Logs:38 - Term Name..> Electric outlet Found.
+2016-08-11 17:27:18 Logs.java INFO  Logs:38 - Term Name..> Heater Found.
+2016-08-11 17:27:21 Logs.java INFO  Logs:38 - Term Name..> Charger Found.
+2016-08-11 17:27:23 Logs.java INFO  Logs:38 - Term Name..> Ear plugs Found.
+2016-08-11 17:27:58 Logs.java INFO  Logs:38 - Term Name..> Lamp Found.
+2016-08-11 17:28:01 Logs.java INFO  Logs:38 - Term Name..> Light Found.
+2016-08-11 17:28:04 Logs.java INFO  Logs:38 - Term Name..> Mailbox Found.
+2016-08-11 17:28:39 Logs.java INFO  Logs:38 - Term Name..> Mirror Found.
+2016-08-11 17:28:41 Logs.java INFO  Logs:38 - Term Name..> Book Found.
+2016-08-11 17:28:44 Logs.java INFO  Logs:38 - Term Name..> Magazine Found.
+2016-08-11 17:29:19 Logs.java INFO  Logs:38 - Term Name..> Newspaper Found.
+2016-08-11 17:29:22 Logs.java INFO  Logs:38 - Term Name..> Wristwatch Found.
+2016-08-11 17:29:24 Logs.java INFO  Logs:38 - Term Name..> Headphones Found.
+2016-08-11 17:29:27 Logs.java INFO  Logs:38 - Term Name..> Rent Found.
+2016-08-11 17:30:02 Logs.java INFO  Logs:38 - Term Name..> Lease Found.
+2016-08-11 17:30:05 Logs.java INFO  Logs:38 - Term Name..> Kitchen Found.
+2016-08-11 17:30:07 Logs.java INFO  Logs:38 - Term Name..> Key Found.
+2016-08-11 17:30:42 Logs.java INFO  Logs:38 - Term Name..> Neighbor Found.
+2016-08-11 17:30:45 Logs.java INFO  Logs:38 - Term Name..> Trash Found.
+2016-08-11 17:56:46 Logs.java INFO  Logs:38 - *****************Enter the text message*************Gold
+2016-08-11 17:59:34 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-08-11 17:59:37 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-08-11 17:59:39 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-08-11 17:59:42 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-08-11 17:59:44 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-08-11 17:59:46 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-08-11 17:59:49 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-08-11 17:59:51 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-08-11 17:59:54 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-08-11 17:59:56 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-08-11 17:59:59 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-08-11 18:00:02 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-08-11 18:00:05 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-08-11 18:00:39 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-08-11 18:00:42 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-08-11 18:00:44 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-08-11 18:00:47 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-08-11 18:00:50 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-08-11 18:00:52 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-08-11 18:00:55 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-08-11 18:02:16 Logs.java INFO  Logs:38 - Term Name..> Money Found.
+2016-08-11 18:02:18 Logs.java INFO  Logs:38 - Term Name..> Alive Found.
+2016-08-11 18:02:21 Logs.java INFO  Logs:38 - Term Name..> Life Found.
+2016-08-11 18:02:23 Logs.java INFO  Logs:38 - Term Name..> Dead Found.
+2016-08-11 18:02:58 Logs.java INFO  Logs:38 - Term Name..> Disaster Found.
+2016-08-11 18:03:00 Logs.java INFO  Logs:38 - Term Name..> Emergency Found.
+2016-08-11 18:03:03 Logs.java INFO  Logs:38 - Term Name..> Help Found.
+2016-08-11 18:03:06 Logs.java INFO  Logs:38 - Term Name..> Police Found.
+2016-08-11 18:03:41 Logs.java INFO  Logs:38 - Term Name..> Stop, thief Found.
+2016-08-11 18:03:44 Logs.java INFO  Logs:38 - Term Name..> Hazard Found.
+2016-08-11 18:03:46 Logs.java INFO  Logs:38 - Term Name..> Panic Found.
+2016-08-11 18:03:49 Logs.java INFO  Logs:38 - Term Name..> Terror Found.
+2016-08-11 18:04:23 Logs.java INFO  Logs:38 - Term Name..> Insurance Found.
+2016-08-11 18:04:26 Logs.java INFO  Logs:38 - Term Name..> Complaint Found.
+2016-08-11 18:04:28 Logs.java INFO  Logs:38 - Term Name..> Fear Found.
+2016-08-11 18:04:30 Logs.java INFO  Logs:38 - Term Name..> Safety Found.
+2016-08-11 18:23:58 Logs.java INFO  Logs:38 - *****************Enter the text message*************Steam
+2016-08-11 18:48:09 Logs.java INFO  Logs:38 - *****************Enter the text message*************Avocado
+2016-08-11 19:06:02 Logs.java INFO  Logs:38 - Quick List. นายพล Found.
+2016-08-11 19:06:05 Logs.java INFO  Logs:38 - Quick List. แหล่งช้อปปิ้ง Found.
+2016-08-11 19:06:07 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-08-11 19:06:10 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-08-11 19:06:12 Logs.java INFO  Logs:38 - Quick List. ตัวเลขที่ Found.
+2016-08-11 19:06:15 Logs.java INFO  Logs:38 - Quick List. แท๊กซี่ Found.
+2016-08-11 19:06:17 Logs.java INFO  Logs:38 - Quick List. ตำรวจภูธร Found.
+2016-08-11 19:06:20 Logs.java INFO  Logs:38 - Quick List. จงทักทาย Found.
+2016-08-11 19:06:23 Logs.java INFO  Logs:38 - Quick List. อากาศที่ Found.
+2016-08-11 19:06:26 Logs.java INFO  Logs:38 - Quick List. ตนตรง Found.
+2016-08-11 19:06:29 Logs.java INFO  Logs:38 - Quick List. เบรกเกอร์น้ำแข็ง Found.
+2016-08-11 19:06:31 Logs.java INFO  Logs:38 - Quick List. แสนโรแมนติก Found.
+2016-08-11 19:06:34 Logs.java INFO  Logs:38 - Quick List. ห้องอาหาร Found.
+2016-08-11 19:07:08 Logs.java INFO  Logs:38 - Quick List. ซักอบรีด Found.
+2016-08-11 19:07:10 Logs.java INFO  Logs:38 - Quick List. ฟลอรา Found.
+2016-08-11 19:07:13 Logs.java INFO  Logs:38 - Quick List. ผจญภัย Found.
+2016-08-11 19:07:16 Logs.java INFO  Logs:38 - Quick List. แถบ Found.
+2016-08-11 19:07:18 Logs.java INFO  Logs:38 - Quick List. นายแพทย์ Found.
+2016-08-11 19:07:21 Logs.java INFO  Logs:38 - Quick List. สถาน Found.
+2016-08-11 19:07:24 Logs.java INFO  Logs:38 - Quick List. สปอร์ต Found.
+2016-08-11 19:51:58 Logs.java INFO  Logs:38 - *****************Enter the text message*************Black
+2016-08-11 19:53:32 Logs.java INFO  Logs:38 - *****************Enter the text message*************To soak in
+2016-08-11 20:08:28 Logs.java ERROR Logs:55 - Skip Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-11 20:09:00 Logs.java ERROR Logs:55 - Spund Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-11 20:09:31 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-11 20:10:33 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-11 20:11:05 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-11 20:12:08 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-08-11 20:15:53 Logs.java ERROR Logs:55 - Wrong Attempted Question not shown in score page. org.openqa.selenium.NoSuchElementException
+2016-08-11 20:20:12 Logs.java INFO  Logs:38 - *****************Enter the text message*************Gold
+2016-08-11 20:20:57 Logs.java INFO  Logs:38 - *****************Enter the text message*************Gold
+2016-08-11 20:36:36 Logs.java ERROR Logs:55 - Click operation not perform on Term And Condition button. org.openqa.selenium.NoSuchElementException
+2016-08-11 20:37:59 Logs.java ERROR Logs:55 - Click operation not perform on Privacy Policy Button. org.openqa.selenium.NoSuchElementException
+2016-08-11 20:46:22 Logs.java ERROR Logs:55 - Facebook post not visible. org.openqa.selenium.NoSuchElementException
+2016-08-11 20:46:59 Logs.java ERROR Logs:55 - Facebook post not visible. org.openqa.selenium.NoSuchElementException
+2016-08-11 20:47:30 Logs.java ERROR Logs:55 - Facebook text not visible. org.openqa.selenium.NoSuchElementException
+2016-08-11 20:49:03 Logs.java ERROR Logs:55 - Select profile type not found. org.openqa.selenium.NoSuchElementException
+2016-08-11 20:56:49 Logs.java INFO  Logs:38 - Term Name..> Electrical cord Found.
+2016-08-11 20:56:51 Logs.java INFO  Logs:38 - Term Name..> Electric tester Found.
+2016-08-11 20:56:54 Logs.java INFO  Logs:38 - Term Name..> Flashlight Found.
+2016-08-11 20:57:29 Logs.java INFO  Logs:38 - Term Name..> Hammer Found.
+2016-08-11 20:57:32 Logs.java INFO  Logs:38 - Term Name..> Hand saw Found.
+2016-08-11 20:58:07 Logs.java INFO  Logs:38 - Term Name..> Ladder Found.
+2016-08-11 20:58:09 Logs.java INFO  Logs:38 - Term Name..> Level Found.
+2016-08-11 20:58:12 Logs.java INFO  Logs:38 - Term Name..> Nails Found.
+2016-08-11 20:59:17 Logs.java ERROR Logs:55 - Term Name Nails not matched. org.openqa.selenium.NoSuchElementException
+2016-08-11 21:20:43 Logs.java INFO  Logs:38 - *****************Enter the text message*************Gold
+2016-08-11 21:24:01 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-08-11 21:24:03 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-08-11 21:24:06 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-08-11 21:24:08 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-08-11 21:24:11 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-08-11 21:24:13 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-08-11 21:24:16 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-08-11 21:24:19 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-08-11 21:24:22 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-08-11 21:24:25 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-08-11 21:24:28 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-08-11 21:25:03 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-08-11 21:25:06 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-08-11 21:25:09 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-08-11 21:25:11 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-08-11 21:25:14 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-08-11 21:25:16 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-08-11 21:25:19 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-08-11 21:25:53 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-08-11 21:25:55 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-08-11 21:27:50 Logs.java INFO  Logs:38 - Term Name..> Black Found.
+2016-08-11 21:27:53 Logs.java INFO  Logs:38 - Term Name..> Breakfast Found.
+2016-08-11 21:27:55 Logs.java INFO  Logs:38 - Term Name..> Vegetables Found.
+2016-08-11 21:28:30 Logs.java INFO  Logs:38 - Term Name..> Date Found.
+2016-08-11 21:28:32 Logs.java INFO  Logs:38 - Term Name..> Atm Found.
+2016-08-11 21:29:08 Logs.java INFO  Logs:38 - Term Name..> Clothes Found.
+2016-08-11 21:29:10 Logs.java INFO  Logs:38 - Term Name..> Country Found.
+2016-08-11 21:29:12 Logs.java INFO  Logs:38 - Term Name..> Money Found.
+2016-08-11 21:29:48 Logs.java INFO  Logs:38 - Term Name..> Phone number Found.
+2016-08-11 21:29:50 Logs.java INFO  Logs:38 - Term Name..> Airport Found.
+2016-08-11 21:29:53 Logs.java INFO  Logs:38 - Term Name..> Building Found.
+2016-08-11 21:30:27 Logs.java INFO  Logs:38 - Term Name..> City Found.
+2016-08-11 21:30:29 Logs.java INFO  Logs:38 - Term Name..> House Found.
+2016-08-11 21:31:06 Logs.java INFO  Logs:38 - Term Name..> Colors Found.
+2016-08-11 21:31:08 Logs.java INFO  Logs:38 - Term Name..> Credit card Found.
+2016-08-11 21:31:11 Logs.java INFO  Logs:38 - Term Name..> Dangerous Found.
+2016-08-11 21:32:15 Logs.java ERROR Logs:55 - Term Name Dangerous not . org.openqa.selenium.NoSuchElementException
+2016-08-11 22:07:10 Logs.java INFO  Logs:38 - *****************Enter the text message*************Netball
+2016-08-11 22:47:32 Logs.java INFO  Logs:38 - *****************Enter the text message*************Eye
+2016-08-11 23:07:38 Logs.java INFO  Logs:38 - Quick List. Allgemein Found.
+2016-08-11 23:07:41 Logs.java INFO  Logs:38 - Quick List. Einkaufs Found.
+2016-08-11 23:07:43 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-08-11 23:07:46 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-08-11 23:07:48 Logs.java INFO  Logs:38 - Quick List. Nummern Found.
+2016-08-11 23:07:51 Logs.java INFO  Logs:38 - Quick List. Dem Taxi Found.
+2016-08-11 23:07:53 Logs.java INFO  Logs:38 - Quick List. Polizisten Found.
+2016-08-11 23:07:56 Logs.java INFO  Logs:38 - Quick List. Grüßt Found.
+2016-08-11 23:07:58 Logs.java INFO  Logs:38 - Quick List. Das Wetter Found.
+2016-08-11 23:08:00 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-08-11 23:08:03 Logs.java INFO  Logs:38 - Quick List. Eisbrechern Found.
+2016-08-11 23:08:38 Logs.java INFO  Logs:38 - Quick List. Romantik Found.
+2016-08-11 23:08:40 Logs.java INFO  Logs:38 - Quick List. Für Restaurants Found.
+2016-08-11 23:08:43 Logs.java INFO  Logs:38 - Quick List. Wäsche Found.
+2016-08-11 23:08:45 Logs.java INFO  Logs:38 - Quick List. Pflanze Found.
+2016-08-11 23:08:47 Logs.java INFO  Logs:38 - Quick List. Abenteuer Found.
+2016-08-11 23:08:50 Logs.java INFO  Logs:38 - Quick List. Leiste Found.
+2016-08-11 23:08:52 Logs.java INFO  Logs:38 - Quick List. Doktor Found.
+2016-08-11 23:09:27 Logs.java INFO  Logs:38 - Quick List. Ort Found.
+2016-08-11 23:09:30 Logs.java INFO  Logs:38 - Quick List. Sportarten Found.
+2016-08-12 16:42:13 Logs.java ERROR Logs:55 - Select profile type not found. org.openqa.selenium.NoSuchElementException
+2016-08-12 16:43:09 Logs.java ERROR Logs:55 - UserName not found on the rate this app page. org.openqa.selenium.NoSuchElementException
+2016-08-12 17:48:36 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-08-12 17:48:36 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-10-05 20:30:20 Logs.java ERROR Logs:55 - Quick List Header text not found. org.openqa.selenium.NoSuchElementException
+2016-10-05 20:39:22 Logs.java ERROR Logs:55 - Quick List Header text not found. org.openqa.selenium.NoSuchElementException
+2016-10-05 20:59:31 Logs.java INFO  Logs:38 - Quick List. Allgemein Found.
+2016-10-05 20:59:34 Logs.java INFO  Logs:38 - Quick List. Einkaufs Found.
+2016-10-05 20:59:36 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-05 20:59:39 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-05 20:59:41 Logs.java INFO  Logs:38 - Quick List. Nummern Found.
+2016-10-05 20:59:43 Logs.java INFO  Logs:38 - Quick List. Dem Taxi Found.
+2016-10-05 20:59:46 Logs.java INFO  Logs:38 - Quick List. Polizisten Found.
+2016-10-05 20:59:48 Logs.java INFO  Logs:38 - Quick List. Grüßt Found.
+2016-10-05 20:59:50 Logs.java INFO  Logs:38 - Quick List. Das Wetter Found.
+2016-10-05 20:59:53 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-10-05 20:59:55 Logs.java INFO  Logs:38 - Quick List. Eisbrechern Found.
+2016-10-05 20:59:57 Logs.java INFO  Logs:38 - Quick List. Romantik Found.
+2016-10-05 21:00:32 Logs.java INFO  Logs:38 - Quick List. Für Restaurants Found.
+2016-10-05 21:00:34 Logs.java INFO  Logs:38 - Quick List. Wäsche Found.
+2016-10-05 21:00:37 Logs.java INFO  Logs:38 - Quick List. Pflanze Found.
+2016-10-05 21:00:39 Logs.java INFO  Logs:38 - Quick List. Abenteuer Found.
+2016-10-05 21:00:41 Logs.java INFO  Logs:38 - Quick List. Leiste Found.
+2016-10-05 21:00:44 Logs.java INFO  Logs:38 - Quick List. Doktor Found.
+2016-10-05 21:00:46 Logs.java INFO  Logs:38 - Quick List. Ort Found.
+2016-10-05 21:01:20 Logs.java INFO  Logs:38 - Quick List. Sportarten Found.
+2016-10-06 13:13:05 Logs.java INFO  Logs:38 - Speak SMART Albanian is launching...
+2016-10-06 13:22:03 Logs.java INFO  Logs:38 - Speak SMART Albanian is launching...
+2016-10-07 17:32:29 Logs.java ERROR Logs:55 - Skip Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 17:34:30 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 17:38:33 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 17:40:34 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 17:44:37 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 17:51:37 Logs.java ERROR Logs:55 - Skip Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 17:53:38 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 17:57:41 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 17:59:42 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 18:03:45 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 18:14:18 Logs.java ERROR Logs:55 - Skip Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 18:16:20 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 18:20:23 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 18:22:24 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 19:06:12 Logs.java ERROR Logs:55 - Skip Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 19:08:14 Logs.java ERROR Logs:55 - Spund Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 19:10:15 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 19:14:17 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 19:16:18 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 19:20:20 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-07 19:34:36 Logs.java ERROR Logs:55 - Wrong Attempted Question not shown in score page. org.openqa.selenium.NoSuchElementException
+2016-10-10 10:16:20 Logs.java INFO  Logs:38 - Entered text message. Gray
+2016-10-10 10:57:18 Logs.java INFO  Logs:38 - Entered text message. Grand mother
+2016-10-10 11:10:12 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-10 11:10:51 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-10 11:20:37 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-10 11:21:15 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-10 12:47:54 Logs.java INFO  Logs:38 - Quick List. Generali Found.
+2016-10-10 12:47:56 Logs.java INFO  Logs:38 - Quick List. Acquisti Found.
+2016-10-10 12:47:59 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-10 12:48:02 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-10 12:48:05 Logs.java INFO  Logs:38 - Quick List. Numeri di Found.
+2016-10-10 12:48:08 Logs.java INFO  Logs:38 - Quick List. Di taxi Found.
+2016-10-10 12:48:11 Logs.java INFO  Logs:38 - Quick List. Di polizia Found.
+2016-10-10 12:48:13 Logs.java INFO  Logs:38 - Quick List. Salutate Found.
+2016-10-10 12:48:16 Logs.java INFO  Logs:38 - Quick List. Del tempo Found.
+2016-10-10 12:48:19 Logs.java INFO  Logs:38 - Quick List. Opposti si Found.
+2016-10-10 12:48:22 Logs.java INFO  Logs:38 - Quick List. Dei rompighiaccio Found.
+2016-10-10 12:48:24 Logs.java INFO  Logs:38 - Quick List. Romantiche Found.
+2016-10-10 12:48:27 Logs.java INFO  Logs:38 - Quick List. Dei ristoranti Found.
+2016-10-10 12:48:52 Logs.java INFO  Logs:38 - Quick List. Di lavanderia Found.
+2016-10-10 12:48:55 Logs.java INFO  Logs:38 - Quick List. La flora Found.
+2016-10-10 12:48:58 Logs.java INFO  Logs:38 - Quick List. Di avventura Found.
+2016-10-10 12:49:00 Logs.java INFO  Logs:38 - Quick List. Barra Found.
+2016-10-10 12:49:03 Logs.java INFO  Logs:38 - Quick List. Dottore Found.
+2016-10-10 12:49:06 Logs.java INFO  Logs:38 - Quick List. Posto Found.
+2016-10-10 12:49:08 Logs.java INFO  Logs:38 - Quick List. Sportiva Found.
+2016-10-10 13:12:41 Logs.java INFO  Logs:38 - Entered text message. To have
+2016-10-10 13:13:55 Logs.java INFO  Logs:38 - Entered text message. Work
+2016-10-10 13:29:08 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-10 13:29:56 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-10 13:45:16 Logs.java INFO  Logs:38 - Term Name..> To satisfy Found.
+2016-10-10 13:45:18 Logs.java INFO  Logs:38 - Term Name..> To save Found.
+2016-10-10 13:45:21 Logs.java INFO  Logs:38 - Term Name..> To say good-bye Found.
+2016-10-10 13:45:23 Logs.java INFO  Logs:38 - Term Name..> To scold Found.
+2016-10-10 13:45:48 Logs.java INFO  Logs:38 - Term Name..> To scrub Found.
+2016-10-10 13:45:50 Logs.java INFO  Logs:38 - Term Name..> To see Found.
+2016-10-10 13:45:53 Logs.java INFO  Logs:38 - Term Name..> To select Found.
+2016-10-10 13:45:55 Logs.java INFO  Logs:38 - Term Name..> To sell Found.
+2016-10-10 13:46:21 Logs.java INFO  Logs:38 - Term Name..> To send Found.
+2016-10-10 13:46:23 Logs.java INFO  Logs:38 - Term Name..> To separate Found.
+2016-10-10 13:46:26 Logs.java INFO  Logs:38 - Term Name..> To serve Found.
+2016-10-10 13:46:51 Logs.java INFO  Logs:38 - Term Name..> To settle Found.
+2016-10-10 13:46:54 Logs.java INFO  Logs:38 - Term Name..> To shake Found.
+2016-10-10 13:46:56 Logs.java INFO  Logs:38 - Term Name..> To shout Found.
+2016-10-10 13:46:59 Logs.java INFO  Logs:38 - Term Name..> To show Found.
+2016-10-10 13:47:25 Logs.java INFO  Logs:38 - Term Name..> To shower Found.
+2016-10-10 13:47:27 Logs.java INFO  Logs:38 - Term Name..> To sign Found.
+2016-10-10 13:47:30 Logs.java INFO  Logs:38 - Term Name..> To signal Found.
+2016-10-10 13:47:32 Logs.java INFO  Logs:38 - Term Name..> To sing Found.
+2016-10-10 13:47:57 Logs.java INFO  Logs:38 - Term Name..> To sit down Found.
+2016-10-10 13:48:00 Logs.java INFO  Logs:38 - Term Name..> To ski Found.
+2016-10-10 13:48:02 Logs.java INFO  Logs:38 - Term Name..> To sleep Found.
+2016-10-10 13:48:27 Logs.java INFO  Logs:38 - Term Name..> To smell Found.
+2016-10-10 13:48:30 Logs.java INFO  Logs:38 - Term Name..> To smile Found.
+2016-10-10 13:48:33 Logs.java INFO  Logs:38 - Term Name..> To smoke Found.
+2016-10-10 13:48:35 Logs.java INFO  Logs:38 - Term Name..> To snow Found.
+2016-10-10 13:49:00 Logs.java INFO  Logs:38 - Term Name..> To soak in Found.
+2016-10-10 13:49:03 Logs.java INFO  Logs:38 - Term Name..> To sob Found.
+2016-10-10 13:49:05 Logs.java INFO  Logs:38 - Term Name..> To speak Found.
+2016-10-10 13:49:31 Logs.java INFO  Logs:38 - Term Name..> To spend Found.
+2016-10-10 13:49:33 Logs.java INFO  Logs:38 - Term Name..> To split Found.
+2016-10-10 13:49:36 Logs.java INFO  Logs:38 - Term Name..> To start Found.
+2016-10-10 13:49:38 Logs.java INFO  Logs:38 - Term Name..> To state Found.
+2016-10-10 13:50:02 Logs.java INFO  Logs:38 - Term Name..> To stop Found.
+2016-10-10 13:50:05 Logs.java INFO  Logs:38 - Term Name..> To study Found.
+2016-10-10 13:50:07 Logs.java INFO  Logs:38 - Term Name..> To submerge Found.
+2016-10-10 13:50:10 Logs.java INFO  Logs:38 - Term Name..> To subscribe Found.
+2016-10-10 13:50:34 Logs.java INFO  Logs:38 - Term Name..> To suck Found.
+2016-10-10 13:50:36 Logs.java INFO  Logs:38 - Term Name..> To suffer Found.
+2016-10-10 13:50:39 Logs.java INFO  Logs:38 - Term Name..> To suffocate Found.
+2016-10-10 13:50:42 Logs.java INFO  Logs:38 - Term Name..> To suggest Found.
+2016-10-10 13:51:07 Logs.java INFO  Logs:38 - Term Name..> To support Found.
+2016-10-10 13:51:09 Logs.java INFO  Logs:38 - Term Name..> To surge Found.
+2016-10-10 13:51:12 Logs.java INFO  Logs:38 - Term Name..> To surprise Found.
+2016-10-10 13:51:38 Logs.java INFO  Logs:38 - Term Name..> To suspect Found.
+2016-10-10 13:51:40 Logs.java INFO  Logs:38 - Term Name..> To sustain Found.
+2016-10-10 13:51:42 Logs.java INFO  Logs:38 - Term Name..> To swear Found.
+2016-10-10 13:51:45 Logs.java INFO  Logs:38 - Term Name..> To swim Found.
+2016-10-10 14:02:09 Logs.java INFO  Logs:38 - Term Name..> llogaritar Found.
+2016-10-10 14:02:11 Logs.java INFO  Logs:38 - Term Name..> aktor Found.
+2016-10-10 14:02:14 Logs.java INFO  Logs:38 - Term Name..> administratori Found.
+2016-10-10 14:02:17 Logs.java INFO  Logs:38 - Term Name..> arkeolog Found.
+2016-10-10 14:02:43 Logs.java INFO  Logs:38 - Term Name..> arkitekt Found.
+2016-10-10 14:03:34 Logs.java INFO  Logs:38 - Term Name..> dentist Found.
+2016-10-10 14:03:37 Logs.java INFO  Logs:38 - Term Name..> projektues Found.
+2016-10-10 14:05:16 Logs.java INFO  Logs:38 - Term Name..> Pronës Vlerësues Found.
+2016-10-10 14:05:18 Logs.java INFO  Logs:38 - Term Name..> teknik radiolog Found.
+2016-10-10 14:06:33 Logs.java INFO  Logs:38 - Term Name..> kirurg Found.
+2016-10-10 14:10:26 Logs.java INFO  Logs:38 - Term Name..> Unë Found.
+2016-10-10 14:10:28 Logs.java INFO  Logs:38 - Term Name..> Ju Found.
+2016-10-10 14:10:31 Logs.java INFO  Logs:38 - Term Name..> Ju të gjithë Found.
+2016-10-10 14:10:33 Logs.java INFO  Logs:38 - Term Name..> Ne Found.
+2016-10-10 14:11:23 Logs.java INFO  Logs:38 - Term Name..> Znj Found.
+2016-10-10 14:12:14 Logs.java INFO  Logs:38 - Term Name..> Çift Found.
+2016-10-10 14:12:41 Logs.java INFO  Logs:38 - Term Name..> Martese Found.
+2016-10-10 14:13:55 Logs.java INFO  Logs:38 - Term Name..> Ditëlindje Found.
+2016-10-10 14:17:32 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-10 14:19:44 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-10-10 14:19:47 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-10-10 14:19:49 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-10 14:19:52 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-10 14:19:54 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-10-10 14:19:57 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-10-10 14:19:59 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-10-10 14:20:02 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-10-10 14:20:05 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-10-10 14:20:07 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-10-10 14:20:10 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-10-10 14:20:12 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-10-10 14:20:15 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-10-10 14:20:40 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-10-10 14:20:43 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-10-10 14:20:45 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-10-10 14:20:48 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-10-10 14:20:50 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-10-10 14:20:53 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-10-10 14:20:56 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-10-10 14:21:07 Logs.java INFO  Logs:38 - Term Name..> Black Found.
+2016-10-10 14:21:09 Logs.java INFO  Logs:38 - Term Name..> Clothes Found.
+2016-10-10 14:21:12 Logs.java INFO  Logs:38 - Term Name..> Colors Found.
+2016-10-10 14:21:14 Logs.java INFO  Logs:38 - Term Name..> Shirt Found.
+2016-10-10 14:21:39 Logs.java INFO  Logs:38 - Term Name..> How much Found.
+2016-10-10 14:21:42 Logs.java INFO  Logs:38 - Term Name..> Pants Found.
+2016-10-10 14:21:44 Logs.java INFO  Logs:38 - Term Name..> Jacket Found.
+2016-10-10 14:21:47 Logs.java INFO  Logs:38 - Term Name..> Skirt Found.
+2016-10-10 14:22:12 Logs.java INFO  Logs:38 - Term Name..> Dress Found.
+2016-10-10 14:22:14 Logs.java INFO  Logs:38 - Term Name..> Dry cleaners Found.
+2016-10-10 14:22:17 Logs.java INFO  Logs:38 - Term Name..> Laundry Found.
+2016-10-10 14:22:19 Logs.java INFO  Logs:38 - Term Name..> Price Found.
+2016-10-10 14:22:44 Logs.java INFO  Logs:38 - Term Name..> White Found.
+2016-10-10 14:22:47 Logs.java INFO  Logs:38 - Term Name..> Sock Found.
+2016-10-10 14:22:50 Logs.java INFO  Logs:38 - Term Name..> Receipt Found.
+2016-10-10 14:41:22 Logs.java INFO  Logs:38 - Entered text message. Dry season
+2016-10-10 16:04:40 Logs.java INFO  Logs:38 - Entered text message. Abstinence
+2016-10-10 16:16:06 Logs.java INFO  Logs:38 - Quick List. Общее Found.
+2016-10-10 16:16:09 Logs.java INFO  Logs:38 - Quick List. Покупка товаров Found.
+2016-10-10 16:16:11 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-10 16:16:14 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-10 16:16:16 Logs.java INFO  Logs:38 - Quick List. Числа Found.
+2016-10-10 16:16:19 Logs.java INFO  Logs:38 - Quick List. Такси В Found.
+2016-10-10 16:16:21 Logs.java INFO  Logs:38 - Quick List. Полицейские Found.
+2016-10-10 16:16:24 Logs.java INFO  Logs:38 - Quick List. Приветствуй Found.
+2016-10-10 16:16:27 Logs.java INFO  Logs:38 - Quick List. Погоды Found.
+2016-10-10 16:16:29 Logs.java INFO  Logs:38 - Quick List. Противоположностей Found.
+2016-10-10 16:16:32 Logs.java INFO  Logs:38 - Quick List. Ледоколов Found.
+2016-10-10 16:16:34 Logs.java INFO  Logs:38 - Quick List. Романтическая Found.
+2016-10-10 16:16:37 Logs.java INFO  Logs:38 - Quick List. Ресторана Found.
+2016-10-10 16:17:01 Logs.java INFO  Logs:38 - Quick List. Прачечной Found.
+2016-10-10 16:17:04 Logs.java INFO  Logs:38 - Quick List. Флоры Found.
+2016-10-10 16:17:06 Logs.java INFO  Logs:38 - Quick List. Боевики Found.
+2016-10-10 16:17:09 Logs.java INFO  Logs:38 - Quick List. Баре Found.
+2016-10-10 16:17:12 Logs.java INFO  Logs:38 - Quick List. Доктора Found.
+2016-10-10 16:17:14 Logs.java INFO  Logs:38 - Quick List. Место Found.
+2016-10-10 16:17:17 Logs.java INFO  Logs:38 - Quick List. Виды спорта Found.
+2016-10-10 16:39:50 Logs.java INFO  Logs:38 - Term Name..> Grand parents Found.
+2016-10-10 16:39:52 Logs.java INFO  Logs:38 - Term Name..> Grand mother Found.
+2016-10-10 16:39:55 Logs.java INFO  Logs:38 - Term Name..> Grand father Found.
+2016-10-10 16:39:57 Logs.java INFO  Logs:38 - Term Name..> Grand daughter Found.
+2016-10-10 16:40:22 Logs.java INFO  Logs:38 - Term Name..> Grand son Found.
+2016-10-10 16:40:25 Logs.java INFO  Logs:38 - Term Name..> Grand child Found.
+2016-10-10 16:40:28 Logs.java INFO  Logs:38 - Term Name..> Mother Found.
+2016-10-10 16:40:31 Logs.java INFO  Logs:38 - Term Name..> Father Found.
+2016-10-10 16:40:56 Logs.java INFO  Logs:38 - Term Name..> Son Found.
+2016-10-10 16:40:58 Logs.java INFO  Logs:38 - Term Name..> Daughter Found.
+2016-10-10 16:41:01 Logs.java INFO  Logs:38 - Term Name..> Sister Found.
+2016-10-10 16:41:04 Logs.java INFO  Logs:38 - Term Name..> Widowed Found.
+2016-10-10 16:41:29 Logs.java INFO  Logs:38 - Term Name..> Husband Found.
+2016-10-10 16:41:31 Logs.java INFO  Logs:38 - Term Name..> Wife Found.
+2016-10-10 16:41:35 Logs.java INFO  Logs:38 - Term Name..> Spouse Found.
+2016-10-10 16:42:00 Logs.java INFO  Logs:38 - Term Name..> Man Found.
+2016-10-10 16:42:03 Logs.java INFO  Logs:38 - Term Name..> Woman Found.
+2016-10-10 16:42:06 Logs.java INFO  Logs:38 - Term Name..> Nephew Found.
+2016-10-10 16:42:08 Logs.java INFO  Logs:38 - Term Name..> Niece Found.
+2016-10-10 16:42:33 Logs.java INFO  Logs:38 - Term Name..> Aunt Found.
+2016-10-10 16:42:36 Logs.java INFO  Logs:38 - Term Name..> Uncle Found.
+2016-10-10 16:42:38 Logs.java INFO  Logs:38 - Term Name..> Baby Found.
+2016-10-10 16:43:03 Logs.java INFO  Logs:38 - Term Name..> Baby boy Found.
+2016-10-10 16:43:06 Logs.java INFO  Logs:38 - Term Name..> Baby girl Found.
+2016-10-10 16:43:09 Logs.java INFO  Logs:38 - Term Name..> Boy Found.
+2016-10-10 16:43:11 Logs.java INFO  Logs:38 - Term Name..> Teenage boy Found.
+2016-10-10 16:43:37 Logs.java INFO  Logs:38 - Term Name..> Girl Found.
+2016-10-10 16:43:39 Logs.java INFO  Logs:38 - Term Name..> Friend Found.
+2016-10-10 16:43:42 Logs.java INFO  Logs:38 - Term Name..> Girlfriend Found.
+2016-10-10 16:44:07 Logs.java INFO  Logs:38 - Term Name..> Boyfriend Found.
+2016-10-10 16:44:09 Logs.java INFO  Logs:38 - Term Name..> Waiter Found.
+2016-10-10 16:51:48 Logs.java INFO  Logs:38 - Term Name..> Çfarë Found.
+2016-10-10 16:51:50 Logs.java INFO  Logs:38 - Term Name..> Çfarë Nëse Found.
+2016-10-10 16:51:53 Logs.java INFO  Logs:38 - Term Name..> përse Found.
+2016-10-10 16:52:19 Logs.java INFO  Logs:38 - Term Name..> përse jo Found.
+2016-10-10 16:52:45 Logs.java INFO  Logs:38 - Term Name..> që Found.
+2016-10-10 16:54:23 Logs.java INFO  Logs:38 - Term Name..> Si ishte Found.
+2016-10-10 16:55:37 Logs.java INFO  Logs:38 - Term Name..> Atletikë Found.
+2016-10-10 16:55:39 Logs.java INFO  Logs:38 - Term Name..> Badmintonit Found.
+2016-10-10 16:55:42 Logs.java INFO  Logs:38 - Term Name..> Top Found.
+2016-10-10 16:55:44 Logs.java INFO  Logs:38 - Term Name..> Bejsbol Found.
+2016-10-10 16:56:10 Logs.java INFO  Logs:38 - Term Name..> Basketboll Found.
+2016-10-10 16:57:00 Logs.java INFO  Logs:38 - Term Name..> Zhytje Found.
+2016-10-10 16:57:50 Logs.java INFO  Logs:38 - Term Name..> Gjimnastikor Found.
+2016-10-10 16:58:40 Logs.java INFO  Logs:38 - Term Name..> Motorsportit Found.
+2016-10-10 16:58:42 Logs.java INFO  Logs:38 - Term Name..> Netball Found.
+2016-10-10 16:59:09 Logs.java INFO  Logs:38 - Term Name..> Raketë Found.
+2016-10-10 17:03:26 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-10-10 17:03:26 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-10-10 17:16:17 Logs.java INFO  Logs:38 - Term Name..> Alone Found.
+2016-10-10 17:16:20 Logs.java INFO  Logs:38 - Term Name..> Angry Found.
+2016-10-10 17:16:22 Logs.java INFO  Logs:38 - Term Name..> Happy Found.
+2016-10-10 17:16:25 Logs.java INFO  Logs:38 - Term Name..> Broken Found.
+2016-10-10 17:16:49 Logs.java INFO  Logs:38 - Term Name..> Dangerous Found.
+2016-10-10 17:16:52 Logs.java INFO  Logs:38 - Term Name..> Famous Found.
+2016-10-10 17:16:54 Logs.java INFO  Logs:38 - Term Name..> Intelligent Found.
+2016-10-10 17:17:20 Logs.java INFO  Logs:38 - Term Name..> Ugly Found.
+2016-10-10 17:17:22 Logs.java INFO  Logs:38 - Term Name..> Beautiful Found.
+2016-10-10 17:17:25 Logs.java INFO  Logs:38 - Term Name..> Handsome Found.
+2016-10-10 17:17:50 Logs.java INFO  Logs:38 - Term Name..> Good Found.
+2016-10-10 17:17:52 Logs.java INFO  Logs:38 - Term Name..> Nice Found.
+2016-10-10 17:17:55 Logs.java INFO  Logs:38 - Term Name..> Pleasant Found.
+2016-10-10 17:17:57 Logs.java INFO  Logs:38 - Term Name..> Wonderful Found.
+2016-10-10 17:18:22 Logs.java INFO  Logs:38 - Term Name..> Cheap Found.
+2016-10-10 17:18:25 Logs.java INFO  Logs:38 - Term Name..> Each Found.
+2016-10-10 17:18:27 Logs.java INFO  Logs:38 - Term Name..> Same Found.
+2016-10-10 17:18:30 Logs.java INFO  Logs:38 - Term Name..> Common Found.
+2016-10-10 17:18:55 Logs.java INFO  Logs:38 - Term Name..> Plain Found.
+2016-10-10 17:18:57 Logs.java INFO  Logs:38 - Term Name..> Simple Found.
+2016-10-10 17:19:00 Logs.java INFO  Logs:38 - Term Name..> Enough Found.
+2016-10-10 17:19:25 Logs.java INFO  Logs:38 - Term Name..> Only Found.
+2016-10-10 17:19:27 Logs.java INFO  Logs:38 - Term Name..> Possible Found.
+2016-10-10 17:19:29 Logs.java INFO  Logs:38 - Term Name..> Silly Found.
+2016-10-10 17:19:32 Logs.java INFO  Logs:38 - Term Name..> Comfortable Found.
+2016-10-10 17:19:57 Logs.java INFO  Logs:38 - Term Name..> Boring Found.
+2016-10-10 17:20:00 Logs.java INFO  Logs:38 - Term Name..> Myself Found.
+2016-10-10 17:20:02 Logs.java INFO  Logs:38 - Term Name..> Fat Found.
+2016-10-10 17:20:27 Logs.java INFO  Logs:38 - Term Name..> Serious Found.
+2016-10-10 17:20:30 Logs.java INFO  Logs:38 - Term Name..> Real Found.
+2016-10-10 17:20:32 Logs.java INFO  Logs:38 - Term Name..> True Found.
+2016-10-10 17:20:35 Logs.java INFO  Logs:38 - Term Name..> Polite Found.
+2016-10-10 17:20:59 Logs.java INFO  Logs:38 - Term Name..> Very Found.
+2016-10-10 17:21:02 Logs.java INFO  Logs:38 - Term Name..> Very small Found.
+2016-10-10 17:21:04 Logs.java INFO  Logs:38 - Term Name..> Smaller Found.
+2016-10-10 17:21:06 Logs.java INFO  Logs:38 - Term Name..> Nervous Found.
+2016-10-10 17:21:31 Logs.java INFO  Logs:38 - Term Name..> Tired Found.
+2016-10-10 17:21:34 Logs.java INFO  Logs:38 - Term Name..> Sick Found.
+2016-10-10 17:21:37 Logs.java INFO  Logs:38 - Term Name..> Younger Found.
+2016-10-10 17:31:46 Logs.java INFO  Logs:38 - Term Name..> merr Found.
+2016-10-10 17:31:48 Logs.java INFO  Logs:38 - Term Name..> marr me vete Found.
+2016-10-10 17:31:51 Logs.java INFO  Logs:38 - Term Name..> mësoj Found.
+2016-10-10 17:31:53 Logs.java INFO  Logs:38 - Term Name..> jap fund Found.
+2016-10-10 17:32:19 Logs.java INFO  Logs:38 - Term Name..> falënderoj Found.
+2016-10-10 17:33:09 Logs.java INFO  Logs:38 - Term Name..> shkel Found.
+2016-10-10 17:35:11 Logs.java INFO  Logs:38 - Term Name..> laj vetë Found.
+2016-10-10 17:35:13 Logs.java INFO  Logs:38 - Term Name..> shikoj Found.
+2016-10-10 17:35:16 Logs.java INFO  Logs:38 - Term Name..> mbroj Found.
+2016-10-10 17:35:41 Logs.java INFO  Logs:38 - Term Name..> punoj Found.
+2016-10-10 17:39:45 Logs.java INFO  Logs:38 - Term Name..> Shteti Found.
+2016-10-10 17:40:11 Logs.java INFO  Logs:38 - Term Name..> Frëngjisht Found.
+2016-10-10 17:43:28 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-10 17:52:38 Logs.java ERROR Logs:55 - Category Header text not found. org.openqa.selenium.NoSuchElementException
+2016-10-10 17:57:00 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-10 18:03:46 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-10 18:12:14 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-12 10:30:16 Logs.java INFO  Logs:38 - Entered text message. Chemistry
+2016-10-12 10:31:22 Logs.java INFO  Logs:38 - Entered text message. Pants
+2016-10-12 10:33:05 Logs.java ERROR Logs:55 - Not Navigate to the right page..> Games Page org.openqa.selenium.NoSuchElementException
+2016-10-12 10:35:12 Logs.java ERROR Logs:55 - Question count value not found. org.openqa.selenium.NoSuchElementException
+2016-10-12 10:36:38 Logs.java ERROR Logs:55 - Skip Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-12 10:36:59 Logs.java ERROR Logs:55 - Spund Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-12 10:37:21 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-12 10:38:04 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-12 10:38:25 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-12 10:39:08 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-13 13:19:00 Logs.java INFO  Logs:38 - Entered text message. I've lost my wallet
+2016-10-13 13:20:23 Logs.java INFO  Logs:38 - Entered text message. Lavender
+2016-10-13 13:35:33 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-13 13:36:21 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-13 13:57:22 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-13 13:59:34 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-10-13 13:59:37 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-10-13 13:59:39 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-13 13:59:41 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-13 13:59:44 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-10-13 13:59:47 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-10-13 13:59:49 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-10-13 13:59:52 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-10-13 13:59:54 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-10-13 13:59:57 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-10-13 13:59:59 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-10-13 14:00:02 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-10-13 14:00:04 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-10-13 14:00:28 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-10-13 14:00:31 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-10-13 14:00:34 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-10-13 14:00:36 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-10-13 14:00:39 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-10-13 14:00:41 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-10-13 14:00:44 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-10-13 14:01:43 Logs.java INFO  Logs:38 - Term Name..> What's your name? Found.
+2016-10-13 14:01:45 Logs.java INFO  Logs:38 - Term Name..> My name is … Found.
+2016-10-13 14:01:48 Logs.java INFO  Logs:38 - Term Name..> How are you? Found.
+2016-10-13 14:01:51 Logs.java INFO  Logs:38 - Term Name..> Greetings Found.
+2016-10-13 14:02:15 Logs.java INFO  Logs:38 - Term Name..> Who are you? Found.
+2016-10-13 14:02:18 Logs.java INFO  Logs:38 - Term Name..> Where is the nearest police station? Found.
+2016-10-13 14:18:40 Logs.java INFO  Logs:38 - Entered text message. Hour
+2016-10-13 15:40:27 Logs.java INFO  Logs:38 - Entered text message. Armwear
+2016-10-13 15:51:28 Logs.java INFO  Logs:38 - Quick List. Algemene Found.
+2016-10-13 15:51:31 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-10-13 15:51:34 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-13 15:51:36 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-13 15:51:39 Logs.java INFO  Logs:38 - Quick List. Nommer Found.
+2016-10-13 15:51:41 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-10-13 15:51:44 Logs.java INFO  Logs:38 - Quick List. Polisie Found.
+2016-10-13 15:51:47 Logs.java INFO  Logs:38 - Quick List. Groet Found.
+2016-10-13 15:51:50 Logs.java INFO  Logs:38 - Quick List. Weer Found.
+2016-10-13 15:51:52 Logs.java INFO  Logs:38 - Quick List. Teenoorgestelde Found.
+2016-10-13 15:51:55 Logs.java INFO  Logs:38 - Quick List. Ice Breaker Found.
+2016-10-13 15:51:58 Logs.java INFO  Logs:38 - Quick List. Romantiese Found.
+2016-10-13 15:52:00 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-10-13 15:52:25 Logs.java INFO  Logs:38 - Quick List. Wasgoed Found.
+2016-10-13 15:52:28 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-10-13 15:52:30 Logs.java INFO  Logs:38 - Quick List. Avontuur Found.
+2016-10-13 15:52:33 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-10-13 15:52:35 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-10-13 15:52:38 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-10-13 15:52:41 Logs.java INFO  Logs:38 - Quick List. Sport Found.
+2016-10-13 16:54:22 Logs.java INFO  Logs:38 - Entered text message. Yogurt
+2016-10-13 16:55:27 Logs.java INFO  Logs:38 - Entered text message. Dance
+2016-10-13 17:10:32 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-13 17:11:21 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-13 17:30:41 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-13 17:32:56 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-10-13 17:32:58 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-10-13 17:33:00 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-13 17:33:02 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-13 17:33:05 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-10-13 17:33:08 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-10-13 17:33:10 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-10-13 17:33:13 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-10-13 17:33:16 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-10-13 17:33:18 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-10-13 17:33:21 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-10-13 17:33:24 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-10-13 17:33:26 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-10-13 17:33:50 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-10-13 17:33:53 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-10-13 17:33:56 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-10-13 17:33:58 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-10-13 17:34:01 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-10-13 17:34:03 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-10-13 17:34:06 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-10-13 17:34:16 Logs.java INFO  Logs:38 - Term Name..> Heat Found.
+2016-10-13 17:34:19 Logs.java INFO  Logs:38 - Term Name..> How's the weather? Found.
+2016-10-13 17:34:21 Logs.java INFO  Logs:38 - Term Name..> Humidity Found.
+2016-10-13 17:34:24 Logs.java INFO  Logs:38 - Term Name..> It's cold Found.
+2016-10-13 17:34:49 Logs.java INFO  Logs:38 - Term Name..> It's hot Found.
+2016-10-13 17:34:52 Logs.java INFO  Logs:38 - Term Name..> Ugly Found.
+2016-10-13 17:34:54 Logs.java INFO  Logs:38 - Term Name..> Beautiful Found.
+2016-10-13 17:34:57 Logs.java INFO  Logs:38 - Term Name..> It's sunny Found.
+2016-10-13 17:35:22 Logs.java INFO  Logs:38 - Term Name..> It's windy Found.
+2016-10-13 17:35:24 Logs.java INFO  Logs:38 - Term Name..> Rain Found.
+2016-10-13 17:35:26 Logs.java INFO  Logs:38 - Term Name..> Snow Found.
+2016-10-13 17:35:29 Logs.java INFO  Logs:38 - Term Name..> Storm Found.
+2016-10-13 17:35:54 Logs.java INFO  Logs:38 - Term Name..> Umbrella Found.
+2016-10-13 17:35:56 Logs.java INFO  Logs:38 - Term Name..> Wind Found.
+2016-10-13 17:35:59 Logs.java INFO  Logs:38 - Term Name..> Autumn Found.
+2016-10-13 17:53:37 Logs.java INFO  Logs:38 - Entered text message. To be called
+2016-10-13 19:16:45 Logs.java INFO  Logs:38 - Entered text message. Grand daughter
+2016-10-13 19:28:08 Logs.java INFO  Logs:38 - Quick List. Gerais Found.
+2016-10-13 19:28:10 Logs.java INFO  Logs:38 - Quick List. De compras Found.
+2016-10-13 19:28:13 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-13 19:28:16 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-13 19:28:18 Logs.java INFO  Logs:38 - Quick List. Números de Found.
+2016-10-13 19:28:21 Logs.java INFO  Logs:38 - Quick List. Do táxi Found.
+2016-10-13 19:28:24 Logs.java INFO  Logs:38 - Quick List. De Polícia Found.
+2016-10-13 19:28:26 Logs.java INFO  Logs:38 - Quick List. Saudai Found.
+2016-10-13 19:28:28 Logs.java INFO  Logs:38 - Quick List. O Tempo O Found.
+2016-10-13 19:28:31 Logs.java INFO  Logs:38 - Quick List. Os opostos Found.
+2016-10-13 19:28:33 Logs.java INFO  Logs:38 - Quick List. Disjuntores de gelo Found.
+2016-10-13 19:28:36 Logs.java INFO  Logs:38 - Quick List. Românticos Found.
+2016-10-13 19:28:38 Logs.java INFO  Logs:38 - Quick List. Sobre restaurantes Found.
+2016-10-13 19:29:04 Logs.java INFO  Logs:38 - Quick List. De lavandaria Found.
+2016-10-13 19:29:07 Logs.java INFO  Logs:38 - Quick List. Da flora Found.
+2016-10-13 19:29:09 Logs.java INFO  Logs:38 - Quick List. Aventura de Found.
+2016-10-13 19:29:12 Logs.java INFO  Logs:38 - Quick List. Barra de Found.
+2016-10-13 19:29:15 Logs.java INFO  Logs:38 - Quick List. Do doutor Found.
+2016-10-13 19:29:17 Logs.java INFO  Logs:38 - Quick List. Coloque Found.
+2016-10-13 19:29:19 Logs.java INFO  Logs:38 - Quick List. Desporto Found.
+2016-10-14 16:06:01 Logs.java INFO  Logs:38 - Entered text message. To owe
+2016-10-14 16:07:14 Logs.java INFO  Logs:38 - Entered text message. To lie down
+2016-10-14 16:22:23 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-14 16:23:11 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-14 16:53:46 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-14 16:55:59 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-10-14 16:56:01 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-10-14 16:56:04 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-14 16:56:06 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-14 16:56:09 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-10-14 16:56:11 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-10-14 16:56:14 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-10-14 16:56:16 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-10-14 16:56:20 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-10-14 16:56:22 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-10-14 16:56:25 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-10-14 16:56:27 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-10-14 16:56:30 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-10-14 16:56:55 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-10-14 16:56:57 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-10-14 16:57:00 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-10-14 16:57:03 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-10-14 16:57:05 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-10-14 16:57:08 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-10-14 16:57:11 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-10-14 16:58:10 Logs.java INFO  Logs:38 - Term Name..> What's your name? Found.
+2016-10-14 16:58:13 Logs.java INFO  Logs:38 - Term Name..> My name is … Found.
+2016-10-14 16:58:16 Logs.java INFO  Logs:38 - Term Name..> How are you? Found.
+2016-10-14 16:58:18 Logs.java INFO  Logs:38 - Term Name..> Greetings Found.
+2016-10-14 16:58:43 Logs.java INFO  Logs:38 - Term Name..> Who are you? Found.
+2016-10-14 16:58:46 Logs.java INFO  Logs:38 - Term Name..> Where is the nearest police station? Found.
+2016-10-14 17:14:59 Logs.java INFO  Logs:38 - Entered text message. To take
+2016-10-14 18:34:12 Logs.java INFO  Logs:38 - Entered text message. Flashlight
+2016-10-14 18:45:35 Logs.java INFO  Logs:38 - Quick List. Mkuu Found.
+2016-10-14 18:45:38 Logs.java INFO  Logs:38 - Quick List. Ununuzi Found.
+2016-10-14 18:45:40 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-14 18:45:43 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-14 18:45:45 Logs.java INFO  Logs:38 - Quick List. Idadi Found.
+2016-10-14 18:45:48 Logs.java INFO  Logs:38 - Quick List. Teksi Found.
+2016-10-14 18:45:51 Logs.java INFO  Logs:38 - Quick List. Polisi Found.
+2016-10-14 18:45:53 Logs.java INFO  Logs:38 - Quick List. Kusalimiana Found.
+2016-10-14 18:45:56 Logs.java INFO  Logs:38 - Quick List. Hali ya hewa Found.
+2016-10-14 18:45:59 Logs.java INFO  Logs:38 - Quick List. Kinyume Found.
+2016-10-14 18:46:02 Logs.java INFO  Logs:38 - Quick List. Barafu Breaker Found.
+2016-10-14 18:46:04 Logs.java INFO  Logs:38 - Quick List. Kimapenzi Found.
+2016-10-14 18:46:06 Logs.java INFO  Logs:38 - Quick List. Mgahawa Found.
+2016-10-14 18:46:31 Logs.java INFO  Logs:38 - Quick List. Kufulia Found.
+2016-10-14 18:46:34 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-10-14 18:46:36 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-10-14 18:46:39 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-10-14 18:46:41 Logs.java INFO  Logs:38 - Quick List. Daktari Found.
+2016-10-14 18:46:44 Logs.java INFO  Logs:38 - Quick List. Nafasi Found.
+2016-10-14 18:46:46 Logs.java INFO  Logs:38 - Quick List. Michezo Found.
+2016-10-17 10:20:55 Logs.java INFO  Logs:38 - Entered text message. Jeans
+2016-10-17 10:22:03 Logs.java INFO  Logs:38 - Entered text message. To hug
+2016-10-17 10:36:12 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-17 10:37:01 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-17 10:57:29 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-17 10:59:54 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-10-17 10:59:56 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-10-17 10:59:58 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-17 11:00:01 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-17 11:00:04 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-10-17 11:00:06 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-10-17 11:00:09 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-10-17 11:00:11 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-10-17 11:00:14 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-10-17 11:00:16 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-10-17 11:00:18 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-10-17 11:00:21 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-10-17 11:00:45 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-10-17 11:00:49 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-10-17 11:00:51 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-10-17 11:00:53 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-10-17 11:00:56 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-10-17 11:00:58 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-10-17 11:01:01 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-10-17 11:01:25 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-10-17 11:01:35 Logs.java INFO  Logs:38 - Term Name..> Date Found.
+2016-10-17 11:01:38 Logs.java INFO  Logs:38 - Term Name..> Antifungal foot powder Found.
+2016-10-17 11:01:40 Logs.java INFO  Logs:38 - Term Name..> Alive Found.
+2016-10-17 11:01:42 Logs.java INFO  Logs:38 - Term Name..> Ache Found.
+2016-10-17 11:02:06 Logs.java INFO  Logs:38 - Term Name..> Allergy Found.
+2016-10-17 11:02:09 Logs.java INFO  Logs:38 - Term Name..> Dead Found.
+2016-10-17 11:02:11 Logs.java INFO  Logs:38 - Term Name..> How much Found.
+2016-10-17 11:02:13 Logs.java INFO  Logs:38 - Term Name..> Bruise Found.
+2016-10-17 11:02:38 Logs.java INFO  Logs:38 - Term Name..> Drugstore Found.
+2016-10-17 11:02:40 Logs.java INFO  Logs:38 - Term Name..> Cough Found.
+2016-10-17 11:02:42 Logs.java INFO  Logs:38 - Term Name..> Pharmacy Found.
+2016-10-17 11:02:45 Logs.java INFO  Logs:38 - Term Name..> Cut Found.
+2016-10-17 11:03:09 Logs.java INFO  Logs:38 - Term Name..> Dehydration Found.
+2016-10-17 11:03:11 Logs.java INFO  Logs:38 - Term Name..> Thermometer Found.
+2016-10-17 11:03:14 Logs.java INFO  Logs:38 - Term Name..> Dizzy Found.
+2016-10-17 11:03:38 Logs.java INFO  Logs:38 - Term Name..> Price Found.
+2016-10-17 11:03:40 Logs.java INFO  Logs:38 - Term Name..> Well Found.
+2016-10-17 11:03:42 Logs.java INFO  Logs:38 - Term Name..> Exhausted Found.
+2016-10-17 11:03:45 Logs.java INFO  Logs:38 - Term Name..> Diseases Found.
+2016-10-17 11:04:09 Logs.java INFO  Logs:38 - Term Name..> Flu Found.
+2016-10-17 11:04:11 Logs.java INFO  Logs:38 - Term Name..> Fracture Found.
+2016-10-17 11:04:14 Logs.java INFO  Logs:38 - Term Name..> Headache Found.
+2016-10-17 11:04:16 Logs.java INFO  Logs:38 - Term Name..> Heart-attack Found.
+2016-10-17 11:04:40 Logs.java INFO  Logs:38 - Term Name..> Infection Found.
+2016-10-17 11:04:43 Logs.java INFO  Logs:38 - Term Name..> Itch Found.
+2016-10-17 11:04:45 Logs.java INFO  Logs:38 - Term Name..> Nausea Found.
+2016-10-17 11:04:47 Logs.java INFO  Logs:38 - Term Name..> Thanks Found.
+2016-10-17 11:05:12 Logs.java INFO  Logs:38 - Term Name..> Pain Found.
+2016-10-17 11:05:15 Logs.java INFO  Logs:38 - Term Name..> Pregnancy Found.
+2016-10-17 11:05:17 Logs.java INFO  Logs:38 - Term Name..> Poisoning Found.
+2016-10-17 11:05:19 Logs.java INFO  Logs:38 - Term Name..> Stomach ache Found.
+2016-10-17 11:05:44 Logs.java INFO  Logs:38 - Term Name..> Toothache Found.
+2016-10-17 11:05:46 Logs.java INFO  Logs:38 - Term Name..> Yes Found.
+2016-10-17 11:05:49 Logs.java INFO  Logs:38 - Term Name..> No Found.
+2016-10-17 11:05:51 Logs.java INFO  Logs:38 - Term Name..> Doctor Found.
+2016-10-17 11:05:53 Logs.java INFO  Logs:38 - Term Name..> Antibiotic Found.
+2016-10-17 11:06:18 Logs.java INFO  Logs:38 - Term Name..> First aid Found.
+2016-10-17 11:06:20 Logs.java INFO  Logs:38 - Term Name..> Pain-killer Found.
+2016-10-17 11:06:23 Logs.java INFO  Logs:38 - Term Name..> Pill Found.
+2016-10-17 11:06:25 Logs.java INFO  Logs:38 - Term Name..> Receipt Found.
+2016-10-17 11:06:50 Logs.java INFO  Logs:38 - Term Name..> Injection Found.
+2016-10-17 11:06:52 Logs.java INFO  Logs:38 - Term Name..> Medicines Found.
+2016-10-17 11:06:54 Logs.java INFO  Logs:38 - Term Name..> Tablet Found.
+2016-10-17 11:06:57 Logs.java INFO  Logs:38 - Term Name..> Blood Found.
+2016-10-17 11:07:22 Logs.java INFO  Logs:38 - Term Name..> Check-up Found.
+2016-10-17 11:07:24 Logs.java INFO  Logs:38 - Term Name..> Cure Found.
+2016-10-17 11:07:26 Logs.java INFO  Logs:38 - Term Name..> Surgery Found.
+2016-10-17 11:07:29 Logs.java INFO  Logs:38 - Term Name..> Healthy Found.
+2016-10-17 11:07:53 Logs.java INFO  Logs:38 - Term Name..> Vomit Found.
+2016-10-17 11:07:56 Logs.java INFO  Logs:38 - Term Name..> Hospital Found.
+2016-10-17 11:07:58 Logs.java INFO  Logs:38 - Term Name..> Doctor Found.
+2016-10-17 11:08:00 Logs.java INFO  Logs:38 - Term Name..> Nurse Found.
+2016-10-17 11:08:25 Logs.java INFO  Logs:38 - Term Name..> Patient Found.
+2016-10-17 11:08:27 Logs.java INFO  Logs:38 - Term Name..> Pharmacist Found.
+2016-10-17 11:08:29 Logs.java INFO  Logs:38 - Term Name..> Specialist Found.
+2016-10-17 11:08:32 Logs.java INFO  Logs:38 - Term Name..> Be sick Found.
+2016-10-17 11:08:57 Logs.java INFO  Logs:38 - Term Name..> Feel sick Found.
+2016-10-17 11:08:59 Logs.java INFO  Logs:38 - Term Name..> I'm tired Found.
+2016-10-17 11:24:45 Logs.java INFO  Logs:38 - Entered text message. It
+2016-10-17 12:54:44 Logs.java INFO  Logs:38 - Entered text message. To read
+2016-10-17 13:08:00 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-10-17 13:08:03 Logs.java INFO  Logs:38 - Quick List. Compras Found.
+2016-10-17 13:08:05 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-17 13:08:07 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-17 13:08:10 Logs.java INFO  Logs:38 - Quick List. Números Found.
+2016-10-17 13:08:12 Logs.java INFO  Logs:38 - Quick List. En taxi Found.
+2016-10-17 13:08:14 Logs.java INFO  Logs:38 - Quick List. Policía Found.
+2016-10-17 13:08:17 Logs.java INFO  Logs:38 - Quick List. Saludar Found.
+2016-10-17 13:08:19 Logs.java INFO  Logs:38 - Quick List. Tiempo Found.
+2016-10-17 13:08:21 Logs.java INFO  Logs:38 - Quick List. Opuestos Found.
+2016-10-17 13:08:24 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-10-17 13:08:26 Logs.java INFO  Logs:38 - Quick List. Romántico Found.
+2016-10-17 13:08:51 Logs.java INFO  Logs:38 - Quick List. Restaurante Found.
+2016-10-17 13:08:53 Logs.java INFO  Logs:38 - Quick List. Lavandería Found.
+2016-10-17 13:08:56 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-10-17 13:08:59 Logs.java INFO  Logs:38 - Quick List. Aventura Found.
+2016-10-17 13:09:01 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-10-17 13:09:04 Logs.java INFO  Logs:38 - Quick List. Médico Found.
+2016-10-17 13:09:06 Logs.java INFO  Logs:38 - Quick List. Lugar Found.
+2016-10-17 13:09:30 Logs.java INFO  Logs:38 - Quick List. Deportes Found.
+2016-10-24 15:49:03 Logs.java INFO  Logs:38 - Entered text message. To rain
+2016-10-24 15:50:14 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-24 15:52:04 Logs.java ERROR Logs:55 - Not Navigate to the right page..> Games Page org.openqa.selenium.NoSuchElementException
+2016-10-24 15:54:11 Logs.java ERROR Logs:55 - Question count value not found. org.openqa.selenium.NoSuchElementException
+2016-10-24 15:55:36 Logs.java ERROR Logs:55 - Skip Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-24 15:55:57 Logs.java ERROR Logs:55 - Spund Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-24 15:56:20 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-24 15:57:03 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-24 15:57:24 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-24 15:58:06 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-24 15:58:31 Logs.java ERROR Logs:55 - Wrong Attempted Question not shown in score page. org.openqa.selenium.NoSuchElementException
+2016-10-24 16:04:12 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-24 16:04:43 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-24 16:16:51 Logs.java ERROR Logs:55 - Facebook post not visible. org.openqa.selenium.NoSuchElementException
+2016-10-24 16:17:18 Logs.java ERROR Logs:55 - Facebook post not visible. org.openqa.selenium.NoSuchElementException
+2016-10-24 16:17:39 Logs.java ERROR Logs:55 - Facebook text not visible. org.openqa.selenium.NoSuchElementException
+2016-10-24 16:18:46 Logs.java ERROR Logs:55 - Select profile type not found. org.openqa.selenium.NoSuchElementException
+2016-10-24 16:23:47 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-24 16:25:22 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-10-24 16:25:25 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-10-24 16:25:27 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-24 16:25:29 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-24 16:25:32 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-10-24 16:25:34 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-10-24 16:25:36 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-10-24 16:25:38 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-10-24 16:25:41 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-10-24 16:25:43 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-10-24 16:25:46 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-10-24 16:26:10 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-10-24 16:26:12 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-10-24 16:26:14 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-10-24 16:26:18 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-10-24 16:26:20 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-10-24 16:26:23 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-10-24 16:26:25 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-10-24 16:26:49 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-10-24 16:26:52 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-10-24 16:27:00 Logs.java INFO  Logs:38 - Term Name..> Happy Found.
+2016-10-24 16:27:03 Logs.java INFO  Logs:38 - Term Name..> Intelligent Found.
+2016-10-24 16:27:05 Logs.java INFO  Logs:38 - Term Name..> Beautiful Found.
+2016-10-24 16:27:30 Logs.java INFO  Logs:38 - Term Name..> Pretty Found.
+2016-10-24 16:27:32 Logs.java INFO  Logs:38 - Term Name..> Enjoyment Found.
+2016-10-24 16:27:35 Logs.java INFO  Logs:38 - Term Name..> Handsome Found.
+2016-10-24 16:28:00 Logs.java INFO  Logs:38 - Term Name..> Good Found.
+2016-10-24 16:28:02 Logs.java INFO  Logs:38 - Term Name..> Nice Found.
+2016-10-24 16:28:05 Logs.java INFO  Logs:38 - Term Name..> Delighted Found.
+2016-10-24 16:28:29 Logs.java INFO  Logs:38 - Term Name..> Thanks Found.
+2016-10-24 16:28:32 Logs.java INFO  Logs:38 - Term Name..> Crazy Found.
+2016-10-24 16:28:34 Logs.java INFO  Logs:38 - Term Name..> Boring Found.
+2016-10-24 16:28:36 Logs.java INFO  Logs:38 - Term Name..> Funny Found.
+2016-10-24 16:29:01 Logs.java INFO  Logs:38 - Term Name..> It's getting late Found.
+2016-10-24 16:29:03 Logs.java INFO  Logs:38 - Term Name..> What time is it? Found.
+2016-10-24 16:29:05 Logs.java INFO  Logs:38 - Term Name..> Holiday Found.
+2016-10-24 16:29:30 Logs.java INFO  Logs:38 - Term Name..> How are you today? Found.
+2016-10-24 17:12:21 Logs.java INFO  Logs:38 - Entered text message. Eighteen
+2016-10-24 17:25:09 Logs.java ERROR Logs:55 - Skip Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-24 17:25:30 Logs.java ERROR Logs:55 - Spund Button not found. org.openqa.selenium.NoSuchElementException
+2016-10-24 17:28:31 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-24 17:29:03 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-24 17:45:37 Logs.java ERROR Logs:55 - Select profile type not found. org.openqa.selenium.NoSuchElementException
+2016-10-24 17:52:40 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-24 17:54:51 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-10-24 17:54:53 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-10-24 17:54:56 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-24 17:54:58 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-24 17:55:01 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-10-24 17:55:04 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-10-24 17:55:06 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-10-24 17:55:08 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-10-24 17:55:11 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-10-24 17:55:13 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-10-24 17:55:16 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-10-24 17:55:40 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-10-24 17:55:43 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-10-24 17:55:47 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-10-24 17:55:49 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-10-24 17:55:52 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-10-24 17:55:55 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-10-24 17:55:57 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-10-24 17:56:22 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-10-24 17:56:24 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-10-24 17:57:20 Logs.java INFO  Logs:38 - Term Name..> Back Found.
+2016-10-24 17:57:22 Logs.java INFO  Logs:38 - Term Name..> How much Found.
+2016-10-24 17:57:24 Logs.java INFO  Logs:38 - Term Name..> Police Found.
+2016-10-24 17:57:49 Logs.java INFO  Logs:38 - Term Name..> Complaint Found.
+2016-10-24 17:57:52 Logs.java INFO  Logs:38 - Term Name..> Mountain Found.
+2016-10-24 17:58:16 Logs.java INFO  Logs:38 - Term Name..> Turn left Found.
+2016-10-24 17:58:19 Logs.java INFO  Logs:38 - Term Name..> Turn right Found.
+2016-10-24 17:58:43 Logs.java INFO  Logs:38 - Term Name..> Map Found.
+2016-10-24 17:58:46 Logs.java INFO  Logs:38 - Term Name..> Map city Found.
+2016-10-24 17:58:48 Logs.java INFO  Logs:38 - Term Name..> Thanks Found.
+2016-10-24 17:59:12 Logs.java INFO  Logs:38 - Term Name..> Luggage Found.
+2016-10-24 17:59:15 Logs.java INFO  Logs:38 - Term Name..> Slowly Found.
+2016-10-24 17:59:17 Logs.java INFO  Logs:38 - Term Name..> Fast Found.
+2016-10-24 17:59:41 Logs.java INFO  Logs:38 - Term Name..> Yes Found.
+2016-10-24 17:59:43 Logs.java INFO  Logs:38 - Term Name..> Left Found.
+2016-10-24 17:59:46 Logs.java INFO  Logs:38 - Term Name..> Right Found.
+2016-10-24 17:59:48 Logs.java INFO  Logs:38 - Term Name..> Down Found.
+2016-10-24 18:00:13 Logs.java INFO  Logs:38 - Term Name..> Receipt Found.
+2016-10-24 18:00:15 Logs.java INFO  Logs:38 - Term Name..> Straight Found.
+2016-10-24 18:00:17 Logs.java INFO  Logs:38 - Term Name..> Car Found.
+2016-10-24 18:00:42 Logs.java INFO  Logs:38 - Term Name..> To start Found.
+2016-10-24 18:00:44 Logs.java INFO  Logs:38 - Term Name..> To stop Found.
+2016-10-24 18:19:20 Logs.java INFO  Logs:38 - Entered text message. Bank account
+2016-10-24 19:32:00 Logs.java INFO  Logs:38 - Entered text message. Country
+2016-10-24 19:46:24 Logs.java INFO  Logs:38 - Quick List. Общее Found.
+2016-10-24 19:46:27 Logs.java INFO  Logs:38 - Quick List. Покупка товаров Found.
+2016-10-24 19:46:29 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-24 19:46:31 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-24 19:46:34 Logs.java INFO  Logs:38 - Quick List. Числа Found.
+2016-10-24 19:46:36 Logs.java INFO  Logs:38 - Quick List. Такси В Found.
+2016-10-24 19:46:38 Logs.java INFO  Logs:38 - Quick List. Полицейские Found.
+2016-10-24 19:46:40 Logs.java INFO  Logs:38 - Quick List. Приветствуй Found.
+2016-10-24 19:46:43 Logs.java INFO  Logs:38 - Quick List. Погоды Found.
+2016-10-24 19:46:45 Logs.java INFO  Logs:38 - Quick List. Противоположностей Found.
+2016-10-24 19:46:47 Logs.java INFO  Logs:38 - Quick List. Ледоколов Found.
+2016-10-24 19:47:12 Logs.java INFO  Logs:38 - Quick List. Романтическая Found.
+2016-10-24 19:47:14 Logs.java INFO  Logs:38 - Quick List. Ресторана Found.
+2016-10-24 19:47:16 Logs.java INFO  Logs:38 - Quick List. Прачечной Found.
+2016-10-24 19:47:19 Logs.java INFO  Logs:38 - Quick List. Флоры Found.
+2016-10-24 19:47:22 Logs.java INFO  Logs:38 - Quick List. Боевики Found.
+2016-10-24 19:47:24 Logs.java INFO  Logs:38 - Quick List. Баре Found.
+2016-10-24 19:47:26 Logs.java INFO  Logs:38 - Quick List. Доктора Found.
+2016-10-24 19:47:51 Logs.java INFO  Logs:38 - Quick List. Место Found.
+2016-10-24 19:47:53 Logs.java INFO  Logs:38 - Quick List. Виды спорта Found.
+2016-10-27 17:03:52 Logs.java INFO  Logs:38 - Entered text message. Bathrobe
+2016-10-27 17:04:59 Logs.java INFO  Logs:38 - Entered text message. Temple
+2016-10-27 17:19:29 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-27 17:20:20 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-27 17:39:12 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-10-27 17:41:39 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-10-27 17:41:42 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-10-27 17:41:44 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-27 17:41:47 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-27 17:41:49 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-10-27 17:41:51 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-10-27 17:41:54 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-10-27 17:41:57 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-10-27 17:42:00 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-10-27 17:42:02 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-10-27 17:42:05 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-10-27 17:42:07 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-10-27 17:42:31 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-10-27 17:42:33 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-10-27 17:42:36 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-10-27 17:42:39 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-10-27 17:42:41 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-10-27 17:42:44 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-10-27 17:42:46 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-10-27 17:43:10 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-10-27 17:43:20 Logs.java INFO  Logs:38 - Term Name..> Breakfast Found.
+2016-10-27 17:43:22 Logs.java INFO  Logs:38 - Term Name..> Vegetables Found.
+2016-10-27 17:43:25 Logs.java INFO  Logs:38 - Term Name..> Milk Found.
+2016-10-27 17:43:27 Logs.java INFO  Logs:38 - Term Name..> Potato Found.
+2016-10-27 17:43:52 Logs.java INFO  Logs:38 - Term Name..> Chicken Found.
+2016-10-27 17:43:54 Logs.java INFO  Logs:38 - Term Name..> Bowl Found.
+2016-10-27 17:43:57 Logs.java INFO  Logs:38 - Term Name..> Egg Found.
+2016-10-27 17:44:21 Logs.java INFO  Logs:38 - Term Name..> Meat Found.
+2016-10-27 17:44:24 Logs.java INFO  Logs:38 - Term Name..> Glass Found.
+2016-10-27 17:44:26 Logs.java INFO  Logs:38 - Term Name..> How much Found.
+2016-10-27 17:44:28 Logs.java INFO  Logs:38 - Term Name..> Plate Found.
+2016-10-27 17:44:53 Logs.java INFO  Logs:38 - Term Name..> Rice Found.
+2016-10-27 17:44:55 Logs.java INFO  Logs:38 - Term Name..> Bottle Found.
+2016-10-27 17:44:57 Logs.java INFO  Logs:38 - Term Name..> Pepper Found.
+2016-10-27 17:45:00 Logs.java INFO  Logs:38 - Term Name..> Fork Found.
+2016-10-27 17:45:24 Logs.java INFO  Logs:38 - Term Name..> Salad Found.
+2016-10-27 17:45:27 Logs.java INFO  Logs:38 - Term Name..> Spicy Found.
+2016-10-27 17:45:29 Logs.java INFO  Logs:38 - Term Name..> Spoon Found.
+2016-10-27 17:45:54 Logs.java INFO  Logs:38 - Term Name..> Fish Found.
+2016-10-27 17:45:56 Logs.java INFO  Logs:38 - Term Name..> Food Found.
+2016-10-27 17:45:58 Logs.java INFO  Logs:38 - Term Name..> Lunch Found.
+2016-10-27 17:46:00 Logs.java INFO  Logs:38 - Term Name..> Price Found.
+2016-10-27 17:46:03 Logs.java INFO  Logs:38 - Term Name..> Restaurant Found.
+2016-10-27 17:46:27 Logs.java INFO  Logs:38 - Term Name..> Vegetarian Found.
+2016-10-27 17:46:29 Logs.java INFO  Logs:38 - Term Name..> Non-vegetarian Found.
+2016-10-27 17:46:54 Logs.java INFO  Logs:38 - Term Name..> Salt Found.
+2016-10-27 17:46:56 Logs.java INFO  Logs:38 - Term Name..> Sugar Found.
+2016-10-27 17:46:58 Logs.java INFO  Logs:38 - Term Name..> Sweet Found.
+2016-10-27 17:47:01 Logs.java INFO  Logs:38 - Term Name..> Dessert Found.
+2016-10-27 17:47:26 Logs.java INFO  Logs:38 - Term Name..> Dinner Found.
+2016-10-27 17:47:28 Logs.java INFO  Logs:38 - Term Name..> Moment Found.
+2016-10-27 17:47:30 Logs.java INFO  Logs:38 - Term Name..> Spicy Found.
+2016-10-27 17:47:55 Logs.java INFO  Logs:38 - Term Name..> Salt Found.
+2016-10-27 17:47:57 Logs.java INFO  Logs:38 - Term Name..> Ice Found.
+2016-10-27 17:47:59 Logs.java INFO  Logs:38 - Term Name..> Knife Found.
+2016-10-27 17:48:26 Logs.java INFO  Logs:38 - Term Name..> Ice cream Found.
+2016-10-27 17:48:28 Logs.java INFO  Logs:38 - Term Name..> Snack Found.
+2016-10-27 17:48:30 Logs.java INFO  Logs:38 - Term Name..> Water Found.
+2016-10-27 17:48:33 Logs.java INFO  Logs:38 - Term Name..> Cold drink Found.
+2016-10-27 17:48:58 Logs.java INFO  Logs:38 - Term Name..> Beer Found.
+2016-10-27 17:49:00 Logs.java INFO  Logs:38 - Term Name..> Mild Found.
+2016-10-27 17:49:02 Logs.java INFO  Logs:38 - Term Name..> Thanks Found.
+2016-10-27 17:49:04 Logs.java INFO  Logs:38 - Term Name..> Sugar Found.
+2016-10-27 17:49:29 Logs.java INFO  Logs:38 - Term Name..> Sweet Found.
+2016-10-27 17:49:31 Logs.java INFO  Logs:38 - Term Name..> Seafood Found.
+2016-10-27 17:49:34 Logs.java INFO  Logs:38 - Term Name..> Salad Found.
+2016-10-27 17:49:36 Logs.java INFO  Logs:38 - Term Name..> Hot Found.
+2016-10-27 17:50:00 Logs.java INFO  Logs:38 - Term Name..> Cold Found.
+2016-10-27 17:50:03 Logs.java INFO  Logs:38 - Term Name..> Yes Found.
+2016-10-27 17:50:05 Logs.java INFO  Logs:38 - Term Name..> No Found.
+2016-10-27 17:50:07 Logs.java INFO  Logs:38 - Term Name..> Rotten Found.
+2016-10-27 17:50:32 Logs.java INFO  Logs:38 - Term Name..> Napkin Found.
+2016-10-27 17:50:34 Logs.java INFO  Logs:38 - Term Name..> Pepper Found.
+2016-10-27 17:50:36 Logs.java INFO  Logs:38 - Term Name..> Cocktail Found.
+2016-10-27 17:50:39 Logs.java INFO  Logs:38 - Term Name..> Waiter Found.
+2016-10-27 17:51:04 Logs.java INFO  Logs:38 - Term Name..> Wine Found.
+2016-10-27 17:51:06 Logs.java INFO  Logs:38 - Term Name..> Receipt Found.
+2016-10-27 17:51:08 Logs.java INFO  Logs:38 - Term Name..> To close Found.
+2016-10-27 17:51:11 Logs.java INFO  Logs:38 - Term Name..> Water Found.
+2016-10-27 17:51:35 Logs.java INFO  Logs:38 - Term Name..> Please get the bill Found.
+2016-10-27 17:51:37 Logs.java INFO  Logs:38 - Term Name..> To open Found.
+2016-10-27 18:11:04 Logs.java INFO  Logs:38 - Entered text message. To shower
+2016-10-27 19:41:32 Logs.java INFO  Logs:38 - Entered text message. Bakery
+2016-10-27 19:53:49 Logs.java INFO  Logs:38 - Quick List. Het algemeen Found.
+2016-10-27 19:53:52 Logs.java INFO  Logs:38 - Quick List. Inkopen Found.
+2016-10-27 19:53:54 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-10-27 19:53:57 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-10-27 19:53:59 Logs.java INFO  Logs:38 - Quick List. Getallen Found.
+2016-10-27 19:54:02 Logs.java INFO  Logs:38 - Quick List. De taxi Found.
+2016-10-27 19:54:04 Logs.java INFO  Logs:38 - Quick List. De politie Found.
+2016-10-27 19:54:06 Logs.java INFO  Logs:38 - Quick List. Groeten Found.
+2016-10-27 19:54:09 Logs.java INFO  Logs:38 - Quick List. Het weer Found.
+2016-10-27 19:54:11 Logs.java INFO  Logs:38 - Quick List. Tegenpolen Found.
+2016-10-27 19:54:13 Logs.java INFO  Logs:38 - Quick List. IceBreakers Found.
+2016-10-27 19:54:16 Logs.java INFO  Logs:38 - Quick List. Romantiek Found.
+2016-10-27 19:54:40 Logs.java INFO  Logs:38 - Quick List. Het restaurant Found.
+2016-10-27 19:54:42 Logs.java INFO  Logs:38 - Quick List. Wasgoed Found.
+2016-10-27 19:54:45 Logs.java INFO  Logs:38 - Quick List. De flora Found.
+2016-10-27 19:54:48 Logs.java INFO  Logs:38 - Quick List. Avontuurlijke Found.
+2016-10-27 19:54:50 Logs.java INFO  Logs:38 - Quick List. Hotel Bar Found.
+2016-10-27 19:54:52 Logs.java INFO  Logs:38 - Quick List. De arts Found.
+2016-10-27 19:54:55 Logs.java INFO  Logs:38 - Quick List. Plek om Found.
+2016-10-27 19:55:19 Logs.java INFO  Logs:38 - Quick List. Sporten Found.
+2016-11-02 13:09:38 Logs.java ERROR Logs:55 - Unable to change the base language. org.openqa.selenium.NoSuchElementException
+2016-11-02 13:10:02 Logs.java ERROR Logs:55 - Category Header text not found. org.openqa.selenium.NoSuchElementException
+2016-11-02 13:14:58 Logs.java ERROR Logs:55 - Unable to change the base language. org.openqa.selenium.NoSuchElementException
+2016-11-02 13:15:22 Logs.java ERROR Logs:55 - Category Header text not found. org.openqa.selenium.NoSuchElementException
+2016-11-02 13:57:33 Logs.java INFO  Logs:38 - Entered text message. To realize
+2016-11-02 13:58:41 Logs.java INFO  Logs:38 - Entered text message. Thirteen
+2016-11-02 14:10:00 Logs.java ERROR Logs:55 - Skip Button not found. org.openqa.selenium.NoSuchElementException
+2016-11-02 14:10:22 Logs.java ERROR Logs:55 - Spund Button not found. org.openqa.selenium.NoSuchElementException
+2016-11-02 14:10:43 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-11-02 14:11:25 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-11-02 14:11:47 Logs.java ERROR Logs:55 - Resume Button not found. org.openqa.selenium.NoSuchElementException
+2016-11-02 14:12:30 Logs.java ERROR Logs:55 - Pause Button not found. org.openqa.selenium.NoSuchElementException
+2016-11-02 14:15:06 Logs.java ERROR Logs:55 - Wrong Attempted Question not shown in score page. org.openqa.selenium.NoSuchElementException
+2016-11-02 14:17:49 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-02 14:18:21 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-02 14:39:25 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-02 14:41:12 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-11-02 14:41:15 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-11-02 14:41:17 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-02 14:41:20 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-02 14:41:22 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-11-02 14:41:24 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-11-02 14:41:27 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-11-02 14:41:29 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-11-02 14:41:32 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-11-02 14:41:35 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-11-02 14:41:37 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-11-02 14:42:02 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-11-02 14:42:05 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-11-02 14:42:07 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-11-02 14:42:11 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-11-02 14:42:13 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-11-02 14:42:16 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-11-02 14:42:19 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-11-02 14:42:43 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-11-02 14:42:46 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-11-02 14:42:53 Logs.java INFO  Logs:38 - Term Name..> Date Found.
+2016-11-02 14:42:56 Logs.java INFO  Logs:38 - Term Name..> Antifungal foot powder Found.
+2016-11-02 14:42:58 Logs.java INFO  Logs:38 - Term Name..> Alive Found.
+2016-11-02 14:43:23 Logs.java INFO  Logs:38 - Term Name..> Ache Found.
+2016-11-02 14:43:25 Logs.java INFO  Logs:38 - Term Name..> Allergy Found.
+2016-11-02 14:43:49 Logs.java INFO  Logs:38 - Term Name..> Dead Found.
+2016-11-02 14:43:53 Logs.java INFO  Logs:38 - Term Name..> How much Found.
+2016-11-02 14:43:55 Logs.java INFO  Logs:38 - Term Name..> Bruise Found.
+2016-11-02 14:44:20 Logs.java INFO  Logs:38 - Term Name..> Drugstore Found.
+2016-11-02 14:44:22 Logs.java INFO  Logs:38 - Term Name..> Cough Found.
+2016-11-02 14:44:25 Logs.java INFO  Logs:38 - Term Name..> Pharmacy Found.
+2016-11-02 14:44:49 Logs.java INFO  Logs:38 - Term Name..> Cut Found.
+2016-11-02 14:44:51 Logs.java INFO  Logs:38 - Term Name..> Dehydration Found.
+2016-11-02 14:44:54 Logs.java INFO  Logs:38 - Term Name..> Thermometer Found.
+2016-11-02 14:45:18 Logs.java INFO  Logs:38 - Term Name..> Dizzy Found.
+2016-11-02 14:45:21 Logs.java INFO  Logs:38 - Term Name..> Price Found.
+2016-11-02 14:45:23 Logs.java INFO  Logs:38 - Term Name..> Well Found.
+2016-11-02 14:45:47 Logs.java INFO  Logs:38 - Term Name..> Exhausted Found.
+2016-11-02 14:45:50 Logs.java INFO  Logs:38 - Term Name..> Diseases Found.
+2016-11-02 14:45:52 Logs.java INFO  Logs:38 - Term Name..> Flu Found.
+2016-11-02 14:45:55 Logs.java INFO  Logs:38 - Term Name..> Fracture Found.
+2016-11-02 14:46:20 Logs.java INFO  Logs:38 - Term Name..> Headache Found.
+2016-11-02 14:46:22 Logs.java INFO  Logs:38 - Term Name..> Heart-attack Found.
+2016-11-02 14:46:24 Logs.java INFO  Logs:38 - Term Name..> Infection Found.
+2016-11-02 14:46:49 Logs.java INFO  Logs:38 - Term Name..> Itch Found.
+2016-11-02 14:46:51 Logs.java INFO  Logs:38 - Term Name..> Nausea Found.
+2016-11-02 14:46:53 Logs.java INFO  Logs:38 - Term Name..> Thanks Found.
+2016-11-02 14:47:18 Logs.java INFO  Logs:38 - Term Name..> Pain Found.
+2016-11-02 14:47:20 Logs.java INFO  Logs:38 - Term Name..> Pregnancy Found.
+2016-11-02 14:47:22 Logs.java INFO  Logs:38 - Term Name..> Poisoning Found.
+2016-11-02 14:47:47 Logs.java INFO  Logs:38 - Term Name..> Stomach ache Found.
+2016-11-02 14:47:50 Logs.java INFO  Logs:38 - Term Name..> Toothache Found.
+2016-11-02 14:47:52 Logs.java INFO  Logs:38 - Term Name..> Yes Found.
+2016-11-02 14:48:16 Logs.java INFO  Logs:38 - Term Name..> No Found.
+2016-11-02 14:48:18 Logs.java INFO  Logs:38 - Term Name..> Doctor Found.
+2016-11-02 14:48:21 Logs.java INFO  Logs:38 - Term Name..> Antibiotic Found.
+2016-11-02 14:48:23 Logs.java INFO  Logs:38 - Term Name..> First aid Found.
+2016-11-02 14:48:48 Logs.java INFO  Logs:38 - Term Name..> Pain-killer Found.
+2016-11-02 14:48:50 Logs.java INFO  Logs:38 - Term Name..> Pill Found.
+2016-11-02 14:48:52 Logs.java INFO  Logs:38 - Term Name..> Receipt Found.
+2016-11-02 14:49:16 Logs.java INFO  Logs:38 - Term Name..> Injection Found.
+2016-11-02 14:49:19 Logs.java INFO  Logs:38 - Term Name..> Medicines Found.
+2016-11-02 14:49:21 Logs.java INFO  Logs:38 - Term Name..> Tablet Found.
+2016-11-02 14:49:23 Logs.java INFO  Logs:38 - Term Name..> Blood Found.
+2016-11-02 14:49:48 Logs.java INFO  Logs:38 - Term Name..> Check-up Found.
+2016-11-02 14:49:50 Logs.java INFO  Logs:38 - Term Name..> Cure Found.
+2016-11-02 14:49:53 Logs.java INFO  Logs:38 - Term Name..> Surgery Found.
+2016-11-02 14:50:17 Logs.java INFO  Logs:38 - Term Name..> Healthy Found.
+2016-11-02 14:50:19 Logs.java INFO  Logs:38 - Term Name..> Vomit Found.
+2016-11-02 14:50:21 Logs.java INFO  Logs:38 - Term Name..> Hospital Found.
+2016-11-02 14:50:24 Logs.java INFO  Logs:38 - Term Name..> Doctor Found.
+2016-11-02 14:50:49 Logs.java INFO  Logs:38 - Term Name..> Nurse Found.
+2016-11-02 14:50:51 Logs.java INFO  Logs:38 - Term Name..> Patient Found.
+2016-11-02 14:51:15 Logs.java INFO  Logs:38 - Term Name..> Pharmacist Found.
+2016-11-02 14:51:18 Logs.java INFO  Logs:38 - Term Name..> Specialist Found.
+2016-11-02 14:51:20 Logs.java INFO  Logs:38 - Term Name..> Be sick Found.
+2016-11-02 14:51:44 Logs.java INFO  Logs:38 - Term Name..> Feel sick Found.
+2016-11-02 14:51:47 Logs.java INFO  Logs:38 - Term Name..> I'm tired Found.
+2016-11-02 15:10:53 Logs.java INFO  Logs:38 - Entered text message. Admission
+2016-11-02 15:45:51 Logs.java INFO  Logs:38 - Entered text message. Anchovy
+2016-11-02 15:58:28 Logs.java INFO  Logs:38 - Quick List. Het algemeen Found.
+2016-11-02 15:58:31 Logs.java INFO  Logs:38 - Quick List. Inkopen Found.
+2016-11-02 15:58:33 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-02 15:58:36 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-02 15:58:38 Logs.java INFO  Logs:38 - Quick List. Getallen Found.
+2016-11-02 15:58:40 Logs.java INFO  Logs:38 - Quick List. De taxi Found.
+2016-11-02 15:58:43 Logs.java INFO  Logs:38 - Quick List. De politie Found.
+2016-11-02 15:58:45 Logs.java INFO  Logs:38 - Quick List. Groeten Found.
+2016-11-02 15:58:47 Logs.java INFO  Logs:38 - Quick List. Het weer Found.
+2016-11-02 15:58:49 Logs.java INFO  Logs:38 - Quick List. Tegenpolen Found.
+2016-11-02 15:58:52 Logs.java INFO  Logs:38 - Quick List. IceBreakers Found.
+2016-11-02 15:59:16 Logs.java INFO  Logs:38 - Quick List. Romantiek Found.
+2016-11-02 15:59:18 Logs.java INFO  Logs:38 - Quick List. Het restaurant Found.
+2016-11-02 15:59:21 Logs.java INFO  Logs:38 - Quick List. Wasgoed Found.
+2016-11-02 15:59:24 Logs.java INFO  Logs:38 - Quick List. De flora Found.
+2016-11-02 15:59:26 Logs.java INFO  Logs:38 - Quick List. Avontuurlijke Found.
+2016-11-02 15:59:29 Logs.java INFO  Logs:38 - Quick List. Hotel Bar Found.
+2016-11-02 15:59:31 Logs.java INFO  Logs:38 - Quick List. De arts Found.
+2016-11-02 15:59:55 Logs.java INFO  Logs:38 - Quick List. Plek om Found.
+2016-11-02 15:59:57 Logs.java INFO  Logs:38 - Quick List. Sporten Found.
+2016-11-02 17:15:02 Logs.java INFO  Logs:38 - Entered text message. Sight
+2016-11-02 17:16:14 Logs.java INFO  Logs:38 - Entered text message. Strange
+2016-11-02 17:35:38 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-02 17:36:08 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-02 17:58:12 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-02 18:00:23 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-11-02 18:00:25 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-11-02 18:00:28 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-02 18:00:30 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-02 18:00:32 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-11-02 18:00:35 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-11-02 18:00:37 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-11-02 18:00:39 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-11-02 18:00:42 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-11-02 18:00:44 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-11-02 18:00:46 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-11-02 18:01:10 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-11-02 18:01:13 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-11-02 18:01:15 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-11-02 18:01:17 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-11-02 18:01:20 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-11-02 18:01:22 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-11-02 18:01:25 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-11-02 18:01:50 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-11-02 18:01:52 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-11-02 18:01:59 Logs.java INFO  Logs:38 - Term Name..> Black Found.
+2016-11-02 18:02:02 Logs.java INFO  Logs:38 - Term Name..> Clothes Found.
+2016-11-02 18:02:04 Logs.java INFO  Logs:38 - Term Name..> Colors Found.
+2016-11-02 18:02:29 Logs.java INFO  Logs:38 - Term Name..> Shirt Found.
+2016-11-02 18:02:31 Logs.java INFO  Logs:38 - Term Name..> How much Found.
+2016-11-02 18:02:33 Logs.java INFO  Logs:38 - Term Name..> Pants Found.
+2016-11-02 18:02:57 Logs.java INFO  Logs:38 - Term Name..> Jacket Found.
+2016-11-02 18:03:00 Logs.java INFO  Logs:38 - Term Name..> Skirt Found.
+2016-11-02 18:03:02 Logs.java INFO  Logs:38 - Term Name..> Dress Found.
+2016-11-02 18:03:27 Logs.java INFO  Logs:38 - Term Name..> Dry cleaners Found.
+2016-11-02 18:03:29 Logs.java INFO  Logs:38 - Term Name..> Laundry Found.
+2016-11-02 18:03:31 Logs.java INFO  Logs:38 - Term Name..> Price Found.
+2016-11-02 18:03:33 Logs.java INFO  Logs:38 - Term Name..> White Found.
+2016-11-02 18:03:58 Logs.java INFO  Logs:38 - Term Name..> Sock Found.
+2016-11-02 18:04:01 Logs.java INFO  Logs:38 - Term Name..> Receipt Found.
+2016-11-02 18:28:10 Logs.java INFO  Logs:38 - Entered text message. Rice
+2016-11-02 18:52:48 Logs.java INFO  Logs:38 - Entered text message. Beef
+2016-11-02 19:07:10 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-11-02 19:07:12 Logs.java INFO  Logs:38 - Quick List. Compras Found.
+2016-11-02 19:07:14 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-02 19:07:17 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-02 19:07:19 Logs.java INFO  Logs:38 - Quick List. Números Found.
+2016-11-02 19:07:21 Logs.java INFO  Logs:38 - Quick List. En taxi Found.
+2016-11-02 19:07:24 Logs.java INFO  Logs:38 - Quick List. Policía Found.
+2016-11-02 19:07:26 Logs.java INFO  Logs:38 - Quick List. Saludar Found.
+2016-11-02 19:07:28 Logs.java INFO  Logs:38 - Quick List. Tiempo Found.
+2016-11-02 19:07:31 Logs.java INFO  Logs:38 - Quick List. Opuestos Found.
+2016-11-02 19:07:33 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-11-02 19:07:57 Logs.java INFO  Logs:38 - Quick List. Romántico Found.
+2016-11-02 19:08:00 Logs.java INFO  Logs:38 - Quick List. Restaurante Found.
+2016-11-02 19:08:02 Logs.java INFO  Logs:38 - Quick List. Lavandería Found.
+2016-11-02 19:08:05 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-11-02 19:08:07 Logs.java INFO  Logs:38 - Quick List. Aventura Found.
+2016-11-02 19:08:10 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-11-02 19:08:12 Logs.java INFO  Logs:38 - Quick List. Médico Found.
+2016-11-02 19:08:36 Logs.java INFO  Logs:38 - Quick List. Lugar Found.
+2016-11-02 19:08:38 Logs.java INFO  Logs:38 - Quick List. Deportes Found.
+2016-11-02 19:08:46 Logs.java INFO  Logs:38 - Term Name..> Vaso Found.
+2016-11-02 19:08:49 Logs.java INFO  Logs:38 - Term Name..> Vaso de vino Found.
+2016-11-02 19:08:51 Logs.java INFO  Logs:38 - Term Name..> Jarra Found.
+2016-11-02 19:08:53 Logs.java INFO  Logs:38 - Term Name..> Cuánto cuesta Found.
+2016-11-02 19:09:18 Logs.java INFO  Logs:38 - Term Name..> Botella Found.
+2016-11-02 19:09:20 Logs.java INFO  Logs:38 - Term Name..> Agitador Found.
+2016-11-02 19:09:23 Logs.java INFO  Logs:38 - Term Name..> Sed Found.
+2016-11-02 19:09:47 Logs.java INFO  Logs:38 - Term Name..> Precio Found.
+2016-11-02 19:09:49 Logs.java INFO  Logs:38 - Term Name..> Azůcar Found.
+2016-11-02 19:09:52 Logs.java INFO  Logs:38 - Term Name..> Dulce Found.
+2016-11-02 19:10:16 Logs.java INFO  Logs:38 - Term Name..> Hielo Found.
+2016-11-02 19:10:18 Logs.java INFO  Logs:38 - Term Name..> Agua Found.
+2016-11-02 19:10:21 Logs.java INFO  Logs:38 - Term Name..> Refresco Found.
+2016-11-02 19:10:45 Logs.java INFO  Logs:38 - Term Name..> Bebida fría Found.
+2016-11-02 19:10:48 Logs.java INFO  Logs:38 - Term Name..> Cerveza Found.
+2016-11-02 19:10:50 Logs.java INFO  Logs:38 - Term Name..> Suave Found.
+2016-11-02 19:11:15 Logs.java INFO  Logs:38 - Term Name..> Gracias Found.
+2016-11-02 19:11:17 Logs.java INFO  Logs:38 - Term Name..> Azúcar Found.
+2016-11-02 19:11:19 Logs.java INFO  Logs:38 - Term Name..> Jarra Found.
+2016-11-02 19:11:44 Logs.java INFO  Logs:38 - Term Name..> Sí Found.
+2016-11-02 19:11:47 Logs.java INFO  Logs:38 - Term Name..> Ninguna Found.
+2016-11-02 19:11:49 Logs.java INFO  Logs:38 - Term Name..> Bar Found.
+2016-11-02 19:12:14 Logs.java INFO  Logs:38 - Term Name..> Servilleta Found.
+2016-11-02 19:12:17 Logs.java INFO  Logs:38 - Term Name..> Cóctel Found.
+2016-11-02 19:12:19 Logs.java INFO  Logs:38 - Term Name..> Sorbo Found.
+2016-11-02 19:12:43 Logs.java INFO  Logs:38 - Term Name..> Vino Found.
+2016-11-02 19:12:45 Logs.java INFO  Logs:38 - Term Name..> Demasiado baja Found.
+2016-11-02 19:13:10 Logs.java INFO  Logs:38 - Term Name..> Pinta Found.
+2016-11-02 19:13:12 Logs.java INFO  Logs:38 - Term Name..> El recibo Found.
+2016-11-02 19:13:15 Logs.java INFO  Logs:38 - Term Name..> Agua Found.
+2016-11-02 19:13:40 Logs.java INFO  Logs:38 - Term Name..> Fuerte Found.
+2016-11-02 19:13:42 Logs.java INFO  Logs:38 - Term Name..> Beber Found.
+2016-11-02 19:13:44 Logs.java INFO  Logs:38 - Term Name..> Temblar Found.
+2016-11-02 19:14:09 Logs.java INFO  Logs:38 - Term Name..> Revolver Found.
+2016-11-02 20:04:11 Logs.java INFO  Logs:38 - Entered text message. Scan
+2016-11-02 20:05:19 Logs.java INFO  Logs:38 - Entered text message. Anger
+2016-11-02 20:24:24 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-02 20:24:55 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-02 20:25:22 Logs.java ERROR Logs:55 - Actual submission message not matched with expected one. org.openqa.selenium.NoSuchElementException
+2016-11-02 20:49:05 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-02 20:50:36 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-11-02 20:50:38 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-11-02 20:50:40 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-02 20:50:42 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-02 20:50:45 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-11-02 20:50:47 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-11-02 20:50:49 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-11-02 20:50:52 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-11-02 20:50:54 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-11-02 20:50:57 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-11-02 20:50:59 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-11-02 20:51:23 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-11-02 20:51:26 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-11-02 20:51:29 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-11-02 20:51:31 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-11-02 20:51:34 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-11-02 20:51:36 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-11-02 20:51:39 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-11-02 20:52:03 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-11-02 20:52:06 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-11-02 20:52:13 Logs.java INFO  Logs:38 - Term Name..> Country Found.
+2016-11-02 20:52:16 Logs.java INFO  Logs:38 - Term Name..> Office Found.
+2016-11-02 20:52:18 Logs.java INFO  Logs:38 - Term Name..> Company Found.
+2016-11-02 20:52:43 Logs.java INFO  Logs:38 - Term Name..> City Found.
+2016-11-02 20:52:45 Logs.java INFO  Logs:38 - Term Name..> Street Found.
+2016-11-02 20:52:47 Logs.java INFO  Logs:38 - Term Name..> Church Found.
+2016-11-02 20:53:12 Logs.java INFO  Logs:38 - Term Name..> Mosque Found.
+2016-11-02 20:53:14 Logs.java INFO  Logs:38 - Term Name..> Field Found.
+2016-11-02 20:53:16 Logs.java INFO  Logs:38 - Term Name..> Temple Found.
+2016-11-02 20:53:41 Logs.java INFO  Logs:38 - Term Name..> Hospital Found.
+2016-11-02 20:53:43 Logs.java INFO  Logs:38 - Term Name..> Elevator Found.
+2016-11-02 20:53:46 Logs.java INFO  Logs:38 - Term Name..> Pharmacy Found.
+2016-11-02 20:53:48 Logs.java INFO  Logs:38 - Term Name..> Port Found.
+2016-11-02 20:54:13 Logs.java INFO  Logs:38 - Term Name..> Earth Found.
+2016-11-02 20:54:15 Logs.java INFO  Logs:38 - Term Name..> Factory Found.
+2016-11-02 20:54:18 Logs.java INFO  Logs:38 - Term Name..> Island Found.
+2016-11-02 20:54:42 Logs.java INFO  Logs:38 - Term Name..> Shop Found.
+2016-11-02 20:54:44 Logs.java INFO  Logs:38 - Term Name..> Market Found.
+2016-11-02 20:54:46 Logs.java INFO  Logs:38 - Term Name..> Garden Found.
+2016-11-02 20:54:49 Logs.java INFO  Logs:38 - Term Name..> Park Found.
+2016-11-02 20:55:14 Logs.java INFO  Logs:38 - Term Name..> River Found.
+2016-11-02 20:55:16 Logs.java INFO  Logs:38 - Term Name..> Museum Found.
+2016-11-02 20:55:19 Logs.java INFO  Logs:38 - Term Name..> Village Found.
+2016-11-02 20:55:43 Logs.java INFO  Logs:38 - Term Name..> School Found.
+2016-11-02 20:55:45 Logs.java INFO  Logs:38 - Term Name..> Tower Found.
+2016-11-02 20:56:10 Logs.java INFO  Logs:38 - Term Name..> World Found.
+2016-11-02 20:56:12 Logs.java INFO  Logs:38 - Term Name..> Library Found.
+2016-11-02 20:56:37 Logs.java INFO  Logs:38 - Term Name..> Restroom Found.
+2016-11-02 20:56:39 Logs.java INFO  Logs:38 - Term Name..> Movie theater Found.
+2016-11-02 20:57:03 Logs.java INFO  Logs:38 - Term Name..> Train station Found.
+2016-11-02 20:57:06 Logs.java INFO  Logs:38 - Term Name..> Hotel room Found.
+2016-11-02 20:57:08 Logs.java INFO  Logs:38 - Term Name..> Ship Found.
+2016-11-02 21:22:13 Logs.java INFO  Logs:38 - Entered text message. To certify
+2016-11-02 21:32:01 Logs.java ERROR Logs:55 - Lock term not present before purchase. org.openqa.selenium.NoSuchElementException
+2016-11-02 21:48:17 Logs.java INFO  Logs:38 - Entered text message. Sadness
+2016-11-02 22:01:54 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-11-02 22:01:56 Logs.java INFO  Logs:38 - Quick List. Compras Found.
+2016-11-02 22:01:59 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-02 22:02:01 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-02 22:02:04 Logs.java INFO  Logs:38 - Quick List. Números Found.
+2016-11-02 22:02:06 Logs.java INFO  Logs:38 - Quick List. En taxi Found.
+2016-11-02 22:02:08 Logs.java INFO  Logs:38 - Quick List. Policía Found.
+2016-11-02 22:02:10 Logs.java INFO  Logs:38 - Quick List. Saludar Found.
+2016-11-02 22:02:13 Logs.java INFO  Logs:38 - Quick List. Tiempo Found.
+2016-11-02 22:02:15 Logs.java INFO  Logs:38 - Quick List. Opuestos Found.
+2016-11-02 22:02:17 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-11-02 22:02:42 Logs.java INFO  Logs:38 - Quick List. Romántico Found.
+2016-11-02 22:02:44 Logs.java INFO  Logs:38 - Quick List. Restaurante Found.
+2016-11-02 22:02:46 Logs.java INFO  Logs:38 - Quick List. Lavandería Found.
+2016-11-02 22:02:50 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-11-02 22:02:53 Logs.java INFO  Logs:38 - Quick List. Aventura Found.
+2016-11-02 22:02:56 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-11-02 22:02:58 Logs.java INFO  Logs:38 - Quick List. Médico Found.
+2016-11-02 22:03:22 Logs.java INFO  Logs:38 - Quick List. Lugar Found.
+2016-11-02 22:03:25 Logs.java INFO  Logs:38 - Quick List. Deportes Found.
+2016-11-03 11:33:16 Logs.java INFO  Logs:38 - Entered text message. Gray
+2016-11-03 11:34:30 Logs.java INFO  Logs:38 - Entered text message. Cocktail
+2016-11-03 11:53:52 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-03 11:54:24 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-03 12:14:38 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-03 12:16:07 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-11-03 12:16:09 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-11-03 12:16:12 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-03 12:16:14 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-03 12:16:16 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-11-03 12:16:18 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-11-03 12:16:21 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-11-03 12:16:23 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-11-03 12:16:25 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-11-03 12:16:27 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-11-03 12:16:30 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-11-03 12:16:54 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-11-03 12:16:57 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-11-03 12:16:59 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-11-03 12:17:03 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-11-03 12:17:05 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-11-03 12:17:08 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-11-03 12:17:10 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-11-03 12:17:34 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-11-03 12:17:37 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-11-03 12:17:45 Logs.java INFO  Logs:38 - Term Name..> Ball Found.
+2016-11-03 12:17:47 Logs.java INFO  Logs:38 - Term Name..> Crepe bandage Found.
+2016-11-03 12:17:49 Logs.java INFO  Logs:38 - Term Name..> Bat Found.
+2016-11-03 12:18:14 Logs.java INFO  Logs:38 - Term Name..> Glucose Found.
+2016-11-03 12:18:16 Logs.java INFO  Logs:38 - Term Name..> Painkiller Found.
+2016-11-03 12:18:18 Logs.java INFO  Logs:38 - Term Name..> Cap Found.
+2016-11-03 12:18:43 Logs.java INFO  Logs:38 - Term Name..> Elbow pads Found.
+2016-11-03 12:18:45 Logs.java INFO  Logs:38 - Term Name..> Park Found.
+2016-11-03 12:18:47 Logs.java INFO  Logs:38 - Term Name..> Leg pads Found.
+2016-11-03 12:18:50 Logs.java INFO  Logs:38 - Term Name..> Athletic Found.
+2016-11-03 12:19:14 Logs.java INFO  Logs:38 - Term Name..> To play Found.
+2016-11-03 12:39:19 Logs.java INFO  Logs:38 - Entered text message. It
+2016-11-03 13:06:11 Logs.java INFO  Logs:38 - Entered text message. To sign
+2016-11-03 13:21:41 Logs.java INFO  Logs:38 - Quick List. Général de Found.
+2016-11-03 13:21:43 Logs.java INFO  Logs:38 - Quick List. Commercial Found.
+2016-11-03 13:21:45 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-03 13:21:47 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-03 13:21:50 Logs.java INFO  Logs:38 - Quick List. Numéros Found.
+2016-11-03 13:21:52 Logs.java INFO  Logs:38 - Quick List. Taxi à Found.
+2016-11-03 13:21:54 Logs.java INFO  Logs:38 - Quick List. La police Found.
+2016-11-03 13:21:56 Logs.java INFO  Logs:38 - Quick List. Saluez Found.
+2016-11-03 13:21:59 Logs.java INFO  Logs:38 - Quick List. La météo Found.
+2016-11-03 13:22:01 Logs.java INFO  Logs:38 - Quick List. Les contraires Found.
+2016-11-03 13:22:03 Logs.java INFO  Logs:38 - Quick List. Briser la glace Found.
+2016-11-03 13:22:27 Logs.java INFO  Logs:38 - Quick List. En amoureux Found.
+2016-11-03 13:22:29 Logs.java INFO  Logs:38 - Quick List. Restaurant de Found.
+2016-11-03 13:22:32 Logs.java INFO  Logs:38 - Quick List. Buanderie Found.
+2016-11-03 13:22:34 Logs.java INFO  Logs:38 - Quick List. De flore Found.
+2016-11-03 13:22:38 Logs.java INFO  Logs:38 - Quick List. Aventure de Found.
+2016-11-03 13:22:40 Logs.java INFO  Logs:38 - Quick List. Barre Found.
+2016-11-03 13:22:42 Logs.java INFO  Logs:38 - Quick List. Le docteur Found.
+2016-11-03 13:23:07 Logs.java INFO  Logs:38 - Quick List. Lieu Found.
+2016-11-03 13:23:09 Logs.java INFO  Logs:38 - Quick List. Les sports Found.
+2016-11-03 14:19:27 Logs.java INFO  Logs:38 - Entered text message. Happy
+2016-11-03 14:20:34 Logs.java INFO  Logs:38 - Entered text message. Which
+2016-11-03 14:43:05 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-03 14:43:37 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-03 15:08:54 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-03 15:10:27 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-11-03 15:10:30 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-11-03 15:10:32 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-03 15:10:35 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-03 15:10:37 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-11-03 15:10:40 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-11-03 15:10:42 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-11-03 15:10:45 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-11-03 15:10:47 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-11-03 15:10:50 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-11-03 15:10:52 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-11-03 15:11:16 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-11-03 15:11:18 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-11-03 15:11:22 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-11-03 15:11:24 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-11-03 15:11:27 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-11-03 15:11:29 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-11-03 15:11:32 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-11-03 15:11:55 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-11-03 15:11:58 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-11-03 15:12:53 Logs.java INFO  Logs:38 - Term Name..> I Found.
+2016-11-03 15:12:56 Logs.java INFO  Logs:38 - Term Name..> Hi Found.
+2016-11-03 15:12:58 Logs.java INFO  Logs:38 - Term Name..> My Found.
+2016-11-03 15:13:22 Logs.java INFO  Logs:38 - Term Name..> Hello Found.
+2016-11-03 15:13:24 Logs.java INFO  Logs:38 - Term Name..> Hello, … name Found.
+2016-11-03 15:13:48 Logs.java INFO  Logs:38 - Term Name..> You Found.
+2016-11-03 15:13:52 Logs.java INFO  Logs:38 - Term Name..> Happy Found.
+2016-11-03 15:13:54 Logs.java INFO  Logs:38 - Term Name..> My name is … Found.
+2016-11-03 15:14:18 Logs.java INFO  Logs:38 - Term Name..> We Found.
+2016-11-03 15:14:20 Logs.java INFO  Logs:38 - Term Name..> How are you? Found.
+2016-11-03 15:14:23 Logs.java INFO  Logs:38 - Term Name..> Very happy Found.
+2016-11-03 15:14:47 Logs.java INFO  Logs:38 - Term Name..> He Found.
+2016-11-03 15:14:49 Logs.java INFO  Logs:38 - Term Name..> I am … Found.
+2016-11-03 15:14:52 Logs.java INFO  Logs:38 - Term Name..> She Found.
+2016-11-03 15:15:17 Logs.java INFO  Logs:38 - Term Name..> Greetings Found.
+2016-11-03 15:15:19 Logs.java INFO  Logs:38 - Term Name..> Salutations Found.
+2016-11-03 15:15:21 Logs.java INFO  Logs:38 - Term Name..> Ugly Found.
+2016-11-03 15:15:46 Logs.java INFO  Logs:38 - Term Name..> Beautiful Found.
+2016-11-03 15:15:49 Logs.java INFO  Logs:38 - Term Name..> Good day Found.
+2016-11-03 15:15:51 Logs.java INFO  Logs:38 - Term Name..> Pretty Found.
+2016-11-03 15:15:53 Logs.java INFO  Logs:38 - Term Name..> Good morning Found.
+2016-11-03 15:16:18 Logs.java INFO  Logs:38 - Term Name..> Handsome Found.
+2016-11-03 15:16:20 Logs.java INFO  Logs:38 - Term Name..> Good evening Found.
+2016-11-03 15:16:22 Logs.java INFO  Logs:38 - Term Name..> Nice Found.
+2016-11-03 15:16:47 Logs.java INFO  Logs:38 - Term Name..> Good night Found.
+2016-11-03 15:16:49 Logs.java INFO  Logs:38 - Term Name..> Nice to meet you Found.
+2016-11-03 15:16:52 Logs.java INFO  Logs:38 - Term Name..> Nice to see you again Found.
+2016-11-03 15:17:16 Logs.java INFO  Logs:38 - Term Name..> Bye Found.
+2016-11-03 15:17:18 Logs.java INFO  Logs:38 - Term Name..> See you later Found.
+2016-11-03 15:17:42 Logs.java INFO  Logs:38 - Term Name..> Thanks Found.
+2016-11-03 15:17:44 Logs.java INFO  Logs:38 - Term Name..> Foreigner Found.
+2016-11-03 15:17:47 Logs.java INFO  Logs:38 - Term Name..> No Found.
+2016-11-03 15:18:11 Logs.java INFO  Logs:38 - Term Name..> Kind Found.
+2016-11-03 15:18:14 Logs.java INFO  Logs:38 - Term Name..> Sick Found.
+2016-11-03 15:18:16 Logs.java INFO  Logs:38 - Term Name..> Sorry Found.
+2016-11-03 15:30:34 Logs.java ERROR Logs:55 - Unable to get the instance the Shuffle Button. org.openqa.selenium.NoSuchElementException
+2016-11-03 15:44:49 Logs.java INFO  Logs:38 - Entered text message. To know
+2016-11-03 16:10:45 Logs.java INFO  Logs:38 - Entered text message. Cotton
+2016-11-03 16:26:16 Logs.java INFO  Logs:38 - Quick List. Allgemein Found.
+2016-11-03 16:26:18 Logs.java INFO  Logs:38 - Quick List. Einkaufs Found.
+2016-11-03 16:26:20 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-03 16:26:22 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-03 16:26:25 Logs.java INFO  Logs:38 - Quick List. Nummern Found.
+2016-11-03 16:26:27 Logs.java INFO  Logs:38 - Quick List. Dem Taxi Found.
+2016-11-03 16:26:29 Logs.java INFO  Logs:38 - Quick List. Polizisten Found.
+2016-11-03 16:26:32 Logs.java INFO  Logs:38 - Quick List. Grüßt Found.
+2016-11-03 16:26:34 Logs.java INFO  Logs:38 - Quick List. Das Wetter Found.
+2016-11-03 16:26:37 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-11-03 16:26:39 Logs.java INFO  Logs:38 - Quick List. Eisbrechern Found.
+2016-11-03 16:27:03 Logs.java INFO  Logs:38 - Quick List. Romantik Found.
+2016-11-03 16:27:05 Logs.java INFO  Logs:38 - Quick List. Für Restaurants Found.
+2016-11-03 16:27:07 Logs.java INFO  Logs:38 - Quick List. Wäsche Found.
+2016-11-03 16:27:11 Logs.java INFO  Logs:38 - Quick List. Pflanze Found.
+2016-11-03 16:27:14 Logs.java INFO  Logs:38 - Quick List. Abenteuer Found.
+2016-11-03 16:27:16 Logs.java INFO  Logs:38 - Quick List. Leiste Found.
+2016-11-03 16:27:18 Logs.java INFO  Logs:38 - Quick List. Doktor Found.
+2016-11-03 16:27:43 Logs.java INFO  Logs:38 - Quick List. Ort Found.
+2016-11-03 16:27:45 Logs.java INFO  Logs:38 - Quick List. Sportarten Found.
+2016-11-03 16:57:26 Logs.java ERROR Logs:55 - Unable to select delay time. org.openqa.selenium.NoSuchElementException
+2016-11-03 17:40:50 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-04 10:23:48 Logs.java INFO  Logs:38 - Entered text message. Grand daughter
+2016-11-04 10:25:00 Logs.java INFO  Logs:38 - Entered text message. Silver
+2016-11-04 10:44:36 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-04 10:45:25 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-04 11:15:15 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-04 11:17:47 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-11-04 11:17:49 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-11-04 11:17:52 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-04 11:17:54 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-04 11:17:56 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-11-04 11:17:59 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-11-04 11:18:01 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-11-04 11:18:03 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-11-04 11:18:06 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-11-04 11:18:08 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-11-04 11:18:10 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-11-04 11:18:35 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-11-04 11:18:37 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-11-04 11:18:40 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-11-04 11:18:43 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-11-04 11:18:46 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-11-04 11:18:48 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-11-04 11:18:50 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-11-04 11:19:14 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-11-04 11:19:17 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-11-04 11:20:17 Logs.java INFO  Logs:38 - Term Name..> Money Found.
+2016-11-04 11:20:20 Logs.java INFO  Logs:38 - Term Name..> Alive Found.
+2016-11-04 11:20:22 Logs.java INFO  Logs:38 - Term Name..> Life Found.
+2016-11-04 11:20:47 Logs.java INFO  Logs:38 - Term Name..> Dead Found.
+2016-11-04 11:20:49 Logs.java INFO  Logs:38 - Term Name..> Disaster Found.
+2016-11-04 11:20:51 Logs.java INFO  Logs:38 - Term Name..> Emergency Found.
+2016-11-04 11:21:17 Logs.java INFO  Logs:38 - Term Name..> Help Found.
+2016-11-04 11:21:20 Logs.java INFO  Logs:38 - Term Name..> Police Found.
+2016-11-04 11:21:22 Logs.java INFO  Logs:38 - Term Name..> Stop, thief Found.
+2016-11-04 11:21:46 Logs.java INFO  Logs:38 - Term Name..> Hazard Found.
+2016-11-04 11:21:48 Logs.java INFO  Logs:38 - Term Name..> Panic Found.
+2016-11-04 11:21:51 Logs.java INFO  Logs:38 - Term Name..> Terror Found.
+2016-11-04 11:22:15 Logs.java INFO  Logs:38 - Term Name..> Insurance Found.
+2016-11-04 11:22:17 Logs.java INFO  Logs:38 - Term Name..> Complaint Found.
+2016-11-04 11:22:20 Logs.java INFO  Logs:38 - Term Name..> Fear Found.
+2016-11-04 11:22:22 Logs.java INFO  Logs:38 - Term Name..> Safety Found.
+2016-11-04 11:22:46 Logs.java INFO  Logs:38 - Term Name..> Shelter Found.
+2016-11-04 11:22:48 Logs.java INFO  Logs:38 - Term Name..> Stranger Found.
+2016-11-04 11:22:50 Logs.java INFO  Logs:38 - Term Name..> Heart-attack Found.
+2016-11-04 11:22:53 Logs.java INFO  Logs:38 - Term Name..> Thanks Found.
+2016-11-04 11:23:19 Logs.java INFO  Logs:38 - Term Name..> I need the police Found.
+2016-11-04 11:23:21 Logs.java INFO  Logs:38 - Term Name..> Poisoning Found.
+2016-11-04 11:23:23 Logs.java INFO  Logs:38 - Term Name..> I'm lost Found.
+2016-11-04 11:23:48 Logs.java INFO  Logs:38 - Term Name..> We're lost Found.
+2016-11-04 11:23:50 Logs.java INFO  Logs:38 - Term Name..> Harm Found.
+2016-11-04 11:23:52 Logs.java INFO  Logs:38 - Term Name..> Foreigner Found.
+2016-11-04 11:24:18 Logs.java INFO  Logs:38 - Term Name..> I've locked myself out of my car Found.
+2016-11-04 11:24:20 Logs.java INFO  Logs:38 - Term Name..> I've locked myself out of my room Found.
+2016-11-04 11:24:45 Logs.java INFO  Logs:38 - Term Name..> Yes Found.
+2016-11-04 11:24:47 Logs.java INFO  Logs:38 - Term Name..> I've lost my camera Found.
+2016-11-04 11:25:11 Logs.java INFO  Logs:38 - Term Name..> No Found.
+2016-11-04 11:25:14 Logs.java INFO  Logs:38 - Term Name..> I've lost my purse Found.
+2016-11-04 11:25:38 Logs.java INFO  Logs:38 - Term Name..> I've lost my wallet Found.
+2016-11-04 11:25:40 Logs.java INFO  Logs:38 - Term Name..> True Found.
+2016-11-04 11:25:43 Logs.java INFO  Logs:38 - Term Name..> My car's been broken into pieces Found.
+2016-11-04 11:26:07 Logs.java INFO  Logs:38 - Term Name..> Money Found.
+2016-11-04 11:26:09 Logs.java INFO  Logs:38 - Term Name..> My handbag's been stolen Found.
+2016-11-04 11:26:11 Logs.java INFO  Logs:38 - Term Name..> Drugs Found.
+2016-11-04 11:26:36 Logs.java INFO  Logs:38 - Term Name..> My laptop's been stolen Found.
+2016-11-04 11:26:38 Logs.java INFO  Logs:38 - Term Name..> My purse has been stolen Found.
+2016-11-04 11:26:40 Logs.java INFO  Logs:38 - Term Name..> My wallet's been stolen Found.
+2016-11-04 11:27:04 Logs.java INFO  Logs:38 - Term Name..> Please help me Found.
+2016-11-04 11:27:06 Logs.java INFO  Logs:38 - Term Name..> Please hurry Found.
+2016-11-04 11:27:30 Logs.java INFO  Logs:38 - Term Name..> Please leave me alone Found.
+2016-11-04 11:27:33 Logs.java INFO  Logs:38 - Term Name..> Thief Found.
+2016-11-04 11:27:57 Logs.java INFO  Logs:38 - Term Name..> Water Found.
+2016-11-04 11:27:59 Logs.java INFO  Logs:38 - Term Name..> Holiday Found.
+2016-11-04 11:28:24 Logs.java INFO  Logs:38 - Term Name..> Sorry Found.
+2016-11-04 11:28:26 Logs.java INFO  Logs:38 - Term Name..> Hospital Found.
+2016-11-04 11:28:50 Logs.java INFO  Logs:38 - Term Name..> Doctor Found.
+2016-11-04 11:28:52 Logs.java INFO  Logs:38 - Term Name..> To fall Found.
+2016-11-04 11:29:17 Logs.java INFO  Logs:38 - Term Name..> To rob Found.
+2016-11-04 11:57:27 Logs.java INFO  Logs:38 - Entered text message. Week
+2016-11-04 12:23:03 Logs.java INFO  Logs:38 - Entered text message. To clean oneself
+2016-11-04 12:35:13 Logs.java INFO  Logs:38 - Quick List. 一般 Found.
+2016-11-04 12:35:15 Logs.java INFO  Logs:38 - Quick List. 购物 Found.
+2016-11-04 12:35:18 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-04 12:35:20 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-04 12:35:22 Logs.java INFO  Logs:38 - Quick List. 号码 Found.
+2016-11-04 12:35:25 Logs.java INFO  Logs:38 - Quick List. 出租车 Found.
+2016-11-04 12:35:27 Logs.java INFO  Logs:38 - Quick List. 警察 Found.
+2016-11-04 12:35:29 Logs.java INFO  Logs:38 - Quick List. 迎接 Found.
+2016-11-04 12:35:32 Logs.java INFO  Logs:38 - Quick List. 天气 Found.
+2016-11-04 12:35:34 Logs.java INFO  Logs:38 - Quick List. 对立统一 Found.
+2016-11-04 12:35:36 Logs.java INFO  Logs:38 - Quick List. 破冰 Found.
+2016-11-04 12:36:01 Logs.java INFO  Logs:38 - Quick List. 浪漫 Found.
+2016-11-04 12:36:03 Logs.java INFO  Logs:38 - Quick List. 餐馆 Found.
+2016-11-04 12:36:05 Logs.java INFO  Logs:38 - Quick List. 洗衣店 Found.
+2016-11-04 12:36:08 Logs.java INFO  Logs:38 - Quick List. 植物群 Found.
+2016-11-04 12:36:10 Logs.java INFO  Logs:38 - Quick List. 冒险 Found.
+2016-11-04 12:36:13 Logs.java INFO  Logs:38 - Quick List. 酒吧 Found.
+2016-11-04 12:36:16 Logs.java INFO  Logs:38 - Quick List. 医生 Found.
+2016-11-04 12:36:40 Logs.java INFO  Logs:38 - Quick List. 地方 Found.
+2016-11-04 12:36:42 Logs.java INFO  Logs:38 - Quick List. 体育 Found.
+2016-11-04 13:14:06 Logs.java INFO  Logs:38 - Entered text message. Paper
+2016-11-04 13:15:12 Logs.java INFO  Logs:38 - Entered text message. Price
+2016-11-04 13:34:54 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-04 13:35:42 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-04 13:56:40 Logs.java INFO  Logs:38 - Entered text message. Gold
+2016-11-04 13:59:15 Logs.java INFO  Logs:38 - Quick List. General Found.
+2016-11-04 13:59:17 Logs.java INFO  Logs:38 - Quick List. Shopping Found.
+2016-11-04 13:59:19 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-04 13:59:22 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-04 13:59:24 Logs.java INFO  Logs:38 - Quick List. Numbers Found.
+2016-11-04 13:59:26 Logs.java INFO  Logs:38 - Quick List. Taxi Found.
+2016-11-04 13:59:29 Logs.java INFO  Logs:38 - Quick List. Police Found.
+2016-11-04 13:59:31 Logs.java INFO  Logs:38 - Quick List. Greet Found.
+2016-11-04 13:59:33 Logs.java INFO  Logs:38 - Quick List. Weather Found.
+2016-11-04 13:59:36 Logs.java INFO  Logs:38 - Quick List. Opposites Found.
+2016-11-04 13:59:38 Logs.java INFO  Logs:38 - Quick List. Ice Breakers Found.
+2016-11-04 14:00:02 Logs.java INFO  Logs:38 - Quick List. Romantic Found.
+2016-11-04 14:00:05 Logs.java INFO  Logs:38 - Quick List. Restaurant Found.
+2016-11-04 14:00:07 Logs.java INFO  Logs:38 - Quick List. Laundry Found.
+2016-11-04 14:00:11 Logs.java INFO  Logs:38 - Quick List. Flora Found.
+2016-11-04 14:00:14 Logs.java INFO  Logs:38 - Quick List. Adventure Found.
+2016-11-04 14:00:16 Logs.java INFO  Logs:38 - Quick List. Bar Found.
+2016-11-04 14:00:18 Logs.java INFO  Logs:38 - Quick List. Doctor Found.
+2016-11-04 14:00:42 Logs.java INFO  Logs:38 - Quick List. Place Found.
+2016-11-04 14:00:45 Logs.java INFO  Logs:38 - Quick List. Sports Found.
+2016-11-04 14:00:56 Logs.java INFO  Logs:38 - Term Name..> Black Found.
+2016-11-04 14:00:58 Logs.java INFO  Logs:38 - Term Name..> Clothes Found.
+2016-11-04 14:01:00 Logs.java INFO  Logs:38 - Term Name..> Colors Found.
+2016-11-04 14:01:24 Logs.java INFO  Logs:38 - Term Name..> Shirt Found.
+2016-11-04 14:01:26 Logs.java INFO  Logs:38 - Term Name..> How much Found.
+2016-11-04 14:01:29 Logs.java INFO  Logs:38 - Term Name..> Pants Found.
+2016-11-04 14:01:54 Logs.java INFO  Logs:38 - Term Name..> Jacket Found.
+2016-11-04 14:01:57 Logs.java INFO  Logs:38 - Term Name..> Skirt Found.
+2016-11-04 14:01:59 Logs.java INFO  Logs:38 - Term Name..> Dress Found.
+2016-11-04 14:02:23 Logs.java INFO  Logs:38 - Term Name..> Dry cleaners Found.
+2016-11-04 14:02:26 Logs.java INFO  Logs:38 - Term Name..> Laundry Found.
+2016-11-04 14:02:28 Logs.java INFO  Logs:38 - Term Name..> Price Found.
+2016-11-04 14:02:30 Logs.java INFO  Logs:38 - Term Name..> White Found.
+2016-11-04 14:02:55 Logs.java INFO  Logs:38 - Term Name..> Sock Found.
+2016-11-04 14:02:57 Logs.java INFO  Logs:38 - Term Name..> Receipt Found.
+2016-11-04 14:22:33 Logs.java INFO  Logs:38 - Entered text message. Abdomen
+2016-11-04 14:55:32 Logs.java INFO  Logs:38 - Entered text message. If
+2016-11-04 15:10:09 Logs.java INFO  Logs:38 - Quick List. Generalny Found.
+2016-11-04 15:10:11 Logs.java INFO  Logs:38 - Quick List. Handlowego Found.
+2016-11-04 15:10:13 Logs.java INFO  Logs:38 - Quick List. 101 Found.
+2016-11-04 15:10:16 Logs.java INFO  Logs:38 - Quick List. 201 Found.
+2016-11-04 15:10:18 Logs.java INFO  Logs:38 - Quick List. Liczb Found.
+2016-11-04 15:10:20 Logs.java INFO  Logs:38 - Quick List. Taksówka Found.
+2016-11-04 15:10:22 Logs.java INFO  Logs:38 - Quick List. Policyjny Found.
+2016-11-04 15:10:25 Logs.java INFO  Logs:38 - Quick List. Przywitać się Found.
+2016-11-04 15:10:27 Logs.java INFO  Logs:38 - Quick List. Pogody Found.
+2016-11-04 15:10:29 Logs.java INFO  Logs:38 - Quick List. Przeciwieństwa się Found.
+2016-11-04 15:10:32 Logs.java INFO  Logs:38 - Quick List. Lodołamacze Found.
+2016-11-04 15:10:56 Logs.java INFO  Logs:38 - Quick List. Romantyczna Found.
+2016-11-04 15:10:58 Logs.java INFO  Logs:38 - Quick List. Restauracji Found.
+2016-11-04 15:11:01 Logs.java INFO  Logs:38 - Quick List. Pranie Found.
+2016-11-04 15:11:04 Logs.java INFO  Logs:38 - Quick List. Flory Found.
+2016-11-04 15:11:07 Logs.java INFO  Logs:38 - Quick List. Przygodowe Found.
+2016-11-04 15:11:09 Logs.java INFO  Logs:38 - Quick List. Barze Found.
+2016-11-04 15:11:11 Logs.java INFO  Logs:38 - Quick List. Doktor Found.
+2016-11-04 15:11:35 Logs.java INFO  Logs:38 - Quick List. Umieść Found.
+2016-11-04 15:11:38 Logs.java INFO  Logs:38 - Quick List. Sporty Found.

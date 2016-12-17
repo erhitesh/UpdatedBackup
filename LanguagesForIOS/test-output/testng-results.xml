@@ -1,0 +1,2010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" total="118" passed="113">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite For Ios Testing" duration-ms="7330596" started-at="2016-12-09T08:29:19Z" finished-at="2016-12-09T10:31:30Z">
+    <groups>
+    </groups>
+    <test name="Regression Testing Learn Tamil" duration-ms="7330596" started-at="2016-12-09T08:29:19Z" finished-at="2016-12-09T10:31:30Z">
+      <class name="com.eduven.testcase.EvMenuPageTestCases">
+        <test-method status="PASS" signature="handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="handlingRateTheAppPopupTest" duration-ms="63395" started-at="2016-12-09T14:38:55Z" finished-at="2016-12-09T14:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingRateTheAppPopupTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:39:58Z" finished-at="2016-12-09T14:39:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlingRateTheAppPopupTest status=SUCCESS method=EvMenuPageTestCases.handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="languageSelectionTest()[pri:10, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="languageSelectionTest" duration-ms="111934" started-at="2016-12-09T14:39:58Z" finished-at="2016-12-09T14:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:41:50Z" finished-at="2016-12-09T14:41:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=languageSelectionTest status=SUCCESS method=EvMenuPageTestCases.languageSelectionTest()[pri:10, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="navigateToMoreAppsPageTest()[pri:20, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="navigateToMoreAppsPageTest" duration-ms="35589" started-at="2016-12-09T14:41:50Z" finished-at="2016-12-09T14:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMoreAppsPageTest -->
+        <test-method status="FAIL" signature="verifyMoreAppsPageTest()[pri:30, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="verifyMoreAppsPageTest" duration-ms="79252" started-at="2016-12-09T14:42:26Z" finished-at="2016-12-09T14:43:45Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 60 seconds waiting for visibility of element located by By.id: MoreApps
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: d2bb8821-dcb8-4e47-9778-30ac7a0a2d01]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.id: MoreApps
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: d2bb8821-dcb8-4e47-9778-30ac7a0a2d01
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.eduven.utils.Reusables.waitForElement(Reusables.java:65)
+	at com.eduven.modules.EvMenu.navigateToAppsList(EvMenu.java:736)
+	at com.eduven.testcase.EvMenuPageTestCases.verifyMoreAppsPageTest(EvMenuPageTestCases.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 39.20 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: d2bb8821-dcb8-4e47-9778-30ac7a0a2d01
+*** Element info: {Using=id, value=MoreApps}
+	at sun.reflect.GeneratedConstructorAccessor51.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementById(IOSDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:911)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:909)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMoreAppsPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:42:26Z" finished-at="2016-12-09T14:42:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToMoreAppsPageTest status=SUCCESS method=EvMenuPageTestCases.navigateToMoreAppsPageTest()[pri:20, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="2715" started-at="2016-12-09T14:43:45Z" finished-at="2016-12-09T14:43:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMoreAppsPageTest status=FAILURE method=EvMenuPageTestCases.verifyMoreAppsPageTest()[pri:30, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="navigateToContributePageTest()[pri:40, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="navigateToContributePageTest" duration-ms="27324" started-at="2016-12-09T14:43:48Z" finished-at="2016-12-09T14:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToContributePageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:44:15Z" finished-at="2016-12-09T14:44:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToContributePageTest status=SUCCESS method=EvMenuPageTestCases.navigateToContributePageTest()[pri:40, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyContributePageWithoutTextTest()[pri:50, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="verifyContributePageWithoutTextTest" duration-ms="23010" started-at="2016-12-09T14:44:15Z" finished-at="2016-12-09T14:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContributePageWithoutTextTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T14:44:38Z" finished-at="2016-12-09T14:44:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContributePageWithoutTextTest status=SUCCESS method=EvMenuPageTestCases.verifyContributePageWithoutTextTest()[pri:50, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyContributePageWithCategoryTest()[pri:60, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="verifyContributePageWithCategoryTest" duration-ms="57375" started-at="2016-12-09T14:44:38Z" finished-at="2016-12-09T14:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContributePageWithCategoryTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:45:35Z" finished-at="2016-12-09T14:45:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContributePageWithCategoryTest status=SUCCESS method=EvMenuPageTestCases.verifyContributePageWithCategoryTest()[pri:60, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyContributePageWithWordTest()[pri:70, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="verifyContributePageWithWordTest" duration-ms="45845" started-at="2016-12-09T14:45:35Z" finished-at="2016-12-09T14:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContributePageWithWordTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:46:21Z" finished-at="2016-12-09T14:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContributePageWithWordTest status=SUCCESS method=EvMenuPageTestCases.verifyContributePageWithWordTest()[pri:70, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyContributePageWithRequiredTextTest()[pri:80, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="verifyContributePageWithRequiredTextTest" duration-ms="70993" started-at="2016-12-09T14:46:21Z" finished-at="2016-12-09T14:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContributePageWithRequiredTextTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:47:32Z" finished-at="2016-12-09T14:47:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContributePageWithRequiredTextTest status=SUCCESS method=EvMenuPageTestCases.verifyContributePageWithRequiredTextTest()[pri:80, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="categorySettingPageTest()[pri:90, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="categorySettingPageTest" duration-ms="106732" started-at="2016-12-09T14:47:32Z" finished-at="2016-12-09T14:49:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorySettingPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:49:19Z" finished-at="2016-12-09T14:49:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=categorySettingPageTest status=SUCCESS method=EvMenuPageTestCases.categorySettingPageTest()[pri:90, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="wordOfTheDayTest()[pri:100, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="wordOfTheDayTest" duration-ms="97320" started-at="2016-12-09T14:49:19Z" finished-at="2016-12-09T14:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wordOfTheDayTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:50:56Z" finished-at="2016-12-09T14:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wordOfTheDayTest status=SUCCESS method=EvMenuPageTestCases.wordOfTheDayTest()[pri:100, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getInTouchPageTest()[pri:110, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="getInTouchPageTest" duration-ms="0" started-at="2016-12-09T14:50:56Z" finished-at="2016-12-09T14:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInTouchPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:50:56Z" finished-at="2016-12-09T14:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getInTouchPageTest status=SUCCESS method=EvMenuPageTestCases.getInTouchPageTest()[pri:110, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="dislcaimerPageTest()[pri:120, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="dislcaimerPageTest" duration-ms="69909" started-at="2016-12-09T14:50:56Z" finished-at="2016-12-09T14:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dislcaimerPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:52:06Z" finished-at="2016-12-09T14:52:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dislcaimerPageTest status=SUCCESS method=EvMenuPageTestCases.dislcaimerPageTest()[pri:120, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="faqsPageTest()[pri:130, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="faqsPageTest" duration-ms="72430" started-at="2016-12-09T14:52:06Z" finished-at="2016-12-09T14:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faqsPageTest -->
+        <test-method status="PASS" signature="termAndConditionPageTest()[pri:140, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="termAndConditionPageTest" duration-ms="72547" started-at="2016-12-09T14:53:19Z" finished-at="2016-12-09T14:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termAndConditionPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:53:19Z" finished-at="2016-12-09T14:53:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=faqsPageTest status=SUCCESS method=EvMenuPageTestCases.faqsPageTest()[pri:130, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="privacyPolicyPageTest()[pri:150, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="privacyPolicyPageTest" duration-ms="75395" started-at="2016-12-09T14:54:31Z" finished-at="2016-12-09T14:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacyPolicyPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:54:31Z" finished-at="2016-12-09T14:54:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=termAndConditionPageTest status=SUCCESS method=EvMenuPageTestCases.termAndConditionPageTest()[pri:140, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:55:47Z" finished-at="2016-12-09T14:55:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=privacyPolicyPageTest status=SUCCESS method=EvMenuPageTestCases.privacyPolicyPageTest()[pri:150, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="selectAllCategoryInCategorySettingPageTest()[pri:160, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="selectAllCategoryInCategorySettingPageTest" duration-ms="86959" started-at="2016-12-09T14:55:47Z" finished-at="2016-12-09T14:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAllCategoryInCategorySettingPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:57:14Z" finished-at="2016-12-09T14:57:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectAllCategoryInCategorySettingPageTest status=SUCCESS method=EvMenuPageTestCases.selectAllCategoryInCategorySettingPageTest()[pri:160, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="selectAllCategoryInWordOffTheDayPageTest()[pri:170, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="selectAllCategoryInWordOffTheDayPageTest" duration-ms="81895" started-at="2016-12-09T14:57:14Z" finished-at="2016-12-09T14:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAllCategoryInWordOffTheDayPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:58:35Z" finished-at="2016-12-09T14:58:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectAllCategoryInWordOffTheDayPageTest status=SUCCESS method=EvMenuPageTestCases.selectAllCategoryInWordOffTheDayPageTest()[pri:170, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="rateThisAppTest()[pri:180, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="rateThisAppTest" duration-ms="0" started-at="2016-12-09T14:58:35Z" finished-at="2016-12-09T14:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rateThisAppTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:58:35Z" finished-at="2016-12-09T14:58:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rateThisAppTest status=SUCCESS method=EvMenuPageTestCases.rateThisAppTest()[pri:180, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@38afe297]" name="closeApp" is-config="true" duration-ms="28167" started-at="2016-12-09T14:58:35Z" finished-at="2016-12-09T14:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.eduven.testcase.EvMenuPageTestCases -->
+      <class name="com.eduven.testcase.SwitchLanguagePageTestCases">
+        <test-method status="PASS" signature="handlingRateAppPopupTest()[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="handlingRateAppPopupTest" duration-ms="67445" started-at="2016-12-09T15:48:22Z" finished-at="2016-12-09T15:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingRateAppPopupTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:49:30Z" finished-at="2016-12-09T15:49:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlingRateAppPopupTest status=SUCCESS method=SwitchLanguagePageTestCases.handlingRateAppPopupTest()[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="languageSelectionTest()[pri:10, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="languageSelectionTest" duration-ms="110557" started-at="2016-12-09T15:49:30Z" finished-at="2016-12-09T15:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T15:51:20Z" finished-at="2016-12-09T15:51:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=languageSelectionTest status=SUCCESS method=SwitchLanguagePageTestCases.languageSelectionTest()[pri:10, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="navigateToSswitchLingoPageTest()[pri:20, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="navigateToSswitchLingoPageTest" duration-ms="35934" started-at="2016-12-09T15:51:20Z" finished-at="2016-12-09T15:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSswitchLingoPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T15:51:56Z" finished-at="2016-12-09T15:51:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToSswitchLingoPageTest status=SUCCESS method=SwitchLanguagePageTestCases.navigateToSswitchLingoPageTest()[pri:20, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="switchLingoChangeBaseLanguageTest()[pri:30, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="switchLingoChangeBaseLanguageTest" duration-ms="43635" started-at="2016-12-09T15:51:56Z" finished-at="2016-12-09T15:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchLingoChangeBaseLanguageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T15:52:40Z" finished-at="2016-12-09T15:52:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=switchLingoChangeBaseLanguageTest status=SUCCESS method=SwitchLanguagePageTestCases.switchLingoChangeBaseLanguageTest()[pri:30, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="purchaseNativeLangugaeTest()[pri:40, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="purchaseNativeLangugaeTest" duration-ms="267183" started-at="2016-12-09T15:52:40Z" finished-at="2016-12-09T15:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseNativeLangugaeTest -->
+        <test-method status="PASS" signature="languageSelectionTest1()[pri:45, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="languageSelectionTest1" duration-ms="45635" started-at="2016-12-09T15:57:07Z" finished-at="2016-12-09T15:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:57:07Z" finished-at="2016-12-09T15:57:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=purchaseNativeLangugaeTest status=SUCCESS method=SwitchLanguagePageTestCases.purchaseNativeLangugaeTest()[pri:40, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:57:53Z" finished-at="2016-12-09T15:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=languageSelectionTest1 status=SUCCESS method=SwitchLanguagePageTestCases.languageSelectionTest1()[pri:45, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="verifyCategoryListAfterBaseLanguageChangeTest()[pri:50, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="verifyCategoryListAfterBaseLanguageChangeTest" duration-ms="14240" started-at="2016-12-09T15:57:53Z" finished-at="2016-12-09T15:58:07Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message!! Actual and Expected category term count not matched. expected [0] but found [24]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message!! Actual and Expected category term count not matched. expected [0] but found [24]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.eduven.utils.Reusables.verifyEqualMessage(Reusables.java:435)
+	at com.eduven.modules.Categories.verifyCategoryListAndTermCount(Categories.java:116)
+	at com.eduven.testcase.SwitchLanguagePageTestCases.verifyCategoryListAfterBaseLanguageChangeTest(SwitchLanguagePageTestCases.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategoryListAfterBaseLanguageChangeTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="tearDown" is-config="true" duration-ms="2672" started-at="2016-12-09T15:58:07Z" finished-at="2016-12-09T15:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCategoryListAfterBaseLanguageChangeTest status=FAILURE method=SwitchLanguagePageTestCases.verifyCategoryListAfterBaseLanguageChangeTest()[pri:50, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyTermHeaderAndTermNameListTest()[pri:60, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="verifyTermHeaderAndTermNameListTest" duration-ms="82401" started-at="2016-12-09T15:58:10Z" finished-at="2016-12-09T15:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTermHeaderAndTermNameListTest -->
+        <test-method status="PASS" signature="navigateToQuickListTest()[pri:65, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="navigateToQuickListTest" duration-ms="23414" started-at="2016-12-09T15:59:32Z" finished-at="2016-12-09T15:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToQuickListTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:59:32Z" finished-at="2016-12-09T15:59:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTermHeaderAndTermNameListTest status=SUCCESS method=SwitchLanguagePageTestCases.verifyTermHeaderAndTermNameListTest()[pri:60, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:59:56Z" finished-at="2016-12-09T15:59:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToQuickListTest status=SUCCESS method=SwitchLanguagePageTestCases.navigateToQuickListTest()[pri:65, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyQuickListHeadertxtTest()[pri:70, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="verifyQuickListHeadertxtTest" duration-ms="6165" started-at="2016-12-09T15:59:56Z" finished-at="2016-12-09T16:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuickListHeadertxtTest -->
+        <test-method status="PASS" signature="verifyQuickListCategoryTest()[pri:80, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="verifyQuickListCategoryTest" duration-ms="25917" started-at="2016-12-09T16:00:02Z" finished-at="2016-12-09T16:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuickListCategoryTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T16:00:02Z" finished-at="2016-12-09T16:00:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyQuickListHeadertxtTest status=SUCCESS method=SwitchLanguagePageTestCases.verifyQuickListHeadertxtTest()[pri:70, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T16:00:28Z" finished-at="2016-12-09T16:00:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyQuickListCategoryTest status=SUCCESS method=SwitchLanguagePageTestCases.verifyQuickListCategoryTest()[pri:80, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="navigateToQuickListTermTest()[pri:90, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="navigateToQuickListTermTest" duration-ms="26152" started-at="2016-12-09T16:00:28Z" finished-at="2016-12-09T16:00:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToQuickListTermTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T16:00:54Z" finished-at="2016-12-09T16:00:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToQuickListTermTest status=SUCCESS method=SwitchLanguagePageTestCases.navigateToQuickListTermTest()[pri:90, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyTermsNameOnTermlistPageTest()[pri:100, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="verifyTermsNameOnTermlistPageTest" duration-ms="6666" started-at="2016-12-09T16:00:54Z" finished-at="2016-12-09T16:01:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTermsNameOnTermlistPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T16:01:00Z" finished-at="2016-12-09T16:01:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTermsNameOnTermlistPageTest status=SUCCESS method=SwitchLanguagePageTestCases.verifyTermsNameOnTermlistPageTest()[pri:100, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb]" name="closeApp" is-config="true" duration-ms="29478" started-at="2016-12-09T16:01:00Z" finished-at="2016-12-09T16:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.eduven.testcase.SwitchLanguagePageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <test-method status="PASS" signature="handlingRateAppPopupTest()[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="handlingRateAppPopupTest" duration-ms="62377" started-at="2016-12-09T14:13:40Z" finished-at="2016-12-09T14:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingRateAppPopupTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T14:14:42Z" finished-at="2016-12-09T14:14:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlingRateAppPopupTest status=SUCCESS method=EduBankPageTestCases.handlingRateAppPopupTest()[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="languageSelectionTest()[pri:10, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="languageSelectionTest" duration-ms="113092" started-at="2016-12-09T14:14:42Z" finished-at="2016-12-09T14:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest -->
+        <test-method status="PASS" signature="navigateToEdubankTest()[pri:20, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="navigateToEdubankTest" duration-ms="90273" started-at="2016-12-09T14:16:35Z" finished-at="2016-12-09T14:18:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToEdubankTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:16:35Z" finished-at="2016-12-09T14:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=languageSelectionTest status=SUCCESS method=EduBankPageTestCases.languageSelectionTest()[pri:10, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:18:06Z" finished-at="2016-12-09T14:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToEdubankTest status=SUCCESS method=EduBankPageTestCases.navigateToEdubankTest()[pri:20, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="navigateToTermPageTest()[pri:30, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="navigateToTermPageTest" duration-ms="24238" started-at="2016-12-09T14:18:06Z" finished-at="2016-12-09T14:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTermPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T14:18:30Z" finished-at="2016-12-09T14:18:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToTermPageTest status=SUCCESS method=EduBankPageTestCases.navigateToTermPageTest()[pri:30, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="addTermInEdubankTest()[pri:40, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="addTermInEdubankTest" duration-ms="43378" started-at="2016-12-09T14:18:30Z" finished-at="2016-12-09T14:19:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTermInEdubankTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T14:19:13Z" finished-at="2016-12-09T14:19:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addTermInEdubankTest status=SUCCESS method=EduBankPageTestCases.addTermInEdubankTest()[pri:40, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyAddedTermInEdubankTest()[pri:50, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="verifyAddedTermInEdubankTest" duration-ms="53770" started-at="2016-12-09T14:19:13Z" finished-at="2016-12-09T14:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedTermInEdubankTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:20:07Z" finished-at="2016-12-09T14:20:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddedTermInEdubankTest status=SUCCESS method=EduBankPageTestCases.verifyAddedTermInEdubankTest()[pri:50, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="removeTermsFromEdubankTest()[pri:60, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="removeTermsFromEdubankTest" duration-ms="6649" started-at="2016-12-09T14:20:07Z" finished-at="2016-12-09T14:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeTermsFromEdubankTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T14:20:14Z" finished-at="2016-12-09T14:20:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeTermsFromEdubankTest status=SUCCESS method=EduBankPageTestCases.removeTermsFromEdubankTest()[pri:60, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyAddedTermInEdubankAfterRemovedItTest()[pri:70, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="verifyAddedTermInEdubankAfterRemovedItTest" duration-ms="31518" started-at="2016-12-09T14:20:14Z" finished-at="2016-12-09T14:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedTermInEdubankAfterRemovedItTest -->
+        <test-method status="PASS" signature="removeAllTermsFromEdubankTest()[pri:80, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="removeAllTermsFromEdubankTest" duration-ms="7668" started-at="2016-12-09T14:20:45Z" finished-at="2016-12-09T14:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAllTermsFromEdubankTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:20:45Z" finished-at="2016-12-09T14:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddedTermInEdubankAfterRemovedItTest status=SUCCESS method=EduBankPageTestCases.verifyAddedTermInEdubankAfterRemovedItTest()[pri:70, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="navigateToEdubankQuicklistTest()[pri:85, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="navigateToEdubankQuicklistTest" duration-ms="90404" started-at="2016-12-09T14:20:53Z" finished-at="2016-12-09T14:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToEdubankQuicklistTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:20:53Z" finished-at="2016-12-09T14:20:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeAllTermsFromEdubankTest status=SUCCESS method=EduBankPageTestCases.removeAllTermsFromEdubankTest()[pri:80, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="navigateToQuicklistPageTest()[pri:90, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="navigateToQuicklistPageTest" duration-ms="29466" started-at="2016-12-09T14:22:23Z" finished-at="2016-12-09T14:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToQuicklistPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:22:23Z" finished-at="2016-12-09T14:22:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToEdubankQuicklistTest status=SUCCESS method=EduBankPageTestCases.navigateToEdubankQuicklistTest()[pri:85, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="navigateToQuicklistTermPageTest()[pri:95, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="navigateToQuicklistTermPageTest" duration-ms="29449" started-at="2016-12-09T14:22:53Z" finished-at="2016-12-09T14:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToQuicklistTermPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:22:53Z" finished-at="2016-12-09T14:22:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToQuicklistPageTest status=SUCCESS method=EduBankPageTestCases.navigateToQuicklistPageTest()[pri:90, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:23:22Z" finished-at="2016-12-09T14:23:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToQuicklistTermPageTest status=SUCCESS method=EduBankPageTestCases.navigateToQuicklistTermPageTest()[pri:95, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="addTermInEdubankForQuicklistTest()[pri:98, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="addTermInEdubankForQuicklistTest" duration-ms="87187" started-at="2016-12-09T14:23:22Z" finished-at="2016-12-09T14:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTermInEdubankForQuicklistTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:24:49Z" finished-at="2016-12-09T14:24:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addTermInEdubankForQuicklistTest status=SUCCESS method=EduBankPageTestCases.addTermInEdubankForQuicklistTest()[pri:98, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyAddedTermInEdubankForQuicklistTest()[pri:100, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="verifyAddedTermInEdubankForQuicklistTest" duration-ms="36045" started-at="2016-12-09T14:24:49Z" finished-at="2016-12-09T14:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedTermInEdubankForQuicklistTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:25:25Z" finished-at="2016-12-09T14:25:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddedTermInEdubankForQuicklistTest status=SUCCESS method=EduBankPageTestCases.verifyAddedTermInEdubankForQuicklistTest()[pri:100, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="removeTermsFromEdubankForQuicklistTest()[pri:105, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="removeTermsFromEdubankForQuicklistTest" duration-ms="6639" started-at="2016-12-09T14:25:25Z" finished-at="2016-12-09T14:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeTermsFromEdubankForQuicklistTest -->
+        <test-method status="PASS" signature="verifyAddedTermInEdubankForQuicklistAfterRemoveOneTermTest()[pri:110, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="verifyAddedTermInEdubankForQuicklistAfterRemoveOneTermTest" duration-ms="31672" started-at="2016-12-09T14:25:32Z" finished-at="2016-12-09T14:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedTermInEdubankForQuicklistAfterRemoveOneTermTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:25:32Z" finished-at="2016-12-09T14:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeTermsFromEdubankForQuicklistTest status=SUCCESS method=EduBankPageTestCases.removeTermsFromEdubankForQuicklistTest()[pri:105, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T14:26:04Z" finished-at="2016-12-09T14:26:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddedTermInEdubankForQuicklistAfterRemoveOneTermTest status=SUCCESS method=EduBankPageTestCases.verifyAddedTermInEdubankForQuicklistAfterRemoveOneTermTest()[pri:110, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="removeAllTermsFromEdubankForQuicklistTest()[pri:150, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="removeAllTermsFromEdubankForQuicklistTest" duration-ms="3565" started-at="2016-12-09T14:26:04Z" finished-at="2016-12-09T14:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAllTermsFromEdubankForQuicklistTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T14:26:07Z" finished-at="2016-12-09T14:26:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeAllTermsFromEdubankForQuicklistTest status=SUCCESS method=EduBankPageTestCases.removeAllTermsFromEdubankForQuicklistTest()[pri:150, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@7bedc48a]" name="closeApp" is-config="true" duration-ms="26869" started-at="2016-12-09T14:26:07Z" finished-at="2016-12-09T14:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.QuickListPageTestCases">
+        <test-method status="PASS" signature="handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="handlingRateTheAppPopupTest" duration-ms="62978" started-at="2016-12-09T15:11:47Z" finished-at="2016-12-09T15:12:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingRateTheAppPopupTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:12:50Z" finished-at="2016-12-09T15:12:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlingRateTheAppPopupTest status=SUCCESS method=QuickListPageTestCases.handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="languageSelectionTest()[pri:10, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="languageSelectionTest" duration-ms="112000" started-at="2016-12-09T15:12:50Z" finished-at="2016-12-09T15:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:14:42Z" finished-at="2016-12-09T15:14:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=languageSelectionTest status=SUCCESS method=QuickListPageTestCases.languageSelectionTest()[pri:10, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="navigateToQuickListTest()[pri:20, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="navigateToQuickListTest" duration-ms="22462" started-at="2016-12-09T15:14:42Z" finished-at="2016-12-09T15:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToQuickListTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T15:15:04Z" finished-at="2016-12-09T15:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToQuickListTest status=SUCCESS method=QuickListPageTestCases.navigateToQuickListTest()[pri:20, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyQuickListHeadertxtTest()[pri:30, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="verifyQuickListHeadertxtTest" duration-ms="6227" started-at="2016-12-09T15:15:04Z" finished-at="2016-12-09T15:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuickListHeadertxtTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T15:15:11Z" finished-at="2016-12-09T15:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyQuickListHeadertxtTest status=SUCCESS method=QuickListPageTestCases.verifyQuickListHeadertxtTest()[pri:30, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyQuickListCategoryTest()[pri:40, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="verifyQuickListCategoryTest" duration-ms="26056" started-at="2016-12-09T15:15:11Z" finished-at="2016-12-09T15:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuickListCategoryTest -->
+        <test-method status="PASS" signature="navigateToQuickListTermTest()[pri:50, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="navigateToQuickListTermTest" duration-ms="35516" started-at="2016-12-09T15:15:37Z" finished-at="2016-12-09T15:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToQuickListTermTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:15:37Z" finished-at="2016-12-09T15:15:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyQuickListCategoryTest status=SUCCESS method=QuickListPageTestCases.verifyQuickListCategoryTest()[pri:40, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:16:12Z" finished-at="2016-12-09T15:16:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToQuickListTermTest status=SUCCESS method=QuickListPageTestCases.navigateToQuickListTermTest()[pri:50, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyTermsNameOnTermlistPageTest()[pri:60, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="verifyTermsNameOnTermlistPageTest" duration-ms="105696" started-at="2016-12-09T15:16:12Z" finished-at="2016-12-09T15:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTermsNameOnTermlistPageTest -->
+        <test-method status="PASS" signature="verifyUnlockTermNameTest()[pri:70, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="verifyUnlockTermNameTest" duration-ms="89805" started-at="2016-12-09T15:17:58Z" finished-at="2016-12-09T15:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnlockTermNameTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:17:58Z" finished-at="2016-12-09T15:17:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTermsNameOnTermlistPageTest status=SUCCESS method=QuickListPageTestCases.verifyTermsNameOnTermlistPageTest()[pri:60, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:19:28Z" finished-at="2016-12-09T15:19:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnlockTermNameTest status=SUCCESS method=QuickListPageTestCases.verifyUnlockTermNameTest()[pri:70, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyLockTermNameTest()[pri:80, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="verifyLockTermNameTest" duration-ms="58989" started-at="2016-12-09T15:19:28Z" finished-at="2016-12-09T15:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLockTermNameTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="closeApp" is-config="true" duration-ms="27700" started-at="2016-12-09T15:20:27Z" finished-at="2016-12-09T15:20:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:20:27Z" finished-at="2016-12-09T15:20:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLockTermNameTest status=SUCCESS method=QuickListPageTestCases.verifyLockTermNameTest()[pri:80, instance:com.eduven.testcase.QuickListPageTestCases@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eduven.testcase.QuickListPageTestCases -->
+      <class name="com.eduven.testcase.AutoPlayPageTestCases">
+        <test-method status="PASS" signature="handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="handlingRateTheAppPopupTest" duration-ms="63237" started-at="2016-12-09T15:20:54Z" finished-at="2016-12-09T15:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingRateTheAppPopupTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T15:21:58Z" finished-at="2016-12-09T15:21:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlingRateTheAppPopupTest status=SUCCESS method=AutoPlayPageTestCases.handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="languageSelectionTest()[pri:10, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="languageSelectionTest" duration-ms="111975" started-at="2016-12-09T15:21:58Z" finished-at="2016-12-09T15:23:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest -->
+        <test-method status="PASS" signature="verifyCategoryHeaderTxt()[pri:20, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="verifyCategoryHeaderTxt" duration-ms="2189" started-at="2016-12-09T15:23:50Z" finished-at="2016-12-09T15:23:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategoryHeaderTxt -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:23:50Z" finished-at="2016-12-09T15:23:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=languageSelectionTest status=SUCCESS method=AutoPlayPageTestCases.languageSelectionTest()[pri:10, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T15:23:52Z" finished-at="2016-12-09T15:23:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCategoryHeaderTxt status=SUCCESS method=AutoPlayPageTestCases.verifyCategoryHeaderTxt()[pri:20, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="selectRandomCategoryTest()[pri:30, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="selectRandomCategoryTest" duration-ms="36258" started-at="2016-12-09T15:23:52Z" finished-at="2016-12-09T15:24:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRandomCategoryTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:24:28Z" finished-at="2016-12-09T15:24:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectRandomCategoryTest status=SUCCESS method=AutoPlayPageTestCases.selectRandomCategoryTest()[pri:30, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyAutoPlayButtonTest()[pri:40, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="verifyAutoPlayButtonTest" duration-ms="22211" started-at="2016-12-09T15:24:28Z" finished-at="2016-12-09T15:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAutoPlayButtonTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:24:50Z" finished-at="2016-12-09T15:24:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAutoPlayButtonTest status=SUCCESS method=AutoPlayPageTestCases.verifyAutoPlayButtonTest()[pri:40, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="increaseDealayTimeTest()[pri:45, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="increaseDealayTimeTest" duration-ms="5513" started-at="2016-12-09T15:24:50Z" finished-at="2016-12-09T15:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseDealayTimeTest -->
+        <test-method status="PASS" signature="autoPlayButtonForPlayButtonTest()[pri:50, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="autoPlayButtonForPlayButtonTest" duration-ms="15954" started-at="2016-12-09T15:24:56Z" finished-at="2016-12-09T15:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoPlayButtonForPlayButtonTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:24:56Z" finished-at="2016-12-09T15:24:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=increaseDealayTimeTest status=SUCCESS method=AutoPlayPageTestCases.increaseDealayTimeTest()[pri:45, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="closeApp" is-config="true" duration-ms="25604" started-at="2016-12-09T15:25:12Z" finished-at="2016-12-09T15:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:25:12Z" finished-at="2016-12-09T15:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=autoPlayButtonForPlayButtonTest status=SUCCESS method=AutoPlayPageTestCases.autoPlayButtonForPlayButtonTest()[pri:50, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:25:12Z" finished-at="2016-12-09T15:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_auto_play_works_test status=SUCCESS method=AutoPlayPageTestCases.verify_auto_play_works_test()[pri:60, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verify_auto_play_works_test()[pri:60, instance:com.eduven.testcase.AutoPlayPageTestCases@70325e14]" name="verify_auto_play_works_test" duration-ms="0" started-at="2016-12-09T15:25:12Z" finished-at="2016-12-09T15:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_auto_play_works_test -->
+      </class> <!-- com.eduven.testcase.AutoPlayPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <test-method status="PASS" signature="languageSelectionTest()[pri:0, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="languageSelectionTest" duration-ms="77818" started-at="2016-12-09T13:59:19Z" finished-at="2016-12-09T14:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="tearDown" is-config="true" duration-ms="2" started-at="2016-12-09T14:00:37Z" finished-at="2016-12-09T14:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=languageSelectionTest status=SUCCESS method=HomePageTestCases.languageSelectionTest()[pri:0, instance:com.eduven.testcase.HomePageTestCases@41a2befb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="handlingRateTheAppPopupTest()[pri:10, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="handlingRateTheAppPopupTest" duration-ms="64281" started-at="2016-12-09T14:00:37Z" finished-at="2016-12-09T14:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingRateTheAppPopupTest -->
+        <test-method status="PASS" signature="verifyElementOnHomePageTest()[pri:20, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="verifyElementOnHomePageTest" duration-ms="9826" started-at="2016-12-09T14:01:41Z" finished-at="2016-12-09T14:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementOnHomePageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:01:41Z" finished-at="2016-12-09T14:01:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlingRateTheAppPopupTest status=SUCCESS method=HomePageTestCases.handlingRateTheAppPopupTest()[pri:10, instance:com.eduven.testcase.HomePageTestCases@41a2befb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T14:01:51Z" finished-at="2016-12-09T14:01:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyElementOnHomePageTest status=SUCCESS method=HomePageTestCases.verifyElementOnHomePageTest()[pri:20, instance:com.eduven.testcase.HomePageTestCases@41a2befb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyFooterQuicklistButtonOnHomePageTest()[pri:30, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="verifyFooterQuicklistButtonOnHomePageTest" duration-ms="2216" started-at="2016-12-09T14:01:51Z" finished-at="2016-12-09T14:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterQuicklistButtonOnHomePageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:01:54Z" finished-at="2016-12-09T14:01:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooterQuicklistButtonOnHomePageTest status=SUCCESS method=HomePageTestCases.verifyFooterQuicklistButtonOnHomePageTest()[pri:30, instance:com.eduven.testcase.HomePageTestCases@41a2befb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyFooterEdubankButtonOnHomePageTest()[pri:40, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="verifyFooterEdubankButtonOnHomePageTest" duration-ms="2079" started-at="2016-12-09T14:01:54Z" finished-at="2016-12-09T14:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterEdubankButtonOnHomePageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:01:56Z" finished-at="2016-12-09T14:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooterEdubankButtonOnHomePageTest status=SUCCESS method=HomePageTestCases.verifyFooterEdubankButtonOnHomePageTest()[pri:40, instance:com.eduven.testcase.HomePageTestCases@41a2befb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyFooterPurchaseButtonOnHomePageTest()[pri:50, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="verifyFooterPurchaseButtonOnHomePageTest" duration-ms="2201" started-at="2016-12-09T14:01:56Z" finished-at="2016-12-09T14:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterPurchaseButtonOnHomePageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T14:01:58Z" finished-at="2016-12-09T14:01:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooterPurchaseButtonOnHomePageTest status=SUCCESS method=HomePageTestCases.verifyFooterPurchaseButtonOnHomePageTest()[pri:50, instance:com.eduven.testcase.HomePageTestCases@41a2befb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyFooterGameButtonOnHomePageTest()[pri:60, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="verifyFooterGameButtonOnHomePageTest" duration-ms="2214" started-at="2016-12-09T14:01:58Z" finished-at="2016-12-09T14:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterGameButtonOnHomePageTest -->
+        <test-method status="PASS" signature="verifyFooterSwitchLingoButtonOnHomePageTest()[pri:70, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="verifyFooterSwitchLingoButtonOnHomePageTest" duration-ms="2052" started-at="2016-12-09T14:02:00Z" finished-at="2016-12-09T14:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterSwitchLingoButtonOnHomePageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:02:00Z" finished-at="2016-12-09T14:02:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooterGameButtonOnHomePageTest status=SUCCESS method=HomePageTestCases.verifyFooterGameButtonOnHomePageTest()[pri:60, instance:com.eduven.testcase.HomePageTestCases@41a2befb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="closeApp" is-config="true" duration-ms="27906" started-at="2016-12-09T14:02:02Z" finished-at="2016-12-09T14:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.HomePageTestCases@41a2befb]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:02:02Z" finished-at="2016-12-09T14:02:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooterSwitchLingoButtonOnHomePageTest status=SUCCESS method=HomePageTestCases.verifyFooterSwitchLingoButtonOnHomePageTest()[pri:70, instance:com.eduven.testcase.HomePageTestCases@41a2befb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.PurchaseTestCases">
+        <test-method status="PASS" signature="handlingRateTheAppPopupTest()[pri:10, instance:com.eduven.testcase.PurchaseTestCases@7c9d8e2]" name="handlingRateTheAppPopupTest" duration-ms="62875" started-at="2016-12-09T15:31:21Z" finished-at="2016-12-09T15:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingRateTheAppPopupTest -->
+        <test-method status="PASS" signature="languageSelectionTest()[pri:20, instance:com.eduven.testcase.PurchaseTestCases@7c9d8e2]" name="languageSelectionTest" duration-ms="113587" started-at="2016-12-09T15:32:24Z" finished-at="2016-12-09T15:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest -->
+        <test-method status="PASS" signature="verifyLockTermBeforePurchaseTest()[pri:30, instance:com.eduven.testcase.PurchaseTestCases@7c9d8e2]" name="verifyLockTermBeforePurchaseTest" duration-ms="81240" started-at="2016-12-09T15:34:18Z" finished-at="2016-12-09T15:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLockTermBeforePurchaseTest -->
+        <test-method status="PASS" signature="navigateToBuyTest()[pri:40, instance:com.eduven.testcase.PurchaseTestCases@7c9d8e2]" name="navigateToBuyTest" duration-ms="27854" started-at="2016-12-09T15:35:39Z" finished-at="2016-12-09T15:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToBuyTest -->
+        <test-method status="PASS" signature="buyAppPurchaseTest()[pri:50, instance:com.eduven.testcase.PurchaseTestCases@7c9d8e2]" name="buyAppPurchaseTest" duration-ms="282492" started-at="2016-12-09T15:36:07Z" finished-at="2016-12-09T15:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyAppPurchaseTest -->
+        <test-method status="PASS" signature="verifyPurchaseBtnAfterPurchase()[pri:80, instance:com.eduven.testcase.PurchaseTestCases@7c9d8e2]" name="verifyPurchaseBtnAfterPurchase" duration-ms="7338" started-at="2016-12-09T15:40:49Z" finished-at="2016-12-09T15:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPurchaseBtnAfterPurchase -->
+        <test-method status="PASS" signature="verifyLockTermAppearAsUnlockTermTest()[pri:90, instance:com.eduven.testcase.PurchaseTestCases@7c9d8e2]" name="verifyLockTermAppearAsUnlockTermTest" duration-ms="87876" started-at="2016-12-09T15:40:56Z" finished-at="2016-12-09T15:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLockTermAppearAsUnlockTermTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.PurchaseTestCases@7c9d8e2]" name="closeApp" is-config="true" duration-ms="26765" started-at="2016-12-09T15:42:24Z" finished-at="2016-12-09T15:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.eduven.testcase.PurchaseTestCases -->
+      <class name="com.eduven.testcase.CheckInterstetialAfterPurchase">
+        <test-method status="PASS" signature="handlingRateTheAppPopupTest()[pri:1, instance:com.eduven.testcase.CheckInterstetialAfterPurchase@20d525]" name="handlingRateTheAppPopupTest" duration-ms="67537" started-at="2016-12-09T15:42:51Z" finished-at="2016-12-09T15:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingRateTheAppPopupTest -->
+        <test-method status="PASS" signature="languageSelectionTest()[pri:5, instance:com.eduven.testcase.CheckInterstetialAfterPurchase@20d525]" name="languageSelectionTest" duration-ms="110769" started-at="2016-12-09T15:43:59Z" finished-at="2016-12-09T15:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest -->
+        <test-method status="PASS" signature="verifyInterstetialForQuizTest()[pri:10, instance:com.eduven.testcase.CheckInterstetialAfterPurchase@20d525]" name="verifyInterstetialForQuizTest" duration-ms="127677" started-at="2016-12-09T15:45:49Z" finished-at="2016-12-09T15:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInterstetialForQuizTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.CheckInterstetialAfterPurchase@20d525]" name="closeApp" is-config="true" duration-ms="25340" started-at="2016-12-09T15:47:57Z" finished-at="2016-12-09T15:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="FAIL" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.CheckInterstetialAfterPurchase@20d525]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T16:01:30Z" finished-at="2016-12-09T16:01:30Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[wrong number of arguments]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: wrong number of arguments
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1023)
+	at org.testng.TestRunner.run(TestRunner.java:628)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.PurchaseTestCases@7c9d8e2]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T16:01:30Z" finished-at="2016-12-09T16:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.CheckInterstetialBeforePurchase@37ceb1df]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T16:01:30Z" finished-at="2016-12-09T16:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eduven.testcase.CheckInterstetialAfterPurchase -->
+      <class name="com.eduven.testcase.CategoryPageTestCases">
+        <test-method status="PASS" signature="handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.CategoryPageTestCases@6c40365c]" name="handlingRateTheAppPopupTest" duration-ms="63536" started-at="2016-12-09T14:02:30Z" finished-at="2016-12-09T14:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingRateTheAppPopupTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.CategoryPageTestCases@6c40365c]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:03:34Z" finished-at="2016-12-09T14:03:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlingRateTheAppPopupTest status=SUCCESS method=CategoryPageTestCases.handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.CategoryPageTestCases@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="languageSelectionTest()[pri:10, instance:com.eduven.testcase.CategoryPageTestCases@6c40365c]" name="languageSelectionTest" duration-ms="113519" started-at="2016-12-09T14:03:34Z" finished-at="2016-12-09T14:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest -->
+        <test-method status="PASS" signature="verifyCategoryHeaderTxt()[pri:20, instance:com.eduven.testcase.CategoryPageTestCases@6c40365c]" name="verifyCategoryHeaderTxt" duration-ms="2186" started-at="2016-12-09T14:05:27Z" finished-at="2016-12-09T14:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategoryHeaderTxt -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.CategoryPageTestCases@6c40365c]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:05:27Z" finished-at="2016-12-09T14:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=languageSelectionTest status=SUCCESS method=CategoryPageTestCases.languageSelectionTest()[pri:10, instance:com.eduven.testcase.CategoryPageTestCases@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.CategoryPageTestCases@6c40365c]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T14:05:29Z" finished-at="2016-12-09T14:05:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCategoryHeaderTxt status=SUCCESS method=CategoryPageTestCases.verifyCategoryHeaderTxt()[pri:20, instance:com.eduven.testcase.CategoryPageTestCases@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyCategoriesList()[pri:30, instance:com.eduven.testcase.CategoryPageTestCases@6c40365c]" name="verifyCategoriesList" duration-ms="451060" started-at="2016-12-09T14:05:29Z" finished-at="2016-12-09T14:13:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategoriesList -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.CategoryPageTestCases@6c40365c]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T14:13:00Z" finished-at="2016-12-09T14:13:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCategoriesList status=SUCCESS method=CategoryPageTestCases.verifyCategoriesList()[pri:30, instance:com.eduven.testcase.CategoryPageTestCases@6c40365c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.CategoryPageTestCases@6c40365c]" name="closeApp" is-config="true" duration-ms="39640" started-at="2016-12-09T14:13:00Z" finished-at="2016-12-09T14:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.eduven.testcase.CategoryPageTestCases -->
+      <class name="com.eduven.testcase.GamesPageTestCases">
+        <test-method status="PASS" signature="handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="handlingRateTheAppPopupTest" duration-ms="63021" started-at="2016-12-09T14:32:01Z" finished-at="2016-12-09T14:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingRateTheAppPopupTest -->
+        <test-method status="PASS" signature="languageSelectionTest()[pri:10, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="languageSelectionTest" duration-ms="111404" started-at="2016-12-09T14:33:04Z" finished-at="2016-12-09T14:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest -->
+        <test-method status="PASS" signature="tear_down(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="tear_down" is-config="true" duration-ms="0" started-at="2016-12-09T14:33:04Z" finished-at="2016-12-09T14:33:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlingRateTheAppPopupTest status=SUCCESS method=GamesPageTestCases.handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="tear_down(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="tear_down" is-config="true" duration-ms="1" started-at="2016-12-09T14:34:55Z" finished-at="2016-12-09T14:34:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=languageSelectionTest status=SUCCESS method=GamesPageTestCases.languageSelectionTest()[pri:10, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="verifyNavigationToGamesPageTest()[pri:20, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="verifyNavigationToGamesPageTest" duration-ms="17543" started-at="2016-12-09T14:34:55Z" finished-at="2016-12-09T14:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToGamesPageTest -->
+        <test-method status="PASS" signature="tear_down(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="tear_down" is-config="true" duration-ms="1" started-at="2016-12-09T14:35:13Z" finished-at="2016-12-09T14:35:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGamesListNavigationTest status=SUCCESS method=GamesPageTestCases.verifyGamesListNavigationTest()[pri:25, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="tear_down(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="tear_down" is-config="true" duration-ms="0" started-at="2016-12-09T14:35:13Z" finished-at="2016-12-09T14:35:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNavigationToGamesPageTest status=SUCCESS method=GamesPageTestCases.verifyNavigationToGamesPageTest()[pri:20, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="verifyGamesListNavigationTest()[pri:25, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="verifyGamesListNavigationTest" duration-ms="0" started-at="2016-12-09T14:35:13Z" finished-at="2016-12-09T14:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGamesListNavigationTest -->
+        <test-method status="PASS" signature="selectGamesFromGameListTest()[pri:30, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="selectGamesFromGameListTest" duration-ms="8608" started-at="2016-12-09T14:35:13Z" finished-at="2016-12-09T14:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGamesFromGameListTest -->
+        <test-method status="PASS" signature="verifyQuestionCountTest()[pri:36, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="verifyQuestionCountTest" duration-ms="17604" started-at="2016-12-09T14:35:22Z" finished-at="2016-12-09T14:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuestionCountTest -->
+        <test-method status="PASS" signature="tear_down(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="tear_down" is-config="true" duration-ms="0" started-at="2016-12-09T14:35:22Z" finished-at="2016-12-09T14:35:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectGamesFromGameListTest status=SUCCESS method=GamesPageTestCases.selectGamesFromGameListTest()[pri:30, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="startGamesTest()[pri:40, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="startGamesTest" duration-ms="14747" started-at="2016-12-09T14:35:39Z" finished-at="2016-12-09T14:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startGamesTest -->
+        <test-method status="PASS" signature="tear_down(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="tear_down" is-config="true" duration-ms="0" started-at="2016-12-09T14:35:39Z" finished-at="2016-12-09T14:35:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyQuestionCountTest status=SUCCESS method=GamesPageTestCases.verifyQuestionCountTest()[pri:36, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="FAIL" signature="verifyElementOnMainGamePageTest()[pri:45, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="verifyElementOnMainGamePageTest" duration-ms="91836" started-at="2016-12-09T14:35:54Z" finished-at="2016-12-09T14:37:26Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index: 0, Size: 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.eduven.modules.Games.clickOnSkipButton(Games.java:218)
+	at com.eduven.testcase.GamesPageTestCases.verifyElementOnMainGamePageTest(GamesPageTestCases.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementOnMainGamePageTest -->
+        <test-method status="PASS" signature="tear_down(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="tear_down" is-config="true" duration-ms="0" started-at="2016-12-09T14:35:54Z" finished-at="2016-12-09T14:35:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=startGamesTest status=SUCCESS method=GamesPageTestCases.startGamesTest()[pri:40, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="tear_down(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="tear_down" is-config="true" duration-ms="2689" started-at="2016-12-09T14:37:26Z" finished-at="2016-12-09T14:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyElementOnMainGamePageTest status=FAILURE method=GamesPageTestCases.verifyElementOnMainGamePageTest()[pri:45, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="verifyAttemptedQuestionOnScoreBoardTest()[pri:50, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="verifyAttemptedQuestionOnScoreBoardTest" duration-ms="30513" started-at="2016-12-09T14:37:28Z" finished-at="2016-12-09T14:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAttemptedQuestionOnScoreBoardTest -->
+        <test-method status="PASS" signature="tear_down(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="tear_down" is-config="true" duration-ms="0" started-at="2016-12-09T14:37:59Z" finished-at="2016-12-09T14:37:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAttemptedQuestionOnScoreBoardTest status=SUCCESS method=GamesPageTestCases.verifyAttemptedQuestionOnScoreBoardTest()[pri:50, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="verifyWrongAttemptedQuestionOnScoreBoardTest()[pri:60, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="verifyWrongAttemptedQuestionOnScoreBoardTest" duration-ms="30838" started-at="2016-12-09T14:37:59Z" finished-at="2016-12-09T14:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWrongAttemptedQuestionOnScoreBoardTest -->
+        <test-method status="PASS" signature="tear_down(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="tear_down" is-config="true" duration-ms="0" started-at="2016-12-09T14:38:30Z" finished-at="2016-12-09T14:38:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWrongAttemptedQuestionOnScoreBoardTest status=SUCCESS method=GamesPageTestCases.verifyWrongAttemptedQuestionOnScoreBoardTest()[pri:60, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.GamesPageTestCases@55b0dcab]" name="closeApp" is-config="true" duration-ms="25061" started-at="2016-12-09T14:38:30Z" finished-at="2016-12-09T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.eduven.testcase.GamesPageTestCases -->
+      <class name="com.eduven.testcase.TermListPageTestCases">
+        <test-method status="PASS" signature="handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="handlingRateTheAppPopupTest" duration-ms="63308" started-at="2016-12-09T14:59:04Z" finished-at="2016-12-09T15:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingRateTheAppPopupTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T15:00:07Z" finished-at="2016-12-09T15:00:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlingRateTheAppPopupTest status=SUCCESS method=TermListPageTestCases.handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="languageSelectionTest()[pri:10, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="languageSelectionTest" duration-ms="113826" started-at="2016-12-09T15:00:07Z" finished-at="2016-12-09T15:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest -->
+        <test-method status="PASS" signature="navigateToTermlistPageTest()[pri:20, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="navigateToTermlistPageTest" duration-ms="45577" started-at="2016-12-09T15:02:01Z" finished-at="2016-12-09T15:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTermlistPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:02:01Z" finished-at="2016-12-09T15:02:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=languageSelectionTest status=SUCCESS method=TermListPageTestCases.languageSelectionTest()[pri:10, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:02:46Z" finished-at="2016-12-09T15:02:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToTermlistPageTest status=SUCCESS method=TermListPageTestCases.navigateToTermlistPageTest()[pri:20, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyTermsNameOnTermlistPageTest()[pri:30, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="verifyTermsNameOnTermlistPageTest" duration-ms="153293" started-at="2016-12-09T15:02:46Z" finished-at="2016-12-09T15:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTermsNameOnTermlistPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T15:05:20Z" finished-at="2016-12-09T15:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTermsNameOnTermlistPageTest status=SUCCESS method=TermListPageTestCases.verifyTermsNameOnTermlistPageTest()[pri:30, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyUnlockTermNameTest()[pri:40, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="verifyUnlockTermNameTest" duration-ms="71543" started-at="2016-12-09T15:05:20Z" finished-at="2016-12-09T15:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnlockTermNameTest -->
+        <test-method status="PASS" signature="verifyLockTermNameTest()[pri:50, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="verifyLockTermNameTest" duration-ms="150183" started-at="2016-12-09T15:06:31Z" finished-at="2016-12-09T15:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLockTermNameTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:06:31Z" finished-at="2016-12-09T15:06:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnlockTermNameTest status=SUCCESS method=TermListPageTestCases.verifyUnlockTermNameTest()[pri:40, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="navigateToEditTermPageTest()[pri:60, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="navigateToEditTermPageTest" duration-ms="69821" started-at="2016-12-09T15:09:01Z" finished-at="2016-12-09T15:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToEditTermPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:09:01Z" finished-at="2016-12-09T15:09:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLockTermNameTest status=SUCCESS method=TermListPageTestCases.verifyLockTermNameTest()[pri:50, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:10:11Z" finished-at="2016-12-09T15:10:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToEditTermPageTest status=SUCCESS method=TermListPageTestCases.navigateToEditTermPageTest()[pri:60, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyContributePageWithoutTextTest()[pri:65, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="verifyContributePageWithoutTextTest" duration-ms="22892" started-at="2016-12-09T15:10:11Z" finished-at="2016-12-09T15:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContributePageWithoutTextTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T15:10:34Z" finished-at="2016-12-09T15:10:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContributePageWithoutTextTest status=SUCCESS method=TermListPageTestCases.verifyContributePageWithoutTextTest()[pri:65, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyContributePageWithWordTest()[pri:70, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="verifyContributePageWithWordTest" duration-ms="43519" started-at="2016-12-09T15:10:34Z" finished-at="2016-12-09T15:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContributePageWithWordTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-12-09T15:11:18Z" finished-at="2016-12-09T15:11:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContributePageWithWordTest status=SUCCESS method=TermListPageTestCases.verifyContributePageWithWordTest()[pri:70, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closApp()[pri:0, instance:com.eduven.testcase.TermListPageTestCases@2df3b89c]" name="closApp" is-config="true" duration-ms="29310" started-at="2016-12-09T15:11:18Z" finished-at="2016-12-09T15:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closApp -->
+      </class> <!-- com.eduven.testcase.TermListPageTestCases -->
+      <class name="com.eduven.testcase.SearchPageTestCases">
+        <test-method status="PASS" signature="handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="handlingRateTheAppPopupTest" duration-ms="16816" started-at="2016-12-09T14:26:34Z" finished-at="2016-12-09T14:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingRateTheAppPopupTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:26:51Z" finished-at="2016-12-09T14:26:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=handlingRateTheAppPopupTest status=SUCCESS method=SearchPageTestCases.handlingRateTheAppPopupTest()[pri:0, instance:com.eduven.testcase.SearchPageTestCases@131ef10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="languageSelectionTest()[pri:10, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="languageSelectionTest" duration-ms="111631" started-at="2016-12-09T14:26:51Z" finished-at="2016-12-09T14:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest -->
+        <test-method status="PASS" signature="navigateToSearchPageTest()[pri:20, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="navigateToSearchPageTest" duration-ms="8519" started-at="2016-12-09T14:28:43Z" finished-at="2016-12-09T14:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSearchPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:28:43Z" finished-at="2016-12-09T14:28:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=languageSelectionTest status=SUCCESS method=SearchPageTestCases.languageSelectionTest()[pri:10, instance:com.eduven.testcase.SearchPageTestCases@131ef10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:28:51Z" finished-at="2016-12-09T14:28:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToSearchPageTest status=SUCCESS method=SearchPageTestCases.navigateToSearchPageTest()[pri:20, instance:com.eduven.testcase.SearchPageTestCases@131ef10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifySearchPageHeaderTest()[pri:30, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="verifySearchPageHeaderTest" duration-ms="6954" started-at="2016-12-09T14:28:51Z" finished-at="2016-12-09T14:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchPageHeaderTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:28:58Z" finished-at="2016-12-09T14:28:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchPageHeaderTest status=SUCCESS method=SearchPageTestCases.verifySearchPageHeaderTest()[pri:30, instance:com.eduven.testcase.SearchPageTestCases@131ef10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="freeTermSearchTest()[pri:40, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="freeTermSearchTest" duration-ms="101949" started-at="2016-12-09T14:28:58Z" finished-at="2016-12-09T14:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeTermSearchTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:30:40Z" finished-at="2016-12-09T14:30:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=freeTermSearchTest status=SUCCESS method=SearchPageTestCases.freeTermSearchTest()[pri:40, instance:com.eduven.testcase.SearchPageTestCases@131ef10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="searchPageAudioTest()[pri:50, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="searchPageAudioTest" duration-ms="8353" started-at="2016-12-09T14:30:40Z" finished-at="2016-12-09T14:30:48Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.83 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: d2bb8821-dcb8-4e47-9778-30ac7a0a2d01]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.83 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: d2bb8821-dcb8-4e47-9778-30ac7a0a2d01
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:961)
+	at com.eduven.utils.Reusables.stepBack(Reusables.java:241)
+	at com.eduven.testcase.SearchPageTestCases.searchPageAudioTest(SearchPageTestCases.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageAudioTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="tearDown" is-config="true" duration-ms="2725" started-at="2016-12-09T14:30:48Z" finished-at="2016-12-09T14:30:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchPageAudioTest status=FAILURE method=SearchPageTestCases.searchPageAudioTest()[pri:50, instance:com.eduven.testcase.SearchPageTestCases@131ef10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="premiumTermSearchTest()[pri:60, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="premiumTermSearchTest" duration-ms="43424" started-at="2016-12-09T14:30:51Z" finished-at="2016-12-09T14:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- premiumTermSearchTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-09T14:31:35Z" finished-at="2016-12-09T14:31:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=premiumTermSearchTest status=SUCCESS method=SearchPageTestCases.premiumTermSearchTest()[pri:60, instance:com.eduven.testcase.SearchPageTestCases@131ef10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.SearchPageTestCases@131ef10]" name="closeApp" is-config="true" duration-ms="26392" started-at="2016-12-09T14:31:35Z" finished-at="2016-12-09T14:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.eduven.testcase.SearchPageTestCases -->
+      <class name="com.eduven.testcase.CheckInterstetialBeforePurchase">
+        <test-method status="PASS" signature="handlingRateTheAppPopupTest()[pri:1, instance:com.eduven.testcase.CheckInterstetialBeforePurchase@37ceb1df]" name="handlingRateTheAppPopupTest" duration-ms="62849" started-at="2016-12-09T15:25:37Z" finished-at="2016-12-09T15:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingRateTheAppPopupTest -->
+        <test-method status="PASS" signature="languageSelectionTest()[pri:5, instance:com.eduven.testcase.CheckInterstetialBeforePurchase@37ceb1df]" name="languageSelectionTest" duration-ms="111459" started-at="2016-12-09T15:26:40Z" finished-at="2016-12-09T15:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageSelectionTest -->
+        <test-method status="PASS" signature="verifyInterstetialForQuizTest()[pri:10, instance:com.eduven.testcase.CheckInterstetialBeforePurchase@37ceb1df]" name="verifyInterstetialForQuizTest" duration-ms="102632" started-at="2016-12-09T15:28:32Z" finished-at="2016-12-09T15:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInterstetialForQuizTest -->
+        <test-method status="FAIL" signature="verifyInterstetialForInAppTest()[pri:15, instance:com.eduven.testcase.CheckInterstetialBeforePurchase@37ceb1df]" name="verifyInterstetialForInAppTest" duration-ms="41529" started-at="2016-12-09T15:30:14Z" finished-at="2016-12-09T15:30:56Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.66 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: d2bb8821-dcb8-4e47-9778-30ac7a0a2d01]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.66 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Tamil/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: d2bb8821-dcb8-4e47-9778-30ac7a0a2d01
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:961)
+	at com.eduven.utils.Reusables.stepBack(Reusables.java:241)
+	at com.eduven.modules.Interstetial.interstetialForInApp(Interstetial.java:62)
+	at com.eduven.testcase.CheckInterstetialBeforePurchase.verifyInterstetialForInAppTest(CheckInterstetialBeforePurchase.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInterstetialForInAppTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.CheckInterstetialBeforePurchase@37ceb1df]" name="closeApp" is-config="true" duration-ms="25305" started-at="2016-12-09T15:30:56Z" finished-at="2016-12-09T15:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.eduven.testcase.CheckInterstetialBeforePurchase -->
+    </test> <!-- Regression Testing Learn Tamil -->
+  </suite> <!-- Suite For Ios Testing -->
+</testng-results>

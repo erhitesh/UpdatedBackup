@@ -1,0 +1,768 @@
+<html>
+<head>
+<title>TestNG:  Regression Testing</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Testing</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/4/6</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 13 12:28:44 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>1775 seconds (1775140 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases<br>Parameters: [TestResult name=navigate_to_quicklist_page_test status=FAILURE method=EduBankPageTestCases.navigate_to_quicklist_page_test()[pri:90, instance:com.eduven.testcase.EduBankPageTestCases@6ed3ccb2] output={null}]</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Spanish/spanish.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul&apos;s iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Spanish/spanish.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul&apos;s iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: ee977b85-5807-48e2-9cbb-94836d6bfbb6
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.eduven.report.ScreenShot.takesScreenShotCapture(ScreenShot.java:33)
+	at com.eduven.testcase.EduBankPageTestCases.tearDown(EduBankPageTestCases.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:57)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 29 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	... 30 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 43 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace793293778", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace793293778'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Spanish/spanish.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul&apos;s iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Spanish/spanish.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul&apos;s iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: ee977b85-5807-48e2-9cbb-94836d6bfbb6
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.eduven.report.ScreenShot.takesScreenShotCapture(ScreenShot.java:33)
+	at com.eduven.testcase.EduBankPageTestCases.tearDown(EduBankPageTestCases.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:57)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 29 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	... 30 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 43 more
+</pre></div></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.close_app()'><b>close_app</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.add_term_in_edubank_test()'><b>add_term_in_edubank_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.eduven.modules.TermList.getTermName(TermList.java:78)
+	at com.eduven.testcase.EduBankPageTestCases.add_term_in_edubank_test(EduBankPageTestCases.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:57)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1694784135", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1694784135'><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.eduven.modules.TermList.getTermName(TermList.java:78)
+	at com.eduven.testcase.EduBankPageTestCases.add_term_in_edubank_test(EduBankPageTestCases.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:57)
+</pre></div></td>
+<td>30</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigate_to_quicklist_page_test()'><b>navigate_to_quicklist_page_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: driver.version: IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Spanish/spanish.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul&apos;s iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Spanish/spanish.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul&apos;s iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: ee977b85-5807-48e2-9cbb-94836d6bfbb6
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByName(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at com.eduven.utils.Reusables.getElement(Reusables.java:700)
+	at com.eduven.modules.QuickList.verifyQuickListHeaderTxt(QuickList.java:60)
+	at com.eduven.testcase.EduBankPageTestCases.navigate_to_quicklist_page_test(EduBankPageTestCases.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:57)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: driver.version: IOSDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 52 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace980364771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace980364771'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: driver.version: IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Spanish/spanish.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul&apos;s iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Spanish/spanish.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul&apos;s iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: ee977b85-5807-48e2-9cbb-94836d6bfbb6
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByName(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at com.eduven.utils.Reusables.getElement(Reusables.java:700)
+	at com.eduven.modules.QuickList.verifyQuickListHeaderTxt(QuickList.java:60)
+	at com.eduven.testcase.EduBankPageTestCases.navigate_to_quicklist_page_test(EduBankPageTestCases.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:57)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: driver.version: IOSDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 38 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	... 39 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 52 more
+</pre></div></td>
+<td>72</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.remove_all_terms_from_Edubank_test()'><b>remove_all_terms_from_Edubank_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.70 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Spanish/spanish.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul&apos;s iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Spanish/spanish.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul&apos;s iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: ee977b85-5807-48e2-9cbb-94836d6bfbb6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:37)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.ios.IOSElement.execute(IOSElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.eduven.modules.EduBank.removeAllTermFromEduBank(EduBank.java:177)
+	at com.eduven.testcase.EduBankPageTestCases.remove_all_terms_from_Edubank_test(EduBankPageTestCases.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:57)
+</pre></div><a href='#' onClick='toggleBox("stack-trace638486177", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace638486177'><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.70 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Spanish/spanish.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul&apos;s iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Spanish/spanish.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul&apos;s iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: ee977b85-5807-48e2-9cbb-94836d6bfbb6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:37)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.ios.IOSElement.execute(IOSElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.eduven.modules.EduBank.removeAllTermFromEduBank(EduBank.java:177)
+	at com.eduven.testcase.EduBankPageTestCases.remove_all_terms_from_Edubank_test(EduBankPageTestCases.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:57)
+</pre></div></td>
+<td>10</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.verify_added_term_in_edubank_after_remove_one_term_test()'><b>verify_added_term_in_edubank_after_remove_one_term_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td><div><pre>java.lang.AssertionError: Remove term still exists.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.eduven.modules.EduBank.verifyTermInEduBankAfterRemove(EduBank.java:142)
+	at com.eduven.testcase.EduBankPageTestCases.verify_added_term_in_edubank_after_remove_one_term_test(EduBankPageTestCases.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:57)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1252540239", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1252540239'><pre>java.lang.AssertionError: Remove term still exists.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.eduven.modules.EduBank.verifyTermInEduBankAfterRemove(EduBank.java:142)
+	at com.eduven.testcase.EduBankPageTestCases.verify_added_term_in_edubank_after_remove_one_term_test(EduBankPageTestCases.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:57)
+</pre></div></td>
+<td>115</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.handling_rate_app_popup_test()'><b>handling_rate_app_popup_test</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>66</td>
+<td>com.eduven.testcase.HomePageTestCases@62ddbd7e</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoryPageTestCases.handling_rate_app_popup_test()'><b>handling_rate_app_popup_test</b><br>Test class: com.eduven.testcase.CategoryPageTestCases</td>
+<td></td>
+<td>63</td>
+<td>com.eduven.testcase.CategoryPageTestCases@74e52ef6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.handling_rate_app_popup_test()'><b>handling_rate_app_popup_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>62</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.install_app_and_language_selection_test()'><b>install_app_and_language_selection_test</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>87</td>
+<td>com.eduven.testcase.HomePageTestCases@62ddbd7e</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoryPageTestCases.install_app_and_language_selection_test()'><b>install_app_and_language_selection_test</b><br>Test class: com.eduven.testcase.CategoryPageTestCases</td>
+<td></td>
+<td>99</td>
+<td>com.eduven.testcase.CategoryPageTestCases@74e52ef6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.install_app_and_language_selection_test()'><b>install_app_and_language_selection_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>100</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigate_to_edubank_quicklist_test()'><b>navigate_to_edubank_quicklist_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>33</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigate_to_edubank_test()'><b>navigate_to_edubank_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>89</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigate_to_term_page_test()'><b>navigate_to_term_page_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>61</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.remove_terms_from_Edubank_test()'><b>remove_terms_from_Edubank_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>11</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoryPageTestCases.verifyCategoriesList()'><b>verifyCategoriesList</b><br>Test class: com.eduven.testcase.CategoryPageTestCases</td>
+<td></td>
+<td>644</td>
+<td>com.eduven.testcase.CategoryPageTestCases@74e52ef6</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoryPageTestCases.verifyCategoryHeaderTxt()'><b>verifyCategoryHeaderTxt</b><br>Test class: com.eduven.testcase.CategoryPageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.CategoryPageTestCases@74e52ef6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.verify_added_term_in_edubank_test()'><b>verify_added_term_in_edubank_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>124</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.verify_element_on_homePage_test()'><b>verify_element_on_homePage_test</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>9</td>
+<td>com.eduven.testcase.HomePageTestCases@62ddbd7e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.add_term_in_edubank_for_quicklist_test()'><b>add_term_in_edubank_for_quicklist_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigate_to_quicklist_term_page_test()'><b>navigate_to_quicklist_term_page_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.remove_all_terms_from_Edubank_for_quicklist_test()'><b>remove_all_terms_from_Edubank_for_quicklist_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.remove_terms_from_Edubank_for_quicklist_test()'><b>remove_terms_from_Edubank_for_quicklist_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.verify_added_term_in_edubank_for_quicklist_after_remove_one_term_test()'><b>verify_added_term_in_edubank_for_quicklist_after_remove_one_term_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.verify_added_term_in_edubank_for_quicklist_test()'><b>verify_added_term_in_edubank_for_quicklist_test</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6ed3ccb2</td></tr>
+</table><p>
+</body>
+</html>

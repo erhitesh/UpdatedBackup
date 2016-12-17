@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [Suite For Android Testing Learn SMART Greek]">
+  <test name="Regression Testing(failed)">
+    <classes>
+      <class name="com.eduven.testcase.PurchaseTestCases">
+        <methods>
+          <include name="restartApp"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.PurchaseTestCases -->
+      <class name="com.eduven.testcase.SearchPageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SearchPageTestCases -->
+      <class name="com.eduven.testcase.NetworkRelatedTestCases">
+        <methods>
+          <include name="closeApp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.NetworkRelatedTestCases -->
+      <class name="com.eduven.testcase.CategoryPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoryPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="tearDown"/>
+          <include name="verify_element_on_homePage_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.QuickListPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.QuickListPageTestCases -->
+      <class name="com.eduven.testcase.SwitchLanguagePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SwitchLanguagePageTestCases -->
+      <class name="com.eduven.testcase.TermListPageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TermListPageTestCases -->
+      <class name="com.eduven.testcase.CheckInterstetialBeforePurchase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="restartApp"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CheckInterstetialBeforePurchase -->
+      <class name="com.eduven.testcase.EvMenuPageTestCases">
+        <methods>
+          <include name="closeApp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EvMenuPageTestCases -->
+      <class name="com.eduven.testcase.AutoPlayPageTestCases">
+        <methods>
+          <include name="close_app"/>
+          <include name="verifyAutoPlayWorksTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.AutoPlayPageTestCases -->
+      <class name="com.eduven.testcase.GamesPageTestCases">
+        <methods>
+          <include name="closeApp"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.GamesPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+    </classes>
+  </test> <!-- Regression Testing(failed) -->
+</suite> <!-- Failed suite [Suite For Android Testing Learn SMART Greek] -->

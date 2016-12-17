@@ -1,0 +1,1286 @@
+<html>
+<head>
+<title>TestNG:  Regression Testing Learn Welsh</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Testing Learn Welsh</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>111/7/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 09 09:23:06 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>7424 seconds (7424247 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialAfterPurchase.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.CheckInterstetialAfterPurchase</td>
+<td><div><pre>java.lang.IllegalArgumentException: wrong number of arguments
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1023)
+	at org.testng.TestRunner.run(TestRunner.java:628)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1621254922", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1621254922'><pre>java.lang.IllegalArgumentException: wrong number of arguments
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1023)
+	at org.testng.TestRunner.run(TestRunner.java:628)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialAfterPurchase.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.CheckInterstetialAfterPurchase</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialAfterPurchase.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.CheckInterstetialAfterPurchase</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.navigateToQuickListTermTest()'><b>navigateToQuickListTermTest</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td><div><pre>java.lang.AssertionError: Error Message!! Actual Term List not matched with expected one. expected [flora] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.eduven.utils.Reusables.verifyEqualMessage(Reusables.java:435)
+	at com.eduven.modules.QuickList.verifyQuickListTermHeaderTxt(QuickList.java:166)
+	at com.eduven.testcase.QuickListPageTestCases.navigateToQuickListTermTest(QuickListPageTestCases.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div><a href='#' onClick='toggleBox("stack-trace893640573", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace893640573'><pre>java.lang.AssertionError: Error Message!! Actual Term List not matched with expected one. expected [flora] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.eduven.utils.Reusables.verifyEqualMessage(Reusables.java:435)
+	at com.eduven.modules.QuickList.verifyQuickListTermHeaderTxt(QuickList.java:166)
+	at com.eduven.testcase.QuickListPageTestCases.navigateToQuickListTermTest(QuickListPageTestCases.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div></td>
+<td>59</td>
+<td>com.eduven.testcase.QuickListPageTestCases@23348b5d</td></tr>
+<tr>
+<td title='com.eduven.testcase.SearchPageTestCases.searchPageAudioTest()'><b>searchPageAudioTest</b><br>Test class: com.eduven.testcase.SearchPageTestCases</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.84 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: 1992663b-4c0b-4e44-aa62-9dd2b57b3ca8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:961)
+	at com.eduven.utils.Reusables.stepBack(Reusables.java:241)
+	at com.eduven.testcase.SearchPageTestCases.searchPageAudioTest(SearchPageTestCases.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1278002745", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1278002745'><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.84 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: 1992663b-4c0b-4e44-aa62-9dd2b57b3ca8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:961)
+	at com.eduven.utils.Reusables.stepBack(Reusables.java:241)
+	at com.eduven.testcase.SearchPageTestCases.searchPageAudioTest(SearchPageTestCases.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div></td>
+<td>10</td>
+<td>com.eduven.testcase.SearchPageTestCases@131ef10</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.verifyCategoryListAfterBaseLanguageChangeTest()'><b>verifyCategoryListAfterBaseLanguageChangeTest</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td><div><pre>java.lang.AssertionError: Error Message!! Actual and Expected category term count not matched. expected [0] but found [24]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.eduven.utils.Reusables.verifyEqualMessage(Reusables.java:435)
+	at com.eduven.modules.Categories.verifyCategoryListAndTermCount(Categories.java:116)
+	at com.eduven.testcase.SwitchLanguagePageTestCases.verifyCategoryListAfterBaseLanguageChangeTest(SwitchLanguagePageTestCases.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1659286984", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1659286984'><pre>java.lang.AssertionError: Error Message!! Actual and Expected category term count not matched. expected [0] but found [24]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.eduven.utils.Reusables.verifyEqualMessage(Reusables.java:435)
+	at com.eduven.modules.Categories.verifyCategoryListAndTermCount(Categories.java:116)
+	at com.eduven.testcase.SwitchLanguagePageTestCases.verifyCategoryListAfterBaseLanguageChangeTest(SwitchLanguagePageTestCases.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div></td>
+<td>14</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.verifyElementOnMainGamePageTest()'><b>verifyElementOnMainGamePageTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.eduven.modules.Games.clickOnSkipButton(Games.java:218)
+	at com.eduven.testcase.GamesPageTestCases.verifyElementOnMainGamePageTest(GamesPageTestCases.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1884231057", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1884231057'><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.eduven.modules.Games.clickOnSkipButton(Games.java:218)
+	at com.eduven.testcase.GamesPageTestCases.verifyElementOnMainGamePageTest(GamesPageTestCases.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div></td>
+<td>92</td>
+<td>com.eduven.testcase.GamesPageTestCases@55b0dcab</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialBeforePurchase.verifyInterstetialForInAppTest()'><b>verifyInterstetialForInAppTest</b><br>Test class: com.eduven.testcase.CheckInterstetialBeforePurchase</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.54 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: 1992663b-4c0b-4e44-aa62-9dd2b57b3ca8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:961)
+	at com.eduven.utils.Reusables.stepBack(Reusables.java:241)
+	at com.eduven.modules.Interstetial.interstetialForInApp(Interstetial.java:62)
+	at com.eduven.testcase.CheckInterstetialBeforePurchase.verifyInterstetialForInAppTest(CheckInterstetialBeforePurchase.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1172535934", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1172535934'><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.54 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: 1992663b-4c0b-4e44-aa62-9dd2b57b3ca8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:961)
+	at com.eduven.utils.Reusables.stepBack(Reusables.java:241)
+	at com.eduven.modules.Interstetial.interstetialForInApp(Interstetial.java:62)
+	at com.eduven.testcase.CheckInterstetialBeforePurchase.verifyInterstetialForInAppTest(CheckInterstetialBeforePurchase.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div></td>
+<td>41</td>
+<td>com.eduven.testcase.CheckInterstetialBeforePurchase@37ceb1df</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyMoreAppsPageTest()'><b>verifyMoreAppsPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.id: MoreApps
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: 1992663b-4c0b-4e44-aa62-9dd2b57b3ca8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.eduven.utils.Reusables.waitForElement(Reusables.java:65)
+	at com.eduven.modules.EvMenu.navigateToAppsList(EvMenu.java:736)
+	at com.eduven.testcase.EvMenuPageTestCases.verifyMoreAppsPageTest(EvMenuPageTestCases.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 39.21 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: 1992663b-4c0b-4e44-aa62-9dd2b57b3ca8
+*** Element info: {Using=id, value=MoreApps}
+	at sun.reflect.GeneratedConstructorAccessor51.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementById(IOSDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:911)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:909)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 25 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1389509050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1389509050'><pre>org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of element located by By.id: MoreApps
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: 1992663b-4c0b-4e44-aa62-9dd2b57b3ca8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.eduven.utils.Reusables.waitForElement(Reusables.java:65)
+	at com.eduven.modules.EvMenu.navigateToAppsList(EvMenu.java:736)
+	at com.eduven.testcase.EvMenuPageTestCases.verifyMoreAppsPageTest(EvMenuPageTestCases.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 39.21 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.98&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/WelshIPA/LingoDiction.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: 1992663b-4c0b-4e44-aa62-9dd2b57b3ca8
+*** Element info: {Using=id, value=MoreApps}
+	at sun.reflect.GeneratedConstructorAccessor51.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementById(IOSDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:911)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:909)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 25 more
+</pre></div></td>
+<td>79</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.verifyTermsNameOnTermlistPageTest()'><b>verifyTermsNameOnTermlistPageTest</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.eduven.modules.QuickList.verifyTermNameList(QuickList.java:201)
+	at com.eduven.testcase.QuickListPageTestCases.verifyTermsNameOnTermlistPageTest(QuickListPageTestCases.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div><a href='#' onClick='toggleBox("stack-trace893523498", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace893523498'><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.eduven.modules.QuickList.verifyTermNameList(QuickList.java:201)
+	at com.eduven.testcase.QuickListPageTestCases.verifyTermsNameOnTermlistPageTest(QuickListPageTestCases.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:58)
+</pre></div></td>
+<td>31</td>
+<td>com.eduven.testcase.QuickListPageTestCases@23348b5d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.addTermInEdubankForQuicklistTest()'><b>addTermInEdubankForQuicklistTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>97</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.addTermInEdubankTest()'><b>addTermInEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>37</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.autoPlayButtonForPlayButtonTest()'><b>autoPlayButtonForPlayButtonTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>15</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@70325e14</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.buyAppPurchaseTest()'><b>buyAppPurchaseTest</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>290</td>
+<td>com.eduven.testcase.PurchaseTestCases@7c9d8e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.categorySettingPageTest()'><b>categorySettingPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>108</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.dislcaimerPageTest()'><b>dislcaimerPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>70</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.faqsPageTest()'><b>faqsPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>72</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.SearchPageTestCases.freeTermSearchTest()'><b>freeTermSearchTest</b><br>Test class: com.eduven.testcase.SearchPageTestCases</td>
+<td></td>
+<td>99</td>
+<td>com.eduven.testcase.SearchPageTestCases@131ef10</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.getInTouchPageTest()'><b>getInTouchPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.handlingRateAppPopupTest()'><b>handlingRateAppPopupTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>62</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.handlingRateAppPopupTest()'><b>handlingRateAppPopupTest</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>67</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.handlingRateTheAppPopupTest()'><b>handlingRateTheAppPopupTest</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>65</td>
+<td>com.eduven.testcase.HomePageTestCases@41a2befb</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoryPageTestCases.handlingRateTheAppPopupTest()'><b>handlingRateTheAppPopupTest</b><br>Test class: com.eduven.testcase.CategoryPageTestCases</td>
+<td></td>
+<td>62</td>
+<td>com.eduven.testcase.CategoryPageTestCases@6c40365c</td></tr>
+<tr>
+<td title='com.eduven.testcase.SearchPageTestCases.handlingRateTheAppPopupTest()'><b>handlingRateTheAppPopupTest</b><br>Test class: com.eduven.testcase.SearchPageTestCases</td>
+<td></td>
+<td>16</td>
+<td>com.eduven.testcase.SearchPageTestCases@131ef10</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.handlingRateTheAppPopupTest()'><b>handlingRateTheAppPopupTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>64</td>
+<td>com.eduven.testcase.GamesPageTestCases@55b0dcab</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.handlingRateTheAppPopupTest()'><b>handlingRateTheAppPopupTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>63</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermListPageTestCases.handlingRateTheAppPopupTest()'><b>handlingRateTheAppPopupTest</b><br>Test class: com.eduven.testcase.TermListPageTestCases</td>
+<td></td>
+<td>63</td>
+<td>com.eduven.testcase.TermListPageTestCases@2df3b89c</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.handlingRateTheAppPopupTest()'><b>handlingRateTheAppPopupTest</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>64</td>
+<td>com.eduven.testcase.QuickListPageTestCases@23348b5d</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.handlingRateTheAppPopupTest()'><b>handlingRateTheAppPopupTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>63</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@70325e14</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialBeforePurchase.handlingRateTheAppPopupTest()'><b>handlingRateTheAppPopupTest</b><br>Test class: com.eduven.testcase.CheckInterstetialBeforePurchase</td>
+<td></td>
+<td>63</td>
+<td>com.eduven.testcase.CheckInterstetialBeforePurchase@37ceb1df</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.handlingRateTheAppPopupTest()'><b>handlingRateTheAppPopupTest</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>63</td>
+<td>com.eduven.testcase.PurchaseTestCases@7c9d8e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialAfterPurchase.handlingRateTheAppPopupTest()'><b>handlingRateTheAppPopupTest</b><br>Test class: com.eduven.testcase.CheckInterstetialAfterPurchase</td>
+<td></td>
+<td>67</td>
+<td>com.eduven.testcase.CheckInterstetialAfterPurchase@20d525</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.increaseDealayTimeTest()'><b>increaseDealayTimeTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>5</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@70325e14</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.languageSelectionTest()'><b>languageSelectionTest</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>92</td>
+<td>com.eduven.testcase.HomePageTestCases@41a2befb</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoryPageTestCases.languageSelectionTest()'><b>languageSelectionTest</b><br>Test class: com.eduven.testcase.CategoryPageTestCases</td>
+<td></td>
+<td>112</td>
+<td>com.eduven.testcase.CategoryPageTestCases@6c40365c</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.languageSelectionTest()'><b>languageSelectionTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>110</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.SearchPageTestCases.languageSelectionTest()'><b>languageSelectionTest</b><br>Test class: com.eduven.testcase.SearchPageTestCases</td>
+<td></td>
+<td>111</td>
+<td>com.eduven.testcase.SearchPageTestCases@131ef10</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.languageSelectionTest()'><b>languageSelectionTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>112</td>
+<td>com.eduven.testcase.GamesPageTestCases@55b0dcab</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.languageSelectionTest()'><b>languageSelectionTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>111</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermListPageTestCases.languageSelectionTest()'><b>languageSelectionTest</b><br>Test class: com.eduven.testcase.TermListPageTestCases</td>
+<td></td>
+<td>112</td>
+<td>com.eduven.testcase.TermListPageTestCases@2df3b89c</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.languageSelectionTest()'><b>languageSelectionTest</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>111</td>
+<td>com.eduven.testcase.QuickListPageTestCases@23348b5d</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.languageSelectionTest()'><b>languageSelectionTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>110</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@70325e14</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialBeforePurchase.languageSelectionTest()'><b>languageSelectionTest</b><br>Test class: com.eduven.testcase.CheckInterstetialBeforePurchase</td>
+<td></td>
+<td>113</td>
+<td>com.eduven.testcase.CheckInterstetialBeforePurchase@37ceb1df</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.languageSelectionTest()'><b>languageSelectionTest</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>111</td>
+<td>com.eduven.testcase.PurchaseTestCases@7c9d8e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialAfterPurchase.languageSelectionTest()'><b>languageSelectionTest</b><br>Test class: com.eduven.testcase.CheckInterstetialAfterPurchase</td>
+<td></td>
+<td>110</td>
+<td>com.eduven.testcase.CheckInterstetialAfterPurchase@20d525</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.languageSelectionTest()'><b>languageSelectionTest</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>110</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.languageSelectionTest1()'><b>languageSelectionTest1</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>45</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.navigateToBuyTest()'><b>navigateToBuyTest</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>35</td>
+<td>com.eduven.testcase.PurchaseTestCases@7c9d8e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.navigateToContributePageTest()'><b>navigateToContributePageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>27</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermListPageTestCases.navigateToEditTermPageTest()'><b>navigateToEditTermPageTest</b><br>Test class: com.eduven.testcase.TermListPageTestCases</td>
+<td></td>
+<td>61</td>
+<td>com.eduven.testcase.TermListPageTestCases@2df3b89c</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigateToEdubankQuicklistTest()'><b>navigateToEdubankQuicklistTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>89</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigateToEdubankTest()'><b>navigateToEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>90</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.navigateToMoreAppsPageTest()'><b>navigateToMoreAppsPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>37</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.navigateToQuickListTermTest()'><b>navigateToQuickListTermTest</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>29</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.navigateToQuickListTest()'><b>navigateToQuickListTest</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>22</td>
+<td>com.eduven.testcase.QuickListPageTestCases@23348b5d</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.navigateToQuickListTest()'><b>navigateToQuickListTest</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>23</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigateToQuicklistPageTest()'><b>navigateToQuicklistPageTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>29</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigateToQuicklistTermPageTest()'><b>navigateToQuicklistTermPageTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>25</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.SearchPageTestCases.navigateToSearchPageTest()'><b>navigateToSearchPageTest</b><br>Test class: com.eduven.testcase.SearchPageTestCases</td>
+<td></td>
+<td>8</td>
+<td>com.eduven.testcase.SearchPageTestCases@131ef10</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.navigateToSswitchLingoPageTest()'><b>navigateToSswitchLingoPageTest</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>35</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigateToTermPageTest()'><b>navigateToTermPageTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>61</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermListPageTestCases.navigateToTermlistPageTest()'><b>navigateToTermlistPageTest</b><br>Test class: com.eduven.testcase.TermListPageTestCases</td>
+<td></td>
+<td>70</td>
+<td>com.eduven.testcase.TermListPageTestCases@2df3b89c</td></tr>
+<tr>
+<td title='com.eduven.testcase.SearchPageTestCases.premiumTermSearchTest()'><b>premiumTermSearchTest</b><br>Test class: com.eduven.testcase.SearchPageTestCases</td>
+<td></td>
+<td>45</td>
+<td>com.eduven.testcase.SearchPageTestCases@131ef10</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.privacyPolicyPageTest()'><b>privacyPolicyPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>75</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.purchaseNativeLangugaeTest()'><b>purchaseNativeLangugaeTest</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>269</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.rateThisAppTest()'><b>rateThisAppTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.removeAllTermsFromEdubankForQuicklistTest()'><b>removeAllTermsFromEdubankForQuicklistTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>3</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.removeAllTermsFromEdubankTest()'><b>removeAllTermsFromEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>7</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.removeTermsFromEdubankForQuicklistTest()'><b>removeTermsFromEdubankForQuicklistTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>6</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.removeTermsFromEdubankTest()'><b>removeTermsFromEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>6</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.selectAllCategoryInCategorySettingPageTest()'><b>selectAllCategoryInCategorySettingPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>85</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.selectAllCategoryInWordOffTheDayPageTest()'><b>selectAllCategoryInWordOffTheDayPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>80</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.selectGamesFromGameListTest()'><b>selectGamesFromGameListTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>8</td>
+<td>com.eduven.testcase.GamesPageTestCases@55b0dcab</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.selectRandomCategoryTest()'><b>selectRandomCategoryTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>27</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@70325e14</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.startGamesTest()'><b>startGamesTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>14</td>
+<td>com.eduven.testcase.GamesPageTestCases@55b0dcab</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.switchLingoChangeBaseLanguageTest()'><b>switchLingoChangeBaseLanguageTest</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>43</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.termAndConditionPageTest()'><b>termAndConditionPageTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>72</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.verifyAddedTermInEdubankAfterRemovedItTest()'><b>verifyAddedTermInEdubankAfterRemovedItTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>31</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.verifyAddedTermInEdubankForQuicklistAfterRemoveOneTermTest()'><b>verifyAddedTermInEdubankForQuicklistAfterRemoveOneTermTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>31</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.verifyAddedTermInEdubankForQuicklistTest()'><b>verifyAddedTermInEdubankForQuicklistTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>35</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.verifyAddedTermInEdubankTest()'><b>verifyAddedTermInEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>52</td>
+<td>com.eduven.testcase.EduBankPageTestCases@7bedc48a</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.verifyAttemptedQuestionOnScoreBoardTest()'><b>verifyAttemptedQuestionOnScoreBoardTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>30</td>
+<td>com.eduven.testcase.GamesPageTestCases@55b0dcab</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.verifyAutoPlayButtonTest()'><b>verifyAutoPlayButtonTest</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>22</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@70325e14</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoryPageTestCases.verifyCategoriesList()'><b>verifyCategoriesList</b><br>Test class: com.eduven.testcase.CategoryPageTestCases</td>
+<td></td>
+<td>449</td>
+<td>com.eduven.testcase.CategoryPageTestCases@6c40365c</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoryPageTestCases.verifyCategoryHeaderTxt()'><b>verifyCategoryHeaderTxt</b><br>Test class: com.eduven.testcase.CategoryPageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.CategoryPageTestCases@6c40365c</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.verifyCategoryHeaderTxt()'><b>verifyCategoryHeaderTxt</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@70325e14</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyContributePageWithCategoryTest()'><b>verifyContributePageWithCategoryTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>57</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyContributePageWithRequiredTextTest()'><b>verifyContributePageWithRequiredTextTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>71</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyContributePageWithWordTest()'><b>verifyContributePageWithWordTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>46</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermListPageTestCases.verifyContributePageWithWordTest()'><b>verifyContributePageWithWordTest</b><br>Test class: com.eduven.testcase.TermListPageTestCases</td>
+<td></td>
+<td>46</td>
+<td>com.eduven.testcase.TermListPageTestCases@2df3b89c</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyContributePageWithoutTextTest()'><b>verifyContributePageWithoutTextTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>22</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermListPageTestCases.verifyContributePageWithoutTextTest()'><b>verifyContributePageWithoutTextTest</b><br>Test class: com.eduven.testcase.TermListPageTestCases</td>
+<td></td>
+<td>22</td>
+<td>com.eduven.testcase.TermListPageTestCases@2df3b89c</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.verifyElementOnHomePageTest()'><b>verifyElementOnHomePageTest</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.eduven.testcase.HomePageTestCases@41a2befb</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.verifyFooterEdubankButtonOnHomePageTest()'><b>verifyFooterEdubankButtonOnHomePageTest</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.HomePageTestCases@41a2befb</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.verifyFooterGameButtonOnHomePageTest()'><b>verifyFooterGameButtonOnHomePageTest</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.HomePageTestCases@41a2befb</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.verifyFooterPurchaseButtonOnHomePageTest()'><b>verifyFooterPurchaseButtonOnHomePageTest</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.HomePageTestCases@41a2befb</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.verifyFooterQuicklistButtonOnHomePageTest()'><b>verifyFooterQuicklistButtonOnHomePageTest</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>2</td>
+<td>com.eduven.testcase.HomePageTestCases@41a2befb</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.verifyFooterSwitchLingoButtonOnHomePageTest()'><b>verifyFooterSwitchLingoButtonOnHomePageTest</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>1</td>
+<td>com.eduven.testcase.HomePageTestCases@41a2befb</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.verifyGamesListNavigationTest()'><b>verifyGamesListNavigationTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.GamesPageTestCases@55b0dcab</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialBeforePurchase.verifyInterstetialForQuizTest()'><b>verifyInterstetialForQuizTest</b><br>Test class: com.eduven.testcase.CheckInterstetialBeforePurchase</td>
+<td></td>
+<td>101</td>
+<td>com.eduven.testcase.CheckInterstetialBeforePurchase@37ceb1df</td></tr>
+<tr>
+<td title='com.eduven.testcase.CheckInterstetialAfterPurchase.verifyInterstetialForQuizTest()'><b>verifyInterstetialForQuizTest</b><br>Test class: com.eduven.testcase.CheckInterstetialAfterPurchase</td>
+<td></td>
+<td>127</td>
+<td>com.eduven.testcase.CheckInterstetialAfterPurchase@20d525</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.verifyLockTermAppearAsUnlockTermTest()'><b>verifyLockTermAppearAsUnlockTermTest</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>151</td>
+<td>com.eduven.testcase.PurchaseTestCases@7c9d8e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.verifyLockTermBeforePurchaseTest()'><b>verifyLockTermBeforePurchaseTest</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>88</td>
+<td>com.eduven.testcase.PurchaseTestCases@7c9d8e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermListPageTestCases.verifyLockTermNameTest()'><b>verifyLockTermNameTest</b><br>Test class: com.eduven.testcase.TermListPageTestCases</td>
+<td></td>
+<td>116</td>
+<td>com.eduven.testcase.TermListPageTestCases@2df3b89c</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.verifyLockTermNameTest()'><b>verifyLockTermNameTest</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>84</td>
+<td>com.eduven.testcase.QuickListPageTestCases@23348b5d</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.verifyNavigationToGamesPageTest()'><b>verifyNavigationToGamesPageTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>17</td>
+<td>com.eduven.testcase.GamesPageTestCases@55b0dcab</td></tr>
+<tr>
+<td title='com.eduven.testcase.PurchaseTestCases.verifyPurchaseBtnAfterPurchase()'><b>verifyPurchaseBtnAfterPurchase</b><br>Test class: com.eduven.testcase.PurchaseTestCases</td>
+<td></td>
+<td>5</td>
+<td>com.eduven.testcase.PurchaseTestCases@7c9d8e2</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.verifyQuestionCountTest()'><b>verifyQuestionCountTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>17</td>
+<td>com.eduven.testcase.GamesPageTestCases@55b0dcab</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.verifyQuickListCategoryTest()'><b>verifyQuickListCategoryTest</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>26</td>
+<td>com.eduven.testcase.QuickListPageTestCases@23348b5d</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.verifyQuickListCategoryTest()'><b>verifyQuickListCategoryTest</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>25</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.verifyQuickListHeadertxtTest()'><b>verifyQuickListHeadertxtTest</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>6</td>
+<td>com.eduven.testcase.QuickListPageTestCases@23348b5d</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.verifyQuickListHeadertxtTest()'><b>verifyQuickListHeadertxtTest</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>6</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb</td></tr>
+<tr>
+<td title='com.eduven.testcase.SearchPageTestCases.verifySearchPageHeaderTest()'><b>verifySearchPageHeaderTest</b><br>Test class: com.eduven.testcase.SearchPageTestCases</td>
+<td></td>
+<td>6</td>
+<td>com.eduven.testcase.SearchPageTestCases@131ef10</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.verifyTermHeaderAndTermNameListTest()'><b>verifyTermHeaderAndTermNameListTest</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>63</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermListPageTestCases.verifyTermsNameOnTermlistPageTest()'><b>verifyTermsNameOnTermlistPageTest</b><br>Test class: com.eduven.testcase.TermListPageTestCases</td>
+<td></td>
+<td>213</td>
+<td>com.eduven.testcase.TermListPageTestCases@2df3b89c</td></tr>
+<tr>
+<td title='com.eduven.testcase.SwitchLanguagePageTestCases.verifyTermsNameOnTermlistPageTest()'><b>verifyTermsNameOnTermlistPageTest</b><br>Test class: com.eduven.testcase.SwitchLanguagePageTestCases</td>
+<td></td>
+<td>5</td>
+<td>com.eduven.testcase.SwitchLanguagePageTestCases@6200f9cb</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermListPageTestCases.verifyUnlockTermNameTest()'><b>verifyUnlockTermNameTest</b><br>Test class: com.eduven.testcase.TermListPageTestCases</td>
+<td></td>
+<td>49</td>
+<td>com.eduven.testcase.TermListPageTestCases@2df3b89c</td></tr>
+<tr>
+<td title='com.eduven.testcase.QuickListPageTestCases.verifyUnlockTermNameTest()'><b>verifyUnlockTermNameTest</b><br>Test class: com.eduven.testcase.QuickListPageTestCases</td>
+<td></td>
+<td>49</td>
+<td>com.eduven.testcase.QuickListPageTestCases@23348b5d</td></tr>
+<tr>
+<td title='com.eduven.testcase.GamesPageTestCases.verifyWrongAttemptedQuestionOnScoreBoardTest()'><b>verifyWrongAttemptedQuestionOnScoreBoardTest</b><br>Test class: com.eduven.testcase.GamesPageTestCases</td>
+<td></td>
+<td>30</td>
+<td>com.eduven.testcase.GamesPageTestCases@55b0dcab</td></tr>
+<tr>
+<td title='com.eduven.testcase.AutoPlayPageTestCases.verify_auto_play_works_test()'><b>verify_auto_play_works_test</b><br>Test class: com.eduven.testcase.AutoPlayPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.AutoPlayPageTestCases@70325e14</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.wordOfTheDayTest()'><b>wordOfTheDayTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>97</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@38afe297</td></tr>
+</table><p>
+</body>
+</html>
