@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.eduven.testcase.TermDetailPageTestCases"/>
+      <class name="com.eduven.testcase.NetworkRelatedTestCases"/>
+      <class name="com.eduven.testcase.EduBankPageTestCases"/>
+      <class name="com.eduven.testcase.ContributePageTestCases"/>
+      <class name="com.eduven.testcase.CategoriesPageTestCases"/>
+      <class name="com.eduven.testcase.FeatureBoxPageTestCases"/>
+      <class name="com.eduven.testcase.HomePageTestCases"/>
+      <class name="com.eduven.testcase.QuizPageTestCases"/>
+      <class name="com.eduven.testcase.CheckInterstetialBeforePurchaseTestCases"/>
+      <class name="com.eduven.testcase.WordSearchListPageTestCases"/>
+      <class name="com.eduven.testcase.InAppPurchaseTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

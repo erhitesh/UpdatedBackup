@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Suite For Ios Testing]">
+  <test name="Functional Testing(failed)">
+    <classes>
+      <class name="com.eduven.testcase.CategoriesPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+          <include name="category_page_navigate_to_category_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestCases -->
+    </classes>
+  </test> <!-- Functional Testing(failed) -->
+</suite> <!-- Failed suite [Suite For Ios Testing] -->

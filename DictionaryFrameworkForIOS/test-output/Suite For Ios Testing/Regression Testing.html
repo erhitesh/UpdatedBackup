@@ -1,0 +1,1684 @@
+<html>
+<head>
+<title>TestNG:  Regression Testing</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Testing</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/5/36</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 05 18:55:40 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>1929 seconds (1929305 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases<br>Parameters: [TestResult name=navigateTermPageTest status=FAILURE method=TermDetailPageTestCases.navigateTermPageTest()[pri:0, instance:com.eduven.testcase.TermDetailPageTestCases@dd05255] output={null}]</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 4 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.eduven.utils.ScreenShot.takesScreenShotCapture(ScreenShot.java:22)
+	at com.eduven.testcase.TermDetailPageTestCases.tearDown(TermDetailPageTestCases.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1521238608", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1521238608'><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 4 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.eduven.utils.ScreenShot.takesScreenShotCapture(ScreenShot.java:22)
+	at com.eduven.testcase.TermDetailPageTestCases.tearDown(TermDetailPageTestCases.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases<br>Parameters: [TestResult name=removeAllAddedTermInEdubankCategoryTest status=FAILURE method=EduBankPageTestCases.removeAllAddedTermInEdubankCategoryTest()[pri:0, instance:com.eduven.testcase.EduBankPageTestCases@6a78afa0] output={null}]</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 4 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.eduven.utils.ScreenShot.takesScreenShotCapture(ScreenShot.java:22)
+	at com.eduven.testcase.EduBankPageTestCases.tearDown(EduBankPageTestCases.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div><a href='#' onClick='toggleBox("stack-trace967323951", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace967323951'><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 4 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.eduven.utils.ScreenShot.takesScreenShotCapture(ScreenShot.java:22)
+	at com.eduven.testcase.EduBankPageTestCases.tearDown(EduBankPageTestCases.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases<br>Parameters: [TestResult name=navigateToEvmenuTest status=FAILURE method=EvMenuPageTestCases.navigateToEvmenuTest()[pri:0, instance:com.eduven.testcase.EvMenuPageTestCases@2f4948e4] output={null}]</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 5 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.eduven.utils.ScreenShot.takesScreenShotCapture(ScreenShot.java:22)
+	at com.eduven.testcase.EvMenuPageTestCases.tearDown(EvMenuPageTestCases.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div><a href='#' onClick='toggleBox("stack-trace753631393", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace753631393'><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 5 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.eduven.utils.ScreenShot.takesScreenShotCapture(ScreenShot.java:22)
+	at com.eduven.testcase.EvMenuPageTestCases.tearDown(EvMenuPageTestCases.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.ContributePageTestCases<br>Parameters: [TestResult name=navigateToCategoryPageTest status=FAILURE method=ContributePageTestCases.navigateToCategoryPageTest()[pri:0, instance:com.eduven.testcase.ContributePageTestCases@1f2586d6] output={null}]</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 7 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.eduven.utils.ScreenShot.takesScreenShotCapture(ScreenShot.java:22)
+	at com.eduven.testcase.ContributePageTestCases.tearDown(ContributePageTestCases.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1252540239", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1252540239'><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 7 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.eduven.utils.ScreenShot.takesScreenShotCapture(ScreenShot.java:22)
+	at com.eduven.testcase.ContributePageTestCases.tearDown(ContributePageTestCases.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div></td>
+<td>0</td>
+<td>com.eduven.testcase.ContributePageTestCases@1f2586d6</td></tr>
+<tr>
+<td title='com.eduven.testcase.InAppPurchaseTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.InAppPurchaseTestCases<br>Parameters: [TestResult name=navigateToTermPageTest status=FAILURE method=InAppPurchaseTestCases.navigateToTermPageTest()[pri:1, instance:com.eduven.testcase.InAppPurchaseTestCases@10683d9d] output={null}]</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 4 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.eduven.utils.ScreenShot.takesScreenShotCapture(ScreenShot.java:22)
+	at com.eduven.testcase.InAppPurchaseTestCases.tearDown(InAppPurchaseTestCases.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div><a href='#' onClick='toggleBox("stack-trace980364771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace980364771'><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 4 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.eduven.utils.ScreenShot.takesScreenShotCapture(ScreenShot.java:22)
+	at com.eduven.testcase.InAppPurchaseTestCases.tearDown(InAppPurchaseTestCases.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div></td>
+<td>0</td>
+<td>com.eduven.testcase.InAppPurchaseTestCases@10683d9d</td></tr>
+<tr>
+<td title='com.eduven.testcase.WordSearchListPageTestCases.closeApp()'><b>closeApp</b><br>Test class: com.eduven.testcase.WordSearchListPageTestCases</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (Original error: Instruments crashed on startup) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 112.69 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at io.appium.java_client.AppiumDriver.resetApp(AppiumDriver.java:227)
+	at com.eduven.utils.Reusables.terminatesAppInstance(Reusables.java:467)
+	at com.eduven.testcase.WordSearchListPageTestCases.closeApp(WordSearchListPageTestCases.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1651262695", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1651262695'><pre>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (Original error: Instruments crashed on startup) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 112.69 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at io.appium.java_client.AppiumDriver.resetApp(AppiumDriver.java:227)
+	at com.eduven.utils.Reusables.terminatesAppInstance(Reusables.java:467)
+	at com.eduven.testcase.WordSearchListPageTestCases.closeApp(WordSearchListPageTestCases.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div></td>
+<td>0</td>
+<td>com.eduven.testcase.WordSearchListPageTestCases@7e6f74c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.ContributePageTestCases@1f2586d6</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.ContributePageTestCases@1f2586d6</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.ContributePageTestCases@1f2586d6</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.ContributePageTestCases@1f2586d6</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.ContributePageTestCases@1f2586d6</td></tr>
+<tr>
+<td title='com.eduven.testcase.InAppPurchaseTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.InAppPurchaseTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.InAppPurchaseTestCases@10683d9d</td></tr>
+<tr>
+<td title='com.eduven.testcase.InAppPurchaseTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.InAppPurchaseTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.InAppPurchaseTestCases@10683d9d</td></tr>
+<tr>
+<td title='com.eduven.testcase.InAppPurchaseTestCases.tearDown()'><b>tearDown</b><br>Test class: com.eduven.testcase.InAppPurchaseTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.InAppPurchaseTestCases@10683d9d</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.closeApp()'><b>closeApp</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.closeApp()'><b>closeApp</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.closeApp()'><b>closeApp</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.closeApp()'><b>closeApp</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.ContributePageTestCases@1f2586d6</td></tr>
+<tr>
+<td title='com.eduven.testcase.InAppPurchaseTestCases.closeApp()'><b>closeApp</b><br>Test class: com.eduven.testcase.InAppPurchaseTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.InAppPurchaseTestCases@10683d9d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.navigateTermPageTest()'><b>navigateTermPageTest</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 7 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+*** Element info: {Using=id, value=Categories_button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementById(IOSDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at com.eduven.utils.Reusables.getIOSElement(Reusables.java:581)
+	at com.eduven.modules.Categories.categoryInstance(Categories.java:33)
+	at com.eduven.modules.Categories.navigateToCategoryPage(Categories.java:47)
+	at com.eduven.testcase.TermDetailPageTestCases.navigateTermPageTest(TermDetailPageTestCases.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1305004711", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1305004711'><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 7 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+*** Element info: {Using=id, value=Categories_button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementById(IOSDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at com.eduven.utils.Reusables.getIOSElement(Reusables.java:581)
+	at com.eduven.modules.Categories.categoryInstance(Categories.java:33)
+	at com.eduven.modules.Categories.navigateToCategoryPage(Categories.java:47)
+	at com.eduven.testcase.TermDetailPageTestCases.navigateTermPageTest(TermDetailPageTestCases.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div></td>
+<td>1</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.navigateToCategoryPageTest()'><b>navigateToCategoryPageTest</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 5 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+*** Element info: {Using=id, value=Categories_button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementById(IOSDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at com.eduven.utils.Reusables.getIOSElement(Reusables.java:581)
+	at com.eduven.modules.Categories.categoryInstance(Categories.java:33)
+	at com.eduven.modules.Categories.navigateToCategoryPage(Categories.java:47)
+	at com.eduven.testcase.ContributePageTestCases.navigateToCategoryPageTest(ContributePageTestCases.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1338905451", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1338905451'><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 5 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+*** Element info: {Using=id, value=Categories_button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementById(IOSDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at com.eduven.utils.Reusables.getIOSElement(Reusables.java:581)
+	at com.eduven.modules.Categories.categoryInstance(Categories.java:33)
+	at com.eduven.modules.Categories.navigateToCategoryPage(Categories.java:47)
+	at com.eduven.testcase.ContributePageTestCases.navigateToCategoryPageTest(ContributePageTestCases.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div></td>
+<td>1</td>
+<td>com.eduven.testcase.ContributePageTestCases@1f2586d6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.navigateToEvmenuTest()'><b>navigateToEvmenuTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 6 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+*** Element info: {Using=id, value=Categories_button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementById(IOSDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at com.eduven.utils.Reusables.getIOSElement(Reusables.java:581)
+	at com.eduven.modules.Categories.categoryInstance(Categories.java:33)
+	at com.eduven.modules.Categories.navigateToCategoryPage(Categories.java:47)
+	at com.eduven.testcase.EvMenuPageTestCases.navigateToEvmenuTest(EvMenuPageTestCases.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div><a href='#' onClick='toggleBox("stack-trace722417467", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace722417467'><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 6 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+*** Element info: {Using=id, value=Categories_button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementById(IOSDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at com.eduven.utils.Reusables.getIOSElement(Reusables.java:581)
+	at com.eduven.modules.Categories.categoryInstance(Categories.java:33)
+	at com.eduven.modules.Categories.navigateToCategoryPage(Categories.java:47)
+	at com.eduven.testcase.EvMenuPageTestCases.navigateToEvmenuTest(EvMenuPageTestCases.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div></td>
+<td>1</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.InAppPurchaseTestCases.navigateToTermPageTest()'><b>navigateToTermPageTest</b><br>Test class: com.eduven.testcase.InAppPurchaseTestCases</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 6 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+*** Element info: {Using=id, value=Categories_button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementById(IOSDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at com.eduven.utils.Reusables.getIOSElement(Reusables.java:581)
+	at com.eduven.modules.Categories.categoryInstance(Categories.java:33)
+	at com.eduven.modules.Categories.navigateToCategoryPage(Categories.java:47)
+	at com.eduven.testcase.InAppPurchaseTestCases.navigateToTermPageTest(InAppPurchaseTestCases.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2092709730", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2092709730'><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 6 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+*** Element info: {Using=id, value=Categories_button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementById(IOSDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at com.eduven.utils.Reusables.getIOSElement(Reusables.java:581)
+	at com.eduven.modules.Categories.categoryInstance(Categories.java:33)
+	at com.eduven.modules.Categories.navigateToCategoryPage(Categories.java:47)
+	at com.eduven.testcase.InAppPurchaseTestCases.navigateToTermPageTest(InAppPurchaseTestCases.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div></td>
+<td>1</td>
+<td>com.eduven.testcase.InAppPurchaseTestCases@10683d9d</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.removeAllAddedTermInEdubankCategoryTest()'><b>removeAllAddedTermInEdubankCategoryTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 6 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+*** Element info: {Using=id, value=Categories_button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementById(IOSDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at com.eduven.utils.Reusables.getIOSElement(Reusables.java:581)
+	at com.eduven.modules.Categories.categoryInstance(Categories.java:33)
+	at com.eduven.modules.Categories.navigateToCategoryPage(Categories.java:47)
+	at com.eduven.testcase.EduBankPageTestCases.removeAllAddedTermInEdubankCategoryTest(EduBankPageTestCases.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div><a href='#' onClick='toggleBox("stack-trace743778731", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace743778731'><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 6 milliseconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:15:17&apos;
+System info: host: &apos;Hitesh-Mac-Mini.local&apos;, ip: &apos;10.30.30.97&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_74&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Tester (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkIos/realestate/LD_Real_Estate.ipa, appiumVersion=1.4.13, platformVersion=9.2, automationName=Appium, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS, deviceName=Tester (9.3.5), platform=IOS}, platformVersion=9.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=7bcb4358baa692ac8207ca4db28eaacc80a14498, platformName=iOS}]
+Session ID: cd0d4b85-5cee-4715-8018-3c9bc4b562f3
+*** Element info: {Using=id, value=Categories_button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementById(IOSDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at com.eduven.utils.Reusables.getIOSElement(Reusables.java:581)
+	at com.eduven.modules.Categories.categoryInstance(Categories.java:33)
+	at com.eduven.modules.Categories.navigateToCategoryPage(Categories.java:47)
+	at com.eduven.testcase.EduBankPageTestCases.removeAllAddedTermInEdubankCategoryTest(EduBankPageTestCases.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at com.eduven.utils.RunTestng.main(RunTestng.java:59)
+</pre></div></td>
+<td>1</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.CategoriesPageTestCases.NavigateToCategoryPageTest()'><b>NavigateToCategoryPageTest</b><br>Test class: com.eduven.testcase.CategoriesPageTestCases</td>
+<td></td>
+<td>19</td>
+<td>com.eduven.testcase.CategoriesPageTestCases@44c03695</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.homePageCategoryTest()'><b>homePageCategoryTest</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>9</td>
+<td>com.eduven.testcase.HomePageTestCases@6150c3ec</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.homePageMoreAppsTest()'><b>homePageMoreAppsTest</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>16</td>
+<td>com.eduven.testcase.HomePageTestCases@6150c3ec</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.homePageQuizTest()'><b>homePageQuizTest</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.eduven.testcase.HomePageTestCases@6150c3ec</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.homePageSearchBoxTest()'><b>homePageSearchBoxTest</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>89</td>
+<td>com.eduven.testcase.HomePageTestCases@6150c3ec</td></tr>
+<tr>
+<td title='com.eduven.testcase.WordSearchListPageTestCases.navigateToTermPageTest()'><b>navigateToTermPageTest</b><br>Test class: com.eduven.testcase.WordSearchListPageTestCases</td>
+<td></td>
+<td>88</td>
+<td>com.eduven.testcase.WordSearchListPageTestCases@7e6f74c</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoriesPageTestCases.verifyCategoryNameListTest()'><b>verifyCategoryNameListTest</b><br>Test class: com.eduven.testcase.CategoriesPageTestCases</td>
+<td></td>
+<td>186</td>
+<td>com.eduven.testcase.CategoriesPageTestCases@44c03695</td></tr>
+<tr>
+<td title='com.eduven.testcase.HomePageTestCases.verifyElementOnHomePageTest()'><b>verifyElementOnHomePageTest</b><br>Test class: com.eduven.testcase.HomePageTestCases</td>
+<td></td>
+<td>38</td>
+<td>com.eduven.testcase.HomePageTestCases@6150c3ec</td></tr>
+<tr>
+<td title='com.eduven.testcase.CategoriesPageTestCases.verifyFooterElementTest()'><b>verifyFooterElementTest</b><br>Test class: com.eduven.testcase.CategoriesPageTestCases</td>
+<td></td>
+<td>12</td>
+<td>com.eduven.testcase.CategoriesPageTestCases@44c03695</td></tr>
+<tr>
+<td title='com.eduven.testcase.WordSearchListPageTestCases.verifyFooterElementsTest()'><b>verifyFooterElementsTest</b><br>Test class: com.eduven.testcase.WordSearchListPageTestCases</td>
+<td></td>
+<td>12</td>
+<td>com.eduven.testcase.WordSearchListPageTestCases@7e6f74c</td></tr>
+<tr>
+<td title='com.eduven.testcase.WordSearchListPageTestCases.verifySearchRelatedTest()'><b>verifySearchRelatedTest</b><br>Test class: com.eduven.testcase.WordSearchListPageTestCases</td>
+<td></td>
+<td>84</td>
+<td>com.eduven.testcase.WordSearchListPageTestCases@7e6f74c</td></tr>
+<tr>
+<td title='com.eduven.testcase.WordSearchListPageTestCases.verifySearchWordByIndexTest()'><b>verifySearchWordByIndexTest</b><br>Test class: com.eduven.testcase.WordSearchListPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.WordSearchListPageTestCases@7e6f74c</td></tr>
+<tr>
+<td title='com.eduven.testcase.WordSearchListPageTestCases.verifyTermNameListTest()'><b>verifyTermNameListTest</b><br>Test class: com.eduven.testcase.WordSearchListPageTestCases</td>
+<td></td>
+<td>507</td>
+<td>com.eduven.testcase.WordSearchListPageTestCases@7e6f74c</td></tr>
+<tr>
+<td title='com.eduven.testcase.WordSearchListPageTestCases.verifyWrongSearchTest()'><b>verifyWrongSearchTest</b><br>Test class: com.eduven.testcase.WordSearchListPageTestCases</td>
+<td></td>
+<td>694</td>
+<td>com.eduven.testcase.WordSearchListPageTestCases@7e6f74c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.eduBankAddDuplicateCategoryToEdubankTest()'><b>eduBankAddDuplicateCategoryToEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.eduBankAddTermToEdubankCategoryTest()'><b>eduBankAddTermToEdubankCategoryTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.eduBankCreateNewCategoryInEdubankTest()'><b>eduBankCreateNewCategoryInEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.eduBankDeleteNewlyAddTermInEdubankCategoryTest()'><b>eduBankDeleteNewlyAddTermInEdubankCategoryTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.eduBankDeleteRenameCategoryFromEdubankTest()'><b>eduBankDeleteRenameCategoryFromEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.eduBankRenameAddedCategoryInEubankTest()'><b>eduBankRenameAddedCategoryInEubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.eduBankVerifyNewlyCreatedCategoryInEdubankTest()'><b>eduBankVerifyNewlyCreatedCategoryInEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.eduBankVerifyRenameCategoryInEdubankTest()'><b>eduBankVerifyRenameCategoryInEdubankTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.evmenuFacebookMessageSharingTest()'><b>evmenuFacebookMessageSharingTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.evmenuLoginFacebookTest()'><b>evmenuLoginFacebookTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.evmenuSelectAudienceTest()'><b>evmenuSelectAudienceTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.evmenuShareAppTest()'><b>evmenuShareAppTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.InAppPurchaseTestCases.inAppPurchaseTest()'><b>inAppPurchaseTest</b><br>Test class: com.eduven.testcase.InAppPurchaseTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.InAppPurchaseTestCases@10683d9d</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.navigateToTermDetailPageTest()'><b>navigateToTermDetailPageTest</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.navigateToTheContributePageTest()'><b>navigateToTheContributePageTest</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.ContributePageTestCases@1f2586d6</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigationToEditEdubankPageTest()'><b>navigationToEditEdubankPageTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EduBankPageTestCases.navigationToTermDetailPageTest()'><b>navigationToTermDetailPageTest</b><br>Test class: com.eduven.testcase.EduBankPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EduBankPageTestCases@6a78afa0</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.rateThisAppTest()'><b>rateThisAppTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.verifyAutoPlayAudioTest()'><b>verifyAutoPlayAudioTest</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.verifyContributeNowWithoutTextTest()'><b>verifyContributeNowWithoutTextTest</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.ContributePageTestCases@1f2586d6</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.verifyContributeTitleAndDescriptionTest()'><b>verifyContributeTitleAndDescriptionTest</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.verifyDescriptionTextTest()'><b>verifyDescriptionTextTest</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.ContributePageTestCases@1f2586d6</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.verifyFreeTermOnDetailPageTest()'><b>verifyFreeTermOnDetailPageTest</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyInformationAndSupprotForDisclaimerTest()'><b>verifyInformationAndSupprotForDisclaimerTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyInformationAndSupprotForGetInTouchTest()'><b>verifyInformationAndSupprotForGetInTouchTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyInformationAndSupprotForPrivacyPolicyTest()'><b>verifyInformationAndSupprotForPrivacyPolicyTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyInformationAndSupprotForTermsAndConditionsTest()'><b>verifyInformationAndSupprotForTermsAndConditionsTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.InAppPurchaseTestCases.verifyLockTermAfterPurchaseTest()'><b>verifyLockTermAfterPurchaseTest</b><br>Test class: com.eduven.testcase.InAppPurchaseTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.InAppPurchaseTestCases@10683d9d</td></tr>
+<tr>
+<td title='com.eduven.testcase.InAppPurchaseTestCases.verifyLockTermBeforePurchaseTest()'><b>verifyLockTermBeforePurchaseTest</b><br>Test class: com.eduven.testcase.InAppPurchaseTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.InAppPurchaseTestCases@10683d9d</td></tr>
+<tr>
+<td title='com.eduven.testcase.EvMenuPageTestCases.verifyMoreAppsTest()'><b>verifyMoreAppsTest</b><br>Test class: com.eduven.testcase.EvMenuPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.EvMenuPageTestCases@2f4948e4</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.verifyPremiumTermOnDetailPageTest()'><b>verifyPremiumTermOnDetailPageTest</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.verifySpeakAudioTest()'><b>verifySpeakAudioTest</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.verifyTermNameAfterNextClickTest()'><b>verifyTermNameAfterNextClickTest</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.TermDetailPageTestCases.verifyTermNameAfterPrevClickTest()'><b>verifyTermNameAfterPrevClickTest</b><br>Test class: com.eduven.testcase.TermDetailPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.TermDetailPageTestCases@dd05255</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.verifyTitleAnsDescriptionTextTest()'><b>verifyTitleAnsDescriptionTextTest</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.ContributePageTestCases@1f2586d6</td></tr>
+<tr>
+<td title='com.eduven.testcase.ContributePageTestCases.verifyTitleTextTest()'><b>verifyTitleTextTest</b><br>Test class: com.eduven.testcase.ContributePageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.eduven.testcase.ContributePageTestCases@1f2586d6</td></tr>
+</table><p>
+</body>
+</html>

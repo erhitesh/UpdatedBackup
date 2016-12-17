@@ -1,0 +1,393 @@
+2016-05-10 15:21:20 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduBank_page_navigation_to_entityDetail_page_test
+2016-05-10 15:22:01 Logs.java ERROR Logs:62 - >>>>>>>>> Edit EduBank Button still visible.. >>>org.openqa.selenium.NoSuchElementException
+2016-05-10 15:44:17 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduBank_page_navigation_to_entityDetail_page_test
+2016-05-10 15:44:50 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Familiar but Forgotten
+2016-05-10 15:47:34 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-05-10 15:52:52 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-05-10 15:52:52 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-05-10 15:55:17 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Rarely Used
+2016-05-10 15:56:16 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduBank_page_add_new_entity_to_edubank_category_test
+2016-05-10 15:57:05 Logs.java ERROR Logs:62 - >>>>>>>>> EduBank Page not loadedorg.openqa.selenium.NoSuchElementException
+2016-05-10 15:57:11 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduBank_page_delete_newly_add_entity_from_edubank_category_test
+2016-05-10 16:01:05 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Arrow Pass
+2016-05-10 16:01:35 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> abc
+2016-05-10 16:02:16 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Wrong text not found..org.openqa.selenium.NoSuchElementException
+2016-05-10 16:06:05 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Arrow Pass
+2016-05-10 16:06:35 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> abc
+2016-05-10 16:07:17 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Wrong text found..org.openqa.selenium.NoSuchElementException
+2016-05-10 16:15:01 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hands On
+2016-05-10 16:17:45 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-05-10 16:26:08 Logs.java INFO  Logs:45 - Scroll to the...Belly...Element.
+2016-05-10 16:26:20 Logs.java INFO  Logs:45 - Scroll to the...Belly...Element.
+2016-05-10 16:30:59 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> Stop Play Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-05-10 16:39:09 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hands On
+2016-05-10 16:41:54 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-05-10 16:47:31 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>>>>> Category Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-05-10 16:47:34 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...category_page_navigate_to_category_test
+2016-05-10 16:47:55 Logs.java INFO  Logs:45 - Category Name Found ..Arrows & Bows
+2016-05-10 16:48:09 Logs.java INFO  Logs:45 - Category Name Found ..Aiming Methods
+2016-05-10 16:48:23 Logs.java INFO  Logs:45 - Category Name Found ..Shooting Techniques
+2016-05-10 16:48:36 Logs.java INFO  Logs:45 - Category Name Found ..Equipment & Accessories
+2016-05-10 16:48:49 Logs.java INFO  Logs:45 - Category Name Found ..Stance & Posture
+2016-05-10 16:49:02 Logs.java INFO  Logs:45 - Category Name Found ..Rules & Regulation
+2016-05-10 16:49:16 Logs.java INFO  Logs:45 - Category Name Found ..Target Archery
+2016-05-10 16:49:36 Logs.java INFO  Logs:45 - Category Name Found ..Nock (Finger & Hand placement)
+2016-05-10 16:49:48 Logs.java INFO  Logs:45 - Category Name Found ..Field Archery
+2016-05-10 16:50:01 Logs.java INFO  Logs:45 - Category Name Found ..Organisation
+2016-05-10 16:50:51 Logs.java ERROR Logs:62 - >>>>>>>>>>>> Category Name not found.org.openqa.selenium.NoSuchElementException
+2016-05-10 16:54:37 Logs.java INFO  Logs:45 - Scroll to the...Field Captain...Element.
+2016-05-10 16:54:49 Logs.java INFO  Logs:45 - Scroll to the...Field Captain...Element.
+2016-05-10 16:55:51 Logs.java INFO  Logs:45 - Scroll to the...Backing...Element.
+2016-05-10 16:56:04 Logs.java INFO  Logs:45 - Scroll to the...Backing...Element.
+2016-05-10 17:02:55 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_verify_autoPlay_audio_test
+2016-05-10 17:04:11 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Arrow Pass
+2016-05-10 17:04:41 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> abc
+2016-05-10 17:05:23 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Wrong text found..org.openqa.selenium.NoSuchElementException
+2016-05-10 17:19:36 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Rarely Used
+2016-05-10 17:22:22 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-05-10 17:28:11 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>>>>> Category Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-05-10 17:28:13 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...category_page_navigate_to_category_test
+2016-05-10 17:28:35 Logs.java INFO  Logs:45 - Category Name Found ..Arrows & Bows
+2016-05-10 17:28:49 Logs.java INFO  Logs:45 - Category Name Found ..Aiming Methods
+2016-05-10 17:29:02 Logs.java INFO  Logs:45 - Category Name Found ..Shooting Techniques
+2016-05-10 17:29:16 Logs.java INFO  Logs:45 - Category Name Found ..Equipment & Accessories
+2016-05-10 17:29:29 Logs.java INFO  Logs:45 - Category Name Found ..Stance & Posture
+2016-05-10 17:29:42 Logs.java INFO  Logs:45 - Category Name Found ..Rules & Regulation
+2016-05-10 17:29:55 Logs.java INFO  Logs:45 - Category Name Found ..Target Archery
+2016-05-10 17:30:15 Logs.java INFO  Logs:45 - Category Name Found ..Nock (Finger & Hand placement)
+2016-05-10 17:30:28 Logs.java INFO  Logs:45 - Category Name Found ..Field Archery
+2016-05-10 17:30:40 Logs.java INFO  Logs:45 - Category Name Found ..Organisation
+2016-05-10 17:31:30 Logs.java ERROR Logs:62 - >>>>>>>>>>>> Category Name not found.org.openqa.selenium.NoSuchElementException
+2016-05-10 17:35:07 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Random Categories name Miscellaneous not Found..org.openqa.selenium.NoSuchElementException
+2016-05-10 17:35:52 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_free_entity_test
+2016-05-10 17:36:38 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Random Categories name  not Found..java.lang.IllegalArgumentException
+2016-05-10 17:36:41 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_premium_entity_test
+2016-05-10 17:36:45 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...contributePage_navigate_to_contribute_page_test
+2016-05-10 17:37:27 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Contribute title text not found.org.openqa.selenium.NoSuchElementException
+2016-05-10 17:38:07 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Contribute description text not found.org.openqa.selenium.NoSuchElementException
+2016-05-10 17:38:12 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...contributePage_verify_contribute_title_and_description_test
+2016-05-10 17:38:53 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Entity Name not found...org.openqa.selenium.NoSuchElementException
+2016-05-10 17:39:34 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> Next Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-05-10 17:40:16 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Entity Name not found...org.openqa.selenium.NoSuchElementException
+2016-05-10 17:40:58 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Entity Name not found...org.openqa.selenium.NoSuchElementException
+2016-05-10 17:41:39 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> Previous Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-05-10 17:42:21 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Entity Name not found...org.openqa.selenium.NoSuchElementException
+2016-05-10 17:43:02 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> Speak Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-05-10 17:43:46 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_verify_speak_audio_test
+2016-05-10 17:44:27 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> AutoPlay Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-05-10 17:45:11 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_verify_autoPlay_audio_test
+2016-05-10 17:46:24 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Arrow Pass
+2016-05-10 17:46:54 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> abc
+2016-05-10 17:47:37 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Wrong text found..org.openqa.selenium.NoSuchElementException
+2016-05-10 17:56:37 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...quiz_page_time_track_quiz_test
+2016-05-13 15:33:43 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>>>>> Time Line Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-05-13 15:35:03 Logs.java ERROR Logs:62 - >>>>>>>>>> Entity Name not matchedorg.openqa.selenium.NoSuchElementException
+2016-05-13 15:35:48 Logs.java ERROR Logs:62 - >>>>>>>>>> Entity Name not matchedorg.openqa.selenium.NoSuchElementException
+2016-05-13 15:40:38 Logs.java ERROR Logs:62 - >>>>>>>>>> Entity Name not matchedorg.openqa.selenium.NoSuchElementException
+2016-05-13 15:42:13 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>> Entity Header txt not matched..org.openqa.selenium.NoSuchElementException
+2016-05-13 15:46:43 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>> Entity Header txt not matched..org.openqa.selenium.NoSuchElementException
+2016-05-13 15:49:30 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>> Entity Header txt not matched..org.openqa.selenium.NoSuchElementException
+2016-05-13 15:52:50 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>> Entity Header txt not matched..org.openqa.selenium.NoSuchElementException
+2016-05-13 17:55:10 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>> Entity Header txt not matched.. org.openqa.selenium.NoSuchElementException
+2016-05-13 18:01:10 Logs.java ERROR Logs:62 - >>>>>>>>>> Entity Name not matchedorg.openqa.selenium.NoSuchElementException
+2016-05-13 18:04:30 Logs.java ERROR Logs:62 - >>>>>>>>>> Entity Name not matchedorg.openqa.selenium.NoSuchElementException
+2016-05-13 18:19:08 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Admir Mehmedi
+2016-05-13 18:22:32 Logs.java ERROR Logs:62 - >>>>>>>>>>>> Rapid Fire Round box not displayed.. org.openqa.selenium.NoSuchElementException
+2016-05-13 18:33:10 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduBank_page_add_duplicate_category_to_edubank_test
+2016-11-17 14:27:51 Logs.java ERROR Logs:55 - Categories name Risk Analysis not Found. org.openqa.selenium.NoSuchElementException
+2016-11-17 14:29:45 Logs.java ERROR Logs:55 - Categories name General Finance not Found. org.openqa.selenium.NoSuchElementException
+2016-11-17 14:36:02 Logs.java ERROR Logs:55 - Categories name Market Analysis not Found. org.openqa.selenium.remote.UnreachableBrowserException
+2016-11-17 14:39:05 Logs.java ERROR Logs:55 - Categories name Commercial, Residential & Industrial Development not Found. org.openqa.selenium.NoSuchElementException
+2016-11-17 14:41:01 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-17 14:41:01 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-17 14:41:01 Logs.java ERROR Logs:55 - Categories name Economic Development not Found. org.openqa.selenium.remote.UnreachableBrowserException
+2016-11-17 14:44:08 Logs.java ERROR Logs:55 - Categories name Commercial, Residential & Industrial Development not Found. org.openqa.selenium.NoSuchElementException
+2016-11-17 14:45:06 Logs.java ERROR Logs:55 - Search Box not present. org.openqa.selenium.NoSuchElementException
+2016-11-17 14:46:50 Logs.java INFO  Logs:38 - Entered text message >>>>>> Mortgage Duration
+2016-11-17 14:48:10 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-17 14:48:10 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-17 14:50:48 Logs.java INFO  Logs:38 - Entered text message >>>>>> Active Income
+2016-11-17 14:50:55 Logs.java ERROR Logs:55 - Search Term not found.
+2016-11-17 14:50:57 Logs.java ERROR Logs:55 - Search Term not found.
+2016-11-17 14:50:59 Logs.java ERROR Logs:55 - Search Term not found.
+2016-11-17 14:51:01 Logs.java ERROR Logs:55 - Search Term not found.
+2016-11-17 14:51:03 Logs.java ERROR Logs:55 - Search Term not found.
+2016-11-17 14:51:05 Logs.java ERROR Logs:55 - Search Term not found.
+2016-11-17 14:51:07 Logs.java ERROR Logs:55 - Search Term not found.
+2016-11-17 14:51:09 Logs.java ERROR Logs:55 - Search Term not found.
+2016-11-17 14:51:11 Logs.java INFO  Logs:38 - Search word found. 
+2016-11-17 14:51:16 Logs.java ERROR Logs:55 - Categories name Commercial, Residential & Industrial Development not Found. org.openqa.selenium.remote.UnreachableBrowserException
+2016-11-17 14:59:45 Logs.java INFO  Logs:38 - Entered text message >>>>>>Easement
+2016-11-17 15:01:07 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-17 15:01:07 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-17 15:16:34 Logs.java INFO  Logs:38 - Entered text message >>>>>>Capital Improvements
+2016-11-17 15:17:12 Logs.java INFO  Logs:38 - Search word found. 
+2016-11-17 15:18:42 Logs.java INFO  Logs:38 - Entered text message >>>>>>@#$%^.,-
+2016-11-17 15:28:03 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-17 15:28:03 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-17 15:30:27 Logs.java INFO  Logs:38 - Entered text message >>>>>>Indemnity Against Liability
+2016-11-17 15:30:59 Logs.java INFO  Logs:38 - Search word found. 
+2016-11-17 15:31:56 Logs.java INFO  Logs:38 - Entered text message >>>>>>@#$%^.,-=
+2016-11-17 16:28:53 Logs.java INFO  Logs:38 - Category Name Principles and Practices of Real Estate Found.
+2016-11-17 16:29:16 Logs.java INFO  Logs:38 - Category Name General Finance Found.
+2016-11-17 16:29:38 Logs.java INFO  Logs:38 - Category Name Fundamental of Property Found.
+2016-11-17 16:30:00 Logs.java INFO  Logs:38 - Category Name Mortgage Found.
+2016-11-17 16:30:20 Logs.java INFO  Logs:38 - Category Name Economic Development Found.
+2016-11-17 16:30:37 Logs.java INFO  Logs:38 - Category Name Law Policy Found.
+2016-11-17 16:30:54 Logs.java INFO  Logs:38 - Category Name Loan Found.
+2016-11-17 16:31:08 Logs.java INFO  Logs:38 - Category Name Market Analysis Found.
+2016-11-17 16:31:23 Logs.java INFO  Logs:38 - Category Name Commercial, Residential & Industrial Development Found.
+2016-11-17 16:31:37 Logs.java INFO  Logs:38 - Category Name Investment Found.
+2016-11-17 16:31:50 Logs.java INFO  Logs:38 - Category Name Risk Analysis Found.
+2016-11-17 16:39:10 Logs.java INFO  Logs:38 - Entered text message >>>>>>Oversizing Costs
+2016-11-17 16:42:56 Logs.java INFO  Logs:38 - Entered text message >>>>>>Sub-Prime Mortgage
+2016-11-17 16:44:29 Logs.java INFO  Logs:38 - Entered text message >>>>>>The stock or capital stock of a business entity represents the original capital paid into or invested in the business by its founders.
+2016-11-17 16:49:25 Logs.java INFO  Logs:38 - Entered text message >>>>>>Taxable Income
+2016-11-17 16:51:22 Logs.java INFO  Logs:38 - Entered text message >>>>>>A credit score is a numerical expression based on a level analysis of a person's credit files, to represent the creditworthiness of that person. A credit score is primarily based on credit report information typically sourced from credit bureaus.
+2016-11-17 16:59:56 Logs.java INFO  Logs:38 - Entered text message >>>>>>Asset Management
+2016-11-17 17:01:52 Logs.java INFO  Logs:38 - Entered text message >>>>>>A provision of an insurance policy that provides that the insurance company and the insured will apportion between them any loss covered by the policy according to a fixed percentage of the value for which the property, or the person, is insured.
+2016-11-17 17:02:46 Logs.java INFO  Logs:38 - Entered text message >>>>>>Replacement Cost
+2016-11-17 17:12:13 Logs.java ERROR Logs:55 - Speak Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-11-17 17:23:33 Logs.java ERROR Logs:55 - Categories name Economic Development not Found. org.openqa.selenium.NoSuchElementException
+2016-11-17 17:24:25 Logs.java ERROR Logs:55 - Elements not found on In App purchase page. org.openqa.selenium.NoSuchElementException
+2016-11-17 17:26:31 Logs.java ERROR Logs:55 - Categories name Mortgage not Found. org.openqa.selenium.NoSuchElementException
+2016-11-17 17:27:56 Logs.java ERROR Logs:55 - Click operation not perform on. org.openqa.selenium.NoSuchElementException
+2016-11-17 17:29:42 Logs.java ERROR Logs:55 - AutoPlay Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-11-17 17:51:02 Logs.java ERROR Logs:55 - Elements not found on In App purchase page. org.openqa.selenium.NoSuchElementException
+2016-11-17 17:53:26 Logs.java ERROR Logs:55 - Categories name Principles and Practices of Real Estate not Found. org.openqa.selenium.NoSuchElementException
+2016-11-17 17:55:06 Logs.java ERROR Logs:55 - Click operation not perform on. org.openqa.selenium.NoSuchElementException
+2016-11-17 18:20:33 Logs.java ERROR Logs:55 - Elements not found on In App purchase page. org.openqa.selenium.NoSuchElementException
+2016-11-17 18:32:49 Logs.java ERROR Logs:55 - Categories name Fundamental of Property not Found. org.openqa.selenium.remote.UnreachableBrowserException
+2016-11-17 18:45:13 Logs.java ERROR Logs:55 - Categories name Investment not Found. org.openqa.selenium.NoSuchElementException
+2016-11-17 18:46:42 Logs.java ERROR Logs:55 - Elements not found on In App purchase page. org.openqa.selenium.NoSuchElementException
+2016-11-17 18:47:50 Logs.java ERROR Logs:55 - Categories name Fundamental of Property not Found. org.openqa.selenium.remote.UnreachableBrowserException
+2016-11-17 19:17:25 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-17 19:17:25 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-18 09:50:46 Logs.java ERROR Logs:55 - Click operation not perform on. org.openqa.selenium.NoSuchElementException
+2016-11-18 09:52:42 Logs.java ERROR Logs:55 - AutoPlay Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-11-18 10:18:36 Logs.java ERROR Logs:55 - Click operation not perform on. org.openqa.selenium.NoSuchElementException
+2016-11-21 13:12:54 Logs.java WARN  Logs:47 - Facebook user Name and password text box not visible org.openqa.selenium.NoSuchElementException
+2016-11-21 13:13:39 Logs.java ERROR Logs:55 -  User not logged into facebook account... 
+2016-11-21 13:14:24 Logs.java ERROR Logs:55 -  User not logged into facebook account... 
+2016-11-21 13:45:18 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-21 13:45:18 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-21 13:55:18 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-21 13:55:18 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-21 14:04:43 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-21 14:04:43 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-21 18:37:05 Logs.java ERROR Logs:55 - Category Icon not found. org.openqa.selenium.NoSuchElementException
+2016-11-21 19:17:40 Logs.java ERROR Logs:55 - Category Icon not found. org.openqa.selenium.NoSuchElementException
+2016-11-21 19:23:31 Logs.java ERROR Logs:55 - Category Icon not found. org.openqa.selenium.NoSuchElementException
+2016-11-21 19:31:15 Logs.java ERROR Logs:55 - Category Icon not found. org.openqa.selenium.NoSuchElementException
+2016-11-21 19:49:54 Logs.java ERROR Logs:55 - Category Icon not found. org.openqa.selenium.NoSuchElementException
+2016-11-21 19:51:25 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-21 19:51:25 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-21 20:03:03 Logs.java ERROR Logs:55 - Category Icon not found. org.openqa.selenium.NoSuchElementException
+2016-11-21 20:06:22 Logs.java ERROR Logs:55 - Click operation not perform on. org.openqa.selenium.NoSuchElementException
+2016-11-21 20:07:49 Logs.java ERROR Logs:55 - Created Category Still Exists.. org.openqa.selenium.NoSuchElementException
+2016-11-22 10:32:21 Logs.java ERROR Logs:55 - Category Icon not found. org.openqa.selenium.NoSuchElementException
+2016-11-22 11:07:39 Logs.java ERROR Logs:55 - Categories name Loan not Found. org.openqa.selenium.remote.UnreachableBrowserException
+2016-11-22 11:09:35 Logs.java ERROR Logs:55 - Category Icon not found. org.openqa.selenium.NoSuchElementException
+2016-11-22 11:17:16 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-22 11:17:16 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-22 11:24:15 Logs.java ERROR Logs:55 - Term Name not found.. org.openqa.selenium.NoSuchElementException
+2016-11-22 11:25:16 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-22 11:25:16 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-22 11:38:57 Logs.java ERROR Logs:55 - Click operation not perform on. org.openqa.selenium.NoSuchElementException
+2016-11-22 11:39:56 Logs.java ERROR Logs:55 - Created Category Still Exists.. org.openqa.selenium.NoSuchElementException
+2016-11-22 12:15:24 Logs.java INFO  Logs:38 - Entered the text message >>>>>> test
+2016-11-22 12:43:22 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-22 12:43:22 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-22 12:51:43 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-22 12:51:43 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-22 15:47:22 Logs.java INFO  Logs:38 - Entered the text message >>>>>> test
+2016-11-22 16:07:52 Logs.java INFO  Logs:38 - Entered the text message >>>>>> Jx62HyApkf
+2016-11-22 18:32:12 Logs.java ERROR Logs:55 - Categories name Investment not Found. org.openqa.selenium.remote.UnreachableBrowserException
+2016-11-23 10:38:50 Logs.java ERROR Logs:55 - Categories name Fundamental of Property not Found. org.openqa.selenium.NoSuchElementException
+2016-11-23 11:16:14 Logs.java INFO  Logs:38 - Entered text message >>>>>>Revolving Debt
+2016-11-23 11:20:12 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-11-23 11:20:12 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-11-23 12:09:39 Logs.java INFO  Logs:38 - Entered text message >>>>>>Blind Pool
+2016-11-23 12:10:12 Logs.java INFO  Logs:38 - Search word found. 
+2016-11-23 12:12:30 Logs.java INFO  Logs:38 - Entered text message >>>>>>@#$%^.,-=
+2016-11-23 12:58:27 Logs.java ERROR Logs:55 - Click operation not perform on. org.openqa.selenium.NoSuchElementException
+2016-11-23 12:59:58 Logs.java ERROR Logs:55 - Stop Play Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-11-23 14:02:46 Logs.java ERROR Logs:55 - Next Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-11-23 15:21:13 Logs.java ERROR Logs:55 - Stop Play Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-12-02 11:34:48 Logs.java INFO  Logs:38 - Entered text message >>>>>>Primary Mortgage Market
+2016-12-02 11:36:44 Logs.java INFO  Logs:38 - Entered text message >>>>>>In real estate business and law, a title search or property title search is the process of retrieving documents evidencing events in the history of a piece of real property, to determine relevant interests in and regulations concerning that property.
+2016-12-02 11:37:37 Logs.java INFO  Logs:38 - Entered text message >>>>>>Escheatment
+2016-12-02 11:46:53 Logs.java ERROR Logs:55 - EvMenu Button not found. org.openqa.selenium.NoSuchElementException
+2016-12-02 11:47:48 Logs.java WARN  Logs:47 - Facebook user Name and password text box not visible org.openqa.selenium.NoSuchElementException
+2016-12-02 11:48:30 Logs.java ERROR Logs:55 -  User not logged into facebook account... 
+2016-12-02 11:49:13 Logs.java ERROR Logs:55 -  User not logged into facebook account... 
+2016-12-02 11:50:39 Logs.java ERROR Logs:55 -  Facebook text not visible org.openqa.selenium.NoSuchElementException
+2016-12-02 12:48:15 Logs.java ERROR Logs:55 - EvMenu Button not found. org.openqa.selenium.NoSuchElementException
+2016-12-02 12:49:13 Logs.java WARN  Logs:47 - Facebook user Name and password text box not visible org.openqa.selenium.NoSuchElementException
+2016-12-02 12:49:56 Logs.java ERROR Logs:55 -  User not logged into facebook account... 
+2016-12-02 12:50:39 Logs.java ERROR Logs:55 -  User not logged into facebook account... 
+2016-12-02 12:52:06 Logs.java ERROR Logs:55 -  Facebook text not visible org.openqa.selenium.NoSuchElementException
+2016-12-02 12:58:04 Logs.java ERROR Logs:55 - EvMenu Button not found. org.openqa.selenium.NoSuchElementException
+2016-12-02 12:58:59 Logs.java WARN  Logs:47 - Facebook user Name and password text box not visible org.openqa.selenium.NoSuchElementException
+2016-12-02 13:24:34 Logs.java ERROR Logs:55 - EvMenu Button not found. org.openqa.selenium.NoSuchElementException
+2016-12-02 13:25:24 Logs.java ERROR Logs:55 - EvMenu Button not found. org.openqa.selenium.NoSuchElementException
+2016-12-02 13:32:01 Logs.java WARN  Logs:47 - Facebook user Name and password text box not visible org.openqa.selenium.NoSuchElementException
+2016-12-02 13:45:52 Logs.java WARN  Logs:47 - User already log in. org.openqa.selenium.NoSuchElementException
+2016-12-02 15:58:19 Logs.java ERROR Logs:55 - Elements not found on the iTune Store Page. org.openqa.selenium.NoSuchElementException
+2016-12-02 16:01:43 Logs.java WARN  Logs:47 - User already log in. org.openqa.selenium.NoSuchElementException
+2016-12-02 16:11:51 Logs.java WARN  Logs:47 - User already log in. org.openqa.selenium.NoSuchElementException
+2016-12-02 16:50:14 Logs.java INFO  Logs:38 - Category Name Principles and Practices of Real Estate Found.
+2016-12-02 16:50:36 Logs.java INFO  Logs:38 - Category Name General Finance Found.
+2016-12-02 16:50:58 Logs.java INFO  Logs:38 - Category Name Fundamental of Property Found.
+2016-12-02 16:51:19 Logs.java INFO  Logs:38 - Category Name Mortgage Found.
+2016-12-02 16:51:39 Logs.java INFO  Logs:38 - Category Name Economic Development Found.
+2016-12-02 16:51:57 Logs.java INFO  Logs:38 - Category Name Law Policy Found.
+2016-12-02 16:52:13 Logs.java INFO  Logs:38 - Category Name Loan Found.
+2016-12-02 16:52:27 Logs.java INFO  Logs:38 - Category Name Market Analysis Found.
+2016-12-02 16:52:41 Logs.java INFO  Logs:38 - Category Name Commercial, Residential & Industrial Development Found.
+2016-12-02 16:52:55 Logs.java INFO  Logs:38 - Category Name Investment Found.
+2016-12-02 16:53:08 Logs.java INFO  Logs:38 - Category Name Risk Analysis Found.
+2016-12-02 17:15:54 Logs.java INFO  Logs:38 - Category Name Principles and Practices of Real Estate Found.
+2016-12-02 17:16:16 Logs.java INFO  Logs:38 - Category Name General Finance Found.
+2016-12-02 17:16:38 Logs.java INFO  Logs:38 - Category Name Fundamental of Property Found.
+2016-12-02 17:16:59 Logs.java INFO  Logs:38 - Category Name Mortgage Found.
+2016-12-02 17:17:19 Logs.java INFO  Logs:38 - Category Name Economic Development Found.
+2016-12-02 17:17:36 Logs.java INFO  Logs:38 - Category Name Law Policy Found.
+2016-12-02 17:17:53 Logs.java INFO  Logs:38 - Category Name Loan Found.
+2016-12-02 17:18:07 Logs.java INFO  Logs:38 - Category Name Market Analysis Found.
+2016-12-02 17:18:21 Logs.java INFO  Logs:38 - Category Name Commercial, Residential & Industrial Development Found.
+2016-12-02 17:18:35 Logs.java INFO  Logs:38 - Category Name Investment Found.
+2016-12-02 17:18:47 Logs.java INFO  Logs:38 - Category Name Risk Analysis Found.
+2016-12-02 17:22:00 Logs.java INFO  Logs:38 - Entered text message >>>>>>Amenities
+2016-12-02 17:22:43 Logs.java INFO  Logs:38 - Search word found. 
+2016-12-02 17:24:41 Logs.java INFO  Logs:38 - Entered text message >>>>>>@#$%^.,-=
+2016-12-02 17:57:24 Logs.java ERROR Logs:55 - Click operation not perform on. org.openqa.selenium.NoSuchElementException
+2016-12-02 18:07:49 Logs.java ERROR Logs:55 - Stop Play Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-12-02 18:22:52 Logs.java WARN  Logs:47 - User already log in. org.openqa.selenium.NoSuchElementException
+2016-12-02 18:27:05 Logs.java ERROR Logs:55 - EvMenu Button not found. org.openqa.selenium.NoSuchElementException
+2016-12-02 18:34:15 Logs.java WARN  Logs:47 - User already log in. org.openqa.selenium.NoSuchElementException
+2016-12-05 11:07:03 Logs.java INFO  Logs:38 - Entered text message >>>>>>Tenure
+2016-12-05 11:08:34 Logs.java INFO  Logs:38 - Entered text message >>>>>>Mortgage with a fixed interest rate and payments that increase throughout the term of the mortgage.
+2016-12-05 11:09:29 Logs.java INFO  Logs:38 - Entered text message >>>>>>Capital Improvements
+2016-12-05 11:15:47 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>> Not Navigate to the right page.. Quiz org.openqa.selenium.NoSuchElementException
+2016-12-05 11:16:48 Logs.java INFO  Logs:38 - Category Name Principles and Practices of Real Estate Found.
+2016-12-05 11:17:10 Logs.java INFO  Logs:38 - Category Name General Finance Found.
+2016-12-05 11:17:32 Logs.java INFO  Logs:38 - Category Name Fundamental of Property Found.
+2016-12-05 11:17:53 Logs.java INFO  Logs:38 - Category Name Mortgage Found.
+2016-12-05 11:18:12 Logs.java INFO  Logs:38 - Category Name Economic Development Found.
+2016-12-05 11:18:30 Logs.java INFO  Logs:38 - Category Name Law Policy Found.
+2016-12-05 11:18:46 Logs.java INFO  Logs:38 - Category Name Loan Found.
+2016-12-05 11:19:00 Logs.java INFO  Logs:38 - Category Name Market Analysis Found.
+2016-12-05 11:19:14 Logs.java INFO  Logs:38 - Category Name Commercial, Residential & Industrial Development Found.
+2016-12-05 11:19:28 Logs.java INFO  Logs:38 - Category Name Investment Found.
+2016-12-05 11:19:41 Logs.java INFO  Logs:38 - Category Name Risk Analysis Found.
+2016-12-05 11:22:40 Logs.java INFO  Logs:38 - Entered text message >>>>>>Investment Interest Expense Deduction
+2016-12-05 11:25:03 Logs.java INFO  Logs:38 - Search word found. 
+2016-12-05 11:27:33 Logs.java INFO  Logs:38 - Entered text message >>>>>>@#$%^.,-=
+2016-12-05 12:04:55 Logs.java ERROR Logs:55 - Click operation not perform on. org.openqa.selenium.NoSuchElementException
+2016-12-05 12:26:00 Logs.java WARN  Logs:47 - User already log in. org.openqa.selenium.NoSuchElementException
+2016-12-05 12:30:12 Logs.java ERROR Logs:55 - EvMenu Button not found. org.openqa.selenium.NoSuchElementException
+2016-12-05 12:31:56 Logs.java INFO  Logs:38 - Entered text message >>>>>>Asset
+2016-12-05 12:33:21 Logs.java INFO  Logs:38 - Entered text message >>>>>>The loss that occurs in financing. It impairs profit to cover loss.
+2016-12-05 12:34:13 Logs.java INFO  Logs:38 - Entered text message >>>>>>Agency
+2016-12-05 12:57:47 Logs.java ERROR Logs:55 - Elements not found on In App purchase page. org.openqa.selenium.NoSuchElementException
+2016-12-05 13:00:06 Logs.java ERROR Logs:55 - Term Name not found.. org.openqa.selenium.NoSuchElementException
+2016-12-05 13:00:49 Logs.java ERROR Logs:55 - Description Header not present. org.openqa.selenium.NoSuchElementException
+2016-12-05 13:01:31 Logs.java ERROR Logs:55 - Favourite icon not present org.openqa.selenium.NoSuchElementException
+2016-12-05 13:33:41 Logs.java ERROR Logs:55 - Term Name not found.. org.openqa.selenium.NoSuchElementException
+2016-12-05 13:34:23 Logs.java ERROR Logs:55 - Description Header not present. org.openqa.selenium.NoSuchElementException
+2016-12-05 13:35:05 Logs.java ERROR Logs:55 - Favourite icon not present org.openqa.selenium.NoSuchElementException
+2016-12-05 14:48:39 Logs.java ERROR Logs:55 - Categories name Loan not Found. org.openqa.selenium.NoSuchElementException
+2016-12-05 14:54:08 Logs.java ERROR Logs:55 - Click operation not perform on. org.openqa.selenium.NoSuchElementException
+2016-12-05 14:55:40 Logs.java ERROR Logs:55 - Created Category Still Exists.. org.openqa.selenium.NoSuchElementException
+2016-12-05 15:57:45 Logs.java ERROR Logs:55 - Term Name not found.. org.openqa.selenium.NoSuchElementException
+2016-12-05 15:58:35 Logs.java ERROR Logs:55 - Description Header not present. org.openqa.selenium.NoSuchElementException
+2016-12-05 16:05:49 Logs.java WARN  Logs:47 - User already log in. org.openqa.selenium.NoSuchElementException
+2016-12-05 16:10:08 Logs.java ERROR Logs:55 - EvMenu Button not found. org.openqa.selenium.NoSuchElementException
+2016-12-05 18:50:57 Logs.java INFO  Logs:38 - Category Name Principles and Practices of Real Estate Found.
+2016-12-05 18:51:19 Logs.java INFO  Logs:38 - Category Name General Finance Found.
+2016-12-05 18:51:41 Logs.java INFO  Logs:38 - Category Name Fundamental of Property Found.
+2016-12-05 18:52:02 Logs.java INFO  Logs:38 - Category Name Mortgage Found.
+2016-12-05 18:52:22 Logs.java INFO  Logs:38 - Category Name Economic Development Found.
+2016-12-05 18:52:40 Logs.java INFO  Logs:38 - Category Name Law Policy Found.
+2016-12-05 18:52:56 Logs.java INFO  Logs:38 - Category Name Loan Found.
+2016-12-05 18:53:10 Logs.java INFO  Logs:38 - Category Name Market Analysis Found.
+2016-12-05 18:53:24 Logs.java INFO  Logs:38 - Category Name Commercial, Residential & Industrial Development Found.
+2016-12-05 18:53:38 Logs.java INFO  Logs:38 - Category Name Investment Found.
+2016-12-05 18:53:51 Logs.java INFO  Logs:38 - Category Name Risk Analysis Found.
+2016-12-05 18:59:19 Logs.java INFO  Logs:38 - Category Name Principles and Practices of Real Estate Found.
+2016-12-05 18:59:41 Logs.java INFO  Logs:38 - Category Name General Finance Found.
+2016-12-05 19:00:04 Logs.java INFO  Logs:38 - Category Name Fundamental of Property Found.
+2016-12-05 19:00:24 Logs.java INFO  Logs:38 - Category Name Mortgage Found.
+2016-12-05 19:00:44 Logs.java INFO  Logs:38 - Category Name Economic Development Found.
+2016-12-05 19:01:01 Logs.java INFO  Logs:38 - Category Name Law Policy Found.
+2016-12-05 19:01:17 Logs.java INFO  Logs:38 - Category Name Loan Found.
+2016-12-05 19:01:31 Logs.java INFO  Logs:38 - Category Name Market Analysis Found.
+2016-12-05 19:01:45 Logs.java INFO  Logs:38 - Category Name Commercial, Residential & Industrial Development Found.
+2016-12-05 19:01:59 Logs.java INFO  Logs:38 - Category Name Investment Found.
+2016-12-05 19:02:12 Logs.java INFO  Logs:38 - Category Name Risk Analysis Found.
+2016-12-05 19:04:56 Logs.java INFO  Logs:38 - Entered text message >>>>>>Chattel Mortgage
+2016-12-05 19:05:46 Logs.java INFO  Logs:38 - Search word found. 
+2016-12-05 19:08:04 Logs.java INFO  Logs:38 - Entered text message >>>>>>@#$%^.,-=
+2016-12-06 10:44:16 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-12-06 10:44:16 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-12-06 10:55:26 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-12-06 10:55:26 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-12-06 11:36:10 Logs.java ERROR Logs:55 - Term Name not found.. org.openqa.selenium.NoSuchElementException
+2016-12-06 11:36:52 Logs.java ERROR Logs:55 - Description Header not present. org.openqa.selenium.NoSuchElementException
+2016-12-06 11:37:34 Logs.java ERROR Logs:55 - Favourite icon not present org.openqa.selenium.NoSuchElementException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:07 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:08 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:08 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:08 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:08 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:08 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:08 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:08 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:27:08 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:05 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:08 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:11 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:14 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:17 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:20 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:23 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:26 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:29 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:32 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:35 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:38 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:41 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:44 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:47 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:50 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:53 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:56 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:29:59 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:30:02 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:30:05 Logs.java ERROR Logs:55 - java.sql.SQLException
+2016-12-07 13:30:13 Logs.java ERROR Logs:55 - Heading Value not found. java.sql.SQLException
+2016-12-07 13:30:16 Logs.java ERROR Logs:55 - Heading Value not found. java.sql.SQLException
+2016-12-07 13:30:19 Logs.java ERROR Logs:55 - Heading Value not found. java.sql.SQLException
+2016-12-07 13:30:22 Logs.java ERROR Logs:55 - Heading Value not found. java.sql.SQLException
+2016-12-07 13:30:25 Logs.java ERROR Logs:55 - Heading Value not found. java.sql.SQLException
+2016-12-07 13:30:28 Logs.java ERROR Logs:55 - Heading Value not found. java.sql.SQLException
+2016-12-07 16:29:26 Logs.java ERROR Logs:55 - Categories name After 2000s not Found. org.openqa.selenium.remote.UnreachableBrowserException
+2016-12-12 14:55:13 Logs.java ERROR Logs:55 - Category Icon not found. org.openqa.selenium.NoSuchElementException
+2016-12-12 14:59:08 Logs.java ERROR Logs:55 - Category Icon not found. org.openqa.selenium.NoSuchElementException

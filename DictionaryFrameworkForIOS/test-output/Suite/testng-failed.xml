@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Suite]" parallel="none">
+  <test name="All Test cases.(failed)" parallel="none">
+    <classes>
+      <class name="com.eduven.testcase.ContributePageTestCases">
+        <methods>
+          <include name="verifyTitleAnsDescriptionTextTest"/>
+          <include name="verifyDescriptionTextTest"/>
+          <include name="tearDown"/>
+          <include name="navigateToCategoryPageTest"/>
+          <include name="verifyContributeNowWithoutTextTest"/>
+          <include name="verifyTitleTextTest"/>
+          <include name="navigateToTheContributePageTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.ContributePageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="homePageMoreAppsTest"/>
+          <include name="homePageCategoryTest"/>
+          <include name="homePageQuizTest"/>
+          <include name="homePageSearchBoxTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.QuizPageTestCases">
+        <methods>
+          <include name="suddenDeathTestQuizTest"/>
+          <include name="verifyEdubankImageviewInTimeTrackTest"/>
+          <include name="veriffSelectCheckboxTest"/>
+          <include name="verifyQuizPageHeaderTxtTest"/>
+          <include name="navigateToQuixPageTest"/>
+          <include name="submitQuizTest"/>
+          <include name="verifyDeselectCheckboxTest"/>
+          <include name="verifyQuizAddedInEdubankTest"/>
+          <include name="verifySuddenDeathQuizScorecardTest"/>
+          <include name="verifyTimeTrackQuizScorecardTest"/>
+          <include name="verifyCategoryPageHeaderTxtTest"/>
+          <include name="verifyRapidFireBoxTest"/>
+          <include name="timeTrackQuizTest"/>
+          <include name="verifyEdubankImageviewForSuddenDeathTest"/>
+          <include name="VerifySelectedRoundAndAnswerTest"/>
+          <include name="verifyRedCardScoreCardAndTotalQuestion"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.QuizPageTestCases -->
+      <class name="com.eduven.testcase.TermDetailPageTestCases">
+        <methods>
+          <include name="verifyAutoPlayAudioTest"/>
+          <include name="verifyFreeTermOnDetailPageTest"/>
+          <include name="tearDown"/>
+          <include name="navigateTermPageTest"/>
+          <include name="navigateToTermDetailPageTest"/>
+          <include name="verifyTermNameAfterPrevClickTest"/>
+          <include name="verifyElementsOnTermDetailPageTest"/>
+          <include name="verifyPremiumTermOnDetailPageTest"/>
+          <include name="verifyTermNameAfterNextClickTest"/>
+          <include name="verifyContributeTitleAndDescriptionTest"/>
+          <include name="verifySpeakAudioTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TermDetailPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="eduBankVerifyNewlyCreatedCategoryInEdubankTest"/>
+          <include name="eduBankAddDuplicateCategoryToEdubankTest"/>
+          <include name="eduBankVerifyRenameCategoryInEdubankTest"/>
+          <include name="navigationToEditEdubankPageTest"/>
+          <include name="eduBankDeleteRenameCategoryFromEdubankTest"/>
+          <include name="eduBankCreateNewCategoryInEdubankTest"/>
+          <include name="removeAllAddedTermInEdubankCategoryTest"/>
+          <include name="eduBankRenameAddedCategoryInEubankTest"/>
+          <include name="tearDown"/>
+          <include name="eduBankDeleteNewlyAddTermInEdubankCategoryTest"/>
+          <include name="navigationToTermDetailPageTest"/>
+          <include name="eduBankAddTermToEdubankCategoryTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.InAppPurchaseTestCases">
+        <methods>
+          <include name="inAppPurchaseTest"/>
+          <include name="navigateToTermPageTest"/>
+          <include name="tearDown"/>
+          <include name="verifyLockTermBeforePurchaseTest"/>
+          <include name="verifyLockTermAfterPurchaseTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.InAppPurchaseTestCases -->
+      <class name="com.eduven.testcase.CategoriesPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyCategoryNameListTest"/>
+          <include name="verifyFooterElementTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CategoriesPageTestCases -->
+      <class name="com.eduven.testcase.WordSearchListPageTestCases">
+        <methods>
+          <include name="navigateToTermPageTest"/>
+          <include name="verifyTermNameListTest"/>
+          <include name="verifySearchRelatedTest"/>
+          <include name="tearDown"/>
+          <include name="verifySearchWordByIndexTest"/>
+          <include name="verifyFooterElementsTest"/>
+          <include name="verifyWrongSearchTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.WordSearchListPageTestCases -->
+      <class name="com.eduven.testcase.EvMenuPageTestCases">
+        <methods>
+          <include name="rateThisAppTest"/>
+          <include name="verifyMoreAppsTest"/>
+          <include name="verifyInformationAndSupprotForGetInTouchTest"/>
+          <include name="evmenuShareAppTest"/>
+          <include name="verifyInformationAndSupprotForPrivacyPolicyTest"/>
+          <include name="evmenuLoginFacebookTest"/>
+          <include name="evmenuSelectAudienceTest"/>
+          <include name="navigateToEvmenuTest"/>
+          <include name="verifyInformationAndSupprotForDisclaimerTest"/>
+          <include name="tearDown"/>
+          <include name="evmenuFacebookMessageSharingTest"/>
+          <include name="verifyInformationAndSupprotForTermsAndConditionsTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EvMenuPageTestCases -->
+      <class name="com.eduven.testcase.TimeLinePageTestCases">
+        <methods>
+          <include name="timeline_page_verify_terms_name_after_left_swipe_test"/>
+          <include name="timeline_page_select_random_player_test"/>
+          <include name="timeline_page_navigate_to_timeline_test"/>
+          <include name="timeline_page_verify_search_test"/>
+          <include name="timeline_page_verify_terms_name_after_right_swipe_test"/>
+          <include name="tearDown"/>
+          <include name="timeline_page_verify_right_page_navigation_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TimeLinePageTestCases -->
+    </classes>
+  </test> <!-- All Test cases.(failed) -->
+</suite> <!-- Failed suite [Suite] -->

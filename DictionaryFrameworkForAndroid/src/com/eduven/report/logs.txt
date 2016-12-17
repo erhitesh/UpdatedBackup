@@ -1,0 +1,579 @@
+2016-04-19 13:15:56 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 13:16:14 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduabnk_page_create_and_verify_entity_in_edubank_test
+2016-04-19 13:16:45 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Favorite button not found... org.openqa.selenium.NoSuchElementException
+2016-04-19 13:17:17 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Add to Edubank popup not displayed org.openqa.selenium.NoSuchElementException
+2016-04-19 14:08:17 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 14:08:35 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduabnk_page_create_and_verify_entity_in_edubank_test
+2016-04-19 14:09:06 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Favorite button not found... org.openqa.selenium.NoSuchElementException
+2016-04-19 14:09:38 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Add to Edubank popup not displayed org.openqa.selenium.NoSuchElementException
+2016-04-19 14:10:10 Logs.java ERROR Logs:62 - >>>>>>>>>>> Popup box not found.org.openqa.selenium.NoSuchElementException
+2016-04-19 14:32:58 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 14:33:16 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduabnk_page_create_and_verify_entity_in_edubank_test
+2016-04-19 14:33:47 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Favorite button not found... org.openqa.selenium.NoSuchElementException
+2016-04-19 14:34:19 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Add to Edubank popup not displayed org.openqa.selenium.NoSuchElementException
+2016-04-19 14:34:50 Logs.java ERROR Logs:62 - >>>>>>>>>>> Popup box not found.org.openqa.selenium.NoSuchElementException
+2016-04-19 14:40:05 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 14:40:23 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduabnk_page_create_and_verify_entity_in_edubank_test
+2016-04-19 14:40:54 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Favorite button not found... org.openqa.selenium.NoSuchElementException
+2016-04-19 14:41:25 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Add to Edubank popup not displayed org.openqa.selenium.NoSuchElementException
+2016-04-19 14:41:56 Logs.java ERROR Logs:62 - >>>>>>>>>>> Popup box not found.org.openqa.selenium.NoSuchElementException
+2016-04-19 14:42:28 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Favorite button not found... org.openqa.selenium.NoSuchElementException
+2016-04-19 14:42:58 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> EduBank popup message not matched... org.openqa.selenium.NoSuchElementException
+2016-04-19 14:43:30 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> EduBank Ok button not found... org.openqa.selenium.NoSuchElementException
+2016-04-19 14:49:37 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 14:49:55 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduabnk_page_create_and_verify_entity_in_edubank_test
+2016-04-19 14:55:22 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 14:55:40 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduabnk_page_create_and_verify_entity_in_edubank_test
+2016-04-19 15:18:53 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 15:19:11 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduabnk_page_create_and_verify_entity_in_edubank_test
+2016-04-19 15:54:28 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 15:54:47 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduabnk_page_create_and_verify_entity_in_edubank_test
+2016-04-19 16:00:35 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 16:07:16 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 16:07:34 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduabnk_page_create_and_verify_entity_in_edubank_test
+2016-04-19 16:15:43 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 16:21:54 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 16:22:28 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 16:23:02 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 16:23:25 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> tester
+2016-04-19 16:24:00 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hands On
+2016-04-19 16:24:37 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...verify_ads_banner_test
+2016-04-19 16:35:14 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 16:35:47 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 16:36:22 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-19 16:36:44 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> tester
+2016-04-19 16:37:20 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hands On
+2016-04-19 16:38:26 Logs.java WARN  Logs:56 - >>>>>>>>>>>>>>>>>>> Ads popup not visible... 
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/AndroidDictionary/apps-basketball-debug.apk, appPackage=com.eduven.ld.dict.basketball, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=015d3c267b53f615, platform=LINUX, appActivity=com.eduven.ld.dict.activity.SplashActivity, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/AndroidDictionary/apps-basketball-debug.apk, appPackage=com.eduven.ld.dict.basketball, appActivity=com.eduven.ld.dict.activity.SplashActivity, newCommandTimeout=2000, platformVersion=4.4, appiumVersion=1.4.13, automationName=Appium, platformName=Android, deviceName=015d3c267b53f615}, newCommandTimeout=2000, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 0c4f21ce-9890-4c1f-87af-1b199e42d77a
+*** Element info: {Using=id, value=com.eduven.ld.dict.basketball:id/adView}
+2016-04-19 16:39:28 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> 
+2016-04-19 16:39:53 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>>      
+2016-04-19 16:40:22 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Basketball!!
+2016-04-19 16:40:53 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Basketball!!
+2016-04-19 16:41:25 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Basketball!!
+2016-04-19 16:41:55 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Basketball!!
+2016-04-19 16:42:26 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Basketball!!
+2016-04-19 16:42:58 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Basketball!!
+2016-04-19 16:45:29 Logs.java WARN  Logs:56 - >>>>>>>>>>>>>>> Facebook user Name and password text box not visible org.openqa.selenium.NoSuchElementException
+2016-04-19 17:02:26 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> advance step
+2016-04-19 17:03:19 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> abc
+2016-04-22 16:07:41 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...quiz_page_categoryPage_test
+2016-04-22 16:37:56 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...quiz_page_category_page_operation_test
+2016-04-22 16:38:27 Logs.java ERROR Logs:62 - >>>>>>>>>>>>> org.openqa.selenium.NoSuchElementException
+2016-04-22 16:43:27 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...hide_category_page_test
+2016-04-22 16:44:01 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...property_value
+2016-04-22 16:51:21 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-22 16:51:56 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-22 16:52:31 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-22 16:52:54 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> tester
+2016-04-22 16:53:29 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hands On
+2016-04-22 16:54:45 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> 
+2016-04-22 16:55:11 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>>      
+2016-04-22 16:55:52 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Soccer Legends!!
+2016-04-22 16:56:23 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Soccer Legends!!
+2016-04-22 16:56:54 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Soccer Legends!!
+2016-04-22 16:57:26 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Soccer Legends!!
+2016-04-22 16:57:57 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Soccer Legends!!
+2016-04-22 16:58:27 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Soccer Legends!!
+2016-04-22 17:00:50 Logs.java WARN  Logs:56 - >>>>>>>>>>>>>>> Facebook user Name and password text box not visible org.openqa.selenium.NoSuchElementException
+2016-04-22 17:17:22 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...contributePage_navigate_to_contribute_page_test
+2016-04-22 17:17:52 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Contribute title text not found.org.openqa.selenium.NoSuchElementException
+2016-04-22 17:18:23 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Contribute description text not found.org.openqa.selenium.NoSuchElementException
+2016-04-22 17:18:58 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Entity Name not found...org.openqa.selenium.NoSuchElementException
+2016-04-22 17:19:30 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> Next Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-04-22 17:20:01 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Entity Name not found...org.openqa.selenium.NoSuchElementException
+2016-04-22 17:20:33 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Entity Name not found...org.openqa.selenium.NoSuchElementException
+2016-04-22 17:21:04 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> Previous Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-04-22 17:21:35 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Entity Name not found...org.openqa.selenium.NoSuchElementException
+2016-04-22 17:22:06 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> Speak Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-04-22 17:22:41 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_verify_speak_audio_test
+2016-04-22 17:23:12 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> AutoPlay Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-04-22 17:24:04 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> AutoPlay Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-04-22 17:25:36 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> danger zone
+2016-04-22 17:26:31 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> abc
+2016-04-22 18:01:59 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_free_entity_test
+2016-04-22 18:02:48 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Contribute Later btn still visible...org.openqa.selenium.NoSuchElementException
+2016-04-22 18:10:12 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_free_entity_test
+2016-04-22 18:14:35 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_free_entity_test
+2016-04-22 18:15:54 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Contribute Later btn still visible...org.openqa.selenium.NoSuchElementException
+2016-04-22 18:23:12 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_free_entity_test
+2016-04-22 18:24:01 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Contribute Later btn still visible...org.openqa.selenium.NoSuchElementException
+2016-04-22 18:32:22 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_free_entity_test
+2016-04-22 19:06:46 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_premium_entity_test
+2016-04-22 19:14:08 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_premium_entity_test
+2016-04-22 19:17:40 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_premium_entity_test
+2016-04-22 19:22:19 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_premium_entity_test
+2016-04-22 19:26:00 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>Free Entity..>Advantage Clause >>>not found
+2016-04-22 19:26:55 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Contribute Later btn still visible...org.openqa.selenium.NoSuchElementException
+2016-04-22 19:51:53 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Contribute Later btn still visible...org.openqa.selenium.NoSuchElementException
+2016-04-22 20:02:40 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-22 20:03:14 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-22 20:03:48 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-04-22 20:04:11 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> tester
+2016-04-22 20:04:45 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hands On
+2016-04-22 20:06:01 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> 
+2016-04-22 20:06:27 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>>      
+2016-04-22 20:07:07 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Soccer Legends!!
+2016-04-22 20:07:38 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Soccer Legends!!
+2016-04-22 20:08:10 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Soccer Legends!!
+2016-04-22 20:08:42 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Soccer Legends!!
+2016-04-22 20:09:13 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Soccer Legends!!
+2016-04-22 20:09:44 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hello Soccer Legends!!
+2016-04-22 20:12:08 Logs.java WARN  Logs:56 - >>>>>>>>>>>>>>> Facebook user Name and password text box not visible org.openqa.selenium.NoSuchElementException
+2016-04-22 20:25:50 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Contribute Later btn still visible...org.openqa.selenium.NoSuchElementException
+2016-04-22 20:28:50 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> danger zone
+2016-04-22 20:29:45 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> abc
+2016-04-22 20:31:39 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>>>>> Quiz Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-04-22 20:31:42 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...quiz_page_navigate_to_quiz_page_test
+2016-04-22 20:32:13 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>>> Not Navigate to the right page.. Quiz org.openqa.selenium.NoSuchElementException
+2016-04-22 20:34:21 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...hide_category_page_test
+2016-04-25 11:49:22 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>>> Not Navigate to the right page.. Quiz org.openqa.selenium.NoSuchElementException
+2016-04-25 11:49:53 Logs.java ERROR Logs:62 -  >>>>>>>>>>>>>>>>>>>>> click Operation not perform on the Category button org.openqa.selenium.NoSuchElementException
+2016-04-25 11:50:24 Logs.java ERROR Logs:62 -  >>>>>>>>>>>>>>>>>>>>> Category Page header text not found. org.openqa.selenium.NoSuchElementException
+2016-04-25 11:50:58 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...quiz_page_category_page_operation_test
+2016-04-25 11:51:30 Logs.java ERROR Logs:62 -  >>>>>>>>>>>>>>>>>>>>> click Operation not perform on the Sudden Death button org.openqa.selenium.NoSuchElementException
+2016-04-25 11:52:32 Logs.java ERROR Logs:62 - >>>>>>>>>>> Sudden Death Header txt not found org.openqa.selenium.NoSuchElementException
+2016-04-25 11:59:54 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>> Not Returing EduBank Instance... org.openqa.selenium.NoSuchElementException
+2016-04-25 11:59:56 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...quiz_page_verify_edubank_imageview_in_sudden_death_test
+2016-04-25 12:00:28 Logs.java ERROR Logs:62 -  >>>>>>>>>>>>>>>>>>>>> click Operation not perform on the Time Track button org.openqa.selenium.NoSuchElementException
+2016-04-25 12:01:12 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Alert Message not matched org.openqa.selenium.NoSuchElementException
+2016-04-25 12:08:53 Logs.java ERROR Logs:62 - >>>>>>>>>>>> Verify EduBank ImageView Present or not. org.openqa.selenium.NoSuchElementException
+2016-04-25 12:10:19 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...quiz_page_time_track_quiz_test
+2016-04-25 12:11:23 Logs.java ERROR Logs:62 - >>>>>>>>>>>> Verify EduBank ImageView Present or not. org.openqa.selenium.NoSuchElementException
+2016-04-25 12:20:16 Logs.java ERROR Logs:62 - >>>>>>>>>>>> Verify EduBank ImageView Present or not. org.openqa.selenium.NoSuchElementException
+2016-04-25 12:22:51 Logs.java ERROR Logs:62 - >>>>>>>>>>>> Verify EduBank ImageView Present or not. org.openqa.selenium.NoSuchElementException
+2016-04-25 12:40:16 Logs.java ERROR Logs:62 - >>>>>>>>>>>> Verify EduBank ImageView Present or not. org.openqa.selenium.NoSuchElementException
+2016-04-25 12:42:40 Logs.java ERROR Logs:62 - >>>>>>>>>>>> Verify EduBank ImageView Present or not. org.openqa.selenium.NoSuchElementException
+2016-08-17 11:13:17 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>> Not Navigate to the right page..Category Page org.openqa.selenium.NoSuchElementException
+2016-08-22 10:34:38 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EduBank Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-22 10:35:29 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EduBank Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-22 10:36:05 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> MoreApps Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-22 10:36:40 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>> Not Navigate to the right page.. Quiz org.openqa.selenium.NoSuchElementException
+2016-08-22 12:07:28 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>> Not Navigate to the right page.. Quiz org.openqa.selenium.NoSuchElementException
+2016-08-22 12:22:04 Logs.java ERROR Logs:55 - >>>>>>>>>>>>Not Navigate to the Quiz Page. org.openqa.selenium.NoSuchElementException
+2016-08-22 14:27:11 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 14:27:13 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 14:27:16 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 14:27:18 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 14:27:21 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 14:27:23 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 14:27:26 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 14:27:28 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 14:28:32 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 14:28:35 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 14:28:37 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 14:36:01 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 14:36:04 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 14:36:06 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 14:36:09 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 14:36:11 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 14:36:13 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 14:36:16 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 14:36:18 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 14:37:22 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 14:37:25 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 14:37:27 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 14:47:03 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 14:47:06 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 14:47:08 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 14:47:11 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 14:47:13 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 14:47:16 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 14:47:18 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 14:47:21 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 14:48:25 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 14:48:27 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 14:48:30 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 14:48:58 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 14:50:20 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-08-22 14:50:20 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-08-22 15:00:00 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 15:00:02 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 15:00:05 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 15:00:07 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 15:00:09 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 15:00:12 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 15:00:14 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 15:00:16 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 15:01:20 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 15:01:23 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 15:01:25 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 15:02:08 Logs.java ERROR Logs:55 - >>>>>>>>>>>> category Entity Header Text not present.org.openqa.selenium.NoSuchElementException
+2016-08-22 15:07:44 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 15:07:47 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 15:07:49 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 15:07:52 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 15:07:54 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 15:07:56 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 15:07:59 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 15:08:01 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 15:09:06 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 15:09:08 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 15:09:11 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 15:09:51 Logs.java ERROR Logs:55 - >>>>>>>>>>>> category Entity Header Text not present.org.openqa.selenium.NoSuchElementException
+2016-08-22 15:13:06 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 15:13:08 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 15:13:11 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 15:13:13 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 15:13:15 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 15:13:18 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 15:13:20 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 15:13:23 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 15:14:27 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 15:14:29 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 15:14:32 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 15:15:12 Logs.java ERROR Logs:55 - >>>>>>>>>>>> category Entity Header Text not present.org.openqa.selenium.NoSuchElementException
+2016-08-22 15:18:46 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 15:18:48 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 15:18:51 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 15:18:53 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 15:18:56 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 15:18:58 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 15:19:00 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 15:19:03 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 15:20:07 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 15:20:09 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 15:20:11 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 15:20:55 Logs.java ERROR Logs:55 - >>>>>>>>>>>> category Entity Header Text not present.org.openqa.selenium.NoSuchElementException
+2016-08-22 15:26:43 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 15:26:45 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 15:26:48 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 15:26:50 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 15:26:52 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 15:26:55 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 15:26:57 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 15:26:59 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 15:28:04 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 15:28:06 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 15:28:08 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 15:30:57 Logs.java ERROR Logs:55 - >>>>>>>>>>>> category Entity Header Text not present.org.openqa.selenium.NoSuchElementException
+2016-08-22 15:40:29 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 15:40:31 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 15:40:34 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 15:40:36 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 15:40:39 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 15:40:41 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 15:40:43 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 15:40:46 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 15:41:50 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 15:41:52 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 15:41:55 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 15:44:43 Logs.java ERROR Logs:55 - >>>>>>>>>>>> Category Term Header Text not found. org.openqa.selenium.NoSuchElementException
+2016-08-22 15:47:14 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 15:47:16 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 15:47:19 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 15:47:21 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 15:47:23 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 15:47:26 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 15:47:28 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 15:47:31 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 15:48:35 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 15:48:37 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 15:48:40 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 15:53:33 Logs.java ERROR Logs:55 - >>>>>>>>>>>> Category Term Header Text not found. org.openqa.selenium.NoSuchElementException
+2016-08-22 15:58:10 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 15:58:12 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 15:58:14 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 15:58:17 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 15:58:19 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 15:58:22 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 15:58:24 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 15:58:27 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 15:59:31 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 15:59:33 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 15:59:35 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 16:04:26 Logs.java ERROR Logs:55 - >>>>>>>>>>>> Category Term Header Text not found. org.openqa.selenium.NoSuchElementException
+2016-08-22 17:16:41 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 17:16:44 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 17:16:46 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 17:16:49 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 17:16:51 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 17:16:54 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 17:16:56 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 17:16:59 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 17:18:03 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 17:18:06 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 17:18:08 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 17:20:56 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 17:20:59 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 17:21:02 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 17:21:04 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 17:21:06 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 17:21:09 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 17:21:11 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 17:21:14 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 17:22:18 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 17:22:21 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 17:22:23 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 17:25:02 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 17:31:36 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 17:31:39 Logs.java INFO  Logs:38 - Category Name. Cell Biology Found.
+2016-08-22 17:31:42 Logs.java INFO  Logs:38 - Category Name. Genetics Found.
+2016-08-22 17:31:44 Logs.java INFO  Logs:38 - Category Name. Botany Found.
+2016-08-22 17:31:47 Logs.java INFO  Logs:38 - Category Name. Environment Biology Found.
+2016-08-22 17:31:50 Logs.java INFO  Logs:38 - Category Name. Microbiology Found.
+2016-08-22 17:31:52 Logs.java INFO  Logs:38 - Category Name. Anatomy Found.
+2016-08-22 17:31:55 Logs.java INFO  Logs:38 - Category Name. Taxanomy Found.
+2016-08-22 17:32:59 Logs.java INFO  Logs:38 - Category Name. Endocrinology Found.
+2016-08-22 17:33:02 Logs.java INFO  Logs:38 - Category Name. Zoology Found.
+2016-08-22 17:33:05 Logs.java INFO  Logs:38 - Category Name. Miscellaneous Found.
+2016-08-22 17:35:44 Logs.java INFO  Logs:38 - Category Name. Biochemistry Found.
+2016-08-22 17:40:19 Logs.java ERROR Logs:55 - >>>>>>>>>>>> Category Term Header Text not found. org.openqa.selenium.NoSuchElementException
+2016-08-23 11:42:41 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>>Home Page Header txt not matched...>>org.openqa.selenium.NoSuchElementException
+2016-08-23 11:43:49 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> MoreApps Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-23 11:44:58 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-08-23 12:02:21 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EduBank Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-23 13:13:58 Logs.java ERROR Logs:55 - Feature Box Element not present. org.openqa.selenium.NoSuchElementException
+2016-08-23 13:15:07 Logs.java ERROR Logs:55 - This Method is used to takes screen shot for Failure TestCase...wordsearchlist_page_verify_right_search_test
+2016-08-23 13:17:31 Logs.java ERROR Logs:55 - This Method is used to takes screen shot for Failure TestCase...wordsearchlist_page_verify_wrong_search_test
+2016-08-23 13:20:58 Logs.java ERROR Logs:55 - This Method is used to takes screen shot for Failure TestCase...wordsearchlist_page_verify_search_word_by_index_test
+2016-08-23 14:47:05 Logs.java ERROR Logs:55 - This Method is used to takes screen shot for Failure TestCase...wordsearchlist_page_verify_right_search_test
+2016-08-23 15:04:04 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Circadian Rhythm
+2016-08-23 15:09:07 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>> Search Box not present..org.openqa.selenium.NoSuchElementException
+2016-08-23 15:23:13 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Cephalosporin
+2016-08-23 15:38:25 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>> Contribute Icon not present. org.openqa.selenium.NoSuchElementException
+2016-08-23 15:44:33 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Adrenal Cortex
+2016-08-23 15:48:18 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. abc
+2016-08-23 16:16:54 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Ovaries
+2016-08-23 16:20:30 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. abc
+2016-08-23 17:24:58 Logs.java ERROR Logs:55 - >>>>>Paid Term Name..> Concentration GradientNot Found.
+2016-08-23 17:29:32 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> Term Name not found...org.openqa.selenium.NoSuchElementException
+2016-08-23 17:30:33 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>> Next Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-08-23 17:31:35 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> Term Name not found...org.openqa.selenium.NoSuchElementException
+2016-08-23 17:32:36 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> Term Name not found...org.openqa.selenium.NoSuchElementException
+2016-08-23 17:33:37 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>> Previous Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-08-23 17:34:39 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> Term Name not found...org.openqa.selenium.NoSuchElementException
+2016-08-23 17:35:40 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>> Speak Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-08-23 17:37:46 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>> AutoPlay Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-08-23 18:52:33 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-23 18:53:40 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>> Contribute Message popup not visible.....>>>org.openqa.selenium.NoSuchElementException
+2016-08-23 18:54:41 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>> Contribute button not visible>>>>>>>org.openqa.selenium.NoSuchElementException
+2016-08-23 18:55:42 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>> Contribute Page not loaded...org.openqa.selenium.NoSuchElementException
+2016-08-23 18:56:44 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>>> Enable to add title message >>>>>>org.openqa.selenium.NoSuchElementException
+2016-08-23 19:09:53 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-23 19:10:34 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message.      
+2016-08-23 19:11:11 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Hello Soccer Legends!!
+2016-08-23 19:11:21 Logs.java ERROR Logs:55 - This Method is used to takes screen shot for Failure TestCase...contribute_page_add_message_title_to_contribute_test
+2016-08-24 10:11:48 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 10:12:02 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-24 10:30:40 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 10:30:54 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-24 10:32:09 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message.      
+2016-08-24 10:32:50 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Fuel Assembly
+2016-08-24 10:46:46 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-24 10:48:03 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>> Contribute button not visible>>>>>>>org.openqa.selenium.NoSuchElementException
+2016-08-24 10:58:40 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-24 10:59:14 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message.      
+2016-08-24 10:59:55 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Epidermis
+2016-08-24 11:02:48 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-24 11:03:22 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message.      
+2016-08-24 11:04:00 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Lichen
+2016-08-24 11:06:09 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-24 11:06:43 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message.      
+2016-08-24 11:07:24 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Lanugo
+2016-08-24 12:17:31 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-24 12:18:04 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message.      
+2016-08-24 12:18:46 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Bilirubin Encephalopathy
+2016-08-24 12:20:00 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 12:21:03 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 12:22:06 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 12:23:09 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 12:24:13 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 12:25:26 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-24 12:26:00 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message.      
+2016-08-24 12:26:39 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Obovate
+2016-08-24 12:29:03 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 12:51:45 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-24 12:52:20 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message.      
+2016-08-24 12:52:59 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Genetic Counselling
+2016-08-24 12:53:30 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Cytosine
+2016-08-24 12:53:59 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. RNase
+2016-08-24 12:55:12 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 12:56:16 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 12:57:19 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 12:58:22 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 12:59:25 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:00:28 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:01:31 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:02:35 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:03:48 Logs.java WARN  Logs:47 - >>>>>>>>>>>>>>> Facebook user Name and password text box not visible org.openqa.selenium.NoSuchElementException
+2016-08-24 13:04:54 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>> Facebook post not visible org.openqa.selenium.NoSuchElementException
+2016-08-24 13:06:01 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>> Facebook post not visible org.openqa.selenium.NoSuchElementException
+2016-08-24 13:07:02 Logs.java ERROR Logs:55 - >>>>>>>>>>>>> Error Message!Audience type Not visible org.openqa.selenium.NoSuchElementException
+2016-08-24 13:09:05 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>> Facebook text not visible org.openqa.selenium.NoSuchElementException
+2016-08-24 13:10:07 Logs.java ERROR Logs:55 - **************************Facebook post is still visible******************
+2016-08-24 13:11:08 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:13:47 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:14:07 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>>> Enable to add title message >>>>>>org.openqa.selenium.NoSuchElementException
+2016-08-24 13:22:56 Logs.java WARN  Logs:47 - >>>>>>>>>>>>>>> Facebook user Name and password text box not visible org.openqa.selenium.NoSuchElementException
+2016-08-24 13:24:02 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>> Facebook post not visible org.openqa.selenium.NoSuchElementException
+2016-08-24 13:25:09 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>> Facebook post not visible org.openqa.selenium.NoSuchElementException
+2016-08-24 13:26:10 Logs.java ERROR Logs:55 - >>>>>>>>>>>>> Error Message!Audience type Not visible org.openqa.selenium.NoSuchElementException
+2016-08-24 13:28:29 Logs.java ERROR Logs:55 - **************************Facebook post is still visible******************
+2016-08-24 13:29:51 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-24 13:30:25 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message.      
+2016-08-24 13:31:06 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Ecdysone
+2016-08-24 13:31:38 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Cellular Differentiation
+2016-08-24 13:32:07 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Ammonification
+2016-08-24 13:33:21 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:34:24 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:35:27 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:36:30 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:37:33 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:38:36 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:39:39 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:40:42 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:45:06 Logs.java ERROR Logs:55 - >>>>>>>>>>>>> Error Message!Audience type Not visible org.openqa.selenium.NoSuchElementException
+2016-08-24 13:47:09 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>> Facebook text not visible org.openqa.selenium.NoSuchElementException
+2016-08-24 13:48:10 Logs.java ERROR Logs:55 - **************************Facebook post is still visible******************
+2016-08-24 13:49:12 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 13:50:14 Logs.java WARN  Logs:47 - >>>>>>>>>>>>>>>>>>> Ads popup not visible... 
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Downloads/apps-biology-debug.apk, appPackage=com.eduven.ld.dict.biology, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=FAAZGU025646, platform=LINUX, appActivity=com.eduven.ld.dict.activity.SplashActivity, desired={app=/Users/hiteshbhardwaj/Downloads/apps-biology-debug.apk, appPackage=com.eduven.ld.dict.biology, appActivity=com.eduven.ld.dict.activity.SplashActivity, newCommandTimeout=2000, platformVersion=6.0.1, appiumVersion=1.4.13, automationName=Appium, platformName=Android, deviceName=FAAZGU025646}, newCommandTimeout=2000, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: e603ea85-2e92-4637-b98d-967505056f89
+*** Element info: {Using=id, value=com.eduven.ld.dict.biology:id/adView}
+2016-08-24 14:34:09 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-24 14:34:43 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message.      
+2016-08-24 14:35:24 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Winogradsky Column
+2016-08-24 14:37:58 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Facultative Anaerobe
+2016-08-24 14:40:29 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Homeotherm
+2016-08-24 14:43:48 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 14:44:51 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-08-24 15:17:49 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. test
+2016-08-24 15:18:23 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. test
+2016-08-24 15:18:55 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. test
+2016-08-24 15:19:17 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. tester
+2016-08-24 15:19:47 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Hands On
+2016-08-24 15:21:19 Logs.java WARN  Logs:47 - >>>>>>>>>>>>>>>>>>> Ads popup not visible... 
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Downloads/apps-biology-debug.apk, appPackage=com.eduven.ld.dict.biology, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=FAAZGU025646, platform=LINUX, appActivity=com.eduven.ld.dict.activity.SplashActivity, desired={app=/Users/hiteshbhardwaj/Downloads/apps-biology-debug.apk, appPackage=com.eduven.ld.dict.biology, appActivity=com.eduven.ld.dict.activity.SplashActivity, newCommandTimeout=2000, platformVersion=6.0.1, appiumVersion=1.4.13, automationName=Appium, platformName=Android, deviceName=FAAZGU025646}, newCommandTimeout=2000, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: d11d410c-8b97-4ff8-b690-14c2593d1158
+*** Element info: {Using=id, value=com.eduven.ld.dict.biology:id/adView}
+2016-08-24 15:24:26 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. First Law Of Thermodynamics
+2016-08-24 15:25:59 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. abc
+2016-08-24 15:28:24 Logs.java WARN  Logs:47 - >>>>>>>>>>>>>>>>>>> Ads popup not visible... 
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Downloads/apps-biology-debug.apk, appPackage=com.eduven.ld.dict.biology, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=FAAZGU025646, platform=LINUX, appActivity=com.eduven.ld.dict.activity.SplashActivity, desired={app=/Users/hiteshbhardwaj/Downloads/apps-biology-debug.apk, appPackage=com.eduven.ld.dict.biology, appActivity=com.eduven.ld.dict.activity.SplashActivity, newCommandTimeout=2000, platformVersion=6.0.1, appiumVersion=1.4.13, automationName=Appium, platformName=Android, deviceName=FAAZGU025646}, newCommandTimeout=2000, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 263af5fc-989a-4930-9bd4-2d000cf7716d
+*** Element info: {Using=id, value=com.eduven.ld.dict.biology:id/adView}
+2016-08-24 16:38:37 Logs.java ERROR Logs:55 - >>>>>Paid Term Name..> HalotolerantNot Found.
+2016-08-24 16:42:01 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> Term Name not found...org.openqa.selenium.NoSuchElementException
+2016-08-24 16:43:03 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>> Next Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-08-24 16:44:04 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> Term Name not found...org.openqa.selenium.NoSuchElementException
+2016-08-24 16:45:05 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> Term Name not found...org.openqa.selenium.NoSuchElementException
+2016-08-24 16:46:07 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>> Previous Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-08-24 16:47:08 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> Term Name not found...org.openqa.selenium.NoSuchElementException
+2016-08-24 16:48:09 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>> Speak Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-08-24 16:50:15 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>> AutoPlay Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-08-24 17:35:58 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> Term Name not found...org.openqa.selenium.NoSuchElementException
+2016-08-24 17:36:59 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>> Next Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-08-24 18:39:10 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> Term Name not found. org.openqa.selenium.NoSuchElementException
+2016-08-24 18:41:44 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> Term Name not found. org.openqa.selenium.NoSuchElementException
+2016-08-26 12:52:14 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. test
+2016-08-26 12:52:46 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. test
+2016-08-26 12:53:17 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. test
+2016-08-26 12:53:38 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. tester
+2016-08-26 12:54:08 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Hands On
+2016-08-26 13:29:29 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. test
+2016-08-26 13:30:01 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. test
+2016-08-26 13:30:32 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. test
+2016-08-26 13:30:54 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. tester
+2016-08-26 13:31:23 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Hands On
+2016-08-26 13:32:04 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 0.$@),
+2016-08-26 13:32:41 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 0.$@),
+2016-08-26 13:33:14 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. tester
+2016-08-26 13:34:22 Logs.java WARN  Logs:47 - >>>>>>>>>>>>>>>>>>> Ads popup not visible... 
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Downloads/apps-biology-debug.apk, appPackage=com.eduven.ld.dict.biology, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=ZX1G4228HP, platform=LINUX, appActivity=com.eduven.ld.dict.activity.SplashActivity, desired={app=/Users/hiteshbhardwaj/Downloads/apps-biology-debug.apk, appPackage=com.eduven.ld.dict.biology, appActivity=com.eduven.ld.dict.activity.SplashActivity, newCommandTimeout=2000, platformVersion=6.0.1, appiumVersion=1.4.13, automationName=Appium, platformName=Android, deviceName=ZX1G4228HP}, newCommandTimeout=2000, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: e0fcaf86-4561-46f7-ad1f-2abdba361d96
+*** Element info: {Using=id, value=com.eduven.ld.dict.biology:id/adView}
+2016-08-26 15:52:10 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-08-26 15:52:43 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message.      
+2016-08-26 15:53:23 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Managerial Flexibility
+2016-08-26 15:54:29 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Adjustable-Rate Mortgage Securities
+2016-08-26 15:55:34 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Emerging Markets Free Index
+2016-08-26 15:56:38 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Refunded Bond
+2016-08-26 15:57:43 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Buyback
+2016-08-26 15:58:47 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. EFIC
+2016-08-26 17:23:26 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Qualification Period
+2016-08-26 17:24:02 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Bank Card
+2016-08-26 17:24:43 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Basket Trades
+2016-08-26 17:32:59 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. ESP
+2016-08-26 17:33:20 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Jumbo Loan
+2016-08-26 17:33:51 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Beneficiary of Trust
+2016-08-26 17:43:57 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Liquidation
+2016-08-26 17:56:54 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Drop
+2016-08-26 17:57:54 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Mutual Fund
+2016-08-26 18:01:29 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Time Series Models
+2016-08-26 18:02:09 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Delphi Technique
+2016-08-26 18:02:53 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Yield Curve Option-Pricing Models
+2016-08-26 18:26:27 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Precompute
+2016-08-26 18:26:58 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. FAS 157
+2016-08-26 18:27:38 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Proxy Committee
+2016-08-26 18:35:31 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Custodial Account
+2016-08-26 18:36:09 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Rule 415
+2016-08-26 18:36:39 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Baby Bond
+2016-08-29 15:00:53 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 61162
+2016-08-29 15:11:59 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. mj
+2016-08-29 15:24:02 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. ww
+2016-08-29 15:24:20 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 13133
+2016-08-29 16:03:06 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 9n
+2016-08-29 16:03:24 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 54749
+2016-08-29 19:05:37 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 55337
+2016-08-29 19:09:25 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 94117
+2016-08-30 10:50:40 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 66487
+2016-08-30 11:00:43 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. rv
+2016-08-30 11:08:52 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 81610
+2016-08-30 11:11:40 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 33698
+2016-08-30 11:23:21 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 96046
+2016-08-30 11:26:30 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 85001
+2016-08-30 13:16:03 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 2z
+2016-08-30 13:16:22 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 00471
+2016-08-31 11:28:57 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 36273
+2016-08-31 11:32:27 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 89886
+2016-08-31 11:35:17 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 58163
+2016-08-31 11:46:01 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 21087
+2016-08-31 16:26:09 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 30621
+2016-08-31 16:30:23 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 67958
+2016-08-31 16:33:06 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 09915
+2016-12-15 16:26:33 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>>> Enable to add title message >>>>>>org.openqa.selenium.NoSuchElementException
+2016-12-15 16:41:45 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. 
+2016-12-15 16:43:15 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message.      
+2016-12-15 16:43:58 Logs.java INFO  Logs:38 - >>>>>>>>>>>Enter the text message. Craig Hill
+2016-12-15 16:45:06 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-12-15 16:46:09 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-12-15 16:48:20 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. 
+2016-12-15 16:49:49 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message.      
+2016-12-15 16:50:33 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Jane Asher
+2016-12-15 16:52:45 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-12-15 16:53:48 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-12-15 16:54:50 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-12-15 16:55:53 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-12-15 16:56:55 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-12-15 16:57:58 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-12-15 16:59:00 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-12-15 17:03:22 Logs.java ERROR Logs:55 - >>>>>>>>>>>>> Error Message!Audience type Not visible org.openqa.selenium.NoSuchElementException
+2016-12-15 17:05:25 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>> Facebook text not visible org.openqa.selenium.NoSuchElementException
+2016-12-15 17:06:27 Logs.java ERROR Logs:55 - **************************Facebook post is still visible******************
+2016-12-15 17:07:28 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-12-15 17:58:40 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>> Facebook text not visible org.openqa.selenium.NoSuchElementException
+2016-12-15 18:02:10 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. 
+2016-12-15 18:03:40 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message.      
+2016-12-15 18:04:23 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. John Agar
+2016-12-15 18:07:44 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Bobby Rydell
+2016-12-15 18:11:07 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Jack Haley
+2016-12-15 18:27:17 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> MoreApps Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-12-15 18:28:47 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>>>> MoreApps Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-12-15 18:40:42 Logs.java INFO  Logs:38 - Category Name. After 2000s Found.
+2016-12-15 18:40:44 Logs.java INFO  Logs:38 - Category Name. 90s Found.
+2016-12-15 18:40:47 Logs.java INFO  Logs:38 - Category Name. 80s Found.
+2016-12-15 18:40:49 Logs.java INFO  Logs:38 - Category Name. 70s Found.
+2016-12-15 18:40:52 Logs.java INFO  Logs:38 - Category Name. 60s Found.
+2016-12-15 18:40:54 Logs.java INFO  Logs:38 - Category Name. 50s Found.
+2016-12-15 18:40:56 Logs.java INFO  Logs:38 - Category Name. 40s Found.
+2016-12-15 18:42:01 Logs.java INFO  Logs:38 - Category Name. 30s Found.
+2016-12-15 18:42:03 Logs.java INFO  Logs:38 - Category Name. Before 1930s Found.
+2016-12-15 18:48:41 Logs.java INFO  Logs:38 - Category Name. After 2000s Found.
+2016-12-15 18:54:04 Logs.java INFO  Logs:38 - Category Name. 90s Found.
