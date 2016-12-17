@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [Suite For Android Testing]">
+  <test name="Regression Testing(failed)">
+    <classes>
+      <class name="com.eduven.testcase.AllRecipesPageTestCasesForMeatLovers">
+        <methods>
+          <include name="verifyAppNameTest"/>
+          <include name="inAppPurchaseTest"/>
+          <include name="allRecipesPageVerifyallRecipesTermsTest"/>
+          <include name="allRecipesPageNavigationTest"/>
+          <include name="allRecipesPageSelectRandomRecipeNameTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.AllRecipesPageTestCasesForMeatLovers -->
+      <class name="com.eduven.testcase.EvMenuPageTestCases">
+        <methods>
+          <include name="evmenuInformationAndSupportForTermAndConditionTest"/>
+          <include name="evmenuShareAppTest"/>
+          <include name="evmenuLoginFacebookTest"/>
+          <include name="evmenuContributeWithIngredientsTest"/>
+          <include name="evmenuInformationAndSupportForPrivacyPolicyTest"/>
+          <include name="evmenuSelectAudienceTest"/>
+          <include name="evmenuFeedbackGetInTouchTest"/>
+          <include name="tearDown"/>
+          <include name="evmenuFacebookMessageSharingTest"/>
+          <include name="evmenuInformationAndSupportForDisclaimerTest"/>
+          <include name="evmenuRateAppTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EvMenuPageTestCases -->
+      <class name="com.eduven.testcase.FilterPageTestCasesForMeatLovers">
+        <methods>
+          <include name="filterPageVerifyHeaderTextTest"/>
+          <include name="filtePageWithDietaryNeedTest"/>
+          <include name="inAppPurchaseTest"/>
+          <include name="filtePageWithExcludeIngredientTest"/>
+          <include name="verifyAppNameTest"/>
+          <include name="filterPageVerifyExcludeIngredientNameInFilterRecipeTest"/>
+          <include name="filtePageWithIncludeIngredientTest"/>
+          <include name="tearDown"/>
+          <include name="filterPageVerifyIncludeIngredientNameInFilterRecipeTest"/>
+          <include name="testeBudPageNavigationTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.FilterPageTestCasesForMeatLovers -->
+      <class name="com.eduven.testcase.SearchPageTestCasesForMeatLovers">
+        <methods>
+          <include name="searchByLookupByIngredientForNonVegTest"/>
+          <include name="tearDown"/>
+          <include name="searchPageVerifySearchCategoryAndSubCategryValueTest"/>
+          <include name="searchPageVerifyTurboSearchTest"/>
+          <include name="homePageAppHeaderTextTest"/>
+          <include name="inAppPurchaseTest"/>
+          <include name="verifyTurboSearchRecipeTest"/>
+          <include name="searchPageNaviagateToTurboSearchPageTest"/>
+          <include name="searchPageHeaderTextTest"/>
+          <include name="searchByLookupByRecipeForNonVegetarianTest"/>
+          <include name="verifyAppNameTest"/>
+          <include name="searchPageSelectSearchCategoryFromTurboTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SearchPageTestCasesForMeatLovers -->
+      <class name="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers">
+        <methods>
+          <include name="tasteBudPageVerifyTasteBudCategoryTest"/>
+          <include name="verifyMethodTest"/>
+          <include name="tasteBudPageVerifyTasteBudRecipeTermTest"/>
+          <include name="tasteBudPageVerifyFreeTasteBudRecipeTest"/>
+          <include name="verifyMenuPlannerTest"/>
+          <include name="testeBudPageNavigationTest"/>
+          <include name="verifyRecipeServingsValueTest"/>
+          <include name="verifyRecipeRatingValueTest"/>
+          <include name="verifyIngredientTipsTest"/>
+          <include name="verifyIngredientNameListTest"/>
+          <include name="verifyIngredientNutritionTest"/>
+          <include name="verifyAppNameTest"/>
+          <include name="tearDown"/>
+          <include name="verifyRecipeNutritionTest"/>
+          <include name="verifyCookingTimeTest"/>
+          <include name="inAppPurchaseTest"/>
+          <include name="verifyTagsTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TasteBudPageTestCasesForMeatLovers -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="verifyEdubankHeaderTest"/>
+          <include name="tearDown"/>
+          <include name="edubankRemoveRecipeNameFromEduBankTest"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.CoursesPageTestCasesForMeatLovers">
+        <methods>
+          <include name="verifyRecipeRatingValueTest"/>
+          <include name="closeApp"/>
+          <include name="verifyRecipeServingsValueTest"/>
+          <include name="tearDown"/>
+          <include name="verifyCoursesRecipePageLoadTest"/>
+          <include name="verifyCookingTimeTest"/>
+          <include name="verifyMethodTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CoursesPageTestCasesForMeatLovers -->
+      <class name="com.eduven.testcase.TipsPageTestCases">
+        <methods>
+          <include name="inAppPurchaseTest"/>
+          <include name="verifyAppNameTest"/>
+          <include name="tipsPageNavigationTest"/>
+          <include name="selectFirstTypeOfDietTest"/>
+          <include name="verifyTipsPageDescriptionTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TipsPageTestCases -->
+      <class name="com.eduven.testcase.RecipeDetailPageTestCases">
+        <methods>
+          <include name="verifyIngredientNutritionTest"/>
+          <include name="verifyCookingTimeTest"/>
+          <include name="selectFirstTypeOfDietTest"/>
+          <include name="verifyAppNameTest"/>
+          <include name="verifyMethodTest"/>
+          <include name="verifyRecipeNutritionTest"/>
+          <include name="inAppPurchaseTest"/>
+          <include name="verifyIngredientTipsTest"/>
+          <include name="testeBudPageNavigationTest"/>
+          <include name="verifyRecipeServingsValueTest"/>
+          <include name="tearDown"/>
+          <include name="verifyRecipeRatingValueTest"/>
+          <include name="verifyTagsTest"/>
+          <include name="navigateToDetailPage"/>
+          <include name="verifyIngredientNameListTest"/>
+          <include name="verifyMenuPlannerTest"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.RecipeDetailPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="homePageRecipesListTest"/>
+          <include name="closeApp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+    </classes>
+  </test> <!-- Regression Testing(failed) -->
+</suite> <!-- Failed suite [Suite For Android Testing] -->

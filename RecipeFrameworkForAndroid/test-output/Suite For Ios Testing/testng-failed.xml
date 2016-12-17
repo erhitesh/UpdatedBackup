@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Suite For Ios Testing]">
+  <test name="Regression Testing(failed)">
+    <classes>
+      <class name="com.eduven.testcase.TipsPageTestCases">
+        <methods>
+          <include name="tips_page_navigation_test"/>
+          <include name="tips_page_description_text_test"/>
+          <include name="tearDown"/>
+          <include name="splash_screen_handling_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TipsPageTestCases -->
+      <class name="com.eduven.testcase.EvMenuPageTestCases">
+        <methods>
+          <include name="evmenu_page_tips_test"/>
+          <include name="evmenu_page_facebook_message_sharing_test"/>
+          <include name="evmenu_page_login_facebook"/>
+          <include name="evmenu_page_share_app_test"/>
+          <include name="evmenu_page_contribute_with_ingredients_test"/>
+          <include name="evmenu_page_click_on_evmenu_test"/>
+          <include name="evmenu_page_moreapps_test"/>
+          <include name="splash_screen_handling_test"/>
+          <include name="evmenu_page_navigate_to_settings_page_test"/>
+          <include name="evmenu_page_select_audience_test"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EvMenuPageTestCases -->
+      <class name="com.eduven.testcase.HomePageTestCases">
+        <methods>
+          <include name="homePage_eveMenu_test"/>
+          <include name="tearDown"/>
+          <include name="homePage_search_test"/>
+          <include name="homePage_app_header_text_test"/>
+          <include name="homePage_splash_screen_test"/>
+          <include name="homePage_recipes_list_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.HomePageTestCases -->
+      <class name="com.eduven.testcase.CoursePageTestCases">
+        <methods>
+          <include name="course_page_navigation_test"/>
+          <include name="course_page_verify_free_coure_entity_test"/>
+          <include name="splash_screen_handling_test"/>
+          <include name="course_page_verify_course_term_test"/>
+          <include name="course_page_verify_recipes_entity_test"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CoursePageTestCases -->
+      <class name="com.eduven.testcase.CookingTypePageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="cooking_type_page_navigation_test"/>
+          <include name="cooking_type_page_verify_selected_recipe_found_test"/>
+          <include name="cooking_type_page_random_term_click_test"/>
+          <include name="cooking_type_page_select_cooking_type_recipe_test"/>
+          <include name="cooking_type_page_verify_cooking_terms_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.CookingTypePageTestCases -->
+      <class name="com.eduven.testcase.FilterPageTestCases">
+        <methods>
+          <include name="splash_screen_handling_test"/>
+          <include name="filter_page_filter_with_exclude_ingredient_name_test"/>
+          <include name="tearDown"/>
+          <include name="filter_page_navigate_to_filter_page_test"/>
+          <include name="filter_page_verify_filter_page_header_text_test"/>
+          <include name="filter_page_filter_with_include_ingredient_name_test"/>
+          <include name="filter_page_filter_with_dietary_need_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.FilterPageTestCases -->
+      <class name="com.eduven.testcase.TatseBudPageTestCases">
+        <methods>
+          <include name="taste_bud_page_verify_free_taste_bud_entity_test"/>
+          <include name="taste_bud_page_verify_taste_bud_entity_test"/>
+          <include name="taste_bud_page_verify_taste_bud_terms_test"/>
+          <include name="tearDown"/>
+          <include name="teste_bud_page_navigation_test"/>
+          <include name="splash_screen_handling_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.TatseBudPageTestCases -->
+      <class name="com.eduven.testcase.EduBankPageTestCases">
+        <methods>
+          <include name="edubank_page_click_on_edubank_test"/>
+          <include name="splash_screen_handling_test"/>
+          <include name="edubank_page_add_recipeName_to_edubank_test"/>
+          <include name="edubank_page_navigate_to_recipe_detail_page_test"/>
+          <include name="edubank_page_verify_home_page_header_txt_test"/>
+          <include name="tearDown"/>
+          <include name="edubank_page_navigate_to_course_page_test"/>
+          <include name="edubank_page_verify_added_recipe_in_edubank_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.EduBankPageTestCases -->
+      <class name="com.eduven.testcase.AllRecipesPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="close_app"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.AllRecipesPageTestCases -->
+      <class name="com.eduven.testcase.SearchPageTestCases">
+        <methods>
+          <include name="searchPage_verify_turbo_search_test"/>
+          <include name="searchPage_select_course_ingredient_from_turbo_test"/>
+          <include name="searchPage_verify_select_course_value_test"/>
+          <include name="tearDown"/>
+          <include name="searchPage_search_bylookup_by_recipe_test"/>
+          <include name="search_splash_screen_test"/>
+          <include name="searchPage_header_text_test"/>
+          <include name="searchPage_naviagate_to_turboSearch_page_test"/>
+          <include name="searchPage_search_bylookup_by_ingredient_test"/>
+        </methods>
+      </class> <!-- com.eduven.testcase.SearchPageTestCases -->
+    </classes>
+  </test> <!-- Regression Testing(failed) -->
+</suite> <!-- Failed suite [Suite For Ios Testing] -->

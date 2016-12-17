@@ -1,0 +1,82 @@
+2016-05-10 15:21:20 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduBank_page_navigation_to_entityDetail_page_test
+2016-05-10 15:22:01 Logs.java ERROR Logs:62 - >>>>>>>>> Edit EduBank Button still visible.. >>>org.openqa.selenium.NoSuchElementException
+2016-05-10 15:44:17 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduBank_page_navigation_to_entityDetail_page_test
+2016-05-10 15:44:50 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Familiar but Forgotten
+2016-05-10 15:47:34 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-05-10 15:52:52 RetryExec.java INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:4723: The target server failed to respond
+2016-05-10 15:52:52 RetryExec.java INFO  RetryExec:112 - Retrying request to {}->http://127.0.0.1:4723
+2016-05-10 15:55:17 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Rarely Used
+2016-05-10 15:56:16 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduBank_page_add_new_entity_to_edubank_category_test
+2016-05-10 15:57:05 Logs.java ERROR Logs:62 - >>>>>>>>> EduBank Page not loadedorg.openqa.selenium.NoSuchElementException
+2016-05-10 15:57:11 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...eduBank_page_delete_newly_add_entity_from_edubank_category_test
+2016-05-10 16:01:05 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Arrow Pass
+2016-05-10 16:01:35 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> abc
+2016-05-10 16:02:16 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Wrong text not found..org.openqa.selenium.NoSuchElementException
+2016-05-10 16:06:05 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Arrow Pass
+2016-05-10 16:06:35 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> abc
+2016-05-10 16:07:17 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Wrong text found..org.openqa.selenium.NoSuchElementException
+2016-05-10 16:15:01 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hands On
+2016-05-10 16:17:45 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-05-10 16:26:08 Logs.java INFO  Logs:45 - Scroll to the...Belly...Element.
+2016-05-10 16:26:20 Logs.java INFO  Logs:45 - Scroll to the...Belly...Element.
+2016-05-10 16:30:59 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> Stop Play Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-05-10 16:39:09 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Hands On
+2016-05-10 16:41:54 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-05-10 16:47:31 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>>>>> Category Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-05-10 16:47:34 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...category_page_navigate_to_category_test
+2016-05-10 16:47:55 Logs.java INFO  Logs:45 - Category Name Found ..Arrows & Bows
+2016-05-10 16:48:09 Logs.java INFO  Logs:45 - Category Name Found ..Aiming Methods
+2016-05-10 16:48:23 Logs.java INFO  Logs:45 - Category Name Found ..Shooting Techniques
+2016-05-10 16:48:36 Logs.java INFO  Logs:45 - Category Name Found ..Equipment & Accessories
+2016-05-10 16:48:49 Logs.java INFO  Logs:45 - Category Name Found ..Stance & Posture
+2016-05-10 16:49:02 Logs.java INFO  Logs:45 - Category Name Found ..Rules & Regulation
+2016-05-10 16:49:16 Logs.java INFO  Logs:45 - Category Name Found ..Target Archery
+2016-05-10 16:49:36 Logs.java INFO  Logs:45 - Category Name Found ..Nock (Finger & Hand placement)
+2016-05-10 16:49:48 Logs.java INFO  Logs:45 - Category Name Found ..Field Archery
+2016-05-10 16:50:01 Logs.java INFO  Logs:45 - Category Name Found ..Organisation
+2016-05-10 16:50:51 Logs.java ERROR Logs:62 - >>>>>>>>>>>> Category Name not found.org.openqa.selenium.NoSuchElementException
+2016-05-10 16:54:37 Logs.java INFO  Logs:45 - Scroll to the...Field Captain...Element.
+2016-05-10 16:54:49 Logs.java INFO  Logs:45 - Scroll to the...Field Captain...Element.
+2016-05-10 16:55:51 Logs.java INFO  Logs:45 - Scroll to the...Backing...Element.
+2016-05-10 16:56:04 Logs.java INFO  Logs:45 - Scroll to the...Backing...Element.
+2016-05-10 17:02:55 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_verify_autoPlay_audio_test
+2016-05-10 17:04:11 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Arrow Pass
+2016-05-10 17:04:41 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> abc
+2016-05-10 17:05:23 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Wrong text found..org.openqa.selenium.NoSuchElementException
+2016-05-10 17:19:36 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Rarely Used
+2016-05-10 17:22:22 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> test
+2016-05-10 17:28:11 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>>>>> Category Icon not found>>>  org.openqa.selenium.NoSuchElementException
+2016-05-10 17:28:13 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...category_page_navigate_to_category_test
+2016-05-10 17:28:35 Logs.java INFO  Logs:45 - Category Name Found ..Arrows & Bows
+2016-05-10 17:28:49 Logs.java INFO  Logs:45 - Category Name Found ..Aiming Methods
+2016-05-10 17:29:02 Logs.java INFO  Logs:45 - Category Name Found ..Shooting Techniques
+2016-05-10 17:29:16 Logs.java INFO  Logs:45 - Category Name Found ..Equipment & Accessories
+2016-05-10 17:29:29 Logs.java INFO  Logs:45 - Category Name Found ..Stance & Posture
+2016-05-10 17:29:42 Logs.java INFO  Logs:45 - Category Name Found ..Rules & Regulation
+2016-05-10 17:29:55 Logs.java INFO  Logs:45 - Category Name Found ..Target Archery
+2016-05-10 17:30:15 Logs.java INFO  Logs:45 - Category Name Found ..Nock (Finger & Hand placement)
+2016-05-10 17:30:28 Logs.java INFO  Logs:45 - Category Name Found ..Field Archery
+2016-05-10 17:30:40 Logs.java INFO  Logs:45 - Category Name Found ..Organisation
+2016-05-10 17:31:30 Logs.java ERROR Logs:62 - >>>>>>>>>>>> Category Name not found.org.openqa.selenium.NoSuchElementException
+2016-05-10 17:35:07 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Random Categories name Miscellaneous not Found..org.openqa.selenium.NoSuchElementException
+2016-05-10 17:35:52 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_free_entity_test
+2016-05-10 17:36:38 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Random Categories name  not Found..java.lang.IllegalArgumentException
+2016-05-10 17:36:41 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_premium_entity_test
+2016-05-10 17:36:45 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...contributePage_navigate_to_contribute_page_test
+2016-05-10 17:37:27 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Contribute title text not found.org.openqa.selenium.NoSuchElementException
+2016-05-10 17:38:07 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Contribute description text not found.org.openqa.selenium.NoSuchElementException
+2016-05-10 17:38:12 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...contributePage_verify_contribute_title_and_description_test
+2016-05-10 17:38:53 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Entity Name not found...org.openqa.selenium.NoSuchElementException
+2016-05-10 17:39:34 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> Next Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-05-10 17:40:16 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Entity Name not found...org.openqa.selenium.NoSuchElementException
+2016-05-10 17:40:58 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Entity Name not found...org.openqa.selenium.NoSuchElementException
+2016-05-10 17:41:39 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> Previous Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-05-10 17:42:21 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>> Entity Name not found...org.openqa.selenium.NoSuchElementException
+2016-05-10 17:43:02 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> Speak Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-05-10 17:43:46 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_verify_speak_audio_test
+2016-05-10 17:44:27 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>> AutoPlay Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-05-10 17:45:11 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...entityDetailPage_verify_autoPlay_audio_test
+2016-05-10 17:46:24 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> Arrow Pass
+2016-05-10 17:46:54 Logs.java INFO  Logs:45 - >>>>>>>> Entered the text message >>>>>> abc
+2016-05-10 17:47:37 Logs.java ERROR Logs:62 - >>>>>>>>>>>>>>>>>> Wrong text found..org.openqa.selenium.NoSuchElementException
+2016-05-10 17:56:37 Logs.java ERROR Logs:62 - This Method is used to takes screen shot for Failure TestCase...quiz_page_time_track_quiz_test

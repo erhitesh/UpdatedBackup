@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" parallel="tests" verbose="4" thread-count="2">
+	<test name="TestBrowser">
+		<parameter name="portNumber" value="" />
+		<parameter name="deviceName" value="" />
+		<classes>
+			<class name="testing.EmulatorGridTesting" />
+		</classes>
+	</test>
+</suite> 

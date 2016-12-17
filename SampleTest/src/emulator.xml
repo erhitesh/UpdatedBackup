@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite for testing parallel testing using android emulator."
+	parallel="tests" verbose="2" thread-count="2">
+	<test name="Test For FAAZGU025646">
+		<parameter name="portNumber" value="4723" />
+		<parameter name="deviceName" value="FAAZGU025646" />
+		<parameter name="version" value="5.1.1" />
+		<classes>
+			<class name="testing.EmulatorGridTesting" />
+		</classes>
+	</test>
+
+	<test name="Test For ZY223BPR52">
+		<parameter name="portNumber" value="4724" />
+		<parameter name="deviceName" value="ZY223BPR52" />
+		<parameter name="version" value="6.0.1" />
+		<classes>
+			<class name="testing.EmulatorGridTesting" />
+		</classes>
+	</test>
+
+</suite> 

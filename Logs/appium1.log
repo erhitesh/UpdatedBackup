@@ -1,0 +1,152 @@
+2016-10-14 11:15:58:290 - info: Welcome to Appium v1.4.13 (REV c75d8adcb66a75818a542fe1891a34260c21f76a)
+2016-10-14 11:15:58:294 - info: Appium REST http interface listener started on 127.0.0.1:4723
+2016-10-14 11:15:58:297 - info: [debug] Non-default server args: {"app":"/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Albanian/albanian.ipa","udid":"84974ee52e47314f4e50b296df4610e953edc63f","address":"127.0.0.1","sessionOverride":true,"noReset":true,"launchTimeout":"90000","log":"/Users/hiteshbhardwaj/Desktop/Automation/workspace/logs/appium1.log","nativeInstrumentsLib":true,"deviceName":"iPhone 5","platformName":"iOS","platformVersion":"10.0.2","showIOSLog":true,"defaultCommandTimeout":7200,"isolateSimDevice":true,"debugLogSpacing":true}
+2016-10-14 11:15:58:298 - info: Console LogLevel: debug
+2016-10-14 11:15:58:298 - info: File LogLevel: debug
+2016-10-14 11:15:58:505 - info: --> GET /wd/hub/status {}
+2016-10-14 11:15:58:507 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-10-14 11:15:58:515 - info: <-- GET /wd/hub/status 200 10.011 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-10-14 11:16:04:165 - info: --> GET /wd/hub/status {}
+2016-10-14 11:16:04:167 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-10-14 11:16:04:171 - info: <-- GET /wd/hub/status 200 5.605 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-10-14 11:16:04:173 - info: --> GET /wd/hub/sessions {}
+2016-10-14 11:16:04:173 - info: [debug] Responding to client with success: {"status":0,"value":[]}
+2016-10-14 11:16:04:174 - info: <-- GET /wd/hub/sessions 200 1.411 ms - 23 {"status":0,"value":[]}
+2016-10-14 11:16:04:190 - info: --> POST /wd/hub/session {"desiredCapabilities":{"platformName":"iOS","platformVersion":"10.0.2","newCommandTimeout":"999999","automationName":"Appium","deviceName":"iPhone 5"}}
+2016-10-14 11:16:04:191 - info: Client User-Agent string: Appium (unknown version) CFNetwork/760.6.3 Darwin/15.6.0 (x86_64)
+2016-10-14 11:16:04:192 - info: *************************************
+2016-10-14 11:16:04:192 - info: *************************************
+2016-10-14 11:16:04:192 - info: *************************************
+2016-10-14 11:16:04:192 - info: *************************************
+2016-10-14 11:16:04:193 - info: *************************************
+2016-10-14 11:16:04:193 - info: *************************************
+2016-10-14 11:16:04:193 - info: *************************************
+2016-10-14 11:16:04:193 - info: *************************************
+2016-10-14 11:16:04:193 - info: ****        NEW SESSION           ***
+2016-10-14 11:16:04:193 - info: ****        NEW SESSION           ***
+2016-10-14 11:16:04:194 - info: ****        NEW SESSION           ***
+2016-10-14 11:16:04:194 - info: ****        NEW SESSION           ***
+2016-10-14 11:16:04:194 - info: ****        NEW SESSION           ***
+2016-10-14 11:16:04:194 - info: ****        NEW SESSION           ***
+2016-10-14 11:16:04:194 - info: ****        NEW SESSION           ***
+2016-10-14 11:16:04:195 - info: ****        NEW SESSION           ***
+2016-10-14 11:16:04:195 - info: *************************************
+2016-10-14 11:16:04:195 - info: *************************************
+2016-10-14 11:16:04:196 - info: *************************************
+2016-10-14 11:16:04:196 - info: *************************************
+2016-10-14 11:16:04:196 - info: *************************************
+2016-10-14 11:16:04:196 - info: *************************************
+2016-10-14 11:16:04:197 - info: *************************************
+2016-10-14 11:16:04:197 - info: *************************************
+2016-10-14 11:16:04:201 - info: [debug] Using local .ipa from command line: /Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Albanian/albanian.ipa
+2016-10-14 11:16:04:201 - info: [debug] Copying local zip to tmp dir
+2016-10-14 11:16:04:919 - info: [debug] /Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Albanian/albanian.ipa copied to /var/folders/v2/s_nhjz013yvdf6djb20d1f640000gp/T/116914-5839-1n55fvw/appium-app.zip
+2016-10-14 11:16:04:943 - info: [debug] Unzipping /var/folders/v2/s_nhjz013yvdf6djb20d1f640000gp/T/116914-5839-1n55fvw/appium-app.zip
+2016-10-14 11:16:04:943 - info: [debug] Testing zip archive: /var/folders/v2/s_nhjz013yvdf6djb20d1f640000gp/T/116914-5839-1n55fvw/appium-app.zip
+2016-10-14 11:16:05:755 - info: [debug] Zip archive tested clean
+2016-10-14 11:16:07:013 - info: [debug] Unzip successful
+2016-10-14 11:16:07:015 - info: [debug] Using locally extracted app: /var/folders/v2/s_nhjz013yvdf6djb20d1f640000gp/T/116914-5839-1n55fvw/Payload/LD_AsiaTopVol1Pro.app
+2016-10-14 11:16:07:016 - info: [debug] Creating new appium session c1b2118d-fde0-487e-8ad9-5ad620514949
+2016-10-14 11:16:07:019 - info: [debug] Removing any remaining instruments sockets
+2016-10-14 11:16:07:020 - info: [debug] Cleaned up instruments socket /tmp/instruments_sock
+2016-10-14 11:16:07:021 - info: [debug] Auto-detecting iOS udid...
+2016-10-14 11:16:07:021 - info: [debug] Not auto-detecting udid, running on sim
+2016-10-14 11:16:07:023 - info: [debug] Could not parse plist file (as binary) at /var/folders/v2/s_nhjz013yvdf6djb20d1f640000gp/T/116914-5839-1n55fvw/Payload/LD_AsiaTopVol1Pro.app/en.lproj/Localizable.strings
+2016-10-14 11:16:07:023 - info: Will try to parse the plist file as XML
+2016-10-14 11:16:07:024 - info: [debug] Could not parse plist file (as XML) at /var/folders/v2/s_nhjz013yvdf6djb20d1f640000gp/T/116914-5839-1n55fvw/Payload/LD_AsiaTopVol1Pro.app/en.lproj/Localizable.strings
+2016-10-14 11:16:07:024 - warn: Could not parse app Localizable.strings assuming it doesn't exist
+2016-10-14 11:16:07:025 - info: [debug] Getting bundle ID from app
+2016-10-14 11:16:07:031 - info: [debug] Parsed app Info.plist (as binary)
+2016-10-14 11:16:07:031 - info: [debug] Creating instruments
+2016-10-14 11:16:07:032 - info: [debug] Preparing uiauto bootstrap
+2016-10-14 11:16:07:032 - info: [debug] Dynamic bootstrap dir: /Users/hiteshbhardwaj/Library/Application Support/appium/bootstrap
+2016-10-14 11:16:07:033 - info: [debug] Dynamic env: {"nodePath":"/Applications/Appium.app/Contents/Resources/node/bin/node","commandProxyClientPath":"/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-uiauto/bin/command-proxy-client.js","instrumentsSock":"/tmp/instruments_sock","interKeyDelay":null,"justLoopInfinitely":false,"autoAcceptAlerts":false,"autoDismissAlerts":false,"sendKeyStrategy":"grouped"}
+2016-10-14 11:16:07:039 - info: [debug] Dynamic bootstrap code: // This file is automatically generated. Do not manually modify!...
+2016-10-14 11:16:07:040 - info: [debug] Dynamic bootstrap path: /Users/hiteshbhardwaj/Library/Application Support/appium/bootstrap/bootstrap-5923cadea0343e3f.js
+2016-10-14 11:16:07:044 - info: [debug] Reusing dynamic bootstrap: /Users/hiteshbhardwaj/Library/Application Support/appium/bootstrap/bootstrap-5923cadea0343e3f.js
+2016-10-14 11:16:07:047 - info: [debug] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2016-10-14 11:16:08:148 - info: [debug] Creating iDevice object with udid 84974ee52e47314f4e50b296df4610e953edc63f
+2016-10-14 11:16:08:529 - info: [debug] App is not installed. Will try to install the app.
+2016-10-14 11:16:08:529 - info: [debug] Installing ipa found at /Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForIOS/Albanian/albanian.ipa
+2016-10-14 11:16:08:858 - info: [debug] Nothing found on device, going ahead and installing.
+2016-10-14 11:16:09:225 - info: [debug] Starting command proxy.
+2016-10-14 11:16:09:227 - info: [debug] Instruments socket server started at /tmp/instruments_sock
+2016-10-14 11:16:09:228 - info: [debug] Starting instruments
+2016-10-14 11:16:09:272 - info: [debug] Instruments is at: /Applications/Xcode.app/Contents/Developer/usr/bin/instruments
+2016-10-14 11:16:09:272 - info: Launching instruments
+2016-10-14 11:16:09:274 - info: [debug] Attempting to run app on real device with UDID 84974ee52e47314f4e50b296df4610e953edc63f
+2016-10-14 11:16:09:275 - info: [debug] Spawning instruments with command: /Applications/Xcode.app/Contents/Developer/usr/bin/instruments -t /Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/Resources/Automation.tracetemplate -D /tmp/appium-instruments/instrumentscli0.trace -w 84974ee52e47314f4e50b296df4610e953edc63f com.eduVenture.LdAlbanian -e UIASCRIPT "/Users/hiteshbhardwaj/Library/Application Support/appium/bootstrap/bootstrap-5923cadea0343e3f.js" -e UIARESULTSPATH /tmp/appium-instruments
+2016-10-14 11:16:09:275 - info: [debug] And extra without-delay env: {}
+2016-10-14 11:16:09:276 - info: [debug] And launch timeouts (in ms): {"global":90000}
+2016-10-14 11:16:09:650 - info: --> GET /wd/hub/status {}
+2016-10-14 11:16:09:651 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"},"isShuttingDown":false},"sessionId":"c1b2118d-fde0-487e-8ad9-5ad620514949"}
+2016-10-14 11:16:09:653 - info: <-- GET /wd/hub/status 200 3.613 ms - 179 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"},"isShuttingDown":false},"sessionId":"c1b2118d-fde0-487e-8ad9-5ad620514949"}
+2016-10-14 11:16:18:683 - info: [debug] [INST STDERR] Instruments Usage Error: Specified target process is invalid: com.eduVenture.LdAlbanian
+instruments, version 7.3 (60133)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-10-14 11:16:18:694 - info: [debug] [INSTSERVER] Instruments exited with code 255
+2016-10-14 11:16:18:695 - info: [debug] Killall instruments
+2016-10-14 11:16:18:699 - info: [debug] Instruments crashed on startup
+2016-10-14 11:16:18:700 - info: [debug] Attempting to retry launching instruments, this is retry #1
+2016-10-14 11:16:18:701 - info: [debug] Killall iOS Simulator
+2016-10-14 11:16:23:705 - info: Launching instruments
+2016-10-14 11:16:23:707 - info: [debug] Attempting to run app on real device with UDID 84974ee52e47314f4e50b296df4610e953edc63f
+2016-10-14 11:16:23:708 - info: [debug] Spawning instruments with command: /Applications/Xcode.app/Contents/Developer/usr/bin/instruments -t /Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/Resources/Automation.tracetemplate -D /tmp/appium-instruments/instrumentscli0.trace -w 84974ee52e47314f4e50b296df4610e953edc63f com.eduVenture.LdAlbanian -e UIASCRIPT "/Users/hiteshbhardwaj/Library/Application Support/appium/bootstrap/bootstrap-5923cadea0343e3f.js" -e UIARESULTSPATH /tmp/appium-instruments
+2016-10-14 11:16:23:708 - info: [debug] And extra without-delay env: {}
+2016-10-14 11:16:23:708 - info: [debug] And launch timeouts (in ms): {"global":90000}
+2016-10-14 11:16:25:659 - info: [debug] [INST STDERR] 2016-10-14 16:46:25.659 instruments[5860:94845] WebKit Threading Violation - initial use of WebKit from a secondary thread.
+2016-10-14 11:16:26:109 - info: [debug] [INST STDERR] Instruments Usage Error: Specified target process is invalid: com.eduVenture.LdAlbanian
+instruments, version 7.3 (60133)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-10-14 11:16:26:122 - info: [debug] [INSTSERVER] Instruments exited with code 255
+2016-10-14 11:16:26:122 - info: [debug] Killall instruments
+2016-10-14 11:16:26:126 - info: [debug] Instruments crashed on startup
+2016-10-14 11:16:26:127 - info: [debug] Attempting to retry launching instruments, this is retry #2
+2016-10-14 11:16:26:128 - info: [debug] Killall iOS Simulator
+2016-10-14 11:16:31:132 - info: Launching instruments
+2016-10-14 11:16:31:133 - info: [debug] Attempting to run app on real device with UDID 84974ee52e47314f4e50b296df4610e953edc63f
+2016-10-14 11:16:31:133 - info: [debug] Spawning instruments with command: /Applications/Xcode.app/Contents/Developer/usr/bin/instruments -t /Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/Resources/Automation.tracetemplate -D /tmp/appium-instruments/instrumentscli0.trace -w 84974ee52e47314f4e50b296df4610e953edc63f com.eduVenture.LdAlbanian -e UIASCRIPT "/Users/hiteshbhardwaj/Library/Application Support/appium/bootstrap/bootstrap-5923cadea0343e3f.js" -e UIARESULTSPATH /tmp/appium-instruments
+2016-10-14 11:16:31:134 - info: [debug] And extra without-delay env: {}
+2016-10-14 11:16:31:134 - info: [debug] And launch timeouts (in ms): {"global":90000}
+2016-10-14 11:16:33:075 - info: [debug] [INST STDERR] 2016-10-14 16:46:33.074 instruments[5867:94910] WebKit Threading Violation - initial use of WebKit from a secondary thread.
+2016-10-14 11:16:33:580 - info: [debug] [INST STDERR] Instruments Usage Error: Specified target process is invalid: com.eduVenture.LdAlbanian
+2016-10-14 11:16:33:581 - info: [debug] [INST STDERR] instruments, version 7.3 (60133)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-10-14 11:16:33:594 - info: [debug] [INSTSERVER] Instruments exited with code 255
+2016-10-14 11:16:33:595 - info: [debug] Killall instruments
+2016-10-14 11:16:33:599 - info: [debug] Instruments crashed on startup
+2016-10-14 11:16:33:599 - info: [debug] Attempting to retry launching instruments, this is retry #3
+2016-10-14 11:16:33:600 - info: [debug] Killall iOS Simulator
+2016-10-14 11:16:38:604 - info: Launching instruments
+2016-10-14 11:16:38:606 - info: [debug] Attempting to run app on real device with UDID 84974ee52e47314f4e50b296df4610e953edc63f
+2016-10-14 11:16:38:606 - info: [debug] Spawning instruments with command: /Applications/Xcode.app/Contents/Developer/usr/bin/instruments -t /Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/Resources/Automation.tracetemplate -D /tmp/appium-instruments/instrumentscli0.trace -w 84974ee52e47314f4e50b296df4610e953edc63f com.eduVenture.LdAlbanian -e UIASCRIPT "/Users/hiteshbhardwaj/Library/Application Support/appium/bootstrap/bootstrap-5923cadea0343e3f.js" -e UIARESULTSPATH /tmp/appium-instruments
+2016-10-14 11:16:38:607 - info: [debug] And extra without-delay env: {}
+2016-10-14 11:16:38:607 - info: [debug] And launch timeouts (in ms): {"global":90000}
+2016-10-14 11:16:40:604 - info: [debug] [INST STDERR] 2016-10-14 16:46:40.603 instruments[5874:95107] WebKit Threading Violation - initial use of WebKit from a secondary thread.
+2016-10-14 11:16:40:967 - info: [debug] [INST STDERR] Instruments Usage Error: Specified target process is invalid: com.eduVenture.LdAlbanian
+instruments, version 7.3 (60133)
+usage: instruments [-t template] [-D document] [-l timeLimit] [-i #] [-w device] [[-p pid] | [application [-e variable value] [argument ...]]]
+2016-10-14 11:16:40:979 - info: [debug] [INSTSERVER] Instruments exited with code 255
+2016-10-14 11:16:40:980 - info: [debug] Killall instruments
+2016-10-14 11:16:40:986 - info: [debug] Instruments crashed on startup
+2016-10-14 11:16:40:986 - info: [debug] We exceeded the number of retries allowed for instruments to successfully start; failing launch
+2016-10-14 11:16:40:987 - info: [debug] Stopping iOS log capture
+2016-10-14 11:16:40:988 - info: [debug] Reset not set, not ending sim or cleaning up app state
+2016-10-14 11:16:40:989 - info: [debug] Cleaning up appium session
+2016-10-14 11:16:40:991 - error: Failed to start an Appium session, err was: Error: Instruments crashed on startup
+2016-10-14 11:16:40:994 - info: [debug] Error: Instruments crashed on startup
+    at [object Object].Instruments.onInstrumentsExit (/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-instruments/lib/instruments.js:440:31)
+    at [object Object].<anonymous> (/Applications/Appium.app/Contents/Resources/node_modules/appium/submodules/appium-instruments/lib/instruments.js:353:12)
+    at ChildProcess.emit (events.js:110:17)
+    at Process.ChildProcess._handle.onexit (child_process.js:1074:12)
+2016-10-14 11:16:40:995 - info: [debug] Responding to client with error: {"status":33,"value":{"message":"A new session could not be created. (Original error: Instruments crashed on startup)","origValue":"Instruments crashed on startup"},"sessionId":null}
+2016-10-14 11:16:41:001 - info: <-- POST /wd/hub/session 500 36811.352 ms - 182 
+2016-10-14 11:17:10:813 - info: --> GET /wd/hub/status {}
+2016-10-14 11:17:10:814 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-10-14 11:17:10:815 - info: <-- GET /wd/hub/status 200 1.840 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-10-14 11:18:11:942 - info: --> GET /wd/hub/status {}
+2016-10-14 11:18:11:942 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-10-14 11:18:11:943 - info: <-- GET /wd/hub/status 200 1.465 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-10-14 11:19:13:074 - info: --> GET /wd/hub/status {}
+2016-10-14 11:19:13:074 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-10-14 11:19:13:076 - info: <-- GET /wd/hub/status 200 2.005 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}

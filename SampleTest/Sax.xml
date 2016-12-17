@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<company>
+	<staff name="Tester">
+		<firstname>ABC</firstname>
+		<lastname>Tester</lastname>
+		<address>Gurgaon</address>
+		<salary>~10000</salary>
+	</staff>
+	<staff name="Dev">
+		<firstname>Hitesh</firstname>
+		<lastname>Bhardwaj</lastname>
+		<
+		<address>Noida</address>
+		<salary>~300000</salary>
+	</staff>
+	<staff name="Designer">
+		<firstname>XYZ</firstname>
+		<lastname>Tester</lastname>
+		<
+		<address>Goa</address>
+		<salary>~1000</salary>
+	</staff>
+</company>

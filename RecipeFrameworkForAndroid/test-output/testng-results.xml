@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2316352" started-at="2016-11-09T11:33:48Z" finished-at="2016-11-09T12:12:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2316352" started-at="2016-11-09T11:33:48Z" finished-at="2016-11-09T12:12:24Z">
+      <class name="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers">
+        <test-method status="PASS" signature="verifyAppNameTest()[pri:1, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="verifyAppNameTest" duration-ms="107250" started-at="2016-11-09T17:03:48Z" finished-at="2016-11-09T17:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppNameTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-11-09T17:05:35Z" finished-at="2016-11-09T17:05:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAppNameTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyAppNameTest()[pri:1, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="inAppPurchaseTest()[pri:6, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="inAppPurchaseTest" duration-ms="53425" started-at="2016-11-09T17:05:35Z" finished-at="2016-11-09T17:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inAppPurchaseTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-11-09T17:06:28Z" finished-at="2016-11-09T17:06:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inAppPurchaseTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.inAppPurchaseTest()[pri:6, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testeBudPageNavigationTest()[pri:10, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="testeBudPageNavigationTest" duration-ms="50881" started-at="2016-11-09T17:06:28Z" finished-at="2016-11-09T17:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testeBudPageNavigationTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-11-09T17:07:19Z" finished-at="2016-11-09T17:07:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testeBudPageNavigationTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.testeBudPageNavigationTest()[pri:10, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tasteBudPageVerifyTasteBudCategoryTest()[pri:30, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tasteBudPageVerifyTasteBudCategoryTest" duration-ms="70506" started-at="2016-11-09T17:07:19Z" finished-at="2016-11-09T17:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tasteBudPageVerifyTasteBudCategoryTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-11-09T17:08:30Z" finished-at="2016-11-09T17:08:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tasteBudPageVerifyTasteBudCategoryTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.tasteBudPageVerifyTasteBudCategoryTest()[pri:30, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tasteBudPageVerifyTasteBudRecipeTermTest()[pri:40, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tasteBudPageVerifyTasteBudRecipeTermTest" duration-ms="341573" started-at="2016-11-09T17:08:30Z" finished-at="2016-11-09T17:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tasteBudPageVerifyTasteBudRecipeTermTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-11-09T17:14:11Z" finished-at="2016-11-09T17:14:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tasteBudPageVerifyTasteBudRecipeTermTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.tasteBudPageVerifyTasteBudRecipeTermTest()[pri:40, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tasteBudPageVerifyFreeTasteBudRecipeTest()[pri:50, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tasteBudPageVerifyFreeTasteBudRecipeTest" duration-ms="175252" started-at="2016-11-09T17:14:11Z" finished-at="2016-11-09T17:17:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tasteBudPageVerifyFreeTasteBudRecipeTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-11-09T17:17:07Z" finished-at="2016-11-09T17:17:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tasteBudPageVerifyFreeTasteBudRecipeTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.tasteBudPageVerifyFreeTasteBudRecipeTest()[pri:50, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyRecipeServingsValueTest()[pri:51, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="verifyRecipeServingsValueTest" duration-ms="1333" started-at="2016-11-09T17:17:07Z" finished-at="2016-11-09T17:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecipeServingsValueTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-11-09T17:17:08Z" finished-at="2016-11-09T17:17:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRecipeServingsValueTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyRecipeServingsValueTest()[pri:51, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyCookingTimeTest()[pri:52, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="verifyCookingTimeTest" duration-ms="1339" started-at="2016-11-09T17:17:08Z" finished-at="2016-11-09T17:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookingTimeTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-11-09T17:17:09Z" finished-at="2016-11-09T17:17:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCookingTimeTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyCookingTimeTest()[pri:52, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyRecipeRatingValueTest()[pri:53, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="verifyRecipeRatingValueTest" duration-ms="1301" started-at="2016-11-09T17:17:09Z" finished-at="2016-11-09T17:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecipeRatingValueTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-11-09T17:17:11Z" finished-at="2016-11-09T17:17:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRecipeRatingValueTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyRecipeRatingValueTest()[pri:53, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyRecipeNutritionTest()[pri:54, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="verifyRecipeNutritionTest" duration-ms="21921" started-at="2016-11-09T17:17:11Z" finished-at="2016-11-09T17:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecipeNutritionTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-11-09T17:17:33Z" finished-at="2016-11-09T17:17:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRecipeNutritionTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyRecipeNutritionTest()[pri:54, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyMenuPlannerTest()[pri:55, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="verifyMenuPlannerTest" duration-ms="52771" started-at="2016-11-09T17:17:33Z" finished-at="2016-11-09T17:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenuPlannerTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-11-09T17:18:25Z" finished-at="2016-11-09T17:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMenuPlannerTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyMenuPlannerTest()[pri:55, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyIngredientNameListTest()[pri:56, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="verifyIngredientNameListTest" duration-ms="196255" started-at="2016-11-09T17:18:25Z" finished-at="2016-11-09T17:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIngredientNameListTest -->
+        <test-method status="PASS" signature="verifyIngredientNutritionTest()[pri:60, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="verifyIngredientNutritionTest" duration-ms="1182847" started-at="2016-11-09T17:21:42Z" finished-at="2016-11-09T17:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIngredientNutritionTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-11-09T17:21:42Z" finished-at="2016-11-09T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIngredientNameListTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyIngredientNameListTest()[pri:56, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-11-09T17:41:24Z" finished-at="2016-11-09T17:41:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIngredientNutritionTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyIngredientNutritionTest()[pri:60, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyIngredientTipsTest()[pri:70, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="verifyIngredientTipsTest" duration-ms="10803" started-at="2016-11-09T17:41:24Z" finished-at="2016-11-09T17:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIngredientTipsTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-11-09T17:41:35Z" finished-at="2016-11-09T17:41:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIngredientTipsTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyIngredientTipsTest()[pri:70, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyMethodTest()[pri:80, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="verifyMethodTest" duration-ms="11694" started-at="2016-11-09T17:41:35Z" finished-at="2016-11-09T17:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMethodTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-11-09T17:41:47Z" finished-at="2016-11-09T17:41:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMethodTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyMethodTest()[pri:80, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyTagsTest()[pri:90, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="verifyTagsTest" duration-ms="5076" started-at="2016-11-09T17:41:47Z" finished-at="2016-11-09T17:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTagsTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-11-09T17:41:52Z" finished-at="2016-11-09T17:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTagsTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyTagsTest()[pri:90, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.TasteBudPageTestCasesForMeatLovers@4e04a765]" name="closeApp" is-config="true" duration-ms="32076" started-at="2016-11-09T17:41:52Z" finished-at="2016-11-09T17:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.eduven.testcase.TasteBudPageTestCasesForMeatLovers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

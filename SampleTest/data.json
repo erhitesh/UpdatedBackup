@@ -1,0 +1,30 @@
+{  
+    "statusCode":"1001",
+    "message":"Success",
+    "response":{  
+        "holidays":[  
+         {  
+            "holidayId":78,
+            "year":2015,
+            "date":"2015-01-01",
+            "day":"Thrusday",
+            "occasion":"New Year Day",
+          },
+         {  
+            "holidayId":79,
+            "year":2015,
+            "date":"2015-01-15",
+            "day":"Thrusday",
+            "occasion":"Pongal/Sankranthi",
+            },
+         {  
+            "holidayId":80,
+            "year":2015,
+            "date":"2015-01-26",
+            "day":"Monday",
+            "occasion":"Republic Day",
+            }
+      ],
+    "year":0
+   }
+}

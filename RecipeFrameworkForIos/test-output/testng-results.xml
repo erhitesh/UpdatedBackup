@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" total="10" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="476841" started-at="2016-11-12T11:14:30Z" finished-at="2016-11-12T11:22:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="476841" started-at="2016-11-12T11:14:30Z" finished-at="2016-11-12T11:22:27Z">
+      <class name="com.eduven.testcase.FilterPageTestCases">
+        <test-method status="PASS" signature="splashScreenHandlingTest()[pri:0, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="splashScreenHandlingTest" duration-ms="53192" started-at="2016-11-12T16:44:31Z" finished-at="2016-11-12T16:45:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- splashScreenHandlingTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-11-12T16:45:24Z" finished-at="2016-11-12T16:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=splashScreenHandlingTest status=SUCCESS method=FilterPageTestCases.splashScreenHandlingTest()[pri:0, instance:com.eduven.testcase.FilterPageTestCases@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyAppNameTest()[pri:1, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="verifyAppNameTest" duration-ms="4715" started-at="2016-11-12T16:45:24Z" finished-at="2016-11-12T16:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppNameTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-11-12T16:45:28Z" finished-at="2016-11-12T16:45:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAppNameTest status=SUCCESS method=FilterPageTestCases.verifyAppNameTest()[pri:1, instance:com.eduven.testcase.FilterPageTestCases@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="selectFirstTypeOfDietTest()[pri:5, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="selectFirstTypeOfDietTest" duration-ms="133134" started-at="2016-11-12T16:45:28Z" finished-at="2016-11-12T16:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFirstTypeOfDietTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-11-12T16:47:42Z" finished-at="2016-11-12T16:47:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectFirstTypeOfDietTest status=SUCCESS method=FilterPageTestCases.selectFirstTypeOfDietTest()[pri:5, instance:com.eduven.testcase.FilterPageTestCases@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testeBudPageNavigationTest()[pri:10, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="testeBudPageNavigationTest" duration-ms="66944" started-at="2016-11-12T16:47:42Z" finished-at="2016-11-12T16:48:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testeBudPageNavigationTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-11-12T16:48:49Z" finished-at="2016-11-12T16:48:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testeBudPageNavigationTest status=SUCCESS method=FilterPageTestCases.testeBudPageNavigationTest()[pri:10, instance:com.eduven.testcase.FilterPageTestCases@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="filterPageVerifyHeaderTextTest()[pri:20, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="filterPageVerifyHeaderTextTest" duration-ms="14983" started-at="2016-11-12T16:48:49Z" finished-at="2016-11-12T16:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterPageVerifyHeaderTextTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-11-12T16:49:03Z" finished-at="2016-11-12T16:49:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterPageVerifyHeaderTextTest status=SUCCESS method=FilterPageTestCases.filterPageVerifyHeaderTextTest()[pri:20, instance:com.eduven.testcase.FilterPageTestCases@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="filtePageWithIncludeIngredientTest()[pri:30, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="filtePageWithIncludeIngredientTest" duration-ms="87492" started-at="2016-11-12T16:49:03Z" finished-at="2016-11-12T16:50:31Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 30 seconds waiting for visibility of element located by By.id: GET RECIPES
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul's iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul's iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: a6b97b0f-8086-40b4-add1-a99a57f39dd7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.id: GET RECIPES
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul's iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul's iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: a6b97b0f-8086-40b4-add1-a99a57f39dd7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.eduven.utils.Reusables.waitForIOSElement(Reusables.java:66)
+	at com.eduven.modules.Filter.clickOnGetRecipesBtn(Filter.java:150)
+	at com.eduven.testcase.FilterPageTestCases.filtePageWithIncludeIngredientTest(FilterPageTestCases.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filtePageWithIncludeIngredientTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="tearDown" is-config="true" duration-ms="2963" started-at="2016-11-12T16:50:32Z" finished-at="2016-11-12T16:50:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filtePageWithIncludeIngredientTest status=FAILURE method=FilterPageTestCases.filtePageWithIncludeIngredientTest()[pri:30, instance:com.eduven.testcase.FilterPageTestCases@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="filterPageVerifyIncludeIngredientNameInFilterRecipeTest()[pri:35, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="filterPageVerifyIncludeIngredientNameInFilterRecipeTest" duration-ms="83245" started-at="2016-11-12T16:50:35Z" finished-at="2016-11-12T16:51:58Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message!! Expected Character not found in actual text expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message!! Expected Character not found in actual text expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.eduven.utils.Reusables.verifyElementTextPresent(Reusables.java:826)
+	at com.eduven.utils.Reusables.verifyPageLoaded(Reusables.java:853)
+	at com.eduven.modules.TasteBud.verifyTasteBudPageLoaded(TasteBud.java:49)
+	at com.eduven.modules.TasteBud.navigateToTasteBudCategoryPage(TasteBud.java:60)
+	at com.eduven.testcase.FilterPageTestCases.filterPageVerifyIncludeIngredientNameInFilterRecipeTest(FilterPageTestCases.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterPageVerifyIncludeIngredientNameInFilterRecipeTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="tearDown" is-config="true" duration-ms="2690" started-at="2016-11-12T16:51:58Z" finished-at="2016-11-12T16:52:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterPageVerifyIncludeIngredientNameInFilterRecipeTest status=FAILURE method=FilterPageTestCases.filterPageVerifyIncludeIngredientNameInFilterRecipeTest()[pri:35, instance:com.eduven.testcase.FilterPageTestCases@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="filtePageWithExcludeIngredientTest()[pri:40, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="filtePageWithExcludeIngredientTest" duration-ms="6223" started-at="2016-11-12T16:52:01Z" finished-at="2016-11-12T16:52:07Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.90 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul's iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul's iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: a6b97b0f-8086-40b4-add1-a99a57f39dd7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.90 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul's iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul's iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: a6b97b0f-8086-40b4-add1-a99a57f39dd7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:961)
+	at com.eduven.utils.Reusables.oneStepBack(Reusables.java:697)
+	at com.eduven.utils.Reusables.stepBackTillElementNotFound(Reusables.java:865)
+	at com.eduven.modules.HomePage.navigateToHomePage(HomePage.java:53)
+	at com.eduven.testcase.FilterPageTestCases.filtePageWithExcludeIngredientTest(FilterPageTestCases.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filtePageWithExcludeIngredientTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="tearDown" is-config="true" duration-ms="2812" started-at="2016-11-12T16:52:07Z" finished-at="2016-11-12T16:52:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filtePageWithExcludeIngredientTest status=FAILURE method=FilterPageTestCases.filtePageWithExcludeIngredientTest()[pri:40, instance:com.eduven.testcase.FilterPageTestCases@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="filterPageVerifyExcludeIngredientNameInFilterRecipeTest()[pri:45, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="filterPageVerifyExcludeIngredientNameInFilterRecipeTest" duration-ms="6137" started-at="2016-11-12T16:52:10Z" finished-at="2016-11-12T16:52:16Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul's iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul's iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: a6b97b0f-8086-40b4-add1-a99a57f39dd7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul's iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul's iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: a6b97b0f-8086-40b4-add1-a99a57f39dd7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:961)
+	at com.eduven.utils.Reusables.oneStepBack(Reusables.java:697)
+	at com.eduven.utils.Reusables.stepBackTillElementNotFound(Reusables.java:865)
+	at com.eduven.modules.HomePage.navigateToHomePage(HomePage.java:53)
+	at com.eduven.testcase.FilterPageTestCases.filterPageVerifyExcludeIngredientNameInFilterRecipeTest(FilterPageTestCases.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterPageVerifyExcludeIngredientNameInFilterRecipeTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="tearDown" is-config="true" duration-ms="2655" started-at="2016-11-12T16:52:16Z" finished-at="2016-11-12T16:52:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterPageVerifyExcludeIngredientNameInFilterRecipeTest status=FAILURE method=FilterPageTestCases.filterPageVerifyExcludeIngredientNameInFilterRecipeTest()[pri:45, instance:com.eduven.testcase.FilterPageTestCases@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="filtePageWithDietaryNeedTest()[pri:50, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="filtePageWithDietaryNeedTest" duration-ms="6303" started-at="2016-11-12T16:52:18Z" finished-at="2016-11-12T16:52:25Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul's iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul's iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: a6b97b0f-8086-40b4-add1-a99a57f39dd7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+Build info: version: '2.51.0', revision: '1af067d', time: '2016-02-05 19:11:55'
+System info: host: 'Hitesh-Mac-Mini.local', ip: '10.30.30.97', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_74'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, networkConnectionEnabled=false, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=Rahul's iPad (9.3.5), platform=UNIX, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/RecipeFrameworkForIos/healthysoup/CC_Soup_Recipes.ipa, appiumVersion=1.4.13, platformVersion=9.3, automationName=Appium, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS, deviceName=Rahul's iPad (9.3.5), platform=IOS}, platformVersion=9.3, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, udid=84974ee52e47314f4e50b296df4610e953edc63f, platformName=iOS}]
+Session ID: a6b97b0f-8086-40b4-add1-a99a57f39dd7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:961)
+	at com.eduven.utils.Reusables.oneStepBack(Reusables.java:697)
+	at com.eduven.utils.Reusables.stepBackTillElementNotFound(Reusables.java:865)
+	at com.eduven.modules.HomePage.navigateToHomePage(HomePage.java:53)
+	at com.eduven.testcase.FilterPageTestCases.filtePageWithDietaryNeedTest(FilterPageTestCases.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filtePageWithDietaryNeedTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="tearDown" is-config="true" duration-ms="2554" started-at="2016-11-12T16:52:25Z" finished-at="2016-11-12T16:52:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filtePageWithDietaryNeedTest status=FAILURE method=FilterPageTestCases.filtePageWithDietaryNeedTest()[pri:50, instance:com.eduven.testcase.FilterPageTestCases@4e04a765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.eduven.testcase.FilterPageTestCases@4e04a765]" name="closeApp" is-config="true" duration-ms="0" started-at="2016-11-12T16:52:27Z" finished-at="2016-11-12T16:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.eduven.testcase.FilterPageTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

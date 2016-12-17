@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="inAppPurchaseTest">inAppPurchaseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="tasteBudPageVerifyFreeTasteBudRecipeTest">tasteBudPageVerifyFreeTasteBudRecipeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="tasteBudPageVerifyTasteBudCategoryTest">tasteBudPageVerifyTasteBudCategoryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="tasteBudPageVerifyTasteBudRecipeTermTest">tasteBudPageVerifyTasteBudRecipeTermTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="testeBudPageNavigationTest">testeBudPageNavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="verifyAppNameTest">verifyAppNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="verifyCookingTimeTest">verifyCookingTimeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="verifyIngredientNameListTest">verifyIngredientNameListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="verifyIngredientNutritionTest">verifyIngredientNutritionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="verifyIngredientTipsTest">verifyIngredientTipsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="verifyMenuPlannerTest">verifyMenuPlannerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="verifyMethodTest">verifyMethodTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="verifyRecipeNutritionTest">verifyRecipeNutritionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="verifyRecipeRatingValueTest">verifyRecipeRatingValueTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="verifyRecipeServingsValueTest">verifyRecipeServingsValueTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.eduven.testcase.TasteBudPageTestCasesForMeatLovers" hash-for-method="verifyTagsTest">verifyTagsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eduven.testcase.TasteBudPageTestCasesForMeatLovers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="inAppPurchaseTest">
+                  </a> <!-- inAppPurchaseTest -->
+                  <span class="method-name">inAppPurchaseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tasteBudPageVerifyFreeTasteBudRecipeTest">
+                  </a> <!-- tasteBudPageVerifyFreeTasteBudRecipeTest -->
+                  <span class="method-name">tasteBudPageVerifyFreeTasteBudRecipeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tasteBudPageVerifyTasteBudCategoryTest">
+                  </a> <!-- tasteBudPageVerifyTasteBudCategoryTest -->
+                  <span class="method-name">tasteBudPageVerifyTasteBudCategoryTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tasteBudPageVerifyTasteBudRecipeTermTest">
+                  </a> <!-- tasteBudPageVerifyTasteBudRecipeTermTest -->
+                  <span class="method-name">tasteBudPageVerifyTasteBudRecipeTermTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testeBudPageNavigationTest">
+                  </a> <!-- testeBudPageNavigationTest -->
+                  <span class="method-name">testeBudPageNavigationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAppNameTest">
+                  </a> <!-- verifyAppNameTest -->
+                  <span class="method-name">verifyAppNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCookingTimeTest">
+                  </a> <!-- verifyCookingTimeTest -->
+                  <span class="method-name">verifyCookingTimeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIngredientNameListTest">
+                  </a> <!-- verifyIngredientNameListTest -->
+                  <span class="method-name">verifyIngredientNameListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIngredientNutritionTest">
+                  </a> <!-- verifyIngredientNutritionTest -->
+                  <span class="method-name">verifyIngredientNutritionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIngredientTipsTest">
+                  </a> <!-- verifyIngredientTipsTest -->
+                  <span class="method-name">verifyIngredientTipsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMenuPlannerTest">
+                  </a> <!-- verifyMenuPlannerTest -->
+                  <span class="method-name">verifyMenuPlannerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMethodTest">
+                  </a> <!-- verifyMethodTest -->
+                  <span class="method-name">verifyMethodTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRecipeNutritionTest">
+                  </a> <!-- verifyRecipeNutritionTest -->
+                  <span class="method-name">verifyRecipeNutritionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRecipeRatingValueTest">
+                  </a> <!-- verifyRecipeRatingValueTest -->
+                  <span class="method-name">verifyRecipeRatingValueTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRecipeServingsValueTest">
+                  </a> <!-- verifyRecipeServingsValueTest -->
+                  <span class="method-name">verifyRecipeServingsValueTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTagsTest">
+                  </a> <!-- verifyTagsTest -->
+                  <span class="method-name">verifyTagsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/private/var/folders/v2/s_nhjz013yvdf6djb20d1f640000gp/T/testng-eclipse--700210254/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.eduven.testcase.TasteBudPageTestCasesForMeatLovers&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyIngredientNutritionTest')
+data.setCell(0, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(0, 3, 1182847);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tasteBudPageVerifyTasteBudRecipeTermTest')
+data.setCell(1, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(1, 3, 341573);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyIngredientNameListTest')
+data.setCell(2, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(2, 3, 196255);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tasteBudPageVerifyFreeTasteBudRecipeTest')
+data.setCell(3, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(3, 3, 175252);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyAppNameTest')
+data.setCell(4, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(4, 3, 107250);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tasteBudPageVerifyTasteBudCategoryTest')
+data.setCell(5, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(5, 3, 70506);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'inAppPurchaseTest')
+data.setCell(6, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(6, 3, 53425);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyMenuPlannerTest')
+data.setCell(7, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(7, 3, 52771);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testeBudPageNavigationTest')
+data.setCell(8, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(8, 3, 50881);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyRecipeNutritionTest')
+data.setCell(9, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(9, 3, 21921);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyMethodTest')
+data.setCell(10, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(10, 3, 11694);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyIngredientTipsTest')
+data.setCell(11, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(11, 3, 10803);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyTagsTest')
+data.setCell(12, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(12, 3, 5076);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyCookingTimeTest')
+data.setCell(13, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(13, 3, 1339);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyRecipeServingsValueTest')
+data.setCell(14, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(14, 3, 1333);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyRecipeRatingValueTest')
+data.setCell(15, 2, 'com.eduven.testcase.TasteBudPageTestCasesForMeatLovers')
+data.setCell(15, 3, 1301);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eduven.testcase.TasteBudPageTestCasesForMeatLovers</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAppNameTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyAppNameTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyAp...)</span>
+                <span class="method-start">107252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">inAppPurchaseTest</span>
+                <span class="method-start">107256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=inAppPurchaseTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.inAppPur...)</span>
+                <span class="method-start">160683 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testeBudPageNavigationTest</span>
+                <span class="method-start">160684 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testeBudPageNavigationTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers...)</span>
+                <span class="method-start">211566 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">tasteBudPageVerifyTasteBudCategoryTest</span>
+                <span class="method-start">211567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tasteBudPageVerifyTasteBudCategoryTest status=SUCCESS method=TasteBudPageTestCasesF...)</span>
+                <span class="method-start">282073 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">tasteBudPageVerifyTasteBudRecipeTermTest</span>
+                <span class="method-start">282074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tasteBudPageVerifyTasteBudRecipeTermTest status=SUCCESS method=TasteBudPageTestCase...)</span>
+                <span class="method-start">623648 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">tasteBudPageVerifyFreeTasteBudRecipeTest</span>
+                <span class="method-start">623649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tasteBudPageVerifyFreeTasteBudRecipeTest status=SUCCESS method=TasteBudPageTestCase...)</span>
+                <span class="method-start">798902 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyRecipeServingsValueTest</span>
+                <span class="method-start">798903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyRecipeServingsValueTest status=SUCCESS method=TasteBudPageTestCasesForMeatLov...)</span>
+                <span class="method-start">800237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyCookingTimeTest</span>
+                <span class="method-start">800238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCookingTimeTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.veri...)</span>
+                <span class="method-start">801578 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyRecipeRatingValueTest</span>
+                <span class="method-start">801578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyRecipeRatingValueTest status=SUCCESS method=TasteBudPageTestCasesForMeatLover...)</span>
+                <span class="method-start">802880 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyRecipeNutritionTest</span>
+                <span class="method-start">802880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyRecipeNutritionTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers....)</span>
+                <span class="method-start">824801 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyMenuPlannerTest</span>
+                <span class="method-start">824802 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyMenuPlannerTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.veri...)</span>
+                <span class="method-start">877574 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyIngredientNameListTest</span>
+                <span class="method-start">877575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyIngredientNameListTest status=SUCCESS method=TasteBudPageTestCasesForMeatLove...)</span>
+                <span class="method-start">1073831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyIngredientNutritionTest</span>
+                <span class="method-start">1073831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyIngredientNutritionTest status=SUCCESS method=TasteBudPageTestCasesForMeatLov...)</span>
+                <span class="method-start">2256678 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyIngredientTipsTest</span>
+                <span class="method-start">2256679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyIngredientTipsTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.v...)</span>
+                <span class="method-start">2267483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyMethodTest</span>
+                <span class="method-start">2267484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyMethodTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyMet...)</span>
+                <span class="method-start">2279178 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyTagsTest</span>
+                <span class="method-start">2279179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyTagsTest status=SUCCESS method=TasteBudPageTestCasesForMeatLovers.verifyTagsT...)</span>
+                <span class="method-start">2284255 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">2284256 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,332 @@
+2016-12-12 16:35:13:790 - info: Welcome to Appium v1.4.13 (REV c75d8adcb66a75818a542fe1891a34260c21f76a)
+2016-12-12 16:35:13:797 - info: Appium REST http interface listener started on 127.0.0.1:4723
+2016-12-12 16:35:13:803 - info: [debug] Non-default server args: {"app":"/Users/hiteshbhardwaj/Downloads/LD_Actors.ipa","udid":"7bcb4358baa692ac8207ca4db28eaacc80a14498","address":"127.0.0.1","sessionOverride":true,"noReset":true,"launchTimeout":"90000","log":"/Users/hiteshbhardwaj/Desktop/Automation/workspace/Logs/appium.log","logTimestamp":true,"localTimezone":true,"webhook":"localhost:9876","nativeInstrumentsLib":true,"deviceName":"iPad 2","platformName":"iOS","platformVersion":"9.3","showIOSLog":true,"defaultCommandTimeout":7200,"isolateSimDevice":true,"debugLogSpacing":true}
+2016-12-12 16:35:13:805 - info: Console LogLevel: debug
+2016-12-12 16:35:13:806 - info: File LogLevel: debug
+2016-12-12 16:35:14:463 - info: --> GET /wd/hub/status {}
+2016-12-12 16:35:14:466 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:35:14:474 - info: <-- GET /wd/hub/status 200 11.431 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:35:25:480 - info: --> GET /wd/hub/status {}
+2016-12-12 16:35:25:482 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:35:25:488 - info: <-- GET /wd/hub/status 200 7.397 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:36:26:631 - info: --> GET /wd/hub/status {}
+2016-12-12 16:36:26:632 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:36:26:634 - info: <-- GET /wd/hub/status 200 2.984 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:37:27:772 - info: --> GET /wd/hub/status {}
+2016-12-12 16:37:27:774 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:37:27:776 - info: <-- GET /wd/hub/status 200 3.388 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:38:28:921 - info: --> GET /wd/hub/status {}
+2016-12-12 16:38:28:922 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:38:28:925 - info: <-- GET /wd/hub/status 200 3.690 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:39:30:077 - info: --> GET /wd/hub/status {}
+2016-12-12 16:39:30:079 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:39:30:082 - info: <-- GET /wd/hub/status 200 4.962 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:40:31:159 - info: --> GET /wd/hub/status {}
+2016-12-12 16:40:31:160 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:40:31:162 - info: <-- GET /wd/hub/status 200 3.344 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:41:32:226 - info: --> GET /wd/hub/status {}
+2016-12-12 16:41:32:227 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:41:32:229 - info: <-- GET /wd/hub/status 200 3.597 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:42:33:361 - info: --> GET /wd/hub/status {}
+2016-12-12 16:42:33:362 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:42:33:364 - info: <-- GET /wd/hub/status 200 3.228 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:43:34:469 - info: --> GET /wd/hub/status {}
+2016-12-12 16:43:34:470 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:43:34:472 - info: <-- GET /wd/hub/status 200 2.643 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:44:35:620 - info: --> GET /wd/hub/status {}
+2016-12-12 16:44:35:621 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:44:35:623 - info: <-- GET /wd/hub/status 200 2.960 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:45:36:767 - info: --> GET /wd/hub/status {}
+2016-12-12 16:45:36:768 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:45:36:770 - info: <-- GET /wd/hub/status 200 2.946 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:46:37:920 - info: --> GET /wd/hub/status {}
+2016-12-12 16:46:37:920 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:46:37:922 - info: <-- GET /wd/hub/status 200 2.270 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:47:39:072 - info: --> GET /wd/hub/status {}
+2016-12-12 16:47:39:072 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:47:39:074 - info: <-- GET /wd/hub/status 200 2.260 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:48:40:193 - info: --> GET /wd/hub/status {}
+2016-12-12 16:48:40:193 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:48:40:195 - info: <-- GET /wd/hub/status 200 2.276 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:49:41:328 - info: --> GET /wd/hub/status {}
+2016-12-12 16:49:41:329 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:49:41:331 - info: <-- GET /wd/hub/status 200 2.917 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:50:42:407 - info: --> GET /wd/hub/status {}
+2016-12-12 16:50:42:408 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:50:42:410 - info: <-- GET /wd/hub/status 200 2.626 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:51:43:545 - info: --> GET /wd/hub/status {}
+2016-12-12 16:51:43:546 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:51:43:549 - info: <-- GET /wd/hub/status 200 3.750 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:52:44:696 - info: --> GET /wd/hub/status {}
+2016-12-12 16:52:44:698 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:52:44:700 - info: <-- GET /wd/hub/status 200 3.458 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:53:45:852 - info: --> GET /wd/hub/status {}
+2016-12-12 16:53:45:853 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:53:45:856 - info: <-- GET /wd/hub/status 200 3.300 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:54:46:932 - info: --> GET /wd/hub/status {}
+2016-12-12 16:54:46:934 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:54:46:937 - info: <-- GET /wd/hub/status 200 5.107 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:55:48:080 - info: --> GET /wd/hub/status {}
+2016-12-12 16:55:48:082 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:55:48:084 - info: <-- GET /wd/hub/status 200 3.983 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:56:49:160 - info: --> GET /wd/hub/status {}
+2016-12-12 16:56:49:161 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:56:49:164 - info: <-- GET /wd/hub/status 200 3.564 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:57:50:241 - info: --> GET /wd/hub/status {}
+2016-12-12 16:57:50:242 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:57:50:245 - info: <-- GET /wd/hub/status 200 4.062 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:58:51:392 - info: --> GET /wd/hub/status {}
+2016-12-12 16:58:51:393 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:58:51:396 - info: <-- GET /wd/hub/status 200 3.187 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:59:52:537 - info: --> GET /wd/hub/status {}
+2016-12-12 16:59:52:538 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 16:59:52:541 - info: <-- GET /wd/hub/status 200 4.416 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:00:53:682 - info: --> GET /wd/hub/status {}
+2016-12-12 17:00:53:683 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:00:53:686 - info: <-- GET /wd/hub/status 200 4.186 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:01:54:980 - info: --> GET /wd/hub/status {}
+2016-12-12 17:01:54:982 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:01:54:985 - info: <-- GET /wd/hub/status 200 3.953 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:02:56:286 - info: --> GET /wd/hub/status {}
+2016-12-12 17:02:56:287 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:02:56:290 - info: <-- GET /wd/hub/status 200 3.626 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:03:57:444 - info: --> GET /wd/hub/status {}
+2016-12-12 17:03:57:445 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:03:57:447 - info: <-- GET /wd/hub/status 200 3.381 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:04:58:593 - info: --> GET /wd/hub/status {}
+2016-12-12 17:04:58:594 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:04:58:596 - info: <-- GET /wd/hub/status 200 3.583 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:05:59:887 - info: --> GET /wd/hub/status {}
+2016-12-12 17:05:59:888 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:05:59:891 - info: <-- GET /wd/hub/status 200 3.391 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:07:01:188 - info: --> GET /wd/hub/status {}
+2016-12-12 17:07:01:189 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:07:01:192 - info: <-- GET /wd/hub/status 200 4.351 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:08:02:478 - info: --> GET /wd/hub/status {}
+2016-12-12 17:08:02:479 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:08:02:481 - info: <-- GET /wd/hub/status 200 2.790 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:09:03:778 - info: --> GET /wd/hub/status {}
+2016-12-12 17:09:03:779 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:09:03:781 - info: <-- GET /wd/hub/status 200 3.090 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:10:05:082 - info: --> GET /wd/hub/status {}
+2016-12-12 17:10:05:083 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:10:05:085 - info: <-- GET /wd/hub/status 200 2.791 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:11:06:387 - info: --> GET /wd/hub/status {}
+2016-12-12 17:11:06:388 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:11:06:391 - info: <-- GET /wd/hub/status 200 3.835 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:12:07:691 - info: --> GET /wd/hub/status {}
+2016-12-12 17:12:07:692 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:12:07:694 - info: <-- GET /wd/hub/status 200 3.453 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:13:08:985 - info: --> GET /wd/hub/status {}
+2016-12-12 17:13:08:986 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:13:08:989 - info: <-- GET /wd/hub/status 200 3.776 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:14:10:285 - info: --> GET /wd/hub/status {}
+2016-12-12 17:14:10:286 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:14:10:288 - info: <-- GET /wd/hub/status 200 3.542 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:15:11:585 - info: --> GET /wd/hub/status {}
+2016-12-12 17:15:11:586 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:15:11:588 - info: <-- GET /wd/hub/status 200 3.455 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:16:12:735 - info: --> GET /wd/hub/status {}
+2016-12-12 17:16:12:736 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:16:12:739 - info: <-- GET /wd/hub/status 200 3.099 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:17:13:743 - info: --> GET /wd/hub/status {}
+2016-12-12 17:17:13:748 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:17:13:751 - info: <-- GET /wd/hub/status 200 8.005 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:18:14:757 - info: --> GET /wd/hub/status {}
+2016-12-12 17:18:14:757 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:18:14:760 - info: <-- GET /wd/hub/status 200 3.716 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:19:15:765 - info: --> GET /wd/hub/status {}
+2016-12-12 17:19:15:767 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:19:15:769 - info: <-- GET /wd/hub/status 200 3.804 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:20:16:774 - info: --> GET /wd/hub/status {}
+2016-12-12 17:20:16:775 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:20:16:777 - info: <-- GET /wd/hub/status 200 3.150 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:21:17:785 - info: --> GET /wd/hub/status {}
+2016-12-12 17:21:17:786 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:21:17:788 - info: <-- GET /wd/hub/status 200 2.954 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:22:18:791 - info: --> GET /wd/hub/status {}
+2016-12-12 17:22:18:792 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:22:18:794 - info: <-- GET /wd/hub/status 200 2.890 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:23:19:799 - info: --> GET /wd/hub/status {}
+2016-12-12 17:23:19:799 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:23:19:802 - info: <-- GET /wd/hub/status 200 3.085 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:24:20:809 - info: --> GET /wd/hub/status {}
+2016-12-12 17:24:20:810 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:24:20:814 - info: <-- GET /wd/hub/status 200 5.468 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:25:21:818 - info: --> GET /wd/hub/status {}
+2016-12-12 17:25:21:819 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:25:21:821 - info: <-- GET /wd/hub/status 200 2.776 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:26:22:825 - info: --> GET /wd/hub/status {}
+2016-12-12 17:26:22:827 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:26:22:829 - info: <-- GET /wd/hub/status 200 3.053 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:27:23:833 - info: --> GET /wd/hub/status {}
+2016-12-12 17:27:23:835 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:27:23:837 - info: <-- GET /wd/hub/status 200 3.890 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:28:24:845 - info: --> GET /wd/hub/status {}
+2016-12-12 17:28:24:846 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:28:24:848 - info: <-- GET /wd/hub/status 200 3.204 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:29:25:852 - info: --> GET /wd/hub/status {}
+2016-12-12 17:29:25:853 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:29:25:856 - info: <-- GET /wd/hub/status 200 3.588 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:30:26:883 - info: --> GET /wd/hub/status {}
+2016-12-12 17:30:26:884 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:30:26:887 - info: <-- GET /wd/hub/status 200 3.704 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:31:28:059 - info: --> GET /wd/hub/status {}
+2016-12-12 17:31:28:060 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:31:28:062 - info: <-- GET /wd/hub/status 200 2.695 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:32:29:202 - info: --> GET /wd/hub/status {}
+2016-12-12 17:32:29:203 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:32:29:206 - info: <-- GET /wd/hub/status 200 3.867 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:33:30:352 - info: --> GET /wd/hub/status {}
+2016-12-12 17:33:30:353 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:33:30:355 - info: <-- GET /wd/hub/status 200 3.105 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:34:31:433 - info: --> GET /wd/hub/status {}
+2016-12-12 17:34:31:434 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:34:31:437 - info: <-- GET /wd/hub/status 200 4.266 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:35:32:442 - info: --> GET /wd/hub/status {}
+2016-12-12 17:35:32:443 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:35:32:446 - info: <-- GET /wd/hub/status 200 3.883 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:36:33:451 - info: --> GET /wd/hub/status {}
+2016-12-12 17:36:33:452 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:36:33:454 - info: <-- GET /wd/hub/status 200 3.100 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:37:34:460 - info: --> GET /wd/hub/status {}
+2016-12-12 17:37:34:461 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:37:34:463 - info: <-- GET /wd/hub/status 200 3.190 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:38:35:468 - info: --> GET /wd/hub/status {}
+2016-12-12 17:38:35:470 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:38:35:472 - info: <-- GET /wd/hub/status 200 3.485 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:39:36:484 - info: --> GET /wd/hub/status {}
+2016-12-12 17:39:36:487 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:39:36:489 - info: <-- GET /wd/hub/status 200 4.698 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:40:37:497 - info: --> GET /wd/hub/status {}
+2016-12-12 17:40:37:499 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:40:37:505 - info: <-- GET /wd/hub/status 200 11.201 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:41:38:513 - info: --> GET /wd/hub/status {}
+2016-12-12 17:41:38:515 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:41:38:516 - info: <-- GET /wd/hub/status 200 3.811 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:42:39:521 - info: --> GET /wd/hub/status {}
+2016-12-12 17:42:39:523 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:42:39:524 - info: <-- GET /wd/hub/status 200 3.277 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:43:40:529 - info: --> GET /wd/hub/status {}
+2016-12-12 17:43:40:531 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:43:40:533 - info: <-- GET /wd/hub/status 200 3.888 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:44:41:538 - info: --> GET /wd/hub/status {}
+2016-12-12 17:44:41:539 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:44:41:541 - info: <-- GET /wd/hub/status 200 3.030 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:45:42:546 - info: --> GET /wd/hub/status {}
+2016-12-12 17:45:42:547 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:45:42:549 - info: <-- GET /wd/hub/status 200 3.172 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:46:43:554 - info: --> GET /wd/hub/status {}
+2016-12-12 17:46:43:556 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:46:43:558 - info: <-- GET /wd/hub/status 200 3.764 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:47:44:563 - info: --> GET /wd/hub/status {}
+2016-12-12 17:47:44:564 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:47:44:568 - info: <-- GET /wd/hub/status 200 4.473 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:48:45:573 - info: --> GET /wd/hub/status {}
+2016-12-12 17:48:45:574 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:48:45:577 - info: <-- GET /wd/hub/status 200 3.479 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:49:46:582 - info: --> GET /wd/hub/status {}
+2016-12-12 17:49:46:583 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:49:46:585 - info: <-- GET /wd/hub/status 200 3.701 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:50:47:732 - info: --> GET /wd/hub/status {}
+2016-12-12 17:50:47:734 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:50:47:736 - info: <-- GET /wd/hub/status 200 4.051 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:51:48:864 - info: --> GET /wd/hub/status {}
+2016-12-12 17:51:48:865 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:51:48:867 - info: <-- GET /wd/hub/status 200 3.331 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:52:50:015 - info: --> GET /wd/hub/status {}
+2016-12-12 17:52:50:017 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:52:50:019 - info: <-- GET /wd/hub/status 200 4.061 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:53:51:169 - info: --> GET /wd/hub/status {}
+2016-12-12 17:53:51:170 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:53:51:172 - info: <-- GET /wd/hub/status 200 3.274 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:54:52:313 - info: --> GET /wd/hub/status {}
+2016-12-12 17:54:52:315 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:54:52:316 - info: <-- GET /wd/hub/status 200 3.041 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:55:53:457 - info: --> GET /wd/hub/status {}
+2016-12-12 17:55:53:458 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:55:53:460 - info: <-- GET /wd/hub/status 200 3.107 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:56:54:604 - info: --> GET /wd/hub/status {}
+2016-12-12 17:56:54:605 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:56:54:607 - info: <-- GET /wd/hub/status 200 2.941 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:57:55:684 - info: --> GET /wd/hub/status {}
+2016-12-12 17:57:55:685 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:57:55:688 - info: <-- GET /wd/hub/status 200 3.505 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:58:56:834 - info: --> GET /wd/hub/status {}
+2016-12-12 17:58:56:835 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:58:56:838 - info: <-- GET /wd/hub/status 200 3.440 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:59:57:915 - info: --> GET /wd/hub/status {}
+2016-12-12 17:59:57:916 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 17:59:57:919 - info: <-- GET /wd/hub/status 200 4.334 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:00:58:992 - info: --> GET /wd/hub/status {}
+2016-12-12 18:00:58:992 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:00:58:998 - info: <-- GET /wd/hub/status 200 3.797 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:02:00:072 - info: --> GET /wd/hub/status {}
+2016-12-12 18:02:00:073 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:02:00:075 - info: <-- GET /wd/hub/status 200 3.196 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:03:01:222 - info: --> GET /wd/hub/status {}
+2016-12-12 18:03:01:223 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:03:01:225 - info: <-- GET /wd/hub/status 200 3.064 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:04:02:372 - info: --> GET /wd/hub/status {}
+2016-12-12 18:04:02:373 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:04:02:375 - info: <-- GET /wd/hub/status 200 3.177 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:05:03:524 - info: --> GET /wd/hub/status {}
+2016-12-12 18:05:03:525 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:05:03:527 - info: <-- GET /wd/hub/status 200 3.121 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:06:04:676 - info: --> GET /wd/hub/status {}
+2016-12-12 18:06:04:677 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:06:04:679 - info: <-- GET /wd/hub/status 200 3.222 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:07:05:848 - info: --> GET /wd/hub/status {}
+2016-12-12 18:07:05:849 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:07:05:851 - info: <-- GET /wd/hub/status 200 2.817 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:08:06:990 - info: --> GET /wd/hub/status {}
+2016-12-12 18:08:06:991 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:08:06:993 - info: <-- GET /wd/hub/status 200 2.936 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:09:08:070 - info: --> GET /wd/hub/status {}
+2016-12-12 18:09:08:071 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:09:08:074 - info: <-- GET /wd/hub/status 200 3.869 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:10:09:221 - info: --> GET /wd/hub/status {}
+2016-12-12 18:10:09:222 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:10:09:224 - info: <-- GET /wd/hub/status 200 2.845 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:11:10:370 - info: --> GET /wd/hub/status {}
+2016-12-12 18:11:10:371 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:11:10:373 - info: <-- GET /wd/hub/status 200 2.835 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:12:11:525 - info: --> GET /wd/hub/status {}
+2016-12-12 18:12:11:526 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:12:11:529 - info: <-- GET /wd/hub/status 200 4.106 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:13:12:673 - info: --> GET /wd/hub/status {}
+2016-12-12 18:13:12:676 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:13:12:679 - info: <-- GET /wd/hub/status 200 5.924 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:14:13:821 - info: --> GET /wd/hub/status {}
+2016-12-12 18:14:13:822 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:14:13:824 - info: <-- GET /wd/hub/status 200 3.043 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:15:14:969 - info: --> GET /wd/hub/status {}
+2016-12-12 18:15:14:970 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:15:14:972 - info: <-- GET /wd/hub/status 200 3.316 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:16:16:117 - info: --> GET /wd/hub/status {}
+2016-12-12 18:16:16:118 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:16:16:120 - info: <-- GET /wd/hub/status 200 3.308 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:17:17:266 - info: --> GET /wd/hub/status {}
+2016-12-12 18:17:17:267 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:17:17:270 - info: <-- GET /wd/hub/status 200 4.263 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:18:18:413 - info: --> GET /wd/hub/status {}
+2016-12-12 18:18:18:414 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:18:18:417 - info: <-- GET /wd/hub/status 200 3.464 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:19:19:586 - info: --> GET /wd/hub/status {}
+2016-12-12 18:19:19:587 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:19:19:590 - info: <-- GET /wd/hub/status 200 4.212 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:20:20:721 - info: --> GET /wd/hub/status {}
+2016-12-12 18:20:20:723 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:20:20:727 - info: <-- GET /wd/hub/status 200 5.707 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:21:21:881 - info: --> GET /wd/hub/status {}
+2016-12-12 18:21:21:882 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:21:21:886 - info: <-- GET /wd/hub/status 200 5.407 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:22:23:051 - info: --> GET /wd/hub/status {}
+2016-12-12 18:22:23:052 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:22:23:055 - info: <-- GET /wd/hub/status 200 3.892 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:23:24:204 - info: --> GET /wd/hub/status {}
+2016-12-12 18:23:24:205 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:23:24:208 - info: <-- GET /wd/hub/status 200 2.966 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:24:25:348 - info: --> GET /wd/hub/status {}
+2016-12-12 18:24:25:348 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
+2016-12-12 18:24:25:350 - info: <-- GET /wd/hub/status 200 2.395 ms - 105 {"status":0,"value":{"build":{"version":"1.4.13","revision":"c75d8adcb66a75818a542fe1891a34260c21f76a"}}}
