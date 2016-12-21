@@ -26,7 +26,7 @@ public class WordSearchListPageTestCases {
 	
 	
 	@Test(priority=1)
-	public void wordsearchlist_page_navigate_to_search_wordlistPage_test(){
+	public void navigateToTermPageTest(){
 		HomePage.verifyAppName();
 		Categories.navigateToCategoryPage();
 		Categories.verifyCategoryPageLoaded();
@@ -34,12 +34,12 @@ public class WordSearchListPageTestCases {
 	}
 	
 	@Test(priority=10)
-	public void wordsearchlist_page_verify_header_txt_test(){
+	public void verifyTermPageHeaderTextTest(){
 		WordSearchList.verifyWordSearchPageLoaded(randomMainCategoryName);
 	}
 	
 	@Test(priority=20)
-	public void wordsearchlist_page_verify_footer_elements_test(){
+	public void verifyFooterElementsTest(){
 		//Footer.verifyFeatureBox();
 		Footer.verifyContribute();
 		Footer.verifyLock();
@@ -48,7 +48,7 @@ public class WordSearchListPageTestCases {
 	}
 	
 	@Test(priority=30)
-	public void wordsearchlist_page_verify_right_search_test(){
+	public void verifySearchRelatedTest(){
 		rightWord = DatabaseConnection.getUnLockTerm(randomMainCategoryName);
 		System.out.println("Search Word..."+rightWord);
 		WordSearchList.EnterText(rightWord);
@@ -57,7 +57,7 @@ public class WordSearchListPageTestCases {
 	}
 	
 	@Test(priority=40)
-	public void wordsearchlist_page_verify_wrong_search_test(){
+	public void verifyWrongSearchTest(){
 		randomMainCategoryName = Categories.clickOnRandomCategory();
 		WordSearchList.verifyWordSearchPageLoaded(randomMainCategoryName);
 		wrongWord = Reusables.randomSpecialTextGenerator(8);
@@ -67,7 +67,7 @@ public class WordSearchListPageTestCases {
 	}
 	
 	@Test(priority=50)
-	public void wordsearchlist_page_verify_search_word_by_index_test(){
+	public void verifySearchWordByIndexTest(){
 		randomMainCategoryName = Categories.clickOnRandomCategory();
 		WordSearchList.verifyWordSearchPageLoaded(randomMainCategoryName);
 		randomIndexValue = WordSearchList.indexRandomValue();
@@ -76,7 +76,7 @@ public class WordSearchListPageTestCases {
 	}
 	
 	@Test(priority=60)
-	public void verify_ads_banner_test(){
+	public void verifyAddsBannerTest(){
 		HomePage.verifyAds();
 	}
 	
@@ -94,7 +94,7 @@ public class WordSearchListPageTestCases {
    } 
 	 
 	 @AfterClass
-	 public void close_app(){
+	 public void closeApp(){
 		 Reusables.terminatesAppInstance();
 	 }
 }

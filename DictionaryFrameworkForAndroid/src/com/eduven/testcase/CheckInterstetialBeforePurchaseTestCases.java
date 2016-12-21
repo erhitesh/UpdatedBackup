@@ -14,31 +14,28 @@ public class CheckInterstetialBeforePurchaseTestCases {
 	
 	
 	/* Global Declaration */
-	String languageName = "";
 	boolean interstetialStatusBeforePayment = true;
-	String game_type = "Army Of Categories";
-	String randomCategoryName = "";
 	
 	@Test(priority=1)
-	public void check_interstetial_for_category_test(){
+	public void checkInterstetialForCategoryTest(){
 		Interstetial.interstetialForCategory();
 		Interstetial.verifyInterstetialBtn(interstetialStatusBeforePayment);
 	}
 	
 	@Test(priority=10)
-	public void check_interstetial_for_search_test(){
+	public void checkInterstetialForSearchTest(){
 		Interstetial.interstetialForSearch();
 		Interstetial.verifyInterstetialBtn(interstetialStatusBeforePayment);
 	}
 	
 	@Test(priority=20)
-	public void check_interstetial_for_inapp_test(){
+	public void checkInterstetialForInAppTest(){
 		Interstetial.interstetialForInApp();
 		Interstetial.verifyInterstetialBtn(interstetialStatusBeforePayment);
 	}
 	
 	@Test(priority=30)
-	public void check_interstetial_for_detail_page_test(){
+	public void checkInterstetialForTermDetailPageTest(){
 		Reusables.stepBack();
 		Interstetial.verifyInterstetialBtn(interstetialStatusBeforePayment);
 	}
@@ -57,7 +54,7 @@ public class CheckInterstetialBeforePurchaseTestCases {
   } 
 	 
 	 @AfterClass
-	 public void close_app(){
+	 public void closeApp(){
 		 Reusables.terminatesAppInstance();
 	 }
 }

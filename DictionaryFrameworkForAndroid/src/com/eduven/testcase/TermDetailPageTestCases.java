@@ -16,71 +16,64 @@ import com.eduven.utils.ScreenShot;
 public class TermDetailPageTestCases {
 	
 	
-	/* Global Declaration */
+	/* Global variable Declaration */
 	String termName = "";
 	String nextTermName = "";
 	String previousTermName = "";
 	String termDescription = "";
 	String contributeTitle = "";
 	String contributeDescription = "";
-	String randomMainCategoryName = "";
+	String categoryName = "";
 	
 	
 	@Test(priority=0)
-	public void termDetailPage_navigate_to_wordSearchlist_page_test(){
+	public void navigateToTermPageTest(){
 		HomePage.verifyAppName();
 		Categories.navigateToCategoryPage();
 		Categories.verifyCategoryPageLoaded();
-		randomMainCategoryName = Categories.clickOnRandomCategory();
-		WordSearchList.verifyWordSearchPageLoaded(randomMainCategoryName);
+		categoryName = Categories.clickOnRandomCategory();
+		WordSearchList.verifyWordSearchPageLoaded(categoryName);
 	}
 	
 	@Test(priority=10)
-	public void termDetailPage_navigate_to_termdetail_page_test(){
-		termName = WordSearchList.navigateToTermDetailPage();
+	public void navigateToTermDetailPageTest(){
+		termName = WordSearchList.navigateToTermDetailPage(categoryName);
 		WordSearchList.verifyTermDetailPageLoaded();
-		Reusables.stepBack();
+		HomePage.backToHomePage();
 	}
 	
 	@Test(priority=20)
-	public void termDetailPage_free_term_test(){
-		Reusables.checkFreeTerm(randomMainCategoryName);
-		Reusables.stepBack();
-		Reusables.stepBack();
+	public void verifyPremiumTermOnDetailPageTest(){
+		Categories.navigateToCategoryPage();
+		categoryName = Categories.clickOnRandomCategory();
+		Reusables.checkPremiumTerm(categoryName);
 	}
 	
 	@Test(priority=30)
-	public void termDetailPage_premium_term_test(){
-		Categories.navigateToCategoryPage();
-		randomMainCategoryName = Categories.clickOnRandomCategory();
-		Reusables.checkPremiumTerm(randomMainCategoryName);
+	public void verifyFreeTermOnDetailPageTest(){
+		termName = Reusables.checkFreeTerm(categoryName);
 	}
 	
 	@Test(priority=40)
-	public void contributePage_navigate_to_contribute_page_test(){
-		/*Categories.NavigateToCategoryPage();
-		Categories.clickOnRandomCategory();*/
-		
-		WordSearchList.navigateToTermDetailPage();
-		WordSearchList.verifyTermDetailPageLoaded();
-		termName = TermDetailPage.getTermName();
+	public void navigateToContributePageTest(){
 		termDescription = TermDetailPage.getTermDescription();
 		TermDetailPage.clickOnEditContribute();
 		TermDetailPage.verifyContributePageLoaded();
 	}
 	
 	@Test(priority=50)
-	public void contributePage_verify_contribute_title_and_description_test(){
+	public void verifyContributeTitleAndDescriptionTest(){
 		contributeTitle = TermDetailPage.getContributeTitle();
 		contributeDescription = TermDetailPage.getContributeDescription();
 		TermDetailPage.verifyContributePageTitle(contributeTitle, termName);
 		TermDetailPage.verifyContributePageDescription(contributeDescription, termDescription);
-		Reusables.stepBack();
-		//Reusables.stepBack();
+		Categories.backToCategoryPage();
 	}
 
 	@Test(priority=60)
-	public void termDetailPage_verify_entityName_for_next_btn_test(){
+	public void verifyTermNameAfterNextClickTest(){
+		categoryName = Categories.clickOnRandomCategory();
+		WordSearchList.navigateToTermDetailPageForAudio(categoryName);
 		termName = TermDetailPage.getTermName();
 		TermDetailPage.clickOnNextButton();
 		TermDetailPage.clickOnNextButton();
@@ -89,7 +82,7 @@ public class TermDetailPageTestCases {
 	}
 	
 	@Test(priority=70)
-	public void termDetailPage_verify_entityName_for_previous_btn_test(){
+	public void verifyTermNameAfterPrevClickTest(){
 		termName = TermDetailPage.getTermName();
 		TermDetailPage.clickOnPreviousButton();
 		previousTermName = TermDetailPage.getTermName();
@@ -97,7 +90,7 @@ public class TermDetailPageTestCases {
 	}
 	
 	@Test(priority=80)
-	public void termDetailPage_verify_speak_audio_test(){
+	public void verifySpeakAudioTest(){
 		TermDetailPage.verifyButtonsEnableBeforeSpeakButtonClick();
 		TermDetailPage.clickOnSpeakButton();
 		TermDetailPage.verifyButtonsDisableAfterSpeakButtonClick();
@@ -105,7 +98,7 @@ public class TermDetailPageTestCases {
 	}
 	
 	@Test(priority=90)
-	public void termDetailPage_verify_autoPlay_audio_test(){
+	public void verifyAutoPlayAudioTest(){
 		TermDetailPage.verifyButtonsEnableBeforeAutoPlayButtonClick();
 		TermDetailPage.clickOnAutoPlayButton();
 		TermDetailPage.verifyButtonsDisableAfterAutoPlayButtonClick();
@@ -126,7 +119,7 @@ public class TermDetailPageTestCases {
    } 
 	 
 	 @AfterClass
-	 public void close_app(){
+	 public void closeApp(){
 		 Reusables.terminatesAppInstance();
 	 }
 }

@@ -14,28 +14,30 @@ public interface DataConstants {
 	static String homePageHeaderTxt = appName;
 	static String searchBoxHeaderTxt = "Search";
 	static String evMenuTermTxt = "Contribute";
-	static String feature_box_header_txt = "Soccer Legends";
-	static String feature_entity_header_txt = "Player Details";
+	static String featureBoxHeaderTxt = "Soccer Legends";
+	static String featureBoxTermHeaderTxt = "Player Details";
 
 	/* FaceBook Related Data */
 	static String fbUserName = "ma2011.test@gmail.com";
-	static String fbPass = "evtesters";
-	static String fbPostMessage = "This is Soccer Legend!!";
+	static String fbPass = "EVtesters16";
+	static String fbPostMessage = "Tested By Automation "+appName;
+	static String appSharingTypeForFb = "facebook";
+	static String appSharingTypeForOthers = "others";
 	
 	/* Contribute Related Data */
-	static String contribute_header_txt = "Contribute";
-	static String contribute_later_popup_message = " Contribute or edit and get info about 10 new entities!";
-	static String contribute_popup_message_for_blank = "Please fill the mandatory fields.";
-	static String contribute_popup_message_for_txt = "This submission will unlock 10 premium entities for you!";//"This submission has unlocked 10 paid terms for you.";
-	static String contribute_popup_message_after_fix_iteration = "We appreciate your effort!";
-	static String blank_title_txt_message = "";
-	static String spaces_title_txt_message = "     ";
-	static String title_txt_message = "Hello Soccer Legends!!";
-	static String category_unlock_entity_header_txt = "Unlocked Info!";
-	static String share_medium_for_facebook = "Facebook";
-	static String share_medium_for_others = "Others";
-	static String term_and_condition_url_text = "terms.php";
-	static String privacy_policy_url_text = "privacy.php";
+	static String contributeHeaderTxt = "Contribute";
+	static String contributeLaterPopupMessage = " Contribute or edit and get info about 10 new entities!";
+	static String contributePopupMessageForBlank = "Please fill the mandatory fields.";
+	static String contributePopupMessageForTxt = "This submission will unlock 10 premium entities for you!";//"This submission has unlocked 10 paid terms for you.";
+	static String contributePopupMessageAfterFixIteration = "We appreciate your effort!";
+	static String blankTitleTxtMessage = "";
+	static String spacesTitleTxtMessage = "     ";
+	static String titleTxtMessage = "Hello Soccer Legends!!";
+	static String categoryUnlockTermHeaderTxt = "Unlocked Info!";
+	static String shareMediumForFacebook = "Facebook";
+	static String shareMediumForOthers = "Others";
+	static String termAndConditionUrlText = "terms.php";
+	static String privacyPolicyUrlText = "privacy.php";
 	static String privacyPolicyHeaderText = "privacy policy";
 	static String userName = "Test MA";
 	
@@ -49,6 +51,7 @@ public interface DataConstants {
 	/* EduBank Related Data */
 	static String termNameForEdubank = "test";
 	static String renameTermNameForEdubank = "tester";
+	static String unlockPremiumEntitiesMessage = "Unlock Premium Entities!";
 	static String eduBankEmptyPopUpMsg = "Save something in EduBank for this feature!";
 	static String eduaBankPopupMsgForBlankTerm = "A category must have a name.";
 	static String eduaBankPopupMsgForDuplicateTerm = "This category name already exists. Please select the existing one or create a new category.";

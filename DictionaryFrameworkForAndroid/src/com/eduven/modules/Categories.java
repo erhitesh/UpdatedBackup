@@ -1,5 +1,7 @@
 package com.eduven.modules;
 
+import io.appium.java_client.android.AndroidElement;
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -9,22 +11,17 @@ import com.eduven.constants.DataConstants;
 import com.eduven.report.Logs;
 import com.eduven.utils.DatabaseConnection;
 import com.eduven.utils.DeviceRelatedInformation;
-import com.eduven.utils.DriverInstance;
 import com.eduven.utils.Reusables;
-
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
 
 public class Categories {
 	
-	/* AndroidDriver Instance */
-	static AndroidDriver<AndroidElement> driver = DriverInstance.getAndroidDriver();
 	
 	/* Object Identification */
 	public static By categoryIcon = By.id(DeviceRelatedInformation.getPackageName()+":id/cat_box");
-	public static By categoryPageHeaderTxt = By.name(DataConstants.categoryHeaderTxt);
+	public static By categoryPageHeaderTxt = By.xpath("//android.widget.TextView[@text='Categories']");//By.name(DataConstants.categoryHeaderTxt);
 	public static By categoriesList = By.id(DeviceRelatedInformation.getPackageName()+":id/text_label");
-	public static By premiumTermPopup = By.id("android:id/button1");
+	public static By premiumAlertPopup = By.xpath("//android.widget.TextView[@text='Unlock Premium Entities!']");
+	public static By acceptPremiumAlertPopup = By.id("android:id/button1");
 	public static By firstCategory = By.id(DeviceRelatedInformation.getPackageName()+":id/text_label");
 	
 	/**
@@ -32,15 +29,15 @@ public class Categories {
 	 * @return : Type AndroidElement, Category instance.
 	 */
 	public static AndroidElement categoryInstance(){
-		AndroidElement cat_element = null;
+		AndroidElement catElement = null;
 		try{
-			cat_element = Reusables.getElement(categoryIcon);
+			catElement = Reusables.getElement(categoryIcon);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>Category Icon not found. "+e.getClass().getName());
+			Logs.error("Category Icon not found. "+e.getClass().getName());
 		}
 		
-		return cat_element;
+		return catElement;
 	}
 	
 	/**
@@ -52,7 +49,7 @@ public class Categories {
 			Reusables.clickUsingElement(categoryInstance());
 			}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>Click Operation not perform on Category Icon. "+e.getClass().getName());
+			Logs.error("Click Operation not perform on Category Icon. "+e.getClass().getName());
 		}
 	}
 	
@@ -65,7 +62,28 @@ public class Categories {
 			Reusables.verifyEqualMessage(Reusables.getText(categoryPageHeaderTxt), DataConstants.categoryHeaderTxt, "Error Messagae!!Not Navigate to the right page Category Page");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>> Not Navigate to the right page..Category Page "+e.getClass().getName());
+			Logs.error("Not Navigate to the right page..Category Page "+e.getClass().getName());
+		}
+	}
+	
+	
+	/**
+	 * This method is used to navigate to the category page.
+	 */
+	public static void backToCategoryPage(){
+		try{
+			/*while (!Reusables.isElementPresent(By.name(DataConstants.categoryHeaderTxt))){
+				Reusables.stepBack();
+				Reusables.hideInterstetial();
+				Reusables.waitThread(1);
+			}*/
+			while (!Reusables.checkElementVisibilityStatus(Categories.categoryPageHeaderTxt)){
+				Reusables.stepBack();
+				Reusables.hideInterstetial();
+				Reusables.waitThread(2);
+			}
+		}catch(NoSuchElementException e){
+			Logs.error("Categories page not found. "+e.getClass().getName());
 		}
 	}
 	
@@ -75,15 +93,15 @@ public class Categories {
 	public static void handlePremiumEntityPopUp(){
 		try{
 			Reusables.waitThread(2);
-			if (Reusables.isElementPresent(premiumTermPopup) == true){
-				Reusables.clickUsingElement(Reusables.getElement(premiumTermPopup));
+			if (Reusables.isElementPresent(premiumAlertPopup)){
+				Reusables.clickCommand(acceptPremiumAlertPopup);
 			}
 			else if (Reusables.isElementPresent(By.name(DataConstants.appName)) == true) {
 				Reusables.verifyElementPresent(Reusables.getElement(By.name(DataConstants.appName)), "Error Message!! App name not found...");
 			}
-		}
+			}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>> Premium Entity PopUp not found...."+e.getClass().getName());
+			Logs.error("Premium Entity PopUp not found "+e.getClass().getName());
 		}
 	}
 	
@@ -133,6 +151,7 @@ public class Categories {
 		try {
 			categoryList = DatabaseConnection.getMainCategories();
 			randomCategoryName = categoryList.get(Reusables.randomNumber(categoryList.size()));
+			System.out.println("Main Category Name.."+randomCategoryName);
 			while (Reusables.isElementPresent(By.name(randomCategoryName)) == false){
 				Reusables.swipeUp();
 				Reusables.waitThread(1);
@@ -148,7 +167,6 @@ public class Categories {
 		catch (NoSuchElementException e) {
 			Logs.error(">>>>>>>>>>>>>>> Random Categories name "+randomCategoryName+" not Found.."+e.getClass().getName());
 			}
-		System.out.println("Main Category Name.."+randomCategoryName);
 		return randomCategoryName;
 	}
 	
@@ -165,7 +183,7 @@ public class Categories {
 			handlePremiumEntityPopUp();
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>> Click operation not perform on First category from given list "+e.getClass().getName());
+			Logs.error("Click operation not perform on First category from given list "+e.getClass().getName());
 		}
 		
 		return first_category_name;
@@ -179,7 +197,7 @@ public class Categories {
 			Reusables.verifyElementPresent(Reusables.getElement(By.name(firstCategoryName)), "Error Message!! First Selected category page header text not Found");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>> First Selected category page not loaded.."+e.getClass().getName());
+			Logs.error("First Selected category page not loaded.."+e.getClass().getName());
 		}
 	}
 }

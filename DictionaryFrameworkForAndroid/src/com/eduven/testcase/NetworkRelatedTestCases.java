@@ -5,6 +5,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
+import com.eduven.constants.DataConstants;
 import com.eduven.modules.Categories;
 import com.eduven.modules.EvMenu;
 import com.eduven.modules.HomePage;
@@ -14,38 +15,40 @@ import com.eduven.utils.ScreenShot;
 
 public class NetworkRelatedTestCases {
 
-	/* Global Declaration */
-	String languageName = "";
-	String option = "allfunctionality";
-	boolean air_plane_mode_on = true;
-	boolean wifi_mode_of = false;
-	boolean data_mode_of = false;
-	boolean air_plane_mode_off = false;
-	boolean wifi_mode_on = true;
+	
+	/* Global variable Declaration */
+	String mediumTypeForAppSharing = DataConstants.appSharingTypeForFb;
+	boolean airplaneModeOn = true;
+	boolean wifiModeOff = false;
+	boolean dataModeOff = false;
+	boolean airplaneModeOff = false;
+	boolean wifiModeOn = true;
+	
 	
 	@Test(priority=10)
-	public void category_page_navigate_to_category_test(){
+	public void categorypagenavigatetocategorytest(){
 		HomePage.verifyAppName();
 		Categories.navigateToCategoryPage();
 		Categories.verifyCategoryPageLoaded();
 	}
 	
 	@Test(priority=20)
-	public void test_network_turnoff_network_connection_test(){
-		Reusables.getNetConnectionStatus(air_plane_mode_on, wifi_mode_of, data_mode_of);
+	public void turnOffNetworkConnectionTest(){
+		Reusables.getNetConnectionStatus(airplaneModeOn, wifiModeOff, dataModeOff);
 	}
 	
 	@Test(priority=30)
-	public void check_evMenu_app_sharing_for_network_connection_test(){
-		EvMenu.navigateToGetInTouch();Reusables.stepBack();
+	public void checkEvMenuappsharingfornetworkconnectiontest(){
+		EvMenu.navigateToGetInTouch();
+		Reusables.stepBack();
 		EvMenu.clickOnShareApp();
-		EvMenu.selectShareType("facebook");
+		EvMenu.selectShareType(mediumTypeForAppSharing);
 		Reusables.verifyConnectionRelatedError();
 		Reusables.stepBack();
 	}
 	
 	@Test(priority=32)
-	public void check_evmenu_for_information_and_support_for_network_connection_test(){
+	public void checkEvMenuForInformationAndSupportFprNetworkConnectionTest(){
 		EvMenu.navigateToTermsAndConditionsPage();
 		Reusables.verifyConnectionErrorForWebView();
 		Reusables.stepBack();
@@ -57,21 +60,21 @@ public class NetworkRelatedTestCases {
 	}
 	
 	@Test(priority=35)
-	public void more_apps_related_test(){
+	public void moreAppsRelatedtest(){
 		EvMenu.navigateToMoreAppsPage();
 		Reusables.verifyConnectionRelatedError();
 	}
 	
 	@Test(priority=40)
-	public void purchase_app_related_connectivity_test(){
+	public void purchaseApprelatedConnectivityTest(){
 		InAppPurchase.navigateToInAppPurchasePage();
 		InAppPurchase.clickOnUnlockButton();
 		InAppPurchase.verifyUnlockButtonStillVisible();
 	}
 	
 	@Test(priority=60)
-	public void test_network_turnon_network_connection_test(){
-		Reusables.getNetConnectionStatus(air_plane_mode_off, wifi_mode_on, data_mode_of);
+	public void turnOnNetworkConnectionTest(){
+		Reusables.getNetConnectionStatus(airplaneModeOff, wifiModeOn, dataModeOff);
 	}
 	
 	@AfterMethod 
@@ -88,8 +91,7 @@ public class NetworkRelatedTestCases {
 	} 
 	 
 	@AfterClass
-	public void close_app(){
+	public void closeApp(){
 		Reusables.terminatesAppInstance();
-		}
-	
+	}
 }

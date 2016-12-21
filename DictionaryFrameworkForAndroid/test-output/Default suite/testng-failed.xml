@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.eduven.testcase.CategoriesPageTestCases">
+      <class name="com.eduven.testcase.QuizPageTestCases">
         <methods>
+          <include name="verifySuddenDeathQuizScorecardTest"/>
+          <include name="closeApp"/>
           <include name="tearDown"/>
-          <include name="verifyCategoryNameHeaderTextTest"/>
         </methods>
-      </class> <!-- com.eduven.testcase.CategoriesPageTestCases -->
+      </class> <!-- com.eduven.testcase.QuizPageTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

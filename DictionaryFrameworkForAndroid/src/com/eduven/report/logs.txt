@@ -577,3 +577,199 @@ Session ID: e0fcaf86-4561-46f7-ad1f-2abdba361d96
 2016-12-15 18:42:03 Logs.java INFO  Logs:38 - Category Name. Before 1930s Found.
 2016-12-15 18:48:41 Logs.java INFO  Logs:38 - Category Name. After 2000s Found.
 2016-12-15 18:54:04 Logs.java INFO  Logs:38 - Category Name. 90s Found.
+2016-12-19 10:38:14 Logs.java ERROR Logs:55 - Term Name not found. org.openqa.selenium.NoSuchElementException
+2016-12-19 10:38:45 Logs.java ERROR Logs:55 - Element not found. org.openqa.selenium.NoSuchElementException
+2016-12-19 10:39:16 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> Term Name not found. org.openqa.selenium.NoSuchElementException
+2016-12-19 10:45:08 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. William Boyd
+2016-12-19 11:00:45 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-19 11:01:17 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-19 11:01:48 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-19 11:02:10 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. tester
+2016-12-19 11:02:40 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Hands On
+2016-12-19 11:03:21 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. $3,;;;
+2016-12-19 11:03:58 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. $3,;;;
+2016-12-19 11:04:32 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. tester
+2016-12-19 11:05:10 Logs.java WARN  Logs:47 - >>>>>>>>>>>>>>>>>>> Ads popup not visible... 
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkAndroid/actors/Actors.apk, appPackage=com.eduven.ld.dict.actors, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=ZX1D63L8BN, platform=LINUX, appActivity=com.eduven.ld.dict.activity.SplashActivity, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/DictionaryFrameworkAndroid/actors/Actors.apk, appPackage=com.eduven.ld.dict.actors, appActivity=com.eduven.ld.dict.activity.SplashActivity, newCommandTimeout=2000, platformVersion=6.0.1, appiumVersion=1.4.13, automationName=Appium, platformName=Android, deviceName=ZX1D63L8BN}, newCommandTimeout=2000, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: b2cff8af-56bc-4331-b583-bce2b0101eaf
+*** Element info: {Using=id, value=com.eduven.ld.dict.actors:id/adView}
+2016-12-19 11:31:14 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Charles Bronson
+2016-12-19 11:33:21 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. ..7,!!;*
+2016-12-19 11:40:36 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Billy Dee Williams
+2016-12-19 16:04:18 Logs.java ERROR Logs:55 - Categories page not found. org.openqa.selenium.NoSuchElementException
+2016-12-19 16:11:52 Logs.java ERROR Logs:55 - Premium Entity PopUp not found org.openqa.selenium.NoSuchElementException
+2016-12-19 18:30:13 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-12-19 18:30:28 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank popup message not matched... org.openqa.selenium.NoSuchElementException
+2016-12-19 18:35:00 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-12-19 18:37:25 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-12-19 18:37:41 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank Header txt not found.org.openqa.selenium.NoSuchElementException
+2016-12-19 18:39:33 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-12-19 18:40:22 Logs.java WARN  Logs:47 - >>>>>>>>>>>>>>>>>>> Ads popup not visible... 
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForAndroid/catlan/app-catalan-debug.apk, appPackage=com.eduven.ld.lang.catalan, networkConnectionEnabled=true, warnings={}, appiumVersion=1.4.13, databaseEnabled=false, deviceName=TA9330G5QE, platform=LINUX, appActivity=com.eduven.ld.lang.activity.SplashActivity, desired={app=/Users/hiteshbhardwaj/Desktop/Automation/app/LanguagesForAndroid/catlan/app-catalan-debug.apk, appPackage=com.eduven.ld.lang.catalan, appActivity=com.eduven.ld.lang.activity.SplashActivity, newCommandTimeout=2000, platformVersion=6.0.1, appiumVersion=1.4.13, automationName=Appium, platformName=Android, deviceName=TA9330G5QE}, newCommandTimeout=2000, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 421e8bf4-8745-4769-8779-04fab77e0d46
+*** Element info: {Using=id, value=com.eduven.ld.lang.catalan:id/adView}
+2016-12-19 18:49:29 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-19 18:51:07 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-12-19 18:51:22 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-19 18:51:44 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. tester
+2016-12-19 18:52:15 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Hands On
+2016-12-19 18:52:55 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>Unable to delete Predefine term. org.openqa.selenium.NoSuchElementException
+2016-12-19 18:54:16 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-12-19 18:54:32 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>> Alert popup not displayed...org.openqa.selenium.NoSuchElementException
+2016-12-19 18:55:03 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>> Rename Entity Name not found. org.openqa.selenium.NoSuchElementException
+2016-12-19 18:55:18 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank popup message not matched... org.openqa.selenium.NoSuchElementException
+2016-12-20 10:11:54 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 10:13:33 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-12-20 10:13:48 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 10:14:09 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. tester
+2016-12-20 10:14:41 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Hands On
+2016-12-20 10:15:20 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>Unable to delete Predefine term. org.openqa.selenium.NoSuchElementException
+2016-12-20 10:25:19 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 10:31:03 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 10:32:07 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 10:32:40 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 10:33:01 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. tester
+2016-12-20 10:33:32 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Hands On
+2016-12-20 10:34:11 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>Unable to delete Predefine term. org.openqa.selenium.NoSuchElementException
+2016-12-20 10:42:54 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 10:44:32 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-12-20 10:44:47 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 10:45:09 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. tester
+2016-12-20 10:45:41 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Hands On
+2016-12-20 10:46:20 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>Unable to delete Predefine term. org.openqa.selenium.NoSuchElementException
+2016-12-20 10:47:40 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-12-20 10:47:57 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>> Alert popup not displayed...org.openqa.selenium.NoSuchElementException
+2016-12-20 10:48:28 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>> Rename Entity Name not found. org.openqa.selenium.NoSuchElementException
+2016-12-20 10:48:43 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank popup message not matched... org.openqa.selenium.NoSuchElementException
+2016-12-20 10:52:07 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 10:53:49 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-12-20 10:54:03 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 10:54:25 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. tester
+2016-12-20 10:54:56 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Hands On
+2016-12-20 10:55:37 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>Unable to delete Predefine term. org.openqa.selenium.NoSuchElementException
+2016-12-20 11:00:14 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 11:08:15 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-12-20 11:08:31 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank popup message not matched... org.openqa.selenium.NoSuchElementException
+2016-12-20 11:09:31 Logs.java ERROR Logs:55 - EduBank Ok button not found... org.openqa.selenium.NoSuchElementException
+2016-12-20 11:14:33 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 11:25:50 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 11:26:25 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 11:26:57 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 11:27:19 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. tester
+2016-12-20 11:27:50 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Hands On
+2016-12-20 11:28:30 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>Unable to delete Predefine term. org.openqa.selenium.NoSuchElementException
+2016-12-20 11:29:50 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-12-20 11:30:07 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>> Alert popup not displayed...org.openqa.selenium.NoSuchElementException
+2016-12-20 11:30:37 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>> Rename Entity Name not found. org.openqa.selenium.NoSuchElementException
+2016-12-20 11:30:53 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank popup message not matched... org.openqa.selenium.NoSuchElementException
+2016-12-20 11:47:54 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 11:48:28 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 11:48:59 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 11:49:21 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. tester
+2016-12-20 11:49:54 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Hands On
+2016-12-20 11:50:36 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>Unable to delete Predefine term. org.openqa.selenium.NoSuchElementException
+2016-12-20 11:51:56 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>> EduBank button not found... org.openqa.selenium.NoSuchElementException
+2016-12-20 11:52:13 Logs.java ERROR Logs:55 - >>>>>>>>>>>>>>>>>>> Alert popup not displayed...org.openqa.selenium.NoSuchElementException
+2016-12-20 11:57:00 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 11:57:35 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 11:58:07 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. test
+2016-12-20 11:58:36 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. tester
+2016-12-20 11:59:07 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Hands On
+2016-12-20 12:00:02 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. .0).!6
+2016-12-20 12:00:42 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. .0).!6
+2016-12-20 12:01:18 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. tester
+2016-12-20 12:15:34 Logs.java ERROR Logs:55 - >>>>>Paid Term Name..> Raquel WelchNot Found.
+2016-12-20 12:26:39 Logs.java ERROR Logs:55 - Paid Term Name..> James DunnNot Found.
+2016-12-20 12:27:47 Logs.java ERROR Logs:55 - Contribute title text not found.org.openqa.selenium.NoSuchElementException
+2016-12-20 12:28:02 Logs.java ERROR Logs:55 -  Contribute description text not found.org.openqa.selenium.NoSuchElementException
+2016-12-20 13:08:00 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Vincent Price
+2016-12-20 13:08:24 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Frank Langella
+2016-12-20 13:08:47 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Dara Singh
+2016-12-20 13:15:15 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Ryan Merriman
+2016-12-20 14:22:12 Logs.java ERROR Logs:55 -  Buy Button still visible org.openqa.selenium.TimeoutException
+2016-12-20 14:22:32 Logs.java ERROR Logs:55 -  Already Purchased message not displayed.... org.openqa.selenium.NoSuchElementException
+2016-12-20 14:24:15 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Richard Vernon
+2016-12-20 14:24:41 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Nicholas Parsons
+2016-12-20 14:25:09 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Barry Brown
+2016-12-20 14:30:00 Logs.java ERROR Logs:55 -  Buy Button still visible org.openqa.selenium.TimeoutException
+2016-12-20 14:30:20 Logs.java ERROR Logs:55 -  Already Purchased message not displayed.... org.openqa.selenium.NoSuchElementException
+2016-12-20 14:32:04 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Diana Dors
+2016-12-20 14:49:36 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Lloyd Bridges
+2016-12-20 14:50:01 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Elizabeth Allen
+2016-12-20 14:50:24 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. John Smith
+2016-12-20 15:01:37 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. 
+2016-12-20 15:02:22 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message.      
+2016-12-20 15:03:03 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Wilford Brimley
+2016-12-20 15:04:50 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Madeleine Stowe
+2016-12-20 15:06:34 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Ezra Miller
+2016-12-20 15:32:40 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. 
+2016-12-20 15:33:25 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message.      
+2016-12-20 15:34:07 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Lionel Blair
+2016-12-20 15:35:56 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Tab Hunter
+2016-12-20 15:41:23 Logs.java ERROR Logs:55 -  EvMenu Icon not found  org.openqa.selenium.NoSuchElementException
+2016-12-20 15:42:55 Logs.java ERROR Logs:55 -  EvMenu Icon not found  org.openqa.selenium.NoSuchElementException
+2016-12-20 15:58:47 Logs.java ERROR Logs:55 -  EvMenu Icon not found  org.openqa.selenium.NoSuchElementException
+2016-12-20 15:59:05 Logs.java ERROR Logs:55 -  Enable to add title message org.openqa.selenium.NoSuchElementException
+2016-12-20 16:00:48 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. 
+2016-12-20 16:01:39 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message.      
+2016-12-20 16:02:21 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Alex Trebek
+2016-12-20 16:04:18 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Archie Panjabi
+2016-12-20 16:07:52 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. 
+2016-12-20 16:08:43 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message.      
+2016-12-20 16:09:25 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Ashok Kumar
+2016-12-20 16:11:23 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. John Hubbard
+2016-12-20 16:37:05 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. 
+2016-12-20 16:37:55 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message.      
+2016-12-20 16:38:37 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Nelsan Ellis
+2016-12-20 17:16:22 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. 
+2016-12-20 17:17:13 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message.      
+2016-12-20 17:17:55 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Bruce Lee
+2016-12-20 17:19:54 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Henry Fonda
+2016-12-20 17:33:01 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. 
+2016-12-20 17:33:52 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message.      
+2016-12-20 17:34:35 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Ben Masters
+2016-12-20 17:35:13 Logs.java ERROR Logs:55 -  EvMenu Icon not found  org.openqa.selenium.NoSuchElementException
+2016-12-20 17:35:36 Logs.java ERROR Logs:55 -  EvMenu Icon not found  org.openqa.selenium.NoSuchElementException
+2016-12-20 17:35:59 Logs.java ERROR Logs:55 -  EvMenu Icon not found  org.openqa.selenium.NoSuchElementException
+2016-12-20 17:36:21 Logs.java ERROR Logs:55 -  EvMenu Icon not found  org.openqa.selenium.NoSuchElementException
+2016-12-20 17:36:44 Logs.java ERROR Logs:55 -  EvMenu Icon not found  org.openqa.selenium.NoSuchElementException
+2016-12-20 17:42:54 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. 
+2016-12-20 17:43:44 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message.      
+2016-12-20 17:44:26 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Charles Hawtrey
+2016-12-20 17:48:03 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. 
+2016-12-20 17:48:53 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message.      
+2016-12-20 17:49:35 Logs.java INFO  Logs:38 - >>>>>>>>>>>Entered text message. Buddy Hackett
+2016-12-20 17:50:09 Logs.java ERROR Logs:55 - Error Message!Already unlock term coming inside lock term.
+2016-12-20 17:50:15 Logs.java ERROR Logs:55 - Error Message!Already unlock term coming inside lock term.
+2016-12-20 17:50:20 Logs.java ERROR Logs:55 - Error Message!Already unlock term coming inside lock term.
+2016-12-20 17:50:26 Logs.java ERROR Logs:55 - Error Message!Already unlock term coming inside lock term.
+2016-12-20 17:50:32 Logs.java ERROR Logs:55 - Error Message!Already unlock term coming inside lock term.
+2016-12-20 18:43:19 Logs.java ERROR Logs:55 - Quiz Icon not found  org.openqa.selenium.NoSuchElementException
+2016-12-20 18:43:41 Logs.java ERROR Logs:55 - Not Navigate to the right page.. Quiz org.openqa.selenium.NoSuchElementException
+2016-12-21 11:08:09 Logs.java ERROR Logs:55 - Element not found. org.openqa.selenium.NoSuchElementException
+2016-12-21 11:09:19 Logs.java ERROR Logs:55 - Element not found. org.openqa.selenium.NoSuchElementException
+2016-12-21 11:10:30 Logs.java ERROR Logs:55 - Element not found. org.openqa.selenium.NoSuchElementException
+2016-12-21 11:13:53 Logs.java ERROR Logs:55 - Paid Term Name..> Ray CollinsNot Found.
+2016-12-21 11:58:07 Logs.java ERROR Logs:55 - Contribute title text not found.org.openqa.selenium.NoSuchElementException
+2016-12-21 11:58:27 Logs.java ERROR Logs:55 -  Contribute description text not found.org.openqa.selenium.NoSuchElementException
+2016-12-21 11:59:33 Logs.java ERROR Logs:55 - Term Name not found. org.openqa.selenium.NoSuchElementException
+2016-12-21 11:59:56 Logs.java ERROR Logs:55 - Term Name not found. org.openqa.selenium.NoSuchElementException
+2016-12-21 12:00:17 Logs.java ERROR Logs:55 -  Previous Button not clickable... org.openqa.selenium.NoSuchElementException
+2016-12-21 12:00:39 Logs.java ERROR Logs:55 - Term Name not found. org.openqa.selenium.NoSuchElementException
+2016-12-21 12:11:31 Logs.java ERROR Logs:55 - Contribute Later btn still visible... org.openqa.selenium.NoSuchElementException
+2016-12-21 12:47:27 Logs.java ERROR Logs:55 - Quiz Icon not found  org.openqa.selenium.NoSuchElementException
+2016-12-21 12:47:49 Logs.java ERROR Logs:55 - Not Navigate to the right page.. Quiz org.openqa.selenium.NoSuchElementException
+2016-12-21 12:48:15 Logs.java ERROR Logs:55 - Quiz Icon not found  org.openqa.selenium.NoSuchElementException
+2016-12-21 12:48:37 Logs.java ERROR Logs:55 - Rapid Fire Round box not displayed.. org.openqa.selenium.NoSuchElementException
+2016-12-21 13:07:30 Logs.java ERROR Logs:55 - Score card Header txt not found org.openqa.selenium.NoSuchElementException
+2016-12-21 13:11:30 Logs.java ERROR Logs:55 - Score card Header txt not found org.openqa.selenium.NoSuchElementException
+2016-12-21 13:12:01 Logs.java ERROR Logs:55 - Score card Header txt not found org.openqa.selenium.NoSuchElementException
+2016-12-21 14:39:42 Logs.java ERROR Logs:55 - Score card Header txt not found org.openqa.selenium.NoSuchElementException
+2016-12-21 16:49:43 Logs.java ERROR Logs:55 - EduBank ImageView Not Present. org.openqa.selenium.NoSuchElementException
+2016-12-21 16:52:57 Logs.java ERROR Logs:55 - EduBank ImageView Not Present. org.openqa.selenium.NoSuchElementException
+2016-12-21 17:07:20 Logs.java ERROR Logs:55 - Score card Header txt not found org.openqa.selenium.NoSuchElementException
+2016-12-21 17:07:51 Logs.java ERROR Logs:55 - Score card Header txt not found org.openqa.selenium.NoSuchElementException
+2016-12-21 17:08:25 Logs.java ERROR Logs:55 - EduBank ImageView Not Present. org.openqa.selenium.NoSuchElementException
+2016-12-21 17:08:58 Logs.java ERROR Logs:55 - Not Navigate to the right page.. Quiz org.openqa.selenium.NoSuchElementException

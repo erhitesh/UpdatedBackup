@@ -6,20 +6,16 @@ import org.openqa.selenium.NoSuchElementException;
 import com.eduven.constants.DataConstants;
 import com.eduven.report.Logs;
 import com.eduven.utils.DeviceRelatedInformation;
-import com.eduven.utils.DriverInstance;
 import com.eduven.utils.Reusables;
 
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
 public class FeatureBox {
 
-	/* AndroidDriver Instance */
-	AndroidDriver<AndroidElement> driver = DriverInstance.getAndroidDriver();
 	
 	/* Object Identification */
 	public static By feature_box_icon = By.id(DeviceRelatedInformation.getPackageName()+":id/feature_box"); 
-	public static By feature_box_page_header_txt = By.name(DataConstants.feature_box_header_txt);
+	public static By feature_box_page_header_txt = By.name(DataConstants.featureBoxHeaderTxt);
 	public static By playerName_txt = By.id(DeviceRelatedInformation.getPackageName()+":id/text");
 	public static By previous_btn = By.id(DeviceRelatedInformation.getPackageName()+":id/previous");
 	public static By next_btn = By.id(DeviceRelatedInformation.getPackageName()+":id/next");
@@ -74,7 +70,7 @@ public class FeatureBox {
 	 */
 	public static void verifyFeaturePageNavigation(){
 		try{
-			Reusables.verifyEqualMessage(Reusables.getText(feature_box_page_header_txt), DataConstants.feature_box_header_txt, "Error Messagae!!Not Navigate to the right page Category Page");
+			Reusables.verifyEqualMessage(Reusables.getText(feature_box_page_header_txt), DataConstants.featureBoxHeaderTxt, "Error Messagae!!Not Navigate to the right page Category Page");
 		}
 		catch(NoSuchElementException e){
 			Logs.error(">>>>>>>>>>>>>>>>>>> Not Navigate to the right page..Feature Box Page "+e.getClass().getName());
@@ -103,7 +99,7 @@ public class FeatureBox {
 	 */
 	public static void verifyEntityHeaderPageText(){
 		try{
-			Reusables.verifyEqualMessage(Reusables.getText(entityPage_header_txt), DataConstants.feature_entity_header_txt, "Error Message!! Entity header txt not matched.");
+			Reusables.verifyEqualMessage(Reusables.getText(entityPage_header_txt), DataConstants.featureBoxTermHeaderTxt, "Error Message!! Entity header txt not matched.");
 		}
 		catch(NoSuchElementException e){
 			Logs.error(">>>>>>>>>>>>>> Entity Header txt not matched.."+e.getClass().getName());

@@ -24,33 +24,33 @@ public class InAppPurchaseTestCases {
 	
 	
 	@Test(priority=1)
-	public void category_page_navigate_to_category_test(){
+	public void navigateToCategoryPageTest(){
 		HomePage.verifyAppName();
 		Categories.navigateToCategoryPage();
 		Categories.verifyCategoryPageLoaded();
 	}
 	
 	@Test(priority=10)
-	public void check_premium_term_before_purchase_test(){
+	public void verifyPremiumTermBeforePurchaseTest(){
 		randomMainCategoryName = Categories.clickOnRandomCategory();
 		paidTermBeforePurchase = Reusables.checkPremiumTerm(randomMainCategoryName);
 	}
 	
 	@Test(priority=15)
-	public void inAppPurchase_test(){
+	public void inAppPurchaseTest(){
 		InAppPurchase.navigateToInAppPurchasePage();
-		InAppPurchase.app_purchase();
+		InAppPurchase.appPurchase();
 	}
 	
 	@Test(priority=20)
-	public void checkInApp_btn_after_purchase_test(){
+	public void verifyInAppBtnAfterPurchaseTest(){
 		Categories.navigateToCategoryPage();
 		Categories.verifyCategoryPageLoaded();
 		InAppPurchase.verifyMoreAppsImageView();
 	}
 
 	@Test(priority=25)
-	public void verify_lock_term_appear_as_unlock_term_test(){
+	public void verifyPremiumTermAppearAsFreenTermTest(){
 		randomMainCategoryName = Categories.clickOnRandomCategory();
 		paidTermAfterPurchase = DatabaseConnection.getLockTerm(randomMainCategoryName);
 		InAppPurchase.verifyLockTermAfterPurchase(paidTermAfterPurchase, statusValue);
@@ -70,7 +70,7 @@ public class InAppPurchaseTestCases {
   } 
 	 
 	 @AfterClass
-	 public void close_app(){
+	 public void closeApp(){
 		 Reusables.terminatesAppInstance();
 	 }
 }

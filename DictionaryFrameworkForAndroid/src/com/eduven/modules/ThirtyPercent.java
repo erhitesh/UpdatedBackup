@@ -8,17 +8,13 @@ import org.testng.Assert;
 
 import com.eduven.report.Logs;
 import com.eduven.utils.DeviceRelatedInformation;
-import com.eduven.utils.DriverInstance;
 import com.eduven.utils.Reusables;
 
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
 
 public class ThirtyPercent {
 	
-	/* Android Driver instance */
-	static AndroidDriver<AndroidElement> driver = DriverInstance.getAndroidDriver();
 	
 	/* Object indentification */
 	public static By stock_watch_txtView = By.id(DeviceRelatedInformation.getPackageName()+":id/feature2_box");

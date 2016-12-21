@@ -1,6 +1,5 @@
 package com.eduven.modules;
 
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
 import java.util.List;
@@ -11,14 +10,10 @@ import org.openqa.selenium.NoSuchElementException;
 import com.eduven.report.Logs;
 import com.eduven.utils.DatabaseConnection;
 import com.eduven.utils.DeviceRelatedInformation;
-import com.eduven.utils.DriverInstance;
 import com.eduven.utils.Reusables;
 
 public class Search {
 
-	
-	/* AndroidDriver Instance */
-	static AndroidDriver<AndroidElement> driver = DriverInstance.getAndroidDriver();
 	
 	/* Object Identification */
 	public static By searchTxtBoxImageView = By.id(DeviceRelatedInformation.getPackageName()+":id/action_search");
@@ -32,8 +27,8 @@ public class Search {
 	 */
 	public static void navigateToSearchBoxPage(){
 		try{
-			Reusables.waitForElement(searchTxtBox);
-			Reusables.clickCommand(searchTxtBox);
+			Reusables.waitForElement(searchTxtBoxImageView);
+			Reusables.clickCommand(searchTxtBoxImageView);
 			Reusables.waitForElement(searchPageHeaderTxt);
 		}
 		catch(NoSuchElementException e){

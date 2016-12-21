@@ -3,58 +3,54 @@ package com.eduven.modules;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.android.*;
 
 import com.eduven.constants.DataConstants;
 import com.eduven.report.Logs;
 import com.eduven.utils.DeviceRelatedInformation;
-import com.eduven.utils.DriverInstance;
 import com.eduven.utils.Reusables;
 
 
 public class HomePage {
 	
-	/* AndroidDriver Instance */
-	static AndroidDriver<AndroidElement> driver = DriverInstance.getAndroidDriver();
 	
 	/* Locator identification */
-	public static By minor_bugs_fixed_alert_txt = By.id("android:id/message");
-	public static By accept_alert_popup = By.id("android:id/button1");
-	public static By app_header_txt = By.name(DataConstants.appName);
-	public static By home_app_header_txt = By.name(DataConstants.appName);
-	public static By home_page_search_box_icon = By.id(DeviceRelatedInformation.getPackageName()+":id/action_search");
-	public static By home_page_evMenu_icon = By.xpath("//*[@content-desc='More options']");
-	public static By home_page_cat_icon = By.id(DeviceRelatedInformation.getPackageName()+":id/cat_box");
-	public static By home_page_contribute_icon = By.id(DeviceRelatedInformation.getPackageName()+":id/feature_box");//
-	public static By home_page_eduBank_icon = By.id(DeviceRelatedInformation.getPackageName()+":id/fav_box");//:id/fav_box
-	public static By home_page_quiz_icon = By.id(DeviceRelatedInformation.getPackageName()+":id/quiz_box");
-	public static By home_page_moreApps_icon = By.id(DeviceRelatedInformation.getPackageName()+":id/moreapps");
-	public static By add_banner_imageview = By.id(DeviceRelatedInformation.getPackageName()+":id/adView");
-	public static By search_header_txt  = By.name(DataConstants.searchBoxHeaderTxt);
-	public static By search_txt_box = By.id(DeviceRelatedInformation.getPackageName()+":id/searching");
-	public static By evMenu_page_header_txt = By.name(DataConstants.evMenuTermTxt);
-	public static By category_page_header_txt= By.name(DataConstants.categoryHeaderTxt);
-	public static By contribute_page_header_txt = By.name(DataConstants.feature_box_header_txt);
-	public static By eduBank_page_popup_msg = By.name(DataConstants.eduBankEmptyPopUpMsg);
-	public static By moreApp_page_txt = By.id(DeviceRelatedInformation.getPackageName()+":id/moreappsAnimation");
-	public static By quiz_page_header_txt1 = By.name(DataConstants.quizHeaderTxt1);
-	public static By quiz_page_header_txt2 = By.name(DataConstants.quizHeaderTxt2);
+	public static By minorbugsfixedalerttxt = By.id("android:id/message");
+	public static By acceptalertpopup = By.id("android:id/button1");
+	public static By appheadertxt = By.xpath("//android.widget.TextView[@text='Famous Actors and Movies' and @index='0']");//By.name(DataConstants.appName);
+	public static By homeappheadertxt = By.name(DataConstants.appName);
+	public static By homepagesearchboxicon = By.id(DeviceRelatedInformation.getPackageName()+":id/actionsearch");
+	public static By homepageevMenuicon = By.xpath("//*[@content-desc='More options']");
+	public static By homepagecaticon = By.id(DeviceRelatedInformation.getPackageName()+":id/catbox");
+	public static By homepagecontributeicon = By.id(DeviceRelatedInformation.getPackageName()+":id/featurebox");//
+	public static By homePageEduBankIcon = By.id(DeviceRelatedInformation.getPackageName()+":id/favbox");//:id/favbox
+	public static By homePageQuizIcon = By.id(DeviceRelatedInformation.getPackageName()+":id/quiz_box");
+	public static By homepagemoreAppsicon = By.id(DeviceRelatedInformation.getPackageName()+":id/moreapps");
+	public static By addbannerimageview = By.id(DeviceRelatedInformation.getPackageName()+":id/adView");
+	public static By searchheadertxt  = By.name(DataConstants.searchBoxHeaderTxt);
+	public static By searchtxtbox = By.id(DeviceRelatedInformation.getPackageName()+":id/searching");
+	public static By evMenupageheadertxt = By.name(DataConstants.evMenuTermTxt);
+	public static By categorypageheadertxt= By.name(DataConstants.categoryHeaderTxt);
+	public static By contributepageheadertxt = By.name(DataConstants.featureBoxHeaderTxt);
+	public static By eduBankpagepopupmsg = By.name(DataConstants.eduBankEmptyPopUpMsg);
+	public static By moreApppagetxt = By.id(DeviceRelatedInformation.getPackageName()+":id/moreappsAnimation");
+	public static By quizpageheadertxt1 = By.name(DataConstants.quizHeaderTxt1);
+	public static By quizpageheadertxt2 = By.name(DataConstants.quizHeaderTxt2);
 	
 	/**
 	 * This method is used to return the AndroidElement instance.
 	 * @return : Type AndroidElement, Search box instance.
 	 */
 	public static AndroidElement searchBoxInstance(){
-		AndroidElement searchBox_element = null;
+		AndroidElement searchBoxelement = null;
 		try{
-			searchBox_element = Reusables.getElement(home_page_search_box_icon);
+			searchBoxelement = Reusables.getElement(homepagesearchboxicon);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> Search box Icon not found>>>  "+e.getClass().getName());
+			Logs.error(" Search box Icon not found  "+e.getClass().getName());
 		}
 		
-		return searchBox_element;
+		return searchBoxelement;
 	}
 	
 	
@@ -63,15 +59,15 @@ public class HomePage {
 	 * @return : Type AndroidElement, EvMenu instance.
 	 */
 	public static AndroidElement evMenuInstance(){
-		AndroidElement evMenu_element = null;
+		AndroidElement evMenuelement = null;
 		try{
-			evMenu_element = Reusables.getElement(home_page_evMenu_icon);
+			evMenuelement = Reusables.getElement(homepageevMenuicon);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> EvMenu Icon not found>>>  "+e.getClass().getName());
+			Logs.error(" EvMenu Icon not found  "+e.getClass().getName());
 		}
 		
-		return evMenu_element;
+		return evMenuelement;
 	}
 	
 	
@@ -80,15 +76,15 @@ public class HomePage {
 	 * @return : Type AndroidElement, Category instance.
 	 */
 	public static AndroidElement categoryInstance(){
-		AndroidElement cat_element = null;
+		AndroidElement catelement = null;
 		try{
-			cat_element = Reusables.getElement(home_page_cat_icon);
+			catelement = Reusables.getElement(homepagecaticon);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> Category Icon not found>>>  "+e.getClass().getName());
+			Logs.error(" Category Icon not found  "+e.getClass().getName());
 		}
 		
-		return cat_element;
+		return catelement;
 	}
 	
 	
@@ -97,15 +93,15 @@ public class HomePage {
 	 * @return : Type AndroidElement, contribute instance.
 	 */
 	public static AndroidElement contributeInstance(){
-		AndroidElement contribute_element = null;
+		AndroidElement contributeelement = null;
 		try{
-			contribute_element = Reusables.getElement(home_page_contribute_icon);
+			contributeelement = Reusables.getElement(homepagecontributeicon);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> Contribute Icon not found>>>  "+e.getClass().getName());
+			Logs.error(" Contribute Icon not found  "+e.getClass().getName());
 		}
 		
-		return contribute_element;
+		return contributeelement;
 	}
 	
 	
@@ -114,15 +110,15 @@ public class HomePage {
 	 * @return : Type AndroidElement, EduBank instance.
 	 */
 	public static AndroidElement eduBankInstance(){
-		AndroidElement eduBank_element = null;
+		AndroidElement eduBankelement = null;
 		try{
-			eduBank_element = Reusables.getElement(home_page_eduBank_icon);
+			eduBankelement = Reusables.getElement(homePageEduBankIcon);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> EduBank Icon not found>>>  "+e.getClass().getName());
+			Logs.error(" EduBank Icon not found  "+e.getClass().getName());
 		}
 		
-		return eduBank_element;
+		return eduBankelement;
 	}
 	
 	
@@ -131,15 +127,15 @@ public class HomePage {
 	 * @return : Type AndroidElement, MoreApps instance.
 	 */
 	public static AndroidElement moreAppsInstance(){
-		AndroidElement moreApps_element = null;
+		AndroidElement moreAppselement = null;
 		try{
-			moreApps_element = Reusables.getElement(home_page_moreApps_icon);
+			moreAppselement = Reusables.getElement(homepagemoreAppsicon);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> MoreApps Icon not found>>>  "+e.getClass().getName());
+			Logs.error(" MoreApps Icon not found  "+e.getClass().getName());
 		}
 		
-		return moreApps_element;
+		return moreAppselement;
 	}
 	
 	
@@ -148,15 +144,15 @@ public class HomePage {
 	 * @return : Type AndroidElement, Quiz instance.
 	 */
 	public static AndroidElement quizInstance(){
-		AndroidElement quiz_element = null;
+		AndroidElement quizelement = null;
 		try{
-			quiz_element = Reusables.getElement(home_page_quiz_icon);
+			quizelement = Reusables.getElement(homePageQuizIcon);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> Quiz Icon not found>>>  "+e.getClass().getName());
+			Logs.error(" Quiz Icon not found  "+e.getClass().getName());
 		}
 		
-		return quiz_element;
+		return quizelement;
 	}
 
 	
@@ -165,8 +161,8 @@ public class HomePage {
 	 */
 	public static void verifyAppName(){
 		try{
-			Reusables.waitForElement(app_header_txt);
-			Reusables.verifyEqualMessage(Reusables.getText(app_header_txt), DataConstants.homePageHeaderTxt, "Error Message!!! Home Page header txt not matched with expected ones.");
+			Reusables.waitForElement(appheadertxt);
+			Reusables.verifyEqualMessage(Reusables.getText(appheadertxt), DataConstants.homePageHeaderTxt, "Error Message!!! Home Page header txt not matched with expected ones.");
 		}
 		catch(NoSuchElementException e){
 			Logs.error("Home Page header txt not matched with expected ones. "+e.getClass().getName());
@@ -182,7 +178,7 @@ public class HomePage {
 			Reusables.verifyElementPresent(searchBoxInstance(), "Error Message!!! Home Page search box icon not found.");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>>Home Page search box icon not found...>>"+e.getClass().getName());
+			Logs.error("Home Page search box icon not found..."+e.getClass().getName());
 		}
 	}
 	
@@ -195,7 +191,7 @@ public class HomePage {
 			Reusables.verifyElementPresent(evMenuInstance(), "Error Message!!! Home Page evMenu icon not found.");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>>Home Page EvMenu icon not found..>>"+e.getClass().getName());
+			Logs.error("Home Page EvMenu icon not found.."+e.getClass().getName());
 		}
 	}
 	
@@ -207,7 +203,7 @@ public class HomePage {
 			Reusables.verifyElementPresent(categoryInstance(), "Error Message!!! Home Page Category icon not found.");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>>Home Page Category icon not found..>>"+e.getClass().getName());
+			Logs.error("Home Page Category icon not found.."+e.getClass().getName());
 		}
 	}
 	
@@ -220,7 +216,7 @@ public class HomePage {
 			Reusables.verifyElementPresent(contributeInstance(), "Error Message!!! Home Page contibute icon not found.");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>>Home Page contibute icon not found..>>"+e.getClass().getName());
+			Logs.error("Home Page contibute icon not found.."+e.getClass().getName());
 		}
 	}
 	
@@ -233,7 +229,7 @@ public class HomePage {
 			Reusables.verifyElementPresent(eduBankInstance(), "Error Message!!! Home Page EduBank icon not found.");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>>Home Page eduBank icon not found..>>"+e.getClass().getName());
+			Logs.error("Home Page eduBank icon not found.."+e.getClass().getName());
 		}
 	}
 	
@@ -245,7 +241,7 @@ public class HomePage {
 			Reusables.verifyElementPresent(moreAppsInstance(), "Error Message!!! Home Page moreApps icon not found.");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>>Home Page moreApps icon not found..>>"+e.getClass().getName());
+			Logs.error("Home Page moreApps icon not found.."+e.getClass().getName());
 		}
 	}
 	
@@ -258,7 +254,7 @@ public class HomePage {
 			Reusables.verifyElementPresent(quizInstance(), "Error Message!!! Home Page Quiz icon not found.");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>>Home Page Quiz icon not found..>>"+e.getClass().getName());
+			Logs.error("Home Page Quiz icon not found.."+e.getClass().getName());
 		}
 	}
 	
@@ -267,12 +263,12 @@ public class HomePage {
 	 */
 	public static void navigateToSearchBoxPage(){
 		try{
-			Reusables.waitForElement(home_page_search_box_icon);
+			Reusables.waitForElement(homepagesearchboxicon);
 			Reusables.clickUsingElement(searchBoxInstance());
-			Reusables.waitForElement(search_txt_box);
+			Reusables.waitForElement(searchtxtbox);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> Click Operation not perform on Search Box>> "+e.getClass().getName());
+			Logs.error(" Click Operation not perform on Search Box "+e.getClass().getName());
 		}
 	}
 	
@@ -284,7 +280,7 @@ public class HomePage {
 			Reusables.clickUsingElement(evMenuInstance());
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> Click Operation not perform on EvMenu Icon >> "+e.getClass().getName());
+			Logs.error(" Click Operation not perform on EvMenu Icon  "+e.getClass().getName());
 		}
 	}
 	
@@ -297,7 +293,7 @@ public class HomePage {
 			Reusables.clickUsingElement(categoryInstance());
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> Click Operation not perform on Category Icon >> "+e.getClass().getName());
+			Logs.error(" Click Operation not perform on Category Icon  "+e.getClass().getName());
 		}
 	}
 	
@@ -310,7 +306,7 @@ public class HomePage {
 			Reusables.clickUsingElement(contributeInstance());
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> Click Operation not perform on FeatureBox Icon "+e.getClass().getName());
+			Logs.error(" Click Operation not perform on FeatureBox Icon "+e.getClass().getName());
 		}
 	}
 	
@@ -322,7 +318,7 @@ public class HomePage {
 			Reusables.clickUsingElement(eduBankInstance());
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> Click Operation not perform on EduBank Icon "+e.getClass().getName());
+			Logs.error(" Click Operation not perform on EduBank Icon "+e.getClass().getName());
 		}
 	}
 	
@@ -334,7 +330,7 @@ public class HomePage {
 			Reusables.clickUsingElement(moreAppsInstance());
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> Click Operation not perform on MoreApps Icon "+e.getClass().getName());
+			Logs.error(" Click Operation not perform on MoreApps Icon "+e.getClass().getName());
 		}
 	}
 	
@@ -346,7 +342,7 @@ public class HomePage {
 			Reusables.clickUsingElement(quizInstance());
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>> Click Operation not perform on Quiz Icon "+e.getClass().getName());
+			Logs.error(" Click Operation not perform on Quiz Icon "+e.getClass().getName());
 		}
 	}
 	
@@ -357,11 +353,11 @@ public class HomePage {
 	public static void verifySearchBoxPageNavigation(){
 		try{
 			Reusables.waitThread(2);
-			Reusables.verifyEqualMessage(Reusables.getText(search_header_txt), DataConstants.searchBoxHeaderTxt, "Error Message!! Not Navigate to the search box");
+			Reusables.verifyEqualMessage(Reusables.getText(searchheadertxt), DataConstants.searchBoxHeaderTxt, "Error Message!! Not Navigate to the search box");
 			Reusables.stepBack();
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>> Not Navigate to the right page.. Search Box Page "+e.getClass().getName());
+			Logs.error(" Not Navigate to the right page.. Search Box Page "+e.getClass().getName());
 		}
 	}
 	
@@ -370,10 +366,10 @@ public class HomePage {
 	 */
 	public static void verifyEvMenuPageNavigation(){
 		try{
-			Reusables.verifyEqualMessage(Reusables.getText(evMenu_page_header_txt), DataConstants.evMenuTermTxt, "Error Message!! Not Navigate to Ev Menu Page ");
+			Reusables.verifyEqualMessage(Reusables.getText(evMenupageheadertxt), DataConstants.evMenuTermTxt, "Error Message!! Not Navigate to Ev Menu Page ");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>> Not Navigate to the right page.. EvMenu Page "+e.getClass().getName());
+			Logs.error(" Not Navigate to the right page.. EvMenu Page "+e.getClass().getName());
 		}
 	}
 	
@@ -382,10 +378,10 @@ public class HomePage {
 	 */
 	public static void verifyCategoryPageNavigation(){
 		try{
-			Reusables.verifyEqualMessage(Reusables.getText(category_page_header_txt), DataConstants.categoryHeaderTxt, "Error Messagae!!Not Navigate to the right page Category Page");
+			Reusables.verifyEqualMessage(Reusables.getText(categorypageheadertxt), DataConstants.categoryHeaderTxt, "Error Messagae!!Not Navigate to the right page Category Page");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>> Not Navigate to the right page..Category Page "+e.getClass().getName());
+			Logs.error(" Not Navigate to the right page..Category Page "+e.getClass().getName());
 		}
 	}
 	
@@ -395,10 +391,10 @@ public class HomePage {
 	 */
 	public static void verifyFeaturePageNavigation(){
 		try{
-			Reusables.verifyEqualMessage(Reusables.getText(contribute_page_header_txt), DataConstants.feature_box_header_txt, "Error Messagae!!Not Navigate to the Contribute page not found.");
+			Reusables.verifyEqualMessage(Reusables.getText(contributepageheadertxt), DataConstants.featureBoxHeaderTxt, "Error Messagae!!Not Navigate to the Contribute page not found.");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">Contribute page not found. "+e.getClass().getName());
+			Logs.error("Contribute page not found. "+e.getClass().getName());
 		}
 	}
 	
@@ -408,10 +404,10 @@ public class HomePage {
 	 */
 	public static void verifyEduBankPageNavigation(){
 		try{
-			Reusables.verifyEqualMessage(Reusables.getText(eduBank_page_popup_msg), DataConstants.eduBankEmptyPopUpMsg, "Error Messagae!!Not Navigate to the right page EduBank Page");
+			Reusables.verifyEqualMessage(Reusables.getText(eduBankpagepopupmsg), DataConstants.eduBankEmptyPopUpMsg, "Error Messagae!!Not Navigate to the right page EduBank Page");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>> Not Navigate to the right page..EduBank Page. "+e.getClass().getName());
+			Logs.error(" Not Navigate to the right page..EduBank Page. "+e.getClass().getName());
 		}
 	}
 	
@@ -420,10 +416,10 @@ public class HomePage {
 	 */
 	public static void verifyMoreAppsPageNavigation(){
 		try{
-			Reusables.verifyElementPresent(Reusables.getElement(moreApp_page_txt), "Error Messagae!! More Apps Page not open...");
+			Reusables.verifyElementPresent(Reusables.getElement(moreApppagetxt), "Error Messagae!! More Apps Page not open...");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>> Not Navigate to the right page.. More Apps "+e.getClass().getName());
+			Logs.error(" Not Navigate to the right page.. More Apps "+e.getClass().getName());
 		}
 	}
 	
@@ -433,15 +429,15 @@ public class HomePage {
 	public static void verifyQuizPageNavigation(){
 		try{
 			Reusables.waitThread(2);
-			if (Reusables.isElementPresent(quiz_page_header_txt1) == true){
-				Reusables.verifyEqualMessage(Reusables.getText(quiz_page_header_txt1), DataConstants.quizHeaderTxt1, "Error Messagae!! Quiz Page not open");
+			if (Reusables.isElementPresent(quizpageheadertxt1) == true){
+				Reusables.verifyEqualMessage(Reusables.getText(quizpageheadertxt1), DataConstants.quizHeaderTxt1, "Error Messagae!! Quiz Page not open");
 			}
-			else if (Reusables.isElementPresent(Reusables.getElement(quiz_page_header_txt2)) == true){
-				Reusables.verifyEqualMessage(Reusables.getText(quiz_page_header_txt2), DataConstants.quizHeaderTxt2, "Error Messagae!! Quiz Page not open");
+			else if (Reusables.isElementPresent(Reusables.getElement(quizpageheadertxt2)) == true){
+				Reusables.verifyEqualMessage(Reusables.getText(quizpageheadertxt2), DataConstants.quizHeaderTxt2, "Error Messagae!! Quiz Page not open");
 			}
 			}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>Not Navigate to the Quiz Page. "+e.getClass().getName());
+			Logs.error("Not Navigate to the Quiz Page. "+e.getClass().getName());
 		}
 	}
 	
@@ -450,10 +446,10 @@ public class HomePage {
 	 */
 	public static void verifyAds(){
 		try{
-			Reusables.verifyElementPresent(Reusables.getElement(add_banner_imageview), "Error Message!! Ads banner not visible....");
+			Reusables.verifyElementPresent(Reusables.getElement(addbannerimageview), "Error Message!! Ads banner not visible....");
 		}
 		catch(NoSuchElementException e){
-			Logs.warn(">>>>>>>>>>>>>>>>>>> Ads popup not visible... "+e.getAdditionalInformation());
+			Logs.warn(" Ads popup not visible... "+e.getAdditionalInformation());
 		}
 	}
 	
@@ -463,14 +459,29 @@ public class HomePage {
 	public static void handleMinorBugFixedAlertPopup(){
 		try{
 			Reusables.waitThread(3);
-			if (Reusables.isElementPresent(minor_bugs_fixed_alert_txt) == true){
-				Reusables.verifyElementTextPresent(minor_bugs_fixed_alert_txt, DataConstants.minorBugsTxt);
-				Reusables.clickCommand(accept_alert_popup);
+			if (Reusables.isElementPresent(minorbugsfixedalerttxt) == true){
+				Reusables.verifyElementTextPresent(minorbugsfixedalerttxt, DataConstants.minorBugsTxt);
+				Reusables.clickCommand(acceptalertpopup);
 			}
-			else if (Reusables.isElementPresent(minor_bugs_fixed_alert_txt) == false){
+			else if (Reusables.isElementPresent(minorbugsfixedalerttxt) == false){
 			}
 		}catch(NoSuchElementException e){
 			Logs.warn("Minor Bug Fixed alert popup not appear. "+e.getClass().getName());
+		}
+	}
+	
+	/**
+	 * This method is used to navigate to the Home page.
+	 */
+	public static void backToHomePage(){
+		try{
+			while (!Reusables.checkElementVisibilityStatus(appheadertxt)){
+				Reusables.stepBack();
+				Reusables.hideInterstetial();
+				Reusables.waitThread(2);
+			}
+		}catch(NoSuchElementException e){
+			Logs.error("Home page not found. "+e.getClass().getName());
 		}
 	}
 }

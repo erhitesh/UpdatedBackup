@@ -21,156 +21,158 @@ public class EduBankPageTestCases {
 	int indexValue = 0;
 	String randomCategoryName = "";
 	String termName = "";
-	String addedEntityName = "";
+	String addedCategoryName = "";
 	String typeOfOperationForRename = "rename";
 	String typeOfOperationForDelete = "delete";
-	String textForRenameEntity = DataConstants.renameTermNameForEdubank;
-	String string_with_special_character = "";
+	String textForRenameCategory = DataConstants.renameTermNameForEdubank;
+	String stringWithSpecialCharacter = "";
 	
 	
 	@Test(priority=0)
-	public void eduBank_page_navigate_to_entitydetail_page_test(){
+	public void navigateToTermDetailPageTest(){
 		HomePage.verifyAppName();
 		Categories.navigateToCategoryPage();
 		Categories.verifyCategoryPageLoaded();
 		randomCategoryName = Categories.clickOnRandomCategory();
 		WordSearchList.verifyWordSearchPageLoaded(randomCategoryName);
-		termName = WordSearchList.navigateToTermDetailPage();
+		termName = WordSearchList.navigateToTermDetailPage(randomCategoryName);
 		WordSearchList.verifyTermDetailPageLoaded();
 	}
  
 	@Test(priority=10)
-	public void eduBank_page_verify_emptyEntity_in_eduBank_test(){
+	public void verifyEmptyTermInEduBankTest(){
 		EduBank.clickOnEduBank();
 		EduBank.verifyEduBankPopUpMessage(DataConstants.eduBankEmptyPopUpMsg);
-		EduBank.submitEduBankPopUp();
+		EduBank.submitEduBankAlertPopUp();
 	}
 	
 	@Test(priority=20)
-	public void eduabnk_page_create_blank_entity_in_edubank_test(){
+	public void createBlankCategoryInEdubankTest(){
 		EduBank.clickOnAddToFavorite();
 		EduBank.verifyAddToEduBankPopUpDisplayed();
 		EduBank.clickOnDoneButton();
 		EduBank.verifyEduBankPopUpMessage(DataConstants.eduaBankPopupMsgForBlankTerm);
-		EduBank.submitEduBankPopUp();
+		EduBank.submitEduBankAlertPopUp();
 	}
 	
 	@Test(priority=30)
-	public void eduabnk_page_create_and_verify_entity_in_edubank_test(){
-		addedEntityName = EduBank.addTerm(DataConstants.termNameForEdubank);
+	public void verifyNewlyAddedCategoryInEdubankTest(){
+		addedCategoryName = EduBank.addTerm(DataConstants.termNameForEdubank);
 		EduBank.clickOnDoneButton();
 		EduBank.verifySavedInEduBankHeaderTxt();
 		EduBank.submitSavedInEduBankPopUp();
 		EduBank.clickOnEduBank();
 		EduBank.verifyEduBankHeaderTxt();
-		EduBank.verifyAddedEntityAndSubEntityNameInEduBank(addedEntityName, termName);
+		EduBank.verifyAddedCategoryAndSubCategoryNameInEduBank(addedCategoryName, termName);
 		Reusables.stepBack();
 	}
 	
 	@Test(priority=32)
-	public void edubank_page_verify_create_duplicate_entity_in_edubank_test(){
+	public void verifyDuplicateCategoryInEdubankTest(){
 		EduBank.clickOnAddToFavorite();
 		EduBank.verifyAddToEduBankPopUpDisplayed();
-		addedEntityName = EduBank.addTerm(DataConstants.termNameForEdubank);
+		addedCategoryName = EduBank.addTerm(DataConstants.termNameForEdubank);
 		EduBank.clickOnDoneButton();
 		EduBank.verifyEduBankPopUpMessage(DataConstants.eduaBankPopupMsgForDuplicateTerm);
-		EduBank.submitEduBankPopUp();
+		EduBank.submitEduBankAlertPopUp();
 		EduBank.verifyAddToEduBankPopUpDisplayed();
 		Reusables.stepBack();
 	}
 
 	@Test(priority=50)
-	public void edubank_page_rename_entityName_test(){
+	public void modifiedAlreadyAddedCategryInEdubankTest(){
 		EduBank.clickOnEduBank();
-		EduBank.clickAndHold(addedEntityName);
+		EduBank.clickAndHold(addedCategoryName);
 		EduBank.clickOnRenameAndDeleteButton(typeOfOperationForRename);
-		EduBank.renameName(addedEntityName);
+		EduBank.renameName(addedCategoryName);
 		EduBank.verifyEduBankPopUpMessage(DataConstants.eduaBankPopupMsgForRenameTerm);
-		EduBank.submitEduBankPopUp();
-		EduBank.renameName(textForRenameEntity);
+		EduBank.submitEduBankAlertPopUp();
+		EduBank.renameName(textForRenameCategory);
 	}
 	
 	@Test(priority=60)
-	public void edubank_page_verify_rename_entity_name_test(){
-		EduBank.verifyRenameEntityName(textForRenameEntity);
+	public void verifyRenameCategoryInEdubankTest(){
+		EduBank.verifyRenameCategoryName(textForRenameCategory);
 	}
 	
 	@Test(priority=70)
-	public void edubank_page_delete_and_verify_entity_name_test(){
-		EduBank.clickAndHold(textForRenameEntity);
+	public void deleteCategoryFromEdubankTest(){
+		EduBank.clickAndHold(textForRenameCategory);
 		EduBank.clickOnRenameAndDeleteButton(typeOfOperationForDelete);
-		EduBank.verifyDeleteEntityName(textForRenameEntity);
+		EduBank.verifyDeleteCategoryName(textForRenameCategory);
 	}
 	
 	@Test(priority=80)
-	public void edubank_page_create_duplicate_given_entity_test(){
+	public void createDuplicateCategoryInEdubankTest(){
 		EduBank.clickOnAddToFavorite();
 		EduBank.verifyAddToEduBankPopUpDisplayed();
 		EduBank.clickOnDoneButton();
 		EduBank.verifyEduBankPopUpMessage(DataConstants.eduaBankPopupMsgForBlankTerm);
-		EduBank.submitEduBankPopUp();
-		String entityNameFromList = EduBank.getTermList(indexValue);
-		EduBank.addTerm(entityNameFromList);
+		EduBank.submitEduBankAlertPopUp();
+		String categoryName = EduBank.getTermListValuesBasedOnIndex(indexValue);
+		EduBank.addTerm(categoryName);
 		EduBank.clickOnDoneButton();
 		EduBank.verifyEduBankPopUpMessage(DataConstants.eduaBankPopupMsgForDuplicateTerm);
-		EduBank.submitEduBankPopUp();
+		EduBank.submitEduBankAlertPopUp();
 	}
 	
 	@Test(priority=90)
-	public void edubank_page_add_entity_from_given_list_test(){
-		addedEntityName = EduBank.selectRandomTermFromGivenList();
+	public void addCategoryFromGivenListTest(){
+		addedCategoryName = EduBank.selectRandomTermFromGivenList();
+		System.out.println("Category Name."+addedCategoryName);
 		EduBank.verifySavedInEduBankHeaderTxt();
 		EduBank.submitSavedInEduBankPopUp();
 	}
 	
 	@Test(priority=100)
-	public void edubank_page_verify_added_entity_test(){
+	public void verifyAddedCategoryTest(){
 		EduBank.clickOnEduBank();
 		EduBank.verifyEduBankHeaderTxt();
-		EduBank.verifyAddedEntityAndSubEntityNameInEduBank(addedEntityName, termName);
+		EduBank.verifyAddedCategoryAndSubCategoryNameInEduBank(addedCategoryName, termName);
+		Reusables.stepBack();
 	}
 	
 	@Test(priority=110)
-	public void edubank_page_delete_and_verify_entity_from_edubank_test(){
-		EduBank.deletePredefineGivenTerm(addedEntityName, termName);
+	public void deleteAndVerifyCategoryFromEdubankTest(){
+		EduBank.clickOnEduBank();
+		EduBank.deletePredefineGivenTerm(addedCategoryName, termName);
 	}
 	
 	
 	@Test(priority=115)
-	public void eduabnk_page_create_and_verify_entity_in_edubank_for_special_character_test(){
+	public void createAndVerifyCategoryInEdubankForSpecialCharacterTest(){
 		EduBank.clickOnAddToFavorite();
 		EduBank.verifyAddToEduBankPopUpDisplayed();
-		string_with_special_character = Reusables.randomSpecialTextGenerator(6);
-		System.out.println("string_with_special_character..."+string_with_special_character);
-		addedEntityName = EduBank.addTerm(string_with_special_character);
+		stringWithSpecialCharacter = Reusables.randomSpecialTextGenerator(6);
+		addedCategoryName = EduBank.addTerm(stringWithSpecialCharacter);
 		EduBank.clickOnDoneButton();
 		EduBank.verifySavedInEduBankHeaderTxt();
 		EduBank.submitSavedInEduBankPopUp();
 		EduBank.clickOnEduBank();
 		EduBank.verifyEduBankHeaderTxt();
-		EduBank.verifyAddedEntityAndSubEntityNameInEduBank(addedEntityName, termName);
+		EduBank.verifyAddedCategoryAndSubCategoryNameInEduBank(addedCategoryName, termName);
 		Reusables.stepBack();
 	}
 	
 	@Test(priority=117)
-	public void edubank_page_rename_termName_for_special_character_test(){
+	public void renameTermNameForSpecialCharacterTest(){
 		EduBank.clickOnEduBank();
-		EduBank.clickAndHold(addedEntityName);
+		EduBank.clickAndHold(addedCategoryName);
 		EduBank.clickOnRenameAndDeleteButton(typeOfOperationForRename);
-		EduBank.renameName(addedEntityName);
+		EduBank.renameName(addedCategoryName);
 		EduBank.verifyEduBankPopUpMessage(DataConstants.eduaBankPopupMsgForRenameTerm);
-		EduBank.submitEduBankPopUp();
-		EduBank.renameName(textForRenameEntity);
+		EduBank.submitEduBankAlertPopUp();
+		EduBank.renameName(textForRenameCategory);
 	}
 	
 	@Test(priority=118)
-	public void edubank_page_verify_rename_term_name_for_special_character_test(){
-		EduBank.verifyRenameEntityName(textForRenameEntity);
+	public void verifyRenameTermNameForSpecialCharacterTest(){
+		EduBank.verifyRenameCategoryName(textForRenameCategory);
 	}
 	
 	
 	@Test(priority=120)
-	public void verify_ads_banner_test(){
+	public void verifyAdsBannerTest(){
 		HomePage.verifyAds();
 	}
 	
@@ -188,7 +190,7 @@ public class EduBankPageTestCases {
    } 
 	 
 	 @AfterClass
-	 public void close_app(){
+	 public void closeApp(){
 		 Reusables.terminatesAppInstance();
 	 }
 }

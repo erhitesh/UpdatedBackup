@@ -16,35 +16,32 @@ public class ExcelOperation {
 	static XSSFSheet sheet;
 	static XSSFRow row;
 	static XSSFCell cell;
-	static int row_count = 0;
-	static int cell_count = 0;
+	static int rowCount = 0;
+	static int cellCount = 0;
+	static String fileLocation = "/Users/hiteshbhardwaj/Desktop/Automation/workspace/DictionaryFrameworkForAndroid/Testexcel.xlsx";
 
-	static String file_location = "/Users/hiteshbhardwaj/Desktop/Automation/workspace/DictionaryFrameworkForAndroid/Testexcel.xlsx";
-
-
+	
 	public static ArrayList<Object> getSheetDataValues(){
-		ArrayList<Object> list_data = new ArrayList<Object>();
-		
+		ArrayList<Object> listData = new ArrayList<Object>();
 		try {
-			FileInputStream file = new FileInputStream(new File(file_location));
+			FileInputStream file = new FileInputStream(new File(fileLocation));
 			workbook = new XSSFWorkbook(file);
 			sheet = workbook.getSheetAt(0);
-			row_count = sheet.getLastRowNum();
-	
-			for (int i = 1; i <= row_count; i++){
-				ArrayList<Object> sheet_values = new ArrayList<Object>();
-				 row = sheet.getRow(i);
-				 cell_count = row.getLastCellNum();
-				for (int j = 0; j < cell_count; j++){
-					sheet_values.add(sheet.getRow(i).getCell(j).getStringCellValue());
-					}
-				list_data.add(sheet_values);
+			rowCount = sheet.getLastRowNum();
+			for (int i = 1; i <= rowCount; i++){
+				ArrayList<Object> sheetValues = new ArrayList<Object>();
+				row = sheet.getRow(i);
+				cellCount = row.getLastCellNum();
+				for (int j = 0; j < cellCount; j++){
+					sheetValues.add(sheet.getRow(i).getCell(j).getStringCellValue());
+				}
+				listData.add(sheetValues);
 			}
 		}
 		catch(Exception e){
 			e.printStackTrace();
-			}
-		return list_data;
+		}
+		return listData;
 	}
 	
 	public static void main(String args[]) {

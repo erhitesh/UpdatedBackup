@@ -37,7 +37,7 @@ public class DriverInstance {
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, Capabilities.DeviceName);
 		cap.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, Capabilities.AppPackage);
 		cap.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, Capabilities.AppActivity);
-		cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 2000);
+		//cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 2000);
 		
 		// for sauce lab
 		/* DesiredCapabilities cap = new DesiredCapabilities();

@@ -348,11 +348,11 @@ public class DatabaseConnection {
 	
 	
 	public static void main(String args[]) {
-		
-		List<String> list = getMainCategories();
+		System.out.println(getUnLockTerm("After 2000s"));
+		/*List<String> list = getMainCategories();
 		for (int i = 0; i < list.size(); i++){
 			System.out.println(list.get(i)+"<<<<<======>>>>>>term name.."+getTermList(list.get(i)));
 			//System.out.println(list.get(i)+"<<<<<======>>>>>>term name.."+getTermList(list.get(i)));
-		}
+		}*/
 	}
 	}

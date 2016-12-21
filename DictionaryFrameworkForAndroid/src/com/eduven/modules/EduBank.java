@@ -1,9 +1,8 @@
 package com.eduven.modules;
 
-import java.util.List;
-
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
@@ -12,36 +11,31 @@ import org.openqa.selenium.NoSuchElementException;
 import com.eduven.constants.DataConstants;
 import com.eduven.report.Logs;
 import com.eduven.utils.DeviceRelatedInformation;
-import com.eduven.utils.DriverInstance;
 import com.eduven.utils.Reusables;
 
 public class EduBank {
 	
-	/* AndroidDriver instance */
-	static AndroidDriver<AndroidElement> driver = DriverInstance.getAndroidDriver();
 	
 	/* Object Identification */
-	public static By edubank_header_txt = By.name("EduBank");
-	public static By edubank_btn = By.id(DeviceRelatedInformation.getPackageName()+":id/favorites");
-	public static By add_to_favorite = By.id(DeviceRelatedInformation.getPackageName()+":id/add_to_favorites");
-	public static By edubank_popup_message = By.id("android:id/message");
-	public static By submit_edubank_popup = By.id("android:id/button1");
-	
-	
-	public static By add_to_edubank_popup_header_txt = By.id(DeviceRelatedInformation.getPackageName()+":id/addtofavoritetitle");
-	public static By add_btn = By.id(DeviceRelatedInformation.getPackageName()+":id/add");
-	public static By create_new_category_txtbox  = By.id(DeviceRelatedInformation.getPackageName()+":id/favoritecat");
-	public static By entity_count_in_edubank_popup = By.id(DeviceRelatedInformation.getPackageName()+":id/text_label");
-	public static By saved_in_edubank_popup_header_txt = By.name("Saved in EduBank!");
-	public static By submit_saved_in_edubank_popup = By.id("android:id/button2");
-	public static By added_entity_in_edubank = By.id(DeviceRelatedInformation.getPackageName()+":id/_label");
-	public static By added_entity_in_edubank_for_tab = By.id(DeviceRelatedInformation.getPackageName()+":id/label");
-	public static By add_entity_sub_entity_in_edubank = By.id(DeviceRelatedInformation.getPackageName()+":id/text_label");
-	public static By entity_name_on_alert = By.id("android:id/alertTitle");
-	public static By delete_rename_entity = By.id("android:id/title");
-	public static By rename_entity_popup_header_txt = By.id(DeviceRelatedInformation.getPackageName()+":id/title");
-	public static By txt_box_on_rename_entity_popup = By.id(DeviceRelatedInformation.getPackageName()+":id/catname");
-	public static By submit_rename_popup = By.id(DeviceRelatedInformation.getPackageName()+":id/submit");
+	public static By edubankHeaderTxt = By.name("EduBank");
+	public static By edubankBtn = By.id(DeviceRelatedInformation.getPackageName()+":id/favorites");
+	public static By addToFavorite = By.id(DeviceRelatedInformation.getPackageName()+":id/add_to_favorites");
+	public static By edubankAlertMessage = By.id("android:id/message");
+	public static By submitEdubankAlertPopup = By.id("android:id/button1");
+	public static By addToEdubankPopupHeaderTxt = By.id(DeviceRelatedInformation.getPackageName()+":id/addtofavoritetitle");
+	public static By addBtn = By.id(DeviceRelatedInformation.getPackageName()+":id/add");
+	public static By createNewCategoryTxtbox  = By.id(DeviceRelatedInformation.getPackageName()+":id/favoritecat");
+	public static By categoryCountInEdubankPopup = By.id(DeviceRelatedInformation.getPackageName()+":id/text_label");
+	public static By savedInEdubankPopupHeaderTxt = By.name("Saved in EduBank!");
+	public static By submitSavedInEdubankPopup = By.id("android:id/button2");
+	public static By addedCategoryInEdubank = By.id(DeviceRelatedInformation.getPackageName()+":id/_label");
+	public static By addedCategoryInEdubankForTab = By.id(DeviceRelatedInformation.getPackageName()+":id/label");
+	public static By addCategorySubCategoryInEdubank = By.id(DeviceRelatedInformation.getPackageName()+":id/text_label");
+	public static By categoryNameOnAlert = By.id("android:id/alertTitle");
+	public static By deleteRenameCategory = By.id("android:id/title");
+	public static By renameCategoryPopupHeaderTxt = By.id(DeviceRelatedInformation.getPackageName()+":id/title");
+	public static By txtBoxOnRenameCategoryPopup = By.id(DeviceRelatedInformation.getPackageName()+":id/catname");
+	public static By submitRenamePopup = By.id(DeviceRelatedInformation.getPackageName()+":id/submit");
 	
 	
 	/**
@@ -49,11 +43,11 @@ public class EduBank {
 	 */
 	public static void clickOnEduBank(){
 		try{
-			Reusables.waitForAndroidElement(Reusables.getElement(edubank_btn));
-			Reusables.clickUsingElement(Reusables.getElement(edubank_btn));
+			Reusables.waitForAndroidElement(Reusables.getElement(edubankBtn));
+			Reusables.clickUsingElement(Reusables.getElement(edubankBtn));
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>> EduBank button not found... "+e.getClass().getName());
+			Logs.error("EduBank button not found... "+e.getClass().getName());
 		}
 	}
 	
@@ -63,10 +57,10 @@ public class EduBank {
 	 */
 	public static void verifyEduBankHeaderTxt(){
 		try{
-			Reusables.verifyElementPresent(Reusables.getElement(edubank_header_txt), "Error Message!! EduBank header txt not found...");
+			Reusables.verifyElementPresent(Reusables.getElement(edubankHeaderTxt), "Error Message!! EduBank header txt not found...");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>> EduBank Header txt not found."+e.getClass().getName());
+			Logs.error("EduBank Header txt not found."+e.getClass().getName());
 		}
 	}
 	
@@ -75,10 +69,10 @@ public class EduBank {
 	 */
 	public static void verifyEduBankPopUpMessage(String expected_popup_message_txt){
 		try{
-			Reusables.verifyEqualMessage(Reusables.getText(edubank_popup_message), expected_popup_message_txt, "Error Message!! EduBank popup message not matched.");
+			Reusables.verifyEqualMessage(Reusables.getText(edubankAlertMessage), expected_popup_message_txt, "Error Message!! EduBank popup message not matched.");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>> EduBank popup message not matched... "+e.getClass().getName());
+			Logs.error(" EduBank popup message not matched... "+e.getClass().getName());
 		}
 	}
 	
@@ -86,25 +80,25 @@ public class EduBank {
 	/**
 	 * This method is used to click on the Ok button on edubank message popup.
 	 */
-	public static void submitEduBankPopUp(){
+	public static void submitEduBankAlertPopUp(){
 		try{
-			Reusables.waitForElement(submit_edubank_popup);
-			Reusables.clickUsingElement(Reusables.getElement(submit_edubank_popup));
+			Reusables.waitForElement(submitEdubankAlertPopup);
+			Reusables.clickUsingElement(Reusables.getElement(submitEdubankAlertPopup));
 		}
 		catch(NoSuchElementException e){
 			Logs.error("EduBank Ok button not found... "+e.getClass().getName());
 		}
 	}
 	
-	//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Add To Favorite Related data >>>>>>>>>>>>>>>>>>>>>>>
+	// Add To Favorite Related data 
 	
 	/**
 	 * This method is used to click on the Favorite button.
 	 */
 	public static void clickOnAddToFavorite(){
 		try{
-			Reusables.waitForElement(add_to_favorite);
-			Reusables.clickUsingElement(Reusables.getElement(add_to_favorite));
+			Reusables.waitForElement(addToFavorite);
+			Reusables.clickUsingElement(Reusables.getElement(addToFavorite));
 		}
 		catch(NoSuchElementException e){
 			Logs.error("Favorite button not found. "+e.getClass().getName());
@@ -116,11 +110,11 @@ public class EduBank {
 	 */
 	public static void verifyAddToEduBankPopUpDisplayed(){
 		try{
-			Reusables.waitForElement(add_to_edubank_popup_header_txt);
-			Reusables.verifyElementPresent(Reusables.getElement(add_to_edubank_popup_header_txt), "Error Message!! Add to Edubank popup not displayed...");
+			Reusables.waitForElement(addToEdubankPopupHeaderTxt);
+			Reusables.verifyElementPresent(Reusables.getElement(addToEdubankPopupHeaderTxt), "Error Message!! Add to Edubank popup not displayed...");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>> Add to Edubank popup not displayed "+e.getClass().getName());
+			Logs.error(" Add to Edubank popup not displayed "+e.getClass().getName());
 		}
 	}
 	
@@ -129,11 +123,11 @@ public class EduBank {
 	 */
 	public static void clickOnDoneButton(){
 		try{
-			Reusables.waitForElement(add_btn);
-			Reusables.clickUsingElement(Reusables.getElement(add_btn));
+			Reusables.waitForElement(addBtn);
+			Reusables.clickUsingElement(Reusables.getElement(addBtn));
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>> Done button not found... "+e.getClass().getName());
+			Logs.error(" Done button not found... "+e.getClass().getName());
 		}
 	}
 	
@@ -143,11 +137,11 @@ public class EduBank {
 	public static String addTerm(String termName){
 		String entityName = termName;
 		try{
-			Reusables.waitForElement(create_new_category_txtbox);
-			Reusables.enterMessageInTextBox(create_new_category_txtbox, entityName);
+			Reusables.waitForElement(createNewCategoryTxtbox);
+			Reusables.enterMessageInTextBox(createNewCategoryTxtbox, entityName);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>> Popup box not found."+e.getClass().getName());
+			Logs.error("Popup box not found."+e.getClass().getName());
 		}
 		
 		return entityName;
@@ -159,11 +153,11 @@ public class EduBank {
 	 */
 	public static void verifySavedInEduBankHeaderTxt(){
 		try{
-			Reusables.waitForElement(saved_in_edubank_popup_header_txt);
-			Reusables.verifyElementPresent(Reusables.getElement(saved_in_edubank_popup_header_txt), "Error Message!! Saved in EduBank! Header txt not found.");
+			Reusables.waitForElement(savedInEdubankPopupHeaderTxt);
+			Reusables.verifyElementPresent(Reusables.getElement(savedInEdubankPopupHeaderTxt), "Error Message!! Saved in EduBank! Header txt not found.");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>> Saved In edubank popup box not found. "+e.getClass().getName());
+			Logs.error(" Saved In edubank popup box not found. "+e.getClass().getName());
 		}
 	}
 	
@@ -173,25 +167,25 @@ public class EduBank {
 	 */
 	public static void submitSavedInEduBankPopUp(){
 		try{
-			Reusables.waitForElement(submit_saved_in_edubank_popup);
-			Reusables.clickUsingElement(Reusables.getElement(submit_saved_in_edubank_popup));
+			Reusables.waitForElement(submitSavedInEdubankPopup);
+			Reusables.clickCommand(submitSavedInEdubankPopup);
 			}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>> Saved In edubank popup box still visible. "+e.getClass().getName());
+			Logs.error(" Saved In edubank popup box still visible. "+e.getClass().getName());
 			}
 		}
 	
-	//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Edubank >>>>>>>>>>>>>>>>>>>>>>
+	// Edubank 
 	/**
 	 * This method is used to verify entity name and sub entity name in EduBank.
 	 * @param mainEntityName : category name.
 	 * @param subEntityName : category sub entity name.
 	 */
-	public static void verifyAddedEntityAndSubEntityNameInEduBank(String addedTermName, String subTermName){
+	public static void verifyAddedCategoryAndSubCategoryNameInEduBank(String addedTermName, String subTermName){
 		Dimension size = Reusables.getAppScreenSize();
 		try{
 			if(size.equals(new Dimension(800, 1172))){
-				List<AndroidElement> entity_list = Reusables.getElementsList(added_entity_in_edubank_for_tab);
+				List<AndroidElement> entity_list = Reusables.getElementsList(addedCategoryInEdubankForTab);
 				for (AndroidElement element: entity_list){
 					if (element.getAttribute("name").equalsIgnoreCase(addedTermName)){
 						Reusables.verifyElementPresent(element, "Error Message!! Added Category Name not found..");
@@ -204,14 +198,15 @@ public class EduBank {
 					}
 				}
 			else{
-				List<AndroidElement> entity_list = Reusables.getElementsList(added_entity_in_edubank);
+				List<AndroidElement> entity_list = Reusables.getElementsList(addedCategoryInEdubank);
 				for(AndroidElement element: entity_list){
-					if (element.getAttribute("name").equalsIgnoreCase(addedTermName)){
-						Reusables.verifyElementPresent(element, "Error Message!! Entity Name not found...");
+					//System.out.println("Find added term in edubank.."+element.getText().trim());
+					if (element.getText().trim().equalsIgnoreCase(addedTermName)){
+						Reusables.verifyElementPresent(element, "Error Message!! Added Category Name not found...");
 						element.click();
 						Reusables.waitThread(2);
-						Reusables.verifyEqualMessage(Reusables.getText(add_entity_sub_entity_in_edubank), subTermName, "Error Message!! Sub entity name not found.");
-						element.click();
+						Reusables.verifyEqualMessage(Reusables.getElement(addCategorySubCategoryInEdubank).getText().trim(), subTermName, "Error Message!! Sub Category name not found.");
+						//element.click();
 						break;
 						}	
 					}
@@ -225,34 +220,34 @@ public class EduBank {
 	/**
 	 * This method is used to verify entity name on alert pop up.
 	 */
-	public static void clickAndHold(String mainEntityName){
+	public static void clickAndHold(String mainCategoryName){
 		Dimension size = Reusables.getAppScreenSize();
 		try{
 			if (size.equals(new Dimension(800, 1172))){
-				List<AndroidElement> entity_list = Reusables.getElementsList(added_entity_in_edubank_for_tab);
+				List<AndroidElement> entity_list = Reusables.getElementsList(addedCategoryInEdubankForTab);
 				for(AndroidElement element: entity_list){
-					if (element.getAttribute("name").equalsIgnoreCase(mainEntityName)){
+					if (element.getAttribute("name").equalsIgnoreCase(mainCategoryName)){
 						Reusables.verifyElementPresent(element, "Error Message!! Entity Name found...");
 						Reusables.clickAndHoldOperation(element);
-						Reusables.verifyEqualMessage(Reusables.getText(entity_name_on_alert), mainEntityName, "Error Message!! Entity name notwww");
+						Reusables.verifyEqualMessage(Reusables.getText(categoryNameOnAlert), mainCategoryName, "Error Message!! Entity name notwww");
 						break;
 					}
 				}
 			}
 			else {
-				List<AndroidElement> entity_list = Reusables.getElementsList(added_entity_in_edubank);
+				List<AndroidElement> entity_list = Reusables.getElementsList(addedCategoryInEdubank);
 				for(AndroidElement element: entity_list){
-					if (element.getAttribute("name").equalsIgnoreCase(mainEntityName)){
-						Reusables.verifyElementPresent(element, "Error Message!! Entity Name found...");
+					if (element.getText().trim().equalsIgnoreCase(mainCategoryName)){//element.getAttribute("name").equalsIgnoreCase(mainEntityName)
+						Reusables.verifyElementPresent(element, "Error Message!! Category Name not found...");
 						Reusables.clickAndHoldOperation(element);
-						Reusables.verifyEqualMessage(Reusables.getText(entity_name_on_alert), mainEntityName, "Error Message!! Entity name notwww");
+						Reusables.verifyEqualMessage(Reusables.getText(categoryNameOnAlert), mainCategoryName, "Error Message!! Entity name notwww");
 						break;
 					}
 				}
 			}
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>> Alert popup not displayed..."+e.getClass().getName());
+			Logs.error(" Alert popup not displayed..."+e.getClass().getName());
 		}
 	}
 	
@@ -261,16 +256,16 @@ public class EduBank {
 	 */
 	public static void clickOnRenameAndDeleteButton(String typeOfButton){
 		try{
-			List<AndroidElement> buttonCount = Reusables.getElementsList(delete_rename_entity);
+			List<AndroidElement> buttonCount = Reusables.getElementsList(deleteRenameCategory);
 			for (AndroidElement element : buttonCount){
-				if (element.getAttribute("name").equalsIgnoreCase(typeOfButton)){
+				if (element.getText().trim().equalsIgnoreCase(typeOfButton)){//getAttribute("name").equalsIgnoreCase(typeOfButton)
 					element.click();
 					break;
 				}
 			}
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>> Rename/Delete Button still visible.."+e.getClass().getName());
+			Logs.error(" Rename/Delete Button still visible.."+e.getClass().getName());
 		}
 	}
 	
@@ -279,78 +274,78 @@ public class EduBank {
 	 */
 	public static void renameName(String textForRenameEntity){
 		try{
-			Reusables.verifyEqualMessage(Reusables.getText(rename_entity_popup_header_txt), DataConstants.eduabnkRenameDeleteAlertPopupHeaderTxt, "Error Message!! Rename header txt not matched..");
-			Reusables.enterMessageInTextBox(txt_box_on_rename_entity_popup, textForRenameEntity);
-			Reusables.clickUsingElement(Reusables.getElement(submit_rename_popup));
+			Reusables.verifyEqualMessage(Reusables.getText(renameCategoryPopupHeaderTxt), DataConstants.eduabnkRenameDeleteAlertPopupHeaderTxt, "Error Message!! Rename header txt not matched..");
+			Reusables.enterMessageInTextBox(txtBoxOnRenameCategoryPopup, textForRenameEntity);
+			Reusables.clickCommand(submitRenamePopup);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>> Rename Entity Name not found. "+e.getClass().getName());
+			Logs.error(" Rename Entity Name not found. "+e.getClass().getName());
 		}
 	}
 	
 	/**
 	 *  This method is used to verify rename entity name.
 	 */
-	public static void verifyRenameEntityName(String renameEntityName){
+	public static void verifyRenameCategoryName(String renameEntityName){
 		Dimension size = Reusables.getAppScreenSize();
 		try{
 			if (size.equals(new Dimension(800, 1172))){
-				Reusables.verifyElementPresent(Reusables.getElement(edubank_header_txt), "Error Message!! EduBank header txt not found..");
-				List<AndroidElement> entity_list = Reusables.getElementsList(added_entity_in_edubank_for_tab);
-				for(AndroidElement element: entity_list){
-					if (element.getAttribute("name").equalsIgnoreCase(renameEntityName)){
+				Reusables.verifyElementPresent(Reusables.getElement(edubankHeaderTxt), "Error Message!! EduBank header txt not found..");
+				List<AndroidElement> categoryList = Reusables.getElementsList(addedCategoryInEdubankForTab);
+				for(AndroidElement element: categoryList){
+					if (element.getAttribute("name").equalsIgnoreCase(renameEntityName)){//element.getAttribute("name").equalsIgnoreCase(renameEntityName)
 						break;
 					}
 				}
 			}
 			else{
-				Reusables.verifyElementPresent(Reusables.getElement(edubank_header_txt), "Error Message!! EduBank header txt not found..");
-				List<AndroidElement> entity_list = Reusables.getElementsList(added_entity_in_edubank);
-				for(AndroidElement element: entity_list){
-					if (element.getAttribute("name").equalsIgnoreCase(renameEntityName)){
+				Reusables.verifyElementPresent(Reusables.getElement(edubankHeaderTxt), "Error Message!! EduBank header txt not found..");
+				List<AndroidElement> categoryList = Reusables.getElementsList(addedCategoryInEdubank);
+				for(AndroidElement element: categoryList){
+					if (element.getText().trim().equalsIgnoreCase(renameEntityName)){//element.getAttribute("name").equalsIgnoreCase(renameEntityName)
 						break;
 					}
 				}
 			}
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>> Rename Entity not found .."+e.getClass().getName());
+			Logs.error("Rename Category not found .."+e.getClass().getName());
 		}
 	}
 	
 	/**
 	 * This method is used to verify delete entity name.
 	 */
-	public static void verifyDeleteEntityName(String deleteEntityName){
+	public static void verifyDeleteCategoryName(String deleteEntityName){
 		try{
 			/*if (Reusables.getText(edubank_header_txt).equalsIgnoreCase("edubank")){
-				List<AndroidElement> entity_list = Reusables.get_elements_list(added_entity_in_edubank);
+				List<AndroidElement entity_list = Reusables.get_elements_list(added_entity_in_edubank);
 				for(AndroidElement element: entity_list){
 					if (!element.getAttribute("name").equalsIgnoreCase(deleteEntityName)){
 						break;
 					}
 				}
 			}*/
-			if (Reusables.isElementPresent(edubank_btn) == true){
-				Reusables.verifyElementPresent(Reusables.getElement(edubank_btn), "Error Message!! Edubank button not found.");
+			if (Reusables.isElementPresent(edubankBtn) == true){
+				Reusables.verifyElementPresent(Reusables.getElement(edubankBtn), "Error Message!! Edubank button not found.");
 			}
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>> Entity Name still visible.....  "+e.getClass().getName());
+			Logs.error("Category Name still visible.....  "+e.getClass().getName());
 		}
 	}
 	
 	
-	//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Add Entity From given list >>>>>>>>>>>>>>>>>>>>>>>>>>>
+	// Add Entity From given list 
 	
 	/**
 	 * This method is used to return the element list.
 	 * @param indexValue :Type int.
 	 * @return : String value.
 	 */
-	public static String getTermList(int indexValue){
+	public static String getTermListValuesBasedOnIndex(int indexValue){
 		
-		return Reusables.getTextFromList(entity_count_in_edubank_popup, indexValue);
+		return Reusables.getTextFromList(categoryCountInEdubankPopup, indexValue);
 	
 	}
 	
@@ -360,14 +355,13 @@ public class EduBank {
 	public static String selectRandomTermFromGivenList(){
 		String entityValue = "";
 		try{
-			int randomNumber = Reusables.randomNumber(Reusables.getElementsList(entity_count_in_edubank_popup).size());
-			List<AndroidElement> entityList = Reusables.getElementsList(entity_count_in_edubank_popup);
-			entityValue = entityList.get(randomNumber).getAttribute("name").toString().trim();
-			//System.out.println("AddedEntityValue"+entityValue);
-			Reusables.clickUsingElement(entityList.get(randomNumber));
+			int randomNumber = Reusables.randomNumber(Reusables.getElementsList(categoryCountInEdubankPopup).size());
+			List<AndroidElement> categoryList = Reusables.getElementsList(categoryCountInEdubankPopup);
+			entityValue = categoryList.get(randomNumber).getAttribute("name").toString().trim();
+			Reusables.clickUsingElement(categoryList.get(randomNumber));
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>> Entity name still visible...>>>>"+e.getClass().getName());
+			Logs.error("Category name still visible... "+e.getClass().getName());
 		}
 		
 		return entityValue;
@@ -376,30 +370,31 @@ public class EduBank {
 	/**
 	 * This method is used to delete entity.
 	 */
-	public static void deletePredefineGivenTerm(String mainEntityName, String subEntityName){
+	public static void deletePredefineGivenTerm(String mainCategoryName, String subCategoryName){
 		Dimension size = Reusables.getAppScreenSize();
 		try{
 			if (size.equals(new Dimension(800, 1172))){
-				List<AndroidElement> entity_list = Reusables.getElementsList(added_entity_in_edubank_for_tab);
-				for (AndroidElement element: entity_list){
-					if(element.getAttribute("name").equalsIgnoreCase(subEntityName)){
-						Reusables.clickAndHoldOperation(Reusables.getElementsList(added_entity_in_edubank_for_tab).get(1));
-						Reusables.verifyElementPresent(Reusables.getElement(entity_name_on_alert), "Error Message!! Entity name not matched on alert popup.");
-						Reusables.clickUsingElement(Reusables.getElement(delete_rename_entity));
+				List<AndroidElement> categoryList = Reusables.getElementsList(addedCategoryInEdubankForTab);
+				for (AndroidElement element: categoryList){
+					if(element.getAttribute("name").equalsIgnoreCase(subCategoryName)){
+						Reusables.clickAndHoldOperation(Reusables.getElementsList(addedCategoryInEdubankForTab).get(1));
+						Reusables.verifyElementPresent(Reusables.getElement(categoryNameOnAlert), "Error Message!! Entity name not matched on alert popup.");
+						Reusables.clickUsingElement(Reusables.getElement(deleteRenameCategory));
 						break;
 					}
 				}
 			}
 			else{
-				List<AndroidElement> entity_list = Reusables.getElementsList(added_entity_in_edubank);
-				for(AndroidElement element: entity_list){
-					if (element.getAttribute("name").equalsIgnoreCase(mainEntityName)){
-						Reusables.verifyElementPresent(element, "Error Message!! Entity Name not found...");
+				List<AndroidElement> categoryList = Reusables.getElementsList(addedCategoryInEdubank);
+				for(AndroidElement element: categoryList){
+					if (element.getAttribute("name").equalsIgnoreCase(mainCategoryName)){
+						Reusables.verifyElementPresent(element, "Error Message!!Category Name not found...");
 						element.click();
-						if (Reusables.getText(add_entity_sub_entity_in_edubank).equalsIgnoreCase(subEntityName)){
-							Reusables.clickAndHoldOperation(Reusables.getElement(add_entity_sub_entity_in_edubank));
-							Reusables.verifyElementPresent(Reusables.getElement(entity_name_on_alert), "Error Message!! Entity name not matched on alert popup.");
-							Reusables.clickUsingElement(Reusables.getElement(delete_rename_entity));
+						Reusables.waitThread(2);
+						if (Reusables.getElement(addCategorySubCategoryInEdubank).getText().trim().equalsIgnoreCase(subCategoryName)){
+							Reusables.clickAndHoldOperation(Reusables.getElement(addCategorySubCategoryInEdubank));
+							Reusables.verifyElementPresent(Reusables.getElement(categoryNameOnAlert), "Error Message!! Entity name not matched on alert popup.");
+							Reusables.clickUsingElement(Reusables.getElement(deleteRenameCategory));
 							break;
 						}
 					}
@@ -407,28 +402,7 @@ public class EduBank {
 			}
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>Unable to delete Predefine term. "+e.getClass().getName());
+			Logs.error("Unable to delete Predefine term. "+e.getClass().getName());
 		}
 	}
-/*	
-	
-	*//**
-	 * This method is used to verify EduBank Header text.
-	 *//*
-	public static void verifyEduBankHeaderTxt1(){
-		try{
-			if (Reusables.isElementPresent(edubank_header_txt) == true){
-				Reusables.verifyElementPresent(Reusables.getElement(edubank_header_txt), "Error Message!! EduBank Header text not found.");
-			}
-			else if (Reusables.isElementPresent(edubank_header_txt) == false){
-				Reusables.waitThread(1);
-				Reusables.verifyEqualMessage(Reusables.getText(edubank_popup_message), DataConstants.eduBank_empty_popup_msg, "Error Message!! EduBank popup message not matched.");
-				Reusables.waitForElement(submit_edubank_popup);
-				Reusables.clickCommand(submit_edubank_popup);
-			}
-		}catch(NoSuchElementException e){
-			Logs.error("Neither Alert nor EduBank header text are found. "+e.getClass().getName());
-		}
-	}
-	*/
 }

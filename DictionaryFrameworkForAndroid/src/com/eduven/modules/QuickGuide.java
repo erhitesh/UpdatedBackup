@@ -1,22 +1,16 @@
 package com.eduven.modules;
 
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 
 import com.eduven.report.Logs;
 import com.eduven.utils.DeviceRelatedInformation;
-import com.eduven.utils.DriverInstance;
 import com.eduven.utils.Reusables;
 
 
 public class QuickGuide {
 
-	/* AndroidDriver Instance */
-	static AndroidDriver<AndroidElement> driver = DriverInstance.getAndroidDriver();
-	
+
 	/* Object Identification */
 	public static By quick_quide_txtview = By.id(DeviceRelatedInformation.getPackageName()+":id/feature1_box");
 	public static By quick_guide_header_txt = By.name("Quick Guide");

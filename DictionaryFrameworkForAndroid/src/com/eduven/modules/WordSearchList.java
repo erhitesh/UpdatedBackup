@@ -1,31 +1,27 @@
 package com.eduven.modules;
 
+import io.appium.java_client.android.AndroidElement;
+
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
-
 import com.eduven.report.Logs;
+import com.eduven.utils.DatabaseConnection;
 import com.eduven.utils.DeviceRelatedInformation;
-import com.eduven.utils.DriverInstance;
 import com.eduven.utils.Reusables;
 
 public class WordSearchList {
 	
 	
-	/* AndroidDriver Instance */
-	static AndroidDriver<AndroidElement> driver = DriverInstance.getAndroidDriver();
-	
 	/* Object Identification */
 	public static By searchTxtBox = By.id(DeviceRelatedInformation.getPackageName()+":id/searchterm");
 	public static By contributeBtn = By.id(DeviceRelatedInformation.getPackageName()+":id/contributeButton");
 	public static By elementCount = By.id(DeviceRelatedInformation.getPackageName()+":id/arrow_mean");
-	public static By totalElementCount = By.id(DeviceRelatedInformation.getPackageName()+":id/text_value");
-	public static By indexList = By.id(DeviceRelatedInformation.getPackageName()+":id/side_index");
-	public static By indexListSize = By.id(DeviceRelatedInformation.getPackageName()+":id/side_list_item");
+	public static By termCount = By.id(DeviceRelatedInformation.getPackageName()+":id/text_value");
+	public static By indexLayout = By.id(DeviceRelatedInformation.getPackageName()+":id/side_index");
+	public static By indexList = By.id(DeviceRelatedInformation.getPackageName()+":id/side_list_item");
 	public static By descriptionLblTxt = By.id(DeviceRelatedInformation.getPackageName()+":id/text_label");
 	public static By addToFavouriteBtn = By.id(DeviceRelatedInformation.getPackageName()+":id/add_to_favorites");
 	
@@ -39,21 +35,21 @@ public class WordSearchList {
 			Reusables.verifyElementPresent(Reusables.getElement(By.name(categoryName)), "Error Message!!Word Search Page not loaded.");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>> Word Search Page not loaded. "+e.getClass().getName());
+			Logs.error("Word Search Page not loaded. "+e.getClass().getName());
 		}
 	}
 	
 	/**
 	 * This method id used to enter text into the search box.
-	 * @param search_word : enter text, Type String
+	 * @param searchWord : enter text, Type String
 	 */
-	public static void EnterText(String search_word){
+	public static void EnterText(String searchWord){
 		try{
 			Reusables.waitForElement(searchTxtBox);
-			Reusables.enterMessageInTextBox(searchTxtBox, search_word);
+			Reusables.enterMessageInTextBox(searchTxtBox, searchWord);
 			}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>> Search Box not present.."+e.getClass().getName());
+			Logs.error("Search Box not present.."+e.getClass().getName());
 		}
 	}
 	
@@ -88,10 +84,10 @@ public class WordSearchList {
 	 */
 	public static void verifyIndexList(){
 		try{
-			Reusables.verifyElementPresent(Reusables.getElement(indexList), "Error Message!! Index list not visible.");
+			Reusables.verifyElementPresent(Reusables.getElement(indexLayout), "Error Message!! Index list not visible.");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>> Index List not present..."+e.getClass().getName());
+			Logs.error("Index List not present..."+e.getClass().getName());
 		}
 	}
 
@@ -101,15 +97,15 @@ public class WordSearchList {
 	public static String indexRandomValue(){
 		String randomValue = "";
 		try{
-			List<AndroidElement> element_list = Reusables.getElementsList(indexListSize);
+			List<AndroidElement> element_list = Reusables.getElementsList(indexList);
 			//int list_size = Reusables.elementCount(index_list_size);
 			int random_number = Reusables.randomNumber(element_list.size()-1);
-			System.out.println("Random Number.."+random_number);
+			//System.out.println("Random Number.."+random_number);
 			randomValue = element_list.get(random_number).getAttribute("name").trim().toString();
-			System.out.println("Random value.."+randomValue);
+			//System.out.println("Random value.."+randomValue);
 			}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>> Value not found,,, "+e.getClass().getName());
+			Logs.error("Value not found,,, "+e.getClass().getName());
 			}
 		
 		return randomValue;
@@ -136,9 +132,9 @@ public class WordSearchList {
 			selected_index_count = Reusables.getElementsList(By.name(indexValue)).size();
 			}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>> Index value not found... "+e.getClass().getName());
+			Logs.error("Index value not found... "+e.getClass().getName());
 			}
-		System.out.println("selected_index_count..>"+selected_index_count);
+		//System.out.println("selected_index_count..>"+selected_index_count);
 		return selected_index_count;
 	}
 	
@@ -158,14 +154,37 @@ public class WordSearchList {
 	/**
 	 * This method is used to click on entity name on word search list page.
 	 */
-	public static String navigateToTermDetailPage(){
-		String categorySubEntityName = "";
+	public static String navigateToTermDetailPage(String categoryName){
+		String dbTermName = "";
+		List<AndroidElement> indexListSize;
+		List<AndroidElement> termList;
 		try{
-			int elementSize = Reusables.elementCount(totalElementCount);
+			dbTermName = DatabaseConnection.getUnLockTerm(categoryName);
+			System.out.println("Term Name..."+dbTermName);
+			indexListSize = Reusables.getElementsList(indexList);
+			for (int i = 0; i < indexListSize.size(); i++){
+				if (indexListSize.get(i).getText().trim().equalsIgnoreCase(dbTermName.charAt(0)+"".trim())){
+					indexListSize.get(i).click();
+					break;
+				}
+			}
+			termList = Reusables.getElementsList(termCount);
+			while (!Reusables.isElementPresent(By.name(dbTermName))){
+				Reusables.waitThread(2);
+				Reusables.swipeUp(termList.get(termList.size()-1), termList.get(2));
+				Reusables.waitThread(1);
+			}
+			Reusables.clickCommand(By.name(dbTermName));	
+				/*while (!termList.get(i).getText().trim().equalsIgnoreCase(dbTermName)){
+					Reusables.swipeUp(termList.get(termList.size()-1), termList.get(0));
+					Reusables.waitThread(1);
+					break;
+				}*/
+			
+			/*int elementSize = Reusables.elementCount(termCount);
 			for (int i = 0; i < elementSize; i++){
-				categorySubEntityName = Reusables.getTextFromList(totalElementCount, i);
-				//System.out.println("categorySubEntityName. "+categorySubEntityName);
-				Reusables.clickUsingElementList(Reusables.getElementsList(totalElementCount), i);
+				categorySubEntityName = Reusables.getTextFromList(termCount, i);
+				Reusables.clickUsingElementList(Reusables.getElementsList(termCount), i);
 				Reusables.waitThread(1);
 				if (Reusables.isElementPresent(descriptionLblTxt) == true){
 					Reusables.waitThread(1);
@@ -173,19 +192,19 @@ public class WordSearchList {
 				}
 				else if (Reusables.isElementPresent(descriptionLblTxt) == false){
 				}
-				else if (Reusables.isElementPresent(TermDetailPage.unlock_now_btn) == true) {
+				else if (Reusables.isElementPresent(TermDetailPage.unlockNowBtn) == true) {
 					Reusables.stepBack();
-					Reusables.waitForElement(TermDetailPage.contribute_later_btn);
-					Reusables.clickUsingElement(Reusables.getElement(TermDetailPage.contribute_later_btn));
-					/* Hide Interstitial */
+					Reusables.waitForElement(TermDetailPage.contributeLaterBtn);
+					Reusables.clickUsingElement(Reusables.getElement(TermDetailPage.contributeLaterBtn));
+					 Hide Interstitial 
 					Reusables.hideInterstetial();
 				}
-			}
+			}*/
 		}catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>> Not navigate to Term page.. "+e.getClass().getName());
+			Logs.error("Not navigate to Term page.. "+e.getClass().getName());
 		}
 		
-		return categorySubEntityName;
+		return dbTermName.trim();
 	}
 	
 	/**
@@ -194,10 +213,37 @@ public class WordSearchList {
 	public static void verifyTermDetailPageLoaded(){
 		try{
 			Reusables.waitForElement(addToFavouriteBtn);
-			Reusables.verifyElementPresent(Reusables.getElement(TermDetailPage.term_Name_txt), "Error Message!!Term Detail Page not loaded.");
+			Reusables.verifyElementPresent(Reusables.getElement(TermDetailPage.termName), "Error Message!!Term Detail Page not loaded.");
 		}
 		catch(NoSuchElementException e){
 			Logs.error("Term Detail Page not loaded. "+e.getClass().getName());
 		}
 	}
+	
+    /**
+     * This method is used to click on term name on word search list page.
+     */
+    public static String navigateToTermDetailPageForAudio(String categoryName){
+        String termName = "";
+        List<AndroidElement> termListElement;
+        try{
+        	termName = DatabaseConnection.getTermWithLargerTxt(categoryName);
+        	termListElement = Reusables.getElementsList(termCount);
+        	for (AndroidElement ele : termListElement){
+        		if (ele.getText().trim().equalsIgnoreCase(termName)){
+        			ele.click();
+        			break;
+        		}
+        	}
+            Reusables.waitThread(2);
+            Reusables.hideInterstetial();
+            TermDetailPage.verifyTermNameOnTermDetailPage(termName);
+            Reusables.waitThread(2);
+        }catch(NoSuchElementException e){
+            Logs.error("Term Detail Page not found.. "+e.getClass().getName());
+        }
+        
+        return termName;
+        
+    }
 }

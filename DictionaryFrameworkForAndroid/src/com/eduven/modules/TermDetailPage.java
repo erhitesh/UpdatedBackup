@@ -3,63 +3,56 @@ package com.eduven.modules;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
 import com.eduven.constants.DataConstants;
 import com.eduven.report.Logs;
 import com.eduven.utils.DeviceRelatedInformation;
-import com.eduven.utils.DriverInstance;
 import com.eduven.utils.Reusables;
 
 
 public class TermDetailPage {
 	
 	
-	/* AndroidDriver Instance */
-	static AndroidDriver<AndroidElement> driver = DriverInstance.getAndroidDriver();
-	
 	/* Object Identification */   
-	public static By term_Name_txt = By.id(DeviceRelatedInformation.getPackageName()+":id/termname");
-	public static By favourite_icon = By.id(DeviceRelatedInformation.getPackageName()+":id/add_to_favorites");
-	public static By description_lbl = By.id(DeviceRelatedInformation.getPackageName()+":id/text_label");
-	public static By term_description_message_txt = By.id(DeviceRelatedInformation.getPackageName()+":id/text_label");
-	public static By edit_contribute_btn = By.id(DeviceRelatedInformation.getPackageName()+":id/editContribute");
-	public static By contribute_submit_btn = By.id(DeviceRelatedInformation.getPackageName()+":id/contribute");
-	public static By contribute_title = By.id(DeviceRelatedInformation.getPackageName()+":id/word");
-	public static By contribute_description = By.id(DeviceRelatedInformation.getPackageName()+":id/desciption");
-	
-	public static By previous_btn = By.id(DeviceRelatedInformation.getPackageName()+":id/previous");
-	public static By next_btn = By.id(DeviceRelatedInformation.getPackageName()+":id/next");
-	public static By speak_btn = By.id(DeviceRelatedInformation.getPackageName()+":id/speak");
-	public static By autoPlay_btn = By.id(DeviceRelatedInformation.getPackageName()+":id/autoplay");
-	public static By auto_play_pause_btn = By.id(DeviceRelatedInformation.getPackageName()+":id/autoplaypause");
+	public static By termName = By.id(DeviceRelatedInformation.getPackageName()+":id/termname");
+	public static By favouriteIcon = By.id(DeviceRelatedInformation.getPackageName()+":id/add_to_favorites");
+	public static By descriptionLbl = By.id(DeviceRelatedInformation.getPackageName()+":id/text_label");
+	public static By termDescriptionMessageTxt = By.id(DeviceRelatedInformation.getPackageName()+":id/text_label");
+	public static By editContributeBtn = By.id(DeviceRelatedInformation.getPackageName()+":id/editContribute");
+	public static By contributeSubmitBtn = By.id(DeviceRelatedInformation.getPackageName()+":id/contribute");
+	public static By contributeTitle = By.id(DeviceRelatedInformation.getPackageName()+":id/word");
+	public static By contributeDescription = By.id(DeviceRelatedInformation.getPackageName()+":id/desciption");
+	public static By previousBtn = By.id(DeviceRelatedInformation.getPackageName()+":id/previous");
+	public static By nextBtn = By.id(DeviceRelatedInformation.getPackageName()+":id/next");
+	public static By speakBtn = By.id(DeviceRelatedInformation.getPackageName()+":id/speak");
+	public static By autoPlayBtn = By.id(DeviceRelatedInformation.getPackageName()+":id/autoplay");
+	public static By autoPlayPauseBtn = By.id(DeviceRelatedInformation.getPackageName()+":id/autoplaypause");
 	
 	//For buy subscription
-	public static By no_thanks_btn = By.id(DeviceRelatedInformation.getPackageName()+":id/dialog_cancel");
-	public static By unlock_now_btn = By.id(DeviceRelatedInformation.getPackageName()+":id/dialog_upgrade");
-	public static By contribute_later_btn = By.id("android:id/button2");
-	public static By contribute_later_popup_message = By.id("android:id/message");
+	public static By noThanksBtn = By.id(DeviceRelatedInformation.getPackageName()+":id/dialog_cancel");
+	public static By unlockNowBtn = By.id(DeviceRelatedInformation.getPackageName()+":id/dialog_upgrade");
+	public static By contributeLaterBtn = By.id("android:id/button2");
+	public static By contributeLaterAlertMessage = By.id("android:id/message");
 	
 
-	//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Edit Contribute >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+	// Edit Contribute 
 	
 	/**
 	 * This method is used to get the entity name.
 	 * @return : Title Name, type String
 	 */
 	public static String getTermName(){
-		String termName = "";
+		String termNameValue = "";
 		try{
 			Reusables.waitThread(1);
-			termName = Reusables.getText(term_Name_txt);
-			//System.out.println("Term Name.."+termName);
+			termNameValue = Reusables.getText(termName);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>> Term Name not found. "+e.getClass().getName());
+			Logs.error("Term Name not found. "+e.getClass().getName());
 		}
 		
-		return termName;
+		return termNameValue;
 	}
 	
 	/**
@@ -82,12 +75,11 @@ public class TermDetailPage {
 	public static String getTermDescription(){
 		String termDescription = "";
 		try{
-			Reusables.waitForElement(term_description_message_txt);
-			termDescription = Reusables.getTextFromList(term_description_message_txt, 1);
-			System.out.println("Term Description..>"+termDescription);
+			Reusables.waitForElement(termDescriptionMessageTxt);
+			termDescription = Reusables.getTextFromList(termDescriptionMessageTxt, 1);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>> Term Description not found. "+e.getClass().getName());
+			Logs.error("Term Description not found. "+e.getClass().getName());
 		}
 		
 		return termDescription;
@@ -99,8 +91,8 @@ public class TermDetailPage {
 	 */
 	public static void clickOnEditContribute(){
 		try{
-			Reusables.waitForElement(edit_contribute_btn);
-			Reusables.clickUsingElement(Reusables.getElement(edit_contribute_btn));
+			Reusables.waitForElement(editContributeBtn);
+			Reusables.clickUsingElement(Reusables.getElement(editContributeBtn));
 		}
 		catch(NoSuchElementException e){
 			Logs.error("Edit contribute button still visible. "+e.getClass().getName());
@@ -114,8 +106,8 @@ public class TermDetailPage {
 	public static void verifyContributePageLoaded(){
 		try{
 			Reusables.stepBack();
-			Reusables.waitForElement(contribute_submit_btn);
-			Reusables.verifyElementPresent(Reusables.getElement(contribute_submit_btn), "Error Message!!Contribute button not found.");
+			Reusables.waitForElement(contributeSubmitBtn);
+			Reusables.verifyElementPresent(Reusables.getElement(contributeSubmitBtn), "Error Message!!Contribute button not found.");
 		}
 		catch(NoSuchElementException e){
 			Logs.error("Contribute Page not loaded. "+e.getClass().getName());
@@ -126,15 +118,15 @@ public class TermDetailPage {
 	 * This method is used to get contribute title name.
 	 */
 	public static String getContributeTitle(){
-		String contribute_title_txt = "";
+		String contributeTitleTxt = "";
 		try{
-			contribute_title_txt = Reusables.getText(contribute_title);
+			contributeTitleTxt = Reusables.getText(contributeTitle);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>> Contribute title text not found."+e.getClass().getName());
+			Logs.error("Contribute title text not found."+e.getClass().getName());
 		}
 		
-		return contribute_title_txt;
+		return contributeTitleTxt;
 	}
 	
 	/**
@@ -143,10 +135,10 @@ public class TermDetailPage {
 	public static String getContributeDescription(){
 		String contribute_description_txt = "";
 		try{
-			contribute_description_txt = Reusables.getText(contribute_description);
+			contribute_description_txt = Reusables.getText(contributeDescription);
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>> Contribute description text not found."+e.getClass().getName());
+			Logs.error(" Contribute description text not found."+e.getClass().getName());
 		}
 		
 		return contribute_description_txt;
@@ -180,13 +172,13 @@ public class TermDetailPage {
 	}
 	
 	
-	//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Free Entity Related >>>>>>>>>>>>>>>>>>>>>>>>>>>
+	// Free Entity Related 
 	/**
 	 * This method is used to verify selected entity name on entity detail page.
 	 */
 	public static void verifyCategoryTermName(String expectedTermName){
 		try{
-			Reusables.waitForElement(term_Name_txt);
+			Reusables.waitForElement(termName);
 			Reusables.verifyEqualMessage(getTermName(), expectedTermName, "Error Message!! Term Name not matched...");
 		}
 		catch(NoSuchElementException e){
@@ -200,8 +192,8 @@ public class TermDetailPage {
 	 */
 	public static void checkFavIcon(){
 		try{
-			Reusables.waitForElement(favourite_icon);
-			Reusables.verifyElementPresent(Reusables.getElement(favourite_icon), "Error Message! Favourite icon not found.");
+			Reusables.waitForElement(favouriteIcon);
+			Reusables.verifyElementPresent(Reusables.getElement(favouriteIcon), "Error Message! Favourite icon not found.");
 		}
 		catch(NoSuchElementException e){
 			Logs.error("Favourite icon not present. "+e.getClass().getName());
@@ -214,8 +206,8 @@ public class TermDetailPage {
 	 */
 	public static void checkDescriptionHeaderLbl(){
 		try{
-			Reusables.waitForElement(description_lbl);
-			Reusables.verifyElementPresent(Reusables.getElement(description_lbl), "Error Messgae!!Description Header text not visible.");
+			Reusables.waitForElement(descriptionLbl);
+			Reusables.verifyElementPresent(Reusables.getElement(descriptionLbl), "Error Messgae!!Description Header text not visible.");
 		}
 		catch(NoSuchElementException e){
 			Logs.error("Description Header not present. "+e.getClass().getName());
@@ -239,8 +231,8 @@ public class TermDetailPage {
 	 */
 	 public static void verifyNoThanksButton(){
 		 try{
-			 Reusables.waitForElement(no_thanks_btn);
-			 Reusables.verifyElementPresent(Reusables.getElement(no_thanks_btn), "Error Message!! No Thanks button not found...");
+			 Reusables.waitForElement(noThanksBtn);
+			 Reusables.verifyElementPresent(Reusables.getElement(noThanksBtn), "Error Message!! No Thanks button not found...");
 		 }
 		 catch(NoSuchElementException e){
 			 Logs.error("No Thanks button not present. "+e.getClass().getName());
@@ -252,8 +244,8 @@ public class TermDetailPage {
 	 */
 	public static void verifyUnlockButtonExistance(){
 		try{
-			Reusables.waitForElement(unlock_now_btn);
-			Reusables.verifyElementPresent(Reusables.getElement(unlock_now_btn), "Error Message!!! Unlock Now button not visible.");
+			Reusables.waitForElement(unlockNowBtn);
+			Reusables.verifyElementPresent(Reusables.getElement(unlockNowBtn), "Error Message!!! Unlock Now button not visible.");
 		}
 		catch(NoSuchElementException e){
 			Logs.error("Unlock Now button not present. "+e.getClass().getName());
@@ -269,13 +261,13 @@ public class TermDetailPage {
 	}
 	
 	
-	//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Audio control related>>>>>>>>>>>>>>>>>>>>>>>>>>>
+	// Audio control related
 	/**
 	 * This method is used to return the instance of Previous Button.
 	 */
 	public static AndroidElement previousButtonInstance(){
 		
-		return Reusables.getElement(previous_btn);
+		return Reusables.getElement(previousBtn);
 	}
 	
 	
@@ -284,7 +276,7 @@ public class TermDetailPage {
 	 */
 	public static AndroidElement nextButtonInstance(){
 		
-		return Reusables.getElement(next_btn);
+		return Reusables.getElement(nextBtn);
 	}
 	
 	
@@ -293,7 +285,7 @@ public class TermDetailPage {
 	 */
 	public static AndroidElement speakButtonInstance(){
 		
-		return Reusables.getElement(speak_btn);
+		return Reusables.getElement(speakBtn);
 	}
 	
 	
@@ -302,7 +294,7 @@ public class TermDetailPage {
 	 */
 	public static AndroidElement autoPlayButtonInstance(){
 		
-		return Reusables.getElement(autoPlay_btn);
+		return Reusables.getElement(autoPlayBtn);
 	}
 	
 	/**
@@ -313,7 +305,7 @@ public class TermDetailPage {
 			Reusables.clickUsingElement(previousButtonInstance());
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>> Previous Button not clickable... "+e.getClass().getName());
+			Logs.error(" Previous Button not clickable... "+e.getClass().getName());
 		}
 	}
 	
@@ -325,7 +317,7 @@ public class TermDetailPage {
 			Reusables.clickUsingElement(nextButtonInstance());
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>> Next Button not clickable... "+e.getClass().getName());
+			Logs.error(" Next Button not clickable... "+e.getClass().getName());
 		}
 	}
 	
@@ -337,7 +329,7 @@ public class TermDetailPage {
 			Reusables.clickUsingElement(speakButtonInstance());
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>> Speak Button not clickable... "+e.getClass().getName());
+			Logs.error(" Speak Button not clickable... "+e.getClass().getName());
 		}
 	}
 	
@@ -346,13 +338,13 @@ public class TermDetailPage {
 	 */
 	public static void clickOnAutoPlayButton(){
 		try{
-			while (Reusables.getElement(autoPlay_btn).isEnabled() == false){
+			while (Reusables.getElement(autoPlayBtn).isEnabled() == false){
 				Reusables.waitThread(2);
 			}
 			Reusables.clickUsingElement(autoPlayButtonInstance());
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>> AutoPlay Button not clickable... "+e.getClass().getName());
+			Logs.error(" AutoPlay Button not clickable... "+e.getClass().getName());
 		}
 	}
 	
@@ -361,12 +353,12 @@ public class TermDetailPage {
 	 */
 	public static void stopAutoPlayPauseButton(){
 		try{
-			if (Reusables.getElement(auto_play_pause_btn).isEnabled() == true){
-				Reusables.clickUsingElement(Reusables.getElement(auto_play_pause_btn));
+			if (Reusables.getElement(autoPlayPauseBtn).isEnabled() == true){
+				Reusables.clickUsingElement(Reusables.getElement(autoPlayPauseBtn));
 			}
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>> AutoPlay Button not clickable... "+e.getClass().getName());
+			Logs.error(" AutoPlay Button not clickable... "+e.getClass().getName());
 		}
 	}
 	
@@ -415,36 +407,37 @@ public class TermDetailPage {
 			Reusables.verifyNotEqualMessage(beforeClick, afterClick, "Error Message!! Entity Name not matched...");
 		}
 		catch(NoSuchElementException r){
-			Logs.error(">>>>>>>>>>>>>>>> Term Name not matched...."+r.getClass().getName());
+			Logs.error(" Term Name not matched...."+r.getClass().getName());
 		}
 	}
 	
-	//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Related Contribute later >>>>>>>>>>>>>>>>>>>>>>>>>>>
+	// Related Contribute later 
 	/**
 	 * This method is used to verify contribute later popup message.
 	 */
 	public static void verifyContributeLaterMessagePopUp(){
 		try{
-			Reusables.verifyEqualMessage(Reusables.getText(contribute_later_popup_message), DataConstants.contribute_later_popup_message, "Error Message!! Contribute later message not found..");
+			Reusables.verifyEqualMessage(Reusables.getText(contributeLaterAlertMessage), DataConstants.contributeLaterPopupMessage, "Error Message!! Contribute later message not found..");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Contribute later message not found....."+e.getClass().getName());
+			Logs.error("Contribute later message not found....."+e.getClass().getName());
 		}
 	}
 	
 	
 	/**
 	 * This method is used to submit the contribute later popup message.
+	 * @param termName : Strinf type 
 	 */
-	public static void submitContributeLaterPopupMessage(String entityName){
+	public static void submitContributeLaterPopupMessage(String termName){
 		try{
 			Reusables.waitThread(1);
-			Reusables.clickUsingElement(Reusables.getElement(contribute_later_btn));
+			Reusables.clickUsingElement(Reusables.getElement(contributeLaterBtn));
 			Reusables.waitThread(1);
-			Reusables.verifyElementPresent(Reusables.getElement(By.name(entityName)), "Error Message!! Entity Name not found.");
+			Reusables.verifyElementPresent(Reusables.getElement(By.name(termName)), "Error Message!! Entity Name not found.");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>> Contribute Later btn still visible..."+e.getClass().getName());
+			Logs.error("Contribute Later btn still visible... "+e.getClass().getName());
 		}
 	}
 }

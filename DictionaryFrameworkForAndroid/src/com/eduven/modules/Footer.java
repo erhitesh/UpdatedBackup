@@ -1,6 +1,5 @@
 package com.eduven.modules;
 
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
 import org.openqa.selenium.By;
@@ -8,14 +7,11 @@ import org.openqa.selenium.NoSuchElementException;
 
 import com.eduven.report.Logs;
 import com.eduven.utils.DeviceRelatedInformation;
-import com.eduven.utils.DriverInstance;
 import com.eduven.utils.Reusables;
 
 
 public class Footer {
 	
-	/* AndroidDriver Instance */
-	static AndroidDriver<AndroidElement> driver = DriverInstance.getAndroidDriver();
 	
 	/* Object Identification */
 	public static By featureBoxImageView = By.id(DeviceRelatedInformation.getPackageName()+":id/feature1");
@@ -72,7 +68,7 @@ public class Footer {
 			Reusables.clickUsingElement(eduBank());
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>>> EduBank Icon Not present. "+e.getClass().getName());
+			Logs.error("EduBank Icon Not present. "+e.getClass().getName());
 		}
 	}
 	
@@ -97,7 +93,7 @@ public class Footer {
 			Reusables.verifyElementPresent(contribute(), "Error Message!!Contribute Icon not Present..");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>> Contribute Icon not present. "+e.getClass().getName());
+			Logs.error("Contribute Icon not present. "+e.getClass().getName());
 		}
 	}
 	
@@ -110,7 +106,7 @@ public class Footer {
 			Reusables.verifyElementPresent(buy(), "Error Message!!Lock Icon not Present..");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>> Lock Icon not present..."+e.getClass().getName());
+			Logs.error("Lock Icon not present... "+e.getClass().getName());
 		}
 	}
 	
@@ -122,7 +118,7 @@ public class Footer {
 			Reusables.verifyElementPresent(eduBank(), "Error Message!!EduBank Icon not Present..");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>> EduBank Icon not present..."+e.getClass().getName());
+			Logs.error("EduBank Icon not present... "+e.getClass().getName());
 		}
 	}
 	
@@ -134,7 +130,7 @@ public class Footer {
 			Reusables.verifyElementPresent(quiz(), "Error Message!!Quiz Icon not Present..");
 		}
 		catch(NoSuchElementException e){
-			Logs.error(">>>>>>>>>>>>>>>> Quiz Icon not present..."+e.getClass().getName());
+			Logs.error("Quiz Icon not present... "+e.getClass().getName());
 		}
 	}
 }

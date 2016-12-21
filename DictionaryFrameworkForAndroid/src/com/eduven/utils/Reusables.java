@@ -33,10 +33,12 @@ import org.testng.Assert;
 import com.eduven.constants.DataConstants;
 import com.eduven.modules.Categories;
 import com.eduven.modules.TermDetailPage;
+import com.eduven.modules.WordSearchList;
 import com.eduven.report.Logs;
 
 
 public class Reusables {
+
 
 	/* AndroidDriver instance */
 	static AndroidDriver<AndroidElement> driver = DriverInstance.getAndroidDriver();
@@ -45,26 +47,26 @@ public class Reusables {
 	public static By interstetialBtn = By.xpath("//*[@content-desc='Interstitial close button']");
 	public static By acceptAlertPopup = By.id("android:id/button1");
 	public static By connectionErrorMessage = By.id("android:id/message");
-	public static By webviewConnectionErrorMessage = By.xpath("//*[@content-desc='Your device is offline.']");
-	
-	
+	public static By webviewConnectionErrorMessage = By.xpath("//android.view.View[starts-with(@content-desc,'You')]");
+
+
 	/**
 	 * This method is used to hide the industrialization.
 	 */
 	public static void hideInterstetial() {
 		Reusables.waitThread(2);
 		try {
-			if (Reusables.isElementPresent(interstetialBtn) == true) {
+			if (Reusables.isElementPresent(interstetialBtn)) {
 				clickCommand(interstetialBtn);
 				Reusables.waitThread(1);
-				}
-			else if (Reusables.isElementPresent(interstetialBtn) == false) {
 			}
-			}
-		catch (NoSuchElementException e) {
-			Logs.error("Interstetial advertising still visible....... "+ e.getClass().getName());
+			else if (!Reusables.isElementPresent(interstetialBtn)) {
 			}
 		}
+		catch (NoSuchElementException e) {
+			Logs.error("Interstetial advertising still visible....... "+ e.getClass().getName());
+		}
+	}
 
 	/**
 	 * This method id used for wait for particular element.
@@ -113,7 +115,7 @@ public class Reusables {
 		int timeOutInSeconds = 60;
 		try {
 			new WebDriverWait(driver, timeOutInSeconds).until(ExpectedConditions.alertIsPresent());
-			}
+		}
 		catch (NoSuchElementException e) {
 		}
 	}
@@ -202,15 +204,17 @@ public class Reusables {
 	 */
 	public static void tapOnElementUsingCoordinates(int fingers, int x, int y) {
 		try {
+			Reusables.waitThread(1);
 			driver.tap(fingers, x, y, 1000);
+			Reusables.waitThread(1);
 		} catch (NoSuchElementException e) {
-			Logs.error("Tap does no perform on given coordinates... "+ e.getClass().getName());
+			Logs.error("Tap does no perform on the given coordinates... "+ e.getClass().getName());
 		}
 	}
 
 	/**
 	 * This method is used to perform click operation.
-	 * @param by : type of By class
+	 * @param by : Locator type
 	 */
 	public static void clickCommand(By by) {
 		try {
@@ -288,7 +292,7 @@ public class Reusables {
 		//System.out.println("Random text Generator for tickel symbol. "+sb.toString());
 		return sb.toString().toLowerCase();
 	}
-	
+
 	/**
 	 * This method is used to generate random special character from the given string.
 	 * @param wordlenght : word length, type int.
@@ -302,10 +306,10 @@ public class Reusables {
 		for (int i = 0; i < wordlenght; i++){
 			sb.append(chars[ran.nextInt(chars.length)]);
 		}
-		
+
 		return sb.toString().toLowerCase();
 	}
-	
+
 	/**
 	 * This method is used to generate the random number.
 	 * @param intCount number length
@@ -319,15 +323,31 @@ public class Reusables {
 		}
 		catch(NoSuchElementException e){
 		}
-		
+
 		return number;
 	}
-	
+
 	public static ArrayList<String> getCategoryList(String list,String stringSeparator) {
+		return new ArrayList<String>(Arrays.asList(list.split(stringSeparator))); 
+	}
 
-		ArrayList<String> cat = new ArrayList<String>(Arrays.asList(list.split(stringSeparator)));
-
-		return cat;
+	/**
+	 * This method is used to perform swipe up from one element to another one.
+	 * @param fromElement : AndroidElement type start swiping from
+	 * @param toElement : AndroidElement type end swiping.
+	 */
+	public static void swipeUp(AndroidElement fromElement, AndroidElement toElement) 
+	{
+		Point fromPoint = fromElement.getLocation();
+		Point toPoint = toElement.getLocation();
+		Dimension fromSize = fromElement.getSize();
+		Dimension toSize = toElement.getSize();
+		int startx = fromSize.width/2;
+		int starty = fromPoint.getY() + (fromSize.getHeight() / 2);
+		int endx = startx;
+		int endy = toPoint.getY() + (toSize.getHeight()/2) ;
+		//System.out.println(startx + ".." + starty + ".." + endx + ".." + endy);
+		driver.swipe(startx, starty, endx, endy, 1000);
 	}
 
 	/**
@@ -443,7 +463,7 @@ public class Reusables {
 	public static AndroidElement getElement(By by) {
 		waitThread(1);
 		return driver.findElement(by);
-		}
+	}
 
 	/**
 	 * This method is used to return the AndroidElement list.
@@ -525,12 +545,12 @@ public class Reusables {
 				element = Reusables.getElement(By.name(categoryName));
 				Reusables.waitForAndroidElement(element);
 				Logs.info("Category Name. "+ element.getAttribute("name").toString() + " Found.");
-				}
+			}
 		}
 		catch (NoSuchElementException e) {
 			Logs.error("Category " + element.getAttribute("name")+ " not found. " + e.getClass().getName());
-			}
 		}
+	}
 
 	/**
 	 * This method is used to verify element enable or not.
@@ -594,8 +614,8 @@ public class Reusables {
 		String expected_txt_msg = expectedMessage.toLowerCase();
 		try {
 			Assert.assertEquals(actual_txt_msg, expected_txt_msg, errorMessage);
-			}catch (NoSuchElementException e) {	
-			}
+		}catch (NoSuchElementException e) {	
+		}
 	}
 
 	/**
@@ -674,21 +694,29 @@ public class Reusables {
 		String paidTerm = "";
 		String randomCategoryName = "";
 		paidTerm = DatabaseConnection.getLockTerm(mainCategoryName);
+		System.out.println("Paid Term Name..." + paidTerm);
 		while (paidTerm.length() == 0) {
 			Reusables.stepBack();
 			randomCategoryName = Categories.clickOnRandomCategory();
 			paidTerm = DatabaseConnection.getLockTerm(randomCategoryName);
 		}
-		System.out.println("Paid Term Name..." + paidTerm);
-		waitThread(1);
-		while (Reusables.isElementPresent(By.name(paidTerm)) == false) {
-			Reusables.swipeUp();
+		List<AndroidElement> indexListSize = Reusables.getElementsList(WordSearchList.indexList);
+		for (int i = 0; i < indexListSize.size(); i++){
+			if (indexListSize.get(i).getText().trim().equalsIgnoreCase(paidTerm.charAt(0)+"".trim())){
+				indexListSize.get(i).click();
+				break;
+			}
+		}
+		List<AndroidElement> termList = Reusables.getElementsList(WordSearchList.termCount);
+		while (!Reusables.isElementPresent(By.name(paidTerm))) {
+			Reusables.waitThread(2);
+			Reusables.swipeUp(termList.get(termList.size()-1), termList.get(2));
 			Reusables.waitThread(1);
 		}
 		Reusables.clickCommand(By.name(paidTerm));
 		Reusables.waitThread(2);
 		Reusables.hideInterstetial();
-		if (isElementPresent(TermDetailPage.unlock_now_btn) == true) {
+		if (isElementPresent(TermDetailPage.unlockNowBtn) == true) {
 			TermDetailPage.verifyUnlockButtonExistance();
 			Reusables.stepBack();
 			TermDetailPage.submitContributeLaterPopupMessage(mainCategoryName);
@@ -696,37 +724,46 @@ public class Reusables {
 			waitThread(4);
 			hideInterstetial();
 		} else {
-			Logs.error(">>>>>Paid Term Name..> " + paidTerm + "Not Found.");
+			Logs.error("Paid Term Name..> " + paidTerm + "Not Found.");
 		}
-		
+
 		return paidTerm;
 	}
 
 	/**
 	 * This method is used to navigate to free term page and verify free entity element.
-	 * @param mainCategoryName : String type for selecting main category.
+	 * @param categoryName : String type for selecting main category.
 	 */
-	public static String checkFreeTerm(String mainCategoryName) {
-		String freeTerm = DatabaseConnection.getUnLockTerm(mainCategoryName);
+	public static String checkFreeTerm(String categoryName) {
+		String freeTerm = DatabaseConnection.getUnLockTerm(categoryName);
 		System.out.println("Free Term Name..." + freeTerm);
 		waitThread(2);
-		while (Reusables.isElementPresent(By.name(freeTerm)) == false) {
-			Reusables.swipeUp();
+		List<AndroidElement> indexListSize = Reusables.getElementsList(WordSearchList.indexList);
+		for (int i = 0; i < indexListSize.size(); i++){
+			if (indexListSize.get(i).getText().trim().equalsIgnoreCase(freeTerm.charAt(0)+"".trim())){
+				indexListSize.get(i).click();
+				break;
+			}
+		}
+		List<AndroidElement> termList = Reusables.getElementsList(WordSearchList.termCount);
+		while (!Reusables.isElementPresent(By.name(freeTerm))) {
+			Reusables.waitThread(2);
+			Reusables.swipeUp(termList.get(termList.size()-1), termList.get(2));
 			Reusables.waitThread(1);
 		}
 		Reusables.clickUsingString(freeTerm);
 		/* Wait for moment for enable the add........... */
 		waitThread(3);
 		hideInterstetial();
-		if (isElementPresent(TermDetailPage.favourite_icon) == true) {
+		if (isElementPresent(TermDetailPage.favouriteIcon)) {
 			TermDetailPage.checkFavIcon();
-			stepBack();
+			/*stepBack();
 			waitThread(3);
-			hideInterstetial();
+			hideInterstetial();*/
 		} else {
-			Logs.error(">>>>>Free Term Name..> " + freeTerm + "Not Found.");
+			Logs.error("Free Term Name..> " + freeTerm + "Not Found.");
 		}
-		
+
 		return freeTerm;
 	}
 
@@ -740,14 +777,23 @@ public class Reusables {
 		String freeTerm = DatabaseConnection.getUnLockTerm(mainCategoryName).trim();
 		System.out.println("Free Entity for Detail Page..." + freeTerm);
 		waitThread(2);
-		while (Reusables.isElementPresent(By.name(freeTerm)) == false) {
-			Reusables.swipeUp();
+		List<AndroidElement> indexListSize = Reusables.getElementsList(WordSearchList.indexList);
+		for (int i = 0; i < indexListSize.size(); i++){
+			if (indexListSize.get(i).getText().trim().equalsIgnoreCase(freeTerm.charAt(0)+"".trim())){
+				indexListSize.get(i).click();
+				break;
+			}
+		}
+		List<AndroidElement> termList = Reusables.getElementsList(WordSearchList.termCount);
+		while (!Reusables.isElementPresent(By.name(freeTerm))) {
+			Reusables.waitThread(2);
+			Reusables.swipeUp(termList.get(termList.size()-1), termList.get(1));
 			Reusables.waitThread(1);
 		}
 		/* Wait for moment for enable the add........... */
 		waitThread(3);
 		hideInterstetial();
-		if (isElementPresent(TermDetailPage.favourite_icon) == true) {
+		if (isElementPresent(TermDetailPage.favouriteIcon) == true) {
 			TermDetailPage.checkFavIcon();
 		} else {
 			Logs.error("Free Term Name.. " + freeTerm + " not found. ");
@@ -771,11 +817,20 @@ public class Reusables {
 		}
 		System.out.println("Paid Term Name..." + paidTerm);
 		waitThread(1);
-		while (Reusables.isElementPresent(By.name(paidTerm)) == false) {
-			Reusables.swipeUp();
+		List<AndroidElement> indexListSize = Reusables.getElementsList(WordSearchList.indexList);
+		for (int i = 0; i < indexListSize.size(); i++){
+			if (indexListSize.get(i).getText().trim().equalsIgnoreCase(paidTerm.charAt(0)+"".trim())){
+				indexListSize.get(i).click();
+				break;
+			}
+		}
+		List<AndroidElement> termList = Reusables.getElementsList(WordSearchList.termCount);
+		while (!Reusables.isElementPresent(By.name(paidTerm))) {
+			Reusables.waitThread(2);
+			Reusables.swipeUp(termList.get(termList.size()-1), termList.get(1));
 			Reusables.waitThread(1);
 		}
-		if (isElementPresent(TermDetailPage.unlock_now_btn) == true) {
+		if (isElementPresent(TermDetailPage.unlockNowBtn) == true) {
 			/* Wait for moment for enable the add */
 			waitThread(4);
 			hideInterstetial();
@@ -784,123 +839,141 @@ public class Reusables {
 		}
 		return paidTerm;
 	}
-	
-	 /**
-	  * This method is used to verify either actual text contains expected character.
-	  * @param by : locator type.
-	  * @param expectedText : for checking character found in actual text.
-	  */
-	 public static void verifyElementTextPresent(By by, String expectedText){
-		 String actualText = "";
-		 String expectedCharacter = expectedText;
-		 try{
-			 actualText = Reusables.getText(by);
-			 Assert.assertTrue(actualText.contains(expectedCharacter), "Error Message!! Expected Character not found in actual text");
-		 }catch(NoSuchElementException e){
-		 }
-	 }
-	 
-	   /**
-	    * Network Status
-	    * @param airplaneMode
-	    * @param wifi
-	    * @param data
-	    */
-	   public static void getNetConnectionStatus(boolean airplaneMode, boolean wifi, boolean data){
-		   try{
-			   Reusables.waitThread(10);
-			   NetworkConnectionSetting connections = new NetworkConnectionSetting(airplaneMode, wifi, data);
-			   driver.setNetworkConnection(connections);
-			   //System.out.println(connections.wifiEnabled());
-			   System.out.println("Network Connection Type..."+connections.value+" Type..."+driver.getNetworkConnection());
-		   }catch(NoSuchElementException e){
-			   Logs.error(">>>>>>>>>>>>> Selected Operation not performed... "+e.getClass().getName());
-		   }
-	   }
-	   
-		/**
-		 * This method is used to verify connection relates problem.
-		 */
-		public static void verifyConnectionRelatedError(){
-			try{
-				Reusables.waitForElement(connectionErrorMessage);
-				Reusables.verifyEqualMessage(Reusables.getText(Reusables.getElement(connectionErrorMessage)), DataConstants.connectivityRelatedMessage, "Error Message!! Connectivity related issue not coming.");
-				Reusables.clickCommand(acceptAlertPopup);
-				Reusables.waitThread(1);
-			}catch(NoSuchElementException e){
-				Logs.error("Connectivity related issue not coming. "+e.getClass().getName());
-			}
+
+	/**
+	 * This method is used to verify either actual text contains expected character.
+	 * @param by : locator type.
+	 * @param expectedText : for checking character found in actual text.
+	 */
+	public static void verifyElementTextPresent(By by, String expectedText){
+		String actualText = "";
+		String expectedCharacter = expectedText;
+		try{
+			actualText = Reusables.getText(by);
+			Assert.assertTrue(actualText.contains(expectedCharacter), "Error Message!! Expected Character not found in actual text");
+		}catch(NoSuchElementException e){
 		}
-		
-		
-		/**
-		 * This method is used to verify connection relates problem.
-		 */
-		public static void verifyConnectionErrorForWebView(){
-			try{
-				Reusables.waitForElement(webviewConnectionErrorMessage);
-				Reusables.waitThread(1);
-			}catch(NoSuchElementException e){
-				Logs.error("Connectivity related issue not coming. "+e.getClass().getName());
-			}
+	}
+
+
+	/**
+	 * This method is used to get element status either true or false as boolean value.
+	 * @param by : AndroidElement type for identified element.
+	 * @return : return boolean as element status.
+	 */
+	public static boolean checkElementVisibilityStatus(By by){
+		boolean elementVisivilityStatus = false;
+		try{
+			elementVisivilityStatus = Reusables.getElement(by).isDisplayed();
+
+		}catch(NoSuchElementException e){
+			//Logs.error("Element not found. "+e.getClass().getName());
 		}
-		
-		/**
-		 * This method is used to verify toast message.
-		 * @param imageFile
-		 * @return
-		 */
-		public static String verifyToastMessageUsingImage(String imageFile){
-			String toastMessage = "";
-			File file = new File(imageFile);
-			//get the Tesseract direct interace
-			Tesseract instance = new Tesseract();
-			instance.setDatapath("/usr/local/share/tessdata");
-			//instance.setLanguage("");
-			if (file.canRead() == true){
-				try {
-					toastMessage = instance.doOCR(file);
-				} catch (TesseractException e) {
-					e.printStackTrace();
-				}
-			}
-			System.out.println("Toast Message..."+toastMessage);
-			return toastMessage;
+
+		return elementVisivilityStatus;
+	}
+
+	/**
+	 * Network Status
+	 * @param airplaneMode
+	 * @param wifi
+	 * @param data
+	 */
+	public static void getNetConnectionStatus(boolean airplaneMode, boolean wifi, boolean data){
+		try{
+			Reusables.waitThread(10);
+			NetworkConnectionSetting connections = new NetworkConnectionSetting(airplaneMode, wifi, data);
+			driver.setNetworkConnection(connections);
+			//System.out.println(connections.wifiEnabled());
+			System.out.println("Network Connection Type..."+connections.value+" Type..."+driver.getNetworkConnection());
+		}catch(NoSuchElementException e){
+			Logs.error(">>>>>>>>>>>>> Selected Operation not performed... "+e.getClass().getName());
 		}
-		
-		public static File verifyToastMessageUsingBuffer(AndroidElement element){
-			File src_file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			// create an instance of buffered image from captured screenshot
-	        BufferedImage img = null;
+	}
+
+	/**
+	 * This method is used to verify connection relates problem.
+	 */
+	public static void verifyConnectionRelatedError(){
+		try{
+			Reusables.waitForElement(connectionErrorMessage);
+			Reusables.verifyEqualMessage(Reusables.getText(Reusables.getElement(connectionErrorMessage)), DataConstants.connectivityRelatedMessage, "Error Message!! Connectivity related issue not coming.");
+			Reusables.clickCommand(acceptAlertPopup);
+			Reusables.waitThread(1);
+		}catch(NoSuchElementException e){
+			Logs.error("Connectivity related issue not coming. "+e.getClass().getName());
+		}
+	}
+
+
+	/**
+	 * This method is used to verify connection relates problem.
+	 */
+	public static void verifyConnectionErrorForWebView(){
+		try{
+			Reusables.waitForElement(webviewConnectionErrorMessage);
+			Reusables.waitThread(1);
+		}catch(NoSuchElementException e){
+			Logs.error("Connectivity related issue not coming. "+e.getClass().getName());
+		}
+	}
+
+	/**
+	 * This method is used to verify toast message.
+	 * @param imageFile
+	 * @return
+	 */
+	public static String verifyToastMessageUsingImage(String imageFile){
+		String toastMessage = "";
+		File file = new File(imageFile);
+		//get the Tesseract direct interace
+		Tesseract instance = new Tesseract();
+		instance.setDatapath("/usr/local/share/tessdata");
+		//instance.setLanguage("");
+		if (file.canRead() == true){
 			try {
-				img = ImageIO.read(src_file);
-			} catch (IOException e1) {
-				e1.printStackTrace();
-			}
-	 
-	        // get the width and height of the WebElement using getSize()
-	        int width = element.getSize().getWidth();
-	        int height = element.getSize().getHeight();
-	 
-	        // create a rectangle using width and height
-	        Rectangle rect = new Rectangle(width, height);
-	 
-	        // get the location of WebElement in a Point.
-	        // this will provide X & Y co-ordinates of the WebElement
-	        Point p = element.getLocation();
-	 
-	        // create image  for element using its location and size.
-	        // this will give image data specific to the WebElement
-	        BufferedImage dest = img.getSubimage(p.getX(), p.getY(), rect.width,rect.height);
-	 
-	        // write back the image data for element in File object
-	        try {
-				ImageIO.write(dest, "png", src_file);
-			} catch (IOException e) {
+				toastMessage = instance.doOCR(file);
+			} catch (TesseractException e) {
 				e.printStackTrace();
 			}
-	 
-	        // return the File object containing image data
-	        return src_file;
 		}
+		System.out.println("Toast Message..."+toastMessage);
+		return toastMessage;
+	}
+
+	public static File verifyToastMessageUsingBuffer(AndroidElement element){
+		File src_file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		// create an instance of buffered image from captured screenshot
+		BufferedImage img = null;
+		try {
+			img = ImageIO.read(src_file);
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+
+		// get the width and height of the WebElement using getSize()
+		int width = element.getSize().getWidth();
+		int height = element.getSize().getHeight();
+
+		// create a rectangle using width and height
+		Rectangle rect = new Rectangle(width, height);
+
+		// get the location of WebElement in a Point.
+		// this will provide X & Y co-ordinates of the WebElement
+		Point p = element.getLocation();
+
+		// create image  for element using its location and size.
+		// this will give image data specific to the WebElement
+		BufferedImage dest = img.getSubimage(p.getX(), p.getY(), rect.width,rect.height);
+
+		// write back the image data for element in File object
+		try {
+			ImageIO.write(dest, "png", src_file);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		// return the File object containing image data
+		return src_file;
+	}
 }

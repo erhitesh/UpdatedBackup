@@ -2,7 +2,6 @@ package com.eduven.modules;
 
 import java.util.List;
 
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
 import org.openqa.selenium.By;
@@ -12,18 +11,15 @@ import org.testng.Assert;
 import com.eduven.report.Logs;
 import com.eduven.utils.DatabaseConnection;
 import com.eduven.utils.DeviceRelatedInformation;
-import com.eduven.utils.DriverInstance;
 import com.eduven.utils.Reusables;
 
 
 public class Interstetial {
 	
-	/* IOSDriver Instance */
-	static AndroidDriver<AndroidElement> driver = DriverInstance.getAndroidDriver();
 	
 	/* Object Identification */
 	public static By interstetial = By.xpath("//*[@content-desc='Interstitial close button']");
-	public static By search_term_txt = By.id(DeviceRelatedInformation.getPackageName()+":id/text_label");
+	public static By searchTermTxt = By.id(DeviceRelatedInformation.getPackageName()+":id/text_label");
 	
 	
 	/**
@@ -36,14 +32,14 @@ public class Interstetial {
 		try {
 			Reusables.waitThread(2);
 			list = Reusables.getElementsList(interstetial);
-			//System.out.println("Element Count..>" + list.size());
+			System.out.println("Interstetial instance Count..>"+list.size());
 			if (status == true && list.size() > 0) {
 				Assert.assertTrue(list.size() >= 1,"Error Message!! Element not exists.");
 				Reusables.stepBack();
 				Reusables.waitThread(1);
 			} 
 			else if (status == false && list.size() < 0) {
-				Assert.assertFalse(list.size() < 0,"Error Message!! Element exists.");
+				Assert.assertFalse(list.size() < 0, "Error Message!! Element exists.");
 				Reusables.stepBack();
 			}
 		}catch(NoSuchElementException e){
@@ -78,10 +74,10 @@ public class Interstetial {
 		HomePage.verifyAppName();
 		Categories.navigateToCategoryPage();
 		Categories.verifyCategoryPageLoaded();
-		randomCategoryName = Categories.clickOnFirstCategory();
+		randomCategoryName = Categories.clickOnRandomCategory();
 		WordSearchList.verifyWordSearchPageLoaded(randomCategoryName);
 		for (int i = 0; i < 3; i++){
-			termName = WordSearchList.navigateToTermDetailPage();
+			termName = WordSearchList.navigateToTermDetailPage(randomCategoryName);
 			Reusables.verifyEqualMessage(TermDetailPage.getTermName(), termName, "Error Message!! Term Name are not matched.");
 			Reusables.stepBack();
 			}
@@ -96,8 +92,8 @@ public class Interstetial {
 		for (int i = 0; i < 3; i++){
 			List<String> categoryList = DatabaseConnection.getMainCategories();
 			search_term = DatabaseConnection.getUnLockTerm(categoryList.get(Reusables.randomNumber(categoryList.size()-1)));
-			Reusables.enterMessageInTextBox(HomePage.search_txt_box, search_term);
-			Reusables.clickCommand(search_term_txt);
+			Reusables.enterMessageInTextBox(HomePage.searchtxtbox, search_term);
+			Reusables.clickCommand(searchTermTxt);
 			Reusables.waitThread(2);
 			if (i < 2){
 				Reusables.stepBack();
@@ -113,8 +109,8 @@ public class Interstetial {
 		for (int i = 0; i < 2; i++){
 			InAppPurchase.navigateToInAppPurchasePage();
 			Reusables.stepBack();
-			Reusables.waitForElement(TermDetailPage.contribute_later_btn);
-			Reusables.clickUsingElement(Reusables.getElement(TermDetailPage.contribute_later_btn));
+			Reusables.waitForElement(TermDetailPage.contributeLaterBtn);
+			Reusables.clickUsingElement(Reusables.getElement(TermDetailPage.contributeLaterBtn));
 			Reusables.waitThread(2);
 		}
 	}

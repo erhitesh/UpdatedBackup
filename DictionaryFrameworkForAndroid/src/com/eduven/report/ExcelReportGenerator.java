@@ -141,7 +141,6 @@ public class ExcelReportGenerator {
 						cell_status.setCellStyle(skip);
 					}
 					
-					
 					/* Test case Finish time */
 					XSSFCell cell_end_time = rows.createCell(6);
 					XSSFCell cell_end_time_header = row_for_header.createCell(6);

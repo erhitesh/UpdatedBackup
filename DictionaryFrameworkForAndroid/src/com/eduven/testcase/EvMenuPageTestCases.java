@@ -17,9 +17,9 @@ public class EvMenuPageTestCases {
 	
 	
 	/* Global Variable Declaration */
-	String blankTitle = DataConstants.blank_title_txt_message;
-	String spaceTitle = DataConstants.spaces_title_txt_message;
-	String titleTxt = DataConstants.title_txt_message;
+	String blankTitle = DataConstants.blankTitleTxtMessage;
+	String spaceTitle = DataConstants.spacesTitleTxtMessage;
+	String titleTxt = DataConstants.titleTxtMessage;
 	String shareMediumType = "Facebook";
 	String audienceType = "Friends";
 	String appNameFromMoreAppsPage = "";
@@ -37,7 +37,7 @@ public class EvMenuPageTestCases {
 		EvMenu.submitContributePage();
 		EvMenu.allowToAccessContacts();
 		EvMenu.contributeContinue();
-		EvMenu.verifyContributePopUpMessage(DataConstants.contribute_popup_message_for_blank);
+		EvMenu.verifyContributePopUpMessage(DataConstants.contributePopupMessageForBlank);
 		EvMenu.submitContributeMessagePopup();
 		EvMenu.verifyContributePageLoaded();
 	}
@@ -46,7 +46,7 @@ public class EvMenuPageTestCases {
 	public void evMenuAddSpaceAsTitleToContributeTest(){
 		EvMenu.addTitleMessage(spaceTitle);
 		EvMenu.submitContributePage();
-		EvMenu.verifyContributePopUpMessage(DataConstants.contribute_popup_message_for_blank);
+		EvMenu.verifyContributePopUpMessage(DataConstants.contributePopupMessageForBlank);
 		EvMenu.submitContributeMessagePopup();
 		EvMenu.verifyContributePageLoaded();
 	}
@@ -56,7 +56,7 @@ public class EvMenuPageTestCases {
 		EvMenu.verifyAddContributeMessageAfterFixIteration();
 	}
 	
-	@Test(priority=40)
+/*	@Test(priority=40)
 	public void evMenuPageMoreAppsTest(){
 		EvMenu.navigateToMoreAppsPage();
 		EvMenu.verifyMoreAppsPageLoaded();
@@ -67,8 +67,7 @@ public class EvMenuPageTestCases {
 		Reusables.stepBack();
 		Reusables.stepBack();
 		Categories.verifyCategoryPageLoaded();
-		//HomePage.verifyHomePageHeaderTxt();
-	}
+	}*/
 	
 	@Test(priority=50)
 	public void evMenuSettingsTest(){
@@ -76,7 +75,6 @@ public class EvMenuPageTestCases {
 		EvMenu.verifySettingPageLoaded();
 		Reusables.stepBack();
 		Categories.verifyCategoryPageLoaded();
-		//HomePage.verifyHomePageHeaderTxt();
 	}
 	
 	@Test(priority=60)
@@ -108,7 +106,7 @@ public class EvMenuPageTestCases {
 		Reusables.stepBack();
 	}
 	
-	@Test(priority=90)
+/*	@Test(priority=90)
 	public void evMenuShareAppTest(){
 		EvMenu.navigateToSettingPage();
 		EvMenu.clickOnShareApp();
@@ -137,7 +135,7 @@ public class EvMenuPageTestCases {
 	public void evMenuRateThisAppTest(){
 		EvMenu.navigateToRateThisApp();
 		EvMenu.verifyRateThisAppUserName(DataConstants.userName);
-	}
+	}*/
 	
 	@Test(priority=130)
 	public void verifyAdsBannerTest(){
